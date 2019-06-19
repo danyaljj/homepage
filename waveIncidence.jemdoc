@@ -1,0 +1,39 @@
+# jemdoc: menu{MENU}{ac.html}
+= Wave incidence at a three-layered surface  
+
+== Smith Chart Interactive Simulator
+
+*Download: * [http://web.engr.illinois.edu/~khashab2/files/2011_WaveIncid/2011_WaveProj_ver2.rar \[MATLAB GUI\] ]
+
+*Demo: * [https://www.youtube.com/watch?v=gHv9nBUxYfQ YouTube]
+
+A button is added for separating the "incident" and "reflecting" waves. Two sliders are laid at the bottom, for changing the width of two layers at right side. Thus, by changing the values of sliders, one can find the condition of matching between layers.
+\n \n
+To start the GUI:
+
+~~~
+{}{}
+>>  WaveGUI_ver2
+~~~
+
+To exit the progam:
+~~~
+{}{}
+>> Ctrl+C
+~~~
+
+~~~
+{}{img_left}{http://web.engr.illinois.edu/~khashab2/files/2011_WaveIncid/unseparated.png}{}{}{}{}
+~~~
+
+~~~
+{}{img_left}{http://web.engr.illinois.edu/~khashab2/files/2011_WaveIncid/separated.png}{}{}{}{}
+~~~
+
+#includeraw{waveIncidenceSim.htm}
+
+
+#~~~
+#{Don}
+#Research is what I'm doing when I don't know what I'm doing. 
+#~~~

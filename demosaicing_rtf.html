@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>CFA pattern-independent non-parametric demosaicing in light-space</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Daniel Khashabi</div>
+<div class="menu-item"><a href="index.html">Info</a></div>
+<div class="menu-item"><a href="acc.html" class="current">Accademic</a></div>
+<div class="menu-item"><a href="personal.html">Personal</a></div>
+<div class="menu-category"></div>
+<div class="menu-item"><a href="Help.html">Time&nbsp;to&nbsp;help!</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>CFA pattern-independent non-parametric demosaicing in light-space</h1>
+</div>
+<h2>Doc </h2>
+<ul>
+<li><p>Draft: Soon! <a href=".">[PDF]</a></p>
+</li>
+</ul>
+<h2>Creating gold images</h2>
+<h3>Code </h3>
+<ul>
+<li><p>[Soon!]</p>
+</li>
+</ul>
+<h2>Demosaicing </h2>
+<h3>Code </h3>
+<ul>
+<li><p>[Soon!]</p>
+</li>
+</ul>
+<h2>List of online demosaicing codes and binaries </h2>
+<p>Here we have gathered a list of available demosaicing codes or binaries files, which might be helpful for future works. Some of the algorithms have several implementations; so we are including all of them. If you have new online code for demosaicing or we have missed your code please let us know!</p>
+<ol>
+<li><p>AHD: Adaptive Homogeneity-directed Demosaicing </p>
+<ol>
+<li><p>Paper: Hirakawa, Keigo, and Thomas W. Parks. &ldquo;Adaptive homogeneity-directed demosaicing algorithm.&rdquo; Image Processing, IEEE Transactions on 14.3 (2005): 360-369. </p>
+</li>
+<li><p><a href="http://campus.udayton.edu/~ISSL/software/AHD.zip">MATLAB</a></p>
+</li>
+<li><p><a href="http://manpages.ubuntu.com/manpages/lucid/man1/ufraw.1.html">Ubuntu</a>: with <tt>&ndash;interpolation=ahd</tt> option.  </p>
+</li></ol>
+</li>
+<li><p>BI: Bilinear Interpolation </p>
+<ol>
+<li><p>Paper: </p>
+</li>
+<li><p><a href="http://lu.seas.harvard.edu/software/demosaicking-matlab-code-implementing-fast-demosaicking-algorithm-described-followi-0">MATLAB</a>: Besides the code for &ldquo;OS-AP&rdquo;.  </p>
+</li>
+<li><p><a href="http://www.ipol.im/pub/art/2012/g-dwcs/">C++</a>: Besides the code for &ldquo;CS&rdquo;.</p>
+</li>
+<li><p><a href="http://manpages.ubuntu.com/manpages/lucid/man1/ufraw.1.html">Ubuntu</a>: with <tt>&ndash;interpolation=bilinear</tt> option.  </p>
+</li></ol>
+</li>
+<li><p>CS: Contour Stencils  </p>
+<ol>
+<li><p>Paper: Getreuer, Pascal. &ldquo;Color demosaicing with contour stencils.&rdquo; Digital Signal Processing (DSP), 2011 17th International Conference on. IEEE, 2011. </p>
+</li>
+<li><p><a href="http://www.ipol.im/pub/art/2012/g-dwcs/">C++</a></p>
+</li></ol>
+</li>
+<li><p>Drectional-LMMSE: directional linear minimum mean square-error estimation</p>
+<ol>
+<li><p>Reference: Zhang, Lei, and Xiaolin Wu. &ldquo;Color demosaicking via directional linear minimum mean square-error estimation.&rdquo; Image Processing, IEEE Transactions on 14.12 (2005): 2167-2178. </p>
+</li>
+<li><p><a href="http://www4.comp.polyu.edu.hk/~cslzhang/PCA-CFA-Denoising.htm">MATLAB</a>: Included inside the code for &ldquo;PCA-based Spatially Adaptive Denoising &hellip;&rdquo;; or see <a href="http://www4.comp.polyu.edu.hk/~cslzhang/code/dlmmse.m">this file</a></p>
+</li>
+<li><p><a href="http://www.ipol.im/pub/art/2011/g_zwld/">C++</a></p>
+</li></ol>
+</li>
+<li><p>HA: known as &ldquo;Hamilton-Adams&rdquo;</p>
+<ol>
+<li><p>Paper: Hamilton Jr, John F., and James E. Adams Jr. &ldquo;Adaptive color plan interpolation in single sensor color electronic camera.&rdquo; U.S. Patent No. 5,629,734. 13 May 1997. </p>
+</li>
+<li><p><a href="http://www.cs.tut.fi/~lasip/cfai/">MATLAB</a>: Besides the code for LPA-ICI</p>
+</li>
+<li><p><a href="http://www.ipol.im/pub/art/2011/g_gapd/">C++</a>: Besides the code for &ldquo;AP&rdquo;</p>
+</li></ol>
+</li>
+<li><p>LPA-ICI: Local Polynomial Approximation </p>
+<ol>
+<li><p>Paper: Paliy, Dmitriy, et al. &ldquo;Spatially adaptive color filter array interpolation for noiseless and noisy data.&rdquo; International Journal of Imaging Systems and Technology 17.3 (2007): 105-122. </p>
+</li>
+<li><p><a href="http://www.cs.tut.fi/~lasip/cfai/">MATLAB</a></p>
+</li></ol>
+</li>
+<li><p>NAT: Non-local Adaptive Thresholding</p>
+<ol>
+<li><p>Paper: Zhang, Lei, et al. &ldquo;Color demosaicking by local directional interpolation and nonlocal adaptive thresholding.&rdquo; Journal of Electronic Imaging 20.2 (2011): 023016-023016.</p>
+</li>
+<li><p><a href="http://www4.comp.polyu.edu.hk/~cslzhang/CDM_Dataset.htm">MATLAB</a></p>
+</li></ol>
+</li>
+<li><p>NLM: Non-local Means </p>
+<ol>
+<li><p>Paper: ? </p>
+</li>
+<li><p><a href="http://www4.comp.polyu.edu.hk/~cslzhang/CDM_Dataset.htm">MATLAB</a>: Besides the code for &ldquo;NAT(Non-local Adaptive Thresholding)&rdquo;</p>
+</li></ol>
+</li>
+<li><p>AP: Alternating Projections </p>
+<ol>
+<li><p>Paper: Gunturk, Bahadir K., Yucel Altunbasak, and Russell M. Mersereau. &ldquo;Color plane interpolation using alternating projections.&rdquo; Image Processing, IEEE Transactions on 11.9 (2002): 997-1013. </p>
+</li>
+<li><p><a href="http://lu.seas.harvard.edu/software/demosaicking-matlab-code-implementing-fast-demosaicking-algorithm-described-followi-0">MATLAB</a>: Besides the code for &ldquo;OS-AP&rdquo;.  </p>
+</li>
+<li><p><a href="http://www.ece.gatech.edu/research/labs/MCCL/pubs/dwnlds/demosaick.zip">MATLAB</a></p>
+</li>
+<li><p><a href="http://www.ipol.im/pub/art/2011/g_gapd/">C++</a> </p>
+</li></ol>
+</li>
+<li><p>OS-AP: One Step AP(Alternating Projections)</p>
+<ol>
+<li><p>Paper: Lu, Yue M., Mina Karzand, and Martin Vetterli. &ldquo;Demosaicking by alternating projections: theory and fast one-step implementation.&rdquo; Image Processing, IEEE Transactions on 19.8 (2010): 2085-2098. </p>
+</li>
+<li><p><a href="http://lu.seas.harvard.edu/software/demosaicking-matlab-code-implementing-fast-demosaicking-algorithm-described-followi-0">MATLAB</a></p>
+</li></ol>
+</li>
+<li><p>PCSD: Primary-Consistent Soft-Decision </p>
+<ol>
+<li><p><a href="http://www.ece.mcmaster.ca/%7Exwu/executables/pcsd.rar">Binary</a></p>
+</li></ol>
+</li>
+<li><p>PDF: Posterior Directional filtering </p>
+<ol>
+<li><p>Paper: Menon, Daniele, Stefano Andriani, and Giancarlo Calvagno. &ldquo;Demosaicing With Directional Filtering and a posteriori Decision.&rdquo; Image Processing, IEEE Transactions on 16.1 (2007): 132-141. </p>
+</li>
+<li><p><a href="http://www.danielemenon.netsons.org/pub/dfapd/dfapd.php">MATLAB</a></p>
+</li></ol>
+</li>
+<li><p>SA: SuccessiveApproximations </p>
+<ol>
+<li><p><a href="http://www.csee.wvu.edu/%7Exinl/code/demosaic.zip">MATLAB</a> </p>
+</li></ol>
+</li>
+<li><p>WECD: WeightedEdgeandColorsDifference</p>
+<ol>
+<li><p>Paper: Su, Chung-Yen. &ldquo;Highly effective iterative demosaicing using weighted-edge and color-difference interpolations.&rdquo; Consumer Electronics, IEEE Transactions on 52.2 (2006): 639-645. </p>
+</li>
+<li><p><a href="http://web.ntnu.edu.tw/~scy/heid_demo.html">MATLAB</a></p>
+</li></ol>
+</li>
+<li><p>ILI: Improved Linear Interpolation </p>
+<ol>
+<li><p>Paper: Malvar, Henrique S., Li-wei He, and Ross Cutler. &ldquo;High-quality linear interpolation for demosaicing of Bayer-patterned color images.&rdquo; Acoustics, Speech, and Signal Processing, 2004. Proceedings.(ICASSP&rsquo;04). IEEE International Conference on. Vol. 3. IEEE, 2004. </p>
+</li>
+<li><p>See the <tt>demosaic()</tt> function in MATLAB. To get more info run <tt>edit demosaic</tt>! </p>
+</li>
+<li><p><a href="http://www.ipol.im/pub/art/2011/g_mhcd/">C++</a></p>
+</li></ol>
+</li>
+<li><p>LSLCD: Least Square Luma-Chroma Demoltiplexing</p>
+<ol>
+<li><p>Paper: Dubois, E., and G. Jeon. &ldquo;Demosaicking of Noisy Bayer-Sampled Color Images with Least-Squares Luma-Chroma Demultiplexing and Noise Level Estimation.&rdquo; (2011): 1-1. </p>
+</li>
+<li><p><a href="http://www.site.uottawa.ca/~edubois/lslcd_ne/">MATLAB</a></p>
+</li></ol>
+</li>
+<li><p>LSSC: Leaning simultaneous sparsity coding</p>
+<ol>
+<li><p>Paper: Mairal, Julien, et al. &ldquo;Non-local sparse models for image restoration.&rdquo; Computer Vision, 2009 IEEE 12th International Conference on. IEEE, 2009. </p>
+</li>
+<li><p><a href="http://www.di.ens.fr/%7Emairal/denoise_ICCV09.tar.gz">MATLAB</a></p>
+</li></ol>
+</li>
+<li><p>SSDD: Self-similarity Driven Demosaicking  </p>
+<ol>
+<li><p>Paper: Buades, Antoni, et al. &ldquo;Self-similarity driven color demosaicking.&rdquo; Image Processing, IEEE Transactions on 18.6 (2009): 1192-1202. </p>
+</li>
+<li><p><a href="http://www.ipol.im/pub/art/2011/bcms-ssdd/">C++</a>
+
+
+
+</p>
+</li>
+</ol>
+
+</li>
+</ol>
+<div id="footer">
+<div id="footer-text">
+Page generated 2013-07-16 12:59:41 GMT Daylight Time, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

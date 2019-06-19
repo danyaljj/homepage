@@ -1,0 +1,18 @@
+# jemdoc: menu{MENU}{acc.html}
+= Relation and entity extraction in ACE-2004
+
+== Doc 
+- Draft: Soon! [.  \[PDF\]]
+
+== Abstract 
+Recently there has been a surge of interest in neural architectures for complex structured learning tasks. Along this track, we are addressing the supervised task of relation extraction and named-entity recognition via recursive neural structures and deep unsupervised feature learning. Our models are inspired by several recent works in deep learning for natural language. We have extended the previous models, and evaluated them in various scenarios, for relation extraction and named-entity recognition. In the models, we avoid using any external features, so as to investigate the power of representation instead of feature engineering. We implement the models and proposed some more general models for future work. We will briefly review previous works on deep learning and give a brief overview of recent progresses relation extraction and named-entity recognition.
+
+
+== Code 
+*Note:* To use this code you need to have ACE-2004 data. \n
+- \[Soon!\] \n
+
+#~~~
+#{Don}
+#Research is what I'm doing when I don't know what I'm doing. 
+#~~~

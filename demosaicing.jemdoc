@@ -1,0 +1,69 @@
+# jemdoc: menu{MENU}{acc.html}
+= List of online demosaicing codes and binaries 
+
+Here I have gathered a list of available demosaicing codes or binaries files, which might be helpful for future works. Some of the algorithms have several implementations; so I am including all of them. If you have new online code for demosaicing or I have missed your code please let me know!
+
+. AHD: Adaptive Homogeneity-directed Demosaicing 
+.. Paper: Hirakawa, Keigo, and Thomas W. Parks. "Adaptive homogeneity-directed demosaicing algorithm." Image Processing, IEEE Transactions on 14.3 (2005): 360-369. 
+.. [http://campus.udayton.edu/~ISSL/software/AHD.zip MATLAB]
+.. [http://manpages.ubuntu.com/manpages/lucid/man1/ufraw.1.html Ubuntu]: with +--interpolation=ahd+ option.  
+. BI: Bilinear Interpolation 
+.. Paper: 
+.. [http://lu.seas.harvard.edu/software/demosaicking-matlab-code-implementing-fast-demosaicking-algorithm-described-followi-0 MATLAB]: Besides the code for "OS-AP".  
+.. [http://www.ipol.im/pub/art/2012/g-dwcs/ C\+\+]: Besides the code for "CS".
+.. [http://manpages.ubuntu.com/manpages/lucid/man1/ufraw.1.html Ubuntu]: with +--interpolation=bilinear+ option.  
+. CS: Contour Stencils  
+.. Paper: Getreuer, Pascal. "Color demosaicing with contour stencils." Digital Signal Processing (DSP), 2011 17th International Conference on. IEEE, 2011. 
+.. [http://www.ipol.im/pub/art/2012/g-dwcs/ C\+\+]
+. Drectional-LMMSE: directional linear minimum mean square-error estimation
+.. Reference: Zhang, Lei, and Xiaolin Wu. "Color demosaicking via directional linear minimum mean square-error estimation." Image Processing, IEEE Transactions on 14.12 (2005): 2167-2178. 
+.. [http://www4.comp.polyu.edu.hk/~cslzhang/PCA-CFA-Denoising.htm MATLAB]: Included inside the code for "PCA-based Spatially Adaptive Denoising ..."; or see [http://www4.comp.polyu.edu.hk/~cslzhang/code/dlmmse.m this file]
+.. [http://www.ipol.im/pub/art/2011/g_zwld/ C\+\+]
+. HA: known as "Hamilton-Adams"
+.. Paper: Hamilton Jr, John F., and James E. Adams Jr. "Adaptive color plan interpolation in single sensor color electronic camera." U.S. Patent No. 5,629,734. 13 May 1997. 
+.. [http://www.cs.tut.fi/~lasip/cfai/ MATLAB]: Besides the code for LPA-ICI
+.. [http://www.ipol.im/pub/art/2011/g_gapd/ C\+\+]: Besides the code for "AP"
+. LPA-ICI: Local Polynomial Approximation 
+.. Paper: Paliy, Dmitriy, et al. "Spatially adaptive color filter array interpolation for noiseless and noisy data." International Journal of Imaging Systems and Technology 17.3 (2007): 105-122. 
+.. [http://www.cs.tut.fi/~lasip/cfai/ MATLAB]
+. NAT: Non-local Adaptive Thresholding
+.. Paper: Zhang, Lei, et al. "Color demosaicking by local directional interpolation and nonlocal adaptive thresholding." Journal of Electronic Imaging 20.2 (2011): 023016-023016.
+.. [http://www4.comp.polyu.edu.hk/~cslzhang/CDM_Dataset.htm  MATLAB]
+. NLM: Non-local Means 
+.. Paper: ? 
+.. [http://www4.comp.polyu.edu.hk/~cslzhang/CDM_Dataset.htm  MATLAB]: Besides the code for "NAT(Non-local Adaptive Thresholding)"
+. AP: Alternating Projections 
+.. Paper: Gunturk, Bahadir K., Yucel Altunbasak, and Russell M. Mersereau. "Color plane interpolation using alternating projections." Image Processing, IEEE Transactions on 11.9 (2002): 997-1013. 
+.. [http://lu.seas.harvard.edu/software/demosaicking-matlab-code-implementing-fast-demosaicking-algorithm-described-followi-0 MATLAB]: Besides the code for "OS-AP".  
+.. [http://www.ece.gatech.edu/research/labs/MCCL/pubs/dwnlds/demosaick.zip MATLAB]
+.. [http://www.ipol.im/pub/art/2011/g_gapd/ C\+\+] 
+. OS-AP: One Step AP(Alternating Projections)
+.. Paper: Lu, Yue M., Mina Karzand, and Martin Vetterli. "Demosaicking by alternating projections: theory and fast one-step implementation." Image Processing, IEEE Transactions on 19.8 (2010): 2085-2098. 
+.. [http://lu.seas.harvard.edu/software/demosaicking-matlab-code-implementing-fast-demosaicking-algorithm-described-followi-0 MATLAB]
+. PCSD: Primary-Consistent Soft-Decision 
+.. [http://www.ece.mcmaster.ca/%7Exwu/executables/pcsd.rar Binary]
+. PDF: Posterior Directional filtering 
+.. Paper: Menon, Daniele, Stefano Andriani, and Giancarlo Calvagno. "Demosaicing With Directional Filtering and a posteriori Decision." Image Processing, IEEE Transactions on 16.1 (2007): 132-141. 
+.. [http://www.danielemenon.netsons.org/pub/dfapd/dfapd.php MATLAB]
+. SA: SuccessiveApproximations 
+.. [http://www.csee.wvu.edu/%7Exinl/code/demosaic.zip MATLAB] 
+. WECD: WeightedEdgeandColorsDifference
+.. Paper: Su, Chung-Yen. "Highly effective iterative demosaicing using weighted-edge and color-difference interpolations." Consumer Electronics, IEEE Transactions on 52.2 (2006): 639-645. 
+.. [http://web.ntnu.edu.tw/~scy/heid_demo.html MATLAB]
+. ILI: Improved Linear Interpolation 
+.. Paper: Malvar, Henrique S., Li-wei He, and Ross Cutler. "High-quality linear interpolation for demosaicing of Bayer-patterned color images." Acoustics, Speech, and Signal Processing, 2004. Proceedings.(ICASSP'04). IEEE International Conference on. Vol. 3. IEEE, 2004. 
+.. See the +demosaic()+ function in MATLAB. To get more info run +edit demosaic+! 
+.. [http://www.ipol.im/pub/art/2011/g_mhcd/ C\+\+]
+. LSLCD: Least Square Luma-Chroma Demoltiplexing
+.. Paper: Dubois, E., and G. Jeon. "Demosaicking of Noisy Bayer-Sampled Color Images with Least-Squares Luma-Chroma Demultiplexing and Noise Level Estimation." (2011): 1-1. 
+.. [http://www.site.uottawa.ca/~edubois/lslcd_ne/ MATLAB]
+. LSSC: Leaning simultaneous sparsity coding
+.. Paper: Mairal, Julien, et al. "Non-local sparse models for image restoration." Computer Vision, 2009 IEEE 12th International Conference on. IEEE, 2009. 
+.. [http://www.di.ens.fr/%7Emairal/denoise_ICCV09.tar.gz MATLAB]
+. SSDD: Self-similarity Driven Demosaicking  
+.. Paper: Buades, Antoni, et al. "Self-similarity driven color demosaicking." Image Processing, IEEE Transactions on 18.6 (2009): 1192-1202. 
+.. [http://www.ipol.im/pub/art/2011/bcms-ssdd/ C\+\+]
+#~~~
+#{Don}
+#Research is what I'm doing when I don't know what I'm doing. 
+#~~~

@@ -1,0 +1,264 @@
+# jemdoc: 
+= Reading group  
+
+= Reading important trends in Machine Learning, NLP, Vision, Optimization, Information Retrieval, etc. 
+== Spring 2014, 
+- Time and Location:  5-6 pm on Mondays, Thursdays  @ 3102 Siebel Center. 
+:{No reading!} Martin Luther King, Jr. day!  \n 
+
+:{Bayesian Conditional Random Field} Date: Jan 23, 2014 \n Presenter: Daniel Khashabi \n Paper: [https://www.cs.purdue.edu/homes/alanqi/papers/Qi-Szummer-Minka-BCRF-JMLR.pdf Link]  \n 
+
+:{Active + Semi-Supervised Learning = Robust Multi-View Learning} Date: Jan 27, 2014 \n Presenter: Shyam Upadhyay \n Paper: [http://www.isi.edu/integration/papers/muslea02-icml-robust.pdf Link]  \n 
+
+:{Recent Advancements in Vector Space Representation for Natural Language} Date: Jan 30, 2014 \n Presenter: Haoruo Peng \n Paper: [http://research.microsoft.com/pubs/189726/rvecs.pdf Link], [http://arxiv.org/pdf/1309.4168.pdf Link] \n Related website: [https://code.google.com/p/word2vec/ Link] [http://rnnlm.org/ Link] \n  
+
+:{On the Generalization Ability ofOnline Strongly Convex Programming Algorithms} Date: Feb 3, 2014 \n Presenter: John Wieting \n Paper: [https://papers.nips.cc/paper/3457-on-the-generalization-ability-of-online-strongly-convex-programming-algorithms.pdf Link] \n  
+
+:{No reading! } Date: Feb 6, 2014 \n 
+
+:{Depedency parsing:  Belief Propagation } Date: Feb 10, 2014 \n Presenter: Daniel Khashabi \n Paper: [http://aclweb.org/anthology//D/D08/D08-1016.pdf Link]  \n  
+
+:{A Machine Learning Framework for Programming by Example} Date: Feb 13, 2014 \n Presenter: Chen-Tse Tsai \n Paper: [http://jmlr.org/proceedings/papers/v28/menon13.pdf Link] \n 
+
+:{Fast dropout training} Date: Feb 17, 2014 \n Presenter: Daniel Khashabi \n Paper: [http://jmlr.org/proceedings/papers/v28/wang13a.pdf Link] \n 
+
+:{A Semantically Enhanced Approach to Determine Textual Similarity} Date: Feb 20, 2014 \n Presenter: Subhro Roy \n Paper: [http://aclweb.org/anthology/D/D13/D13-1123.pdf Link] \n 
+
+:{Fine-grained Semantic Typing of Emerging Entities} Date: Feb 24, 2014 \n Presenter: Chen-Tse Tsai \n Paper: [http://aclweb.org/anthology/P/P13/P13-1146.pdf Link] \n 
+
+:{Distributional Semantics Beyond Words: Supervised Learning of Analogy and Paraphrase} Date: Feb 27, 2014 \n Presenter: Daniel Khashabi \n Paper: [http://aclweb.org/anthology//Q/Q13/Q13-1029.pdf  Link] \n 
+
+:{Daniel's qual practice! } Date: March 3, 2014 \n Presenter: Daniel Khashabi \n 
+
+:{Efficient Projections onto the L1-Ball for Learning in High Dimensions} Date: March 6, 2014 \n Presenter: Shyam Upadhyay \n Paper: [http://www.cs.berkeley.edu/~jduchi/projects/DuchiShSiCh08.pdf link] \n Related: [http://www.cs.berkeley.edu/~jduchi/projects/DuchiShSiCh08.html link] \n 
+
+:{Mention and Phrase Detection} Date: Mar 10, 2014 \n Presenter: Haoruo Peng \n Paper: [http://l2r.cs.uiuc.edu/~danr/Papers/iwclong.pdfs Link] \n Paper: [http://nlp.stanford.edu/pubs/discourse-referent-lifespans.pdf Link] \n 
+
+# :{} Date: Mar 3, 2014 \n Presenter:  \n Paper: [ Link] \n 
+
+# http://people.cs.umass.edu/~sameer/files/hierar-coref-acl12.pdf
+
+# Bayesian Learning: http://www.cs.berkeley.edu/~klein/papers/tutorial-acl2007.pdf
+
+# http://homes.cs.washington.edu/~taskar/pubs/1ex_icml13.pdf
+
+# DP, DPM and Variational inference for DPM 
+# http://www.cs.princeton.edu/~blei/papers/BleiJordan2004.pdf
+
+# http://www.cs.berkeley.edu/~jduchi/projects/DuchiHaSi10.pdf 
+
+# Link: http://research.microsoft.com/en-us/um/people/minka/papers/bcrf/Qi-Bayesian-CRF-AIstat05.pdf  
+# :{Tree-Reweighted Belief-Propagation} Date: Jan 20, 2013 \n Presenter: Daniel Khashabi   \n The talk will present a unified idea of the method and its properties based on the following papers: \n [http://www.eecs.berkeley.edu/~wainwrig/Papers/WJW_AIStat03.pdf Paper1] \n [http://people.csail.mit.edu/tommi/papers/WaiJaaWil05_Upper.pdf Paper2] \n [http://machinelearning.wustl.edu/mlpapers/paper_files/AA42.pdf Paper3] \n 
+# :{?} Date: Jan 20, 2013   \n Presenter: [http://christos-c.com/  Christos Christodoulopoulos]   \n  
+
+# submodular 
+# http://www.newdesign.aclweb.org/anthology-new/N/N10/N10-1134.pdf
+# http://melodi.ee.washington.edu/people/hlin/papers/lin-acl11-alignment.pdf
+# https://papers.nips.cc/paper/4348-on-fast-approximate-submodular-minimization.pdf
+
+# http://arxiv.org/ftp/arxiv/papers/1206/1206.5286.pdf
+
+# :{Structured Output Learning with Candidate Labels for Local Parts} Date: Nov 21, 2013  \n Presenter: Shyam Upadhyay  \n Paper: [http://www.ecmlpkdd2013.org/wp-content/uploads/2013/07/433.pdf  link ] \n Sup: [http://research.microsoft.com/pubs/194791/SupplementaryMaterial.pdf link] \n Complete Version: [http://download.springer.com/static/pdf/300/chp%253A10.1007%252F978-3-642-40991-2_22.pdf?auth66=1384674383_4f7416ad9fdc565f8bace3722be5a27d&ext=.pdf link] \n  \n     
+# :{ Video lecture: DPP4: Nystrom Approximation for Large-Scale Determinantal Processes} Date: Sept 23, 2013  \n Video: [http://techtalks.tv/talks/nystrom-approximation-for-large-scale-determinantal-processes/58076/ link] \n  Paper: [https://www.stat.washington.edu/~ebfox/publications/AISTATS2013.pdf paper] 
+#\n
+# :{ Video lecture: DPP2: Near-Optimal MAP Inference for Determinantal Point Processes } Date: Sept 19, 2013  \n  \n Video2: [http://videolectures.net/nips2010_kulesza_sdp/ link] \n Paper2: [http://cogcomp.cs.illinois.edu/page/publ   http://www.seas.upenn.edu/~taskar/pubs/sdpp_nips10.pdf link]
+#\n
+
+# :{Mining Scientiﬁc Terms and their Deﬁnitions: A Study of the ACL Anthology } Date: Nov 4, 2013 \n Presenter: Chen-Tse Tsai \n Paper: [http://www.aclweb.org/anthology/D/D13/D13-1073.pdf link] \n   
+
+# http://cs.nyu.edu/~rostami/presentations/L1_vs_L2.pdf 
+# piece wise training: 
+# http://people.cs.umass.edu/~mccallum/papers/pw08mljs.pdf
+# http://homepages.inf.ed.ac.uk/csutton/publications/MSR-TR-2006-121.pdf
+# http://arxiv.org/pdf/1207.1409.pdf
+
+# http://papers.nips.cc/paper/3745-an-lp-view-of-the-m-best-map-problem.pdf
+
+# http://people.cs.umass.edu/~mccallum/papers/dcrf-icml04.pdf
+# http://people.cs.umass.edu/~mccallum/papers/dcrf-nips03.pdf
+# http://jmlr.org/papers/volume8/sutton07a/sutton07a.pdf
+
+# training generative in discriminative way 
+# http://homes.cs.washington.edu/~pedrod/papers/nips12.pdf 
+
+# Efficient Dependency Parsing : 
+# http://aclweb.org/anthology//D/D10/D10-1004.pdf 
+# http://aclweb.org/anthology//D/D08/D08-1016.pdf
+# http://acl.ldc.upenn.edu/E/E06/E06-1011.pdf
+# http://www.ryanmcd.com/papers/nonprojectiveHLT-EMNLP2005.pdf 
+# http://acl.ldc.upenn.edu/D/D07/D07-1101.pdf 
+
+# Mean-field? 
+# http://www.cs.cmu.edu/~scohen/jmlr10pgcovariance.pdf
+
+# Joint parsing and alignment 
+#  
+
+# Bethe 
+# http://www.cs.huji.ac.il/~gamir/pubs/UAI2009_meshi_etal.pdf
+
+# similar to TRW
+# http://www.ics.uci.edu/~qliu1/PDF/icml11.pdf 
+# http://www.icml-2011.org/papers/108_icmlpaper.pdf
+# http://www.cs.huji.ac.il/~talyam/publications/uaiTR.pdf
+
+# Extrac gradient 
+# http://www.seas.upenn.edu/~taskar/pubs/taskar06a.pdf
+# http://www.cs.berkeley.edu/~jordan/papers/extragrad_long.pdf
+# www.seas.upenn.edu/~taskar/pubs/mmwa.ps
+
+# Efficient online and batch learning using forward backward splitting 
+
+# RL with factor graphs: 
+# http://books.nips.cc/papers/files/nips22/NIPS2009_0910.pdf 
+
+# Spectral  PCFG 
+# http://www.cs.columbia.edu/~mcollins/papers/naacl13spectral.pdf 
+
+# Tensor for PCFG
+# http://www.cs.columbia.edu/~mcollins/papers/naacl13tensor.pdf
+# http://www.cs.columbia.edu/~mcollins/papers/nips12tensor.pdf 
+# http://www.cs.columbia.edu/~mcollins/papers/ACL2012final.pdf 
+
+# http://nlp.stanford.edu/pubs/objective-functions.pdf 
+
+# http://edwardbenson.com/papers/acl2011-relation-discovery.pdf 
+
+# Bayesian Model Selection 
+# http://www.ics.uci.edu/~yutianc/ChenWelling-AISTATS13-BayesRBM.pdf
+
+# http://www.cs.berkeley.edu/~jordan/papers/zhang-etal-nips14.pdf 
+
+# on frame semantic parsing ? 
+
+# Structured Prediction Stacks 
+
+# Kernel Conditional Random Fields: http://pages.cs.wisc.edu/~jerryzhu/pub/kcrf-revised.pdf 
+
+# Dynamic CRFs : The JMLR paper 
+# Dynamic CRF : http://homepages.inf.ed.ac.uk/csutton/publications/dcrf.pdf 
+
+
+# Semi markov CRF 
+
+# http://www-stat.wharton.upenn.edu/~rakhlin/papers/NarRak10.pdf
+
+# Graphical models under expansion constraints
+
+# Dual averaging for distributed optimization 
+
+# vector space parsing: mitchel's paper; also socher's paper : 
+# vector space semantic parsing : http://rtw.ml.cmu.edu/papers/krishnamurthy-cvsc2013.pdf
+# http://www.socher.org/uploads/Main/SocherBauerManningNg_ACL2013.pdf 
+
+# http://www.mit.edu/~brenden/LakeEtAlNips2013.pdf
+
+# http://www.stat.rutgers.edu/home/ldicker/papers/osl.NIPS.131105.pdf
+ 
+# http://www.cis.upenn.edu/~mkearns/papers/margs2mods.pdf 
+
+# http://pages.cs.wisc.edu/~jerryzhu/pub/NIPS13teach.pdf
+
+# http://www.cs.nyu.edu/~mohri/pub/loc.pdf 
+
+# http://www.stanford.edu/~ngoodman/papers/praglearn.pdf
+
+# http://people.ee.duke.edu/~lcarin/Shaobo_NIPS2013.pdf
+
+# http://www.cs.berkeley.edu/~yuczhang/files/nips13_communication.pdf
+
+# http://ftp.cs.ucla.edu/pub/stat_ser/r410.pdf
+
+# http://arxiv.org/pdf/1310.4546v1.pdf
+
+# http://www.cs.utexas.edu/~pradeepr/paperz/mtdm_nips.pdf 
+
+# http://www.cs.utexas.edu/~pradeepr/paperz/glmgmcrf_nips.pdf 
+
+## How to maximize with respect to F1 
+# http://books.nips.cc/papers/files/nips24/NIPS2011_0815.pdf
+# http://icml.cc/2012/papers/175.pdf
+# www.cs.carleton.edu/faculty/dmusican/FLAIRS03DMusicant.ps
+# http://acl.ldc.upenn.edu/H/H05/H05-1087.pdf
+
+
+# Directional Similarity measures :
+# http://aclweb.org/anthology/P/P09/P09-2018.pdf 
+# http://aclweb.org/anthology/E/E12/E12-1004.pdf 
+
+
+# http://nlp.stanford.edu/~socherr/SocherLeManningNg_nipsDeepWorkshop2013.pdf 
+
+# graph estimation : http://projecteuclid.org/euclid.aos/1351602527 
+
+# Dirichlet Mixture Model and sampling it: http://www.stat.purdue.edu/~rdutta/24.PDF 
+
+# Matrix-tree theorem : 
+# http://people.csail.mit.edu/maestro/papers/koo07emnlp.pdf
+# http://acl.ldc.upenn.edu/D/D07/D07-1014.pdf
+
+== Fall 2013, 
+- Time and Location:  3-4 pm on Mondays, 4-5pm on Thursdays  @ 3405 Siebel Cente. 
+- If you wanna suggest papers to others for the future presentations, please add it to [https://docs.google.com/spreadsheet/ccc?key=0AlSliOO1bMINdFdCQXl2RE9mYVR6Q3kzWm55Y1h1VkE&usp=sharing the pool of papers].  
+ :{ Tutorial: Tensor decomposition } Date: Sept 9, 2013  \n Presented by: [http://web.engr.illinois.edu/~kchang10/ Kai-Wei Chang]\n  Paper: [http://machinelearning.wustl.edu/mlpapers/paper_files/ICML2011Nickel_438.pdf link] [http://epubs.siam.org/doi/pdf/10.1137/07070111X link] 
+\n 
+
+ :{ Determinantal Point Processes  } Date: Sept 12, 2013  \n Video: [http://videolectures.net/nipsworkshops2012_taskar_point/ link] \n  Paper: [http://www.seas.upenn.edu/~taskar/pubs/ldpps_uai11.pdf Learning Determinantal Point Processes] 
+\n 
+Paper: [http://arxiv.org/abs/1207.6083 Determinantal point processes for machine learning]
+  \n 
+
+ :{ Relation Extraction with Matrix Factorization and Universal Schemas } Date: Sept 16, 2013 \n  Gourab Kundu will be present to answer questions!  \n  Paper: [http://people.cs.umass.edu/~lmyao/papers/univ-schema-tacl.pdf link] 
+\n 
+
+ :{ k-DPPs: Fixed-Size Determinantal Point Processes} Date: Sept 19, 2013  \n Daniel Khashabi will be present to answer questions!  \n  Video: [http://techtalks.tv/talks/k-dpps-fixed-size-determinantal-point-processes/54441/ link] \n  Paper: [http://www.seas.upenn.edu/~taskar/pubs/kdpps_icml11.pdf paper] 
+ \n 
+
+ :{ Cancelled!} Date: Sept 23, 2013  \n   
+ 
+ :{ k-DPPs: Fixed-Size Determinantal Point Processes(continued)} Date: Sept 26, 2013  \n  Daniel Khashabi will be present to answer questions! \n  Video: [http://filebox.ece.vt.edu/~dbatra/cvpr13diversitytutorial/ link] \n  Paper: [http://www.seas.upenn.edu/~taskar/pubs/kdpps_icml11.pdf paper] 
+ \n 
+
+ :{ Cancelled due to conflict conference!} Date: Sept 30, 2013  \n   
+
+ :{ Cancelled due to Allerton Confetence!} Date: Oct 3, 2013  \n   
+ 
+:{ Tensor Decompositions: Exploiting Structure in Observed Correlations } Date: Oct 7, 2013 \n  Subhro Roy will be present to answer questions!  \n Video: [http://techtalks.tv/talks/tensor-decomposition-algorithms-for-latent-variable-model-estimation/58120/ link] (only the presentation by Sham Kakade) \n  [http://www.cs.columbia.edu/~djhsu/tensor-tutorial/part1.pdf  Presentation file]
+
+:{ A Method of Moments for Mixture Models and Hidden Markov Models} Date: Oct 10, 2013  \n  [http://ycemsubakan.info/ Cem Sübakan] will be present to answer questions!  \n  Video: [http://techtalks.tv/talks/a-method-of-moments-for-mixture-models-and-hidden-markov-models/57561/ link] \n Slides: [http://www.cs.columbia.edu/~djhsu/papers/moments-slides.pdf link] \n Paper: [http://arxiv.org/abs/1203.0683 paper] \n
+
+:{ Decentralized Entity-Level Modeling for Coreference Resolution } Date: Oct 14, 2013  \n Presenter: Haoruo Peng \n  Paper: [http://nlp.cs.berkeley.edu/pubs/Durrett-Hall-Klein_2013_EntityCoref_paper.pdf link]  \n
+
+:{Structured Output Learning with Indirect Supervision  } Date: Oct 17, 2013  \n Presenter: Shyam Upadhyay  \n Paper: [http://cogcomp.cs.illinois.edu/page/publication_view/215  link ] \n Paper: [http://www.cs.cmu.edu/~nasmith/papers/smith+eisner.acl05.pdf link]  \n Presentation: [http://cs.jhu.edu/~jason/papers/smith+eisner.acl05.ppt  link] \n    
+
+:{Dual Decomposition for Inference} Date: Oct 21, 2013   \n [http://christos-c.com/  Christos Christodoulopoulos] will be present to answer questions!  \n  Video: [http://videolectures.net/nipsworkshops2010_koo_ddi/  Link] \n Paper: [http://www.cs.columbia.edu/~mcollins/acltutorial.pdf  link] \n Paper2: [http://people.csail.mit.edu/tommi/papers/SonGloJaa_optbook.pdf   link]   
+
+:{Joint Word Alignment and Bilingual Named Entity RecognitionUsing Dual Decomposition} Date: Oct 24, 2013 \n Presenter: [http://christos-c.com/  Christos Christodoulopoulos] \n Paper: [http://aclweb.org/anthology/P/P13/P13-1106.pdf  link] \n 
+ 
+:{ Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank   } Date: Oct 28, 2013 \n Presenter: Daniel Khashabi \n Paper: [http://www.aclweb.org/anthology/D/D13/D13-1170.pdf   link] \n  
+
+:{Hilbert Space Embeddings of Hidden Markov Models} Date: Oct 31, 2013  \n  Presenter: [http://ycemsubakan.info/ Cem Sübakan]   \n   Paper: [http://www.icml2010.org/papers/495.pdf link] \n Presentation:[http://www.cs.cmu.edu/~beb/files/HSE_HMMs.pdf link ] \n
+
+:{Mining Scientiﬁc Terms and their Deﬁnitions: A Study of the ACL Anthology } Date: Nov 4, 2013 \n Presenter: Chen-Tse Tsai \n Cancelled!! \n  
+
+:{Learning from Measurements in Exponential Families} Date: Nov 7, 2013 \n Cancelled!! \n  
+
+:{Learning from Measurements in Exponential Families} Date: Nov 11, 2013 \n Presenter: Daniel Khashabi \n Paper: [http://cs.stanford.edu/~pliang/papers/measurements-icml2009.pdf  link] \n Slides: [files/2013_LearningAndINferenceConstraints.pdf link ] 
+
+:{Review of: Information Trustworthiness - AAAI 2013 Tutorial} Date: Nov 14, 2013 \n Presenter: Subhro Roy \n Page: [http://l2r.cs.uiuc.edu/Information_Trustworthiness.html link] \n 
+
+:{Posterior Regularization for Structured Latent Variable Models} Date: Now 18, 2013 \n Presenter: [http://penghaoruo.com/  Haoruo Peng ] \n  Paper: [http://homes.cs.washington.edu/~taskar/pubs/pr_jmlr10.pdf link] \n  
+
+:{Uniﬁed Expectation Maximization} Date: Nov 21, 2013  \n Presenter: Shyam Upadhyay  \n Paper: [http://web.engr.illinois.edu/~rsamdan2/papers/UEM.pdf  link]  \n     
+
+:{No reading! Winter break.} Date: Nov 25 & 28, 2013   \n 
+
+
+- If you have any questions regarding this page [http://web.engr.illinois.edu/~khashab2/ email me]. 
+ 
+
+
+#~~~
+#{Don}
+#Research is what I'm doing when I don't know what I'm doing. 
+#~~~

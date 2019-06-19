@@ -1,0 +1,91 @@
+# jemdoc: addcss{bibtex.css}
+= Learning Algorithms -- or blend of computation and statistics  
+
+This page includes my sporadic, useful to read and keep around notes.  
+
+#[learn/prob.pdf Probability Theory] \n
+#[learn/tail.pdf Tail inequalities] \n
+. [learn/em.pdf  Expectation Maximization] \n
+#[learn/dis.pdf Discriminant Analysis] \n
+#. [learn/tree.pdf Tree models] \n
+#. [learn/log.pdf Logistic Regression] \n
+#. [learn/lin.pdf Linear Models] \n
+. [learn/genlin.pdf Generalized Linear Models] \n
+#[learn/lasso.pdf LASSO] \n
+#. [learn/nearest.pdf Nearest Neighbours] \n
+#[learn/multi.pdf Multi-class Classification] \n
+. [learn/graph.pdf Graphical Models] \n
+#.. [learn/hmm.pdf Hidden Markov Model] \n
+. [learn/topic.pdf Topic Modelling] \n
+. Approximate Inference 
+#[learn/undirgraph.pdf  Undirected Graphical Models] \n
+#[learn/belief-propagation.pdf Belief propagation] \n
+.. [learn/variational.pdf Variational Approximation] \n
+.. [learn/ep.pdf Expectation Propagation] \n
+.. [learn/sampling.pdf Sampling based learning] \n
+#[learn/crf.pdf Conditional Random Field] \n
+#. [learn/mix.pdf Mixture Models] \n
+#[learn/pcfg.pdf PCFG]-learning and inference \n
+. [learn/svm.pdf Support Vector Machines] \n
+. [learn/bnp.pdf Bayesian Non-parametrics]\n
+#[learn/gp.pdf Gaussian Processes] \n
+#[learn/dic.pdf Dictionary learning and sparse coding] \n
+#[learn/ufl.pdf Unsupervised feature learning] \n
+#[learn/discVsGen.pdf Discriminative vs. Generative] \n
+#[learn/smi.pdf Semi-Supervised Learning] \n
+#[learn/ccm.pdf Constrained Conditional Model] \n
+#[learn/clus.pdf Clustering] \n
+#[learn/spec-clus.pdf Spectral Clustering] \n
+#[learn/co-clus.pdf Co-Clustering] \n
+#[learn/graphStruct.pdf Graphical Structure Learning] \n
+#[learn/active.pdf Active Learning] \n
+#[learn/info.pdf Information theory] \n
+#[learn/parallel.pdf Parallel learning] \n
+#[learn/crowd.pdf Crowd-sourcing] \n
+#[learn/langMod.pdf Language Models and Representation] \n
+. [learn/postReg.pdf Posterior Regularization] \n
+#[learn/mln.pdf Markov Logic Network] \n
+#[learn/spectral.pdf Spectral Algorithms] \n
+#[learn/compressed.pdf Compressed Sensing] \n
+#[learn/group.pdf Group theoretic ideas] \n
+#[learn/optim.pdf Optimization techniques] \n
+#.. [learn/game.pdf Game Theoretic frontiers ] \n
+#[learn/algebra.pdf Algebra Cheat-sheet] \n
+. [learn/online.pdf Online Learning ] \n
+. [learn/genlin.pdf Boosting] \n
+. [learn/half.pdf Learning half-spaces] \n
+. [learn/svd.pdf Singular Value Decomposition ] \n
+. Learning Theory 
+.. [learn/learningTheory.pdf Introduction to Learning Theory and PAC] \n
+#.. [learn/occam.pdf Occam's Razor: Compression and Learning] \n
+.. [learn/concentration.pdf Concentration Inequalities ] \n
+.. [learn/vc.pdf VC dimensions bounds ] \n
+.. [learn/rademacher.pdf Rademacher bounds ] \n
+.. [learn/hardness.pdf Hardness and Impossibility Results ] \n
+#.. [learn/rkhs.pdf Kernels] \n
+#.. [learn/fourier.pdf Fourier Transform for Learning ] \n
+#.. [learn/semi.pdf Semi-supervised Learning ] \n
+#.. [learn/active.pdf Active Learning ] \n
+#.. [learn/bandit.pdf Learning with limited feedback ] \n
+#.. [learn/rl_bounds.pdf Grantees on Reinforcement Learning ] \n
+#.. [learn/pac-bayes.pdf PAC-Bayes bounds] \n
+#. [learn/mlnlp.pdf Popular Computational Techniques in NLP] \n
+
+
+#- All in [learn/LearnAll.pdf one package] 
+
+
+In case you find any issues/typoes within notes, I would appreciate if you drop me a note. 
+
+
+#If you want to cite any of the above documents, use the following pattern:  
+#~~~
+#{}{}
+#@misc{allOfTheLearningAlgs,
+#author = "Daniel Khashabi",
+#title = "All of The Learning Algorithms",
+#year = 2013,
+#howpublished = "http://web.engr.illinois.edu/~khashab2/learn.html", 
+#url = {http://web.engr.illinois.edu/~khashab2/learn.html}
+#}
+#~~

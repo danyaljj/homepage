@@ -1,0 +1,36 @@
+# jemdoc: menu{MENU}{ac.html}
+= Hybrid Fuzzy-A* for mobile robots:
+
+In this project we combine Fuzzy modelling with A* search, for smooth robot planning. Unfortunately our reports are Persian, but the video below is pretty expressive of the output. To get more details, see out MATLAB codes. 
+
+== Docs
+- Persian: [http://web.engr.illinois.edu/~khashab2/files/2012_FuzzyAStar/2012_fuzzyAStar_rep.pdf \[PDF\]]
+#- English: [http://web.engr.illinois.edu/~khashab2/files/2012_FuzzyAStar//2012_fuzzyAStar_en.pdf  \[PDF\] ]
+- Presentation file: [http://web.engr.illinois.edu/~khashab2/files/2012_FuzzyAStar/2012_fuzzyAsStarMotion.pdf \[PPT-Persian\]]
+- YouTube video1: [https://www.youtube.com/watch?v=fEJWjCh5YeM \[VIDEO\] ] 
+- YouTube video2: [https://www.youtube.com/watch?v=rhx2JcbaCBU&feature=autoshare \[VIDEO\] ]
+
+== MATLAB simulator
+- A simple clean simulator for a mobile robot  [http://web.engr.illinois.edu/~khashab2/files/2012_FuzzyAStar/sim1.rar \[Download\] ]
+- Fuzzy A* implementation [http://web.engr.illinois.edu/~khashab2/files/2012_FuzzyAStar/sim5.rar \[Download\] ] 
+\n
+In each of the above MATLAB projects run 'test.m'. 
+
+
+*Note1:* If you used the above sources, please cite the above English document. 
+\n
+
+*Note2:* External package used in Fuzzy A-star code: A-star algorithm at MATHWORK file exchange [http://www.mathworks.fr/matlabcentral/fileexchange/26248-a-a-star-search-for-path-planning-tutorial \[LINK\]]
+ 
+
+== Some sample results:
+~~~
+{}{img_left}{http://web.engr.illinois.edu/~khashab2/files/2012_FuzzyAStar/11.JPG}{}{}{}{}
+~~~
+
+#includeraw{fuzzyAStar.htm}
+
+#~~~
+#{Don}
+#Research is what I'm doing when I don't know what I'm doing. 
+#~~~

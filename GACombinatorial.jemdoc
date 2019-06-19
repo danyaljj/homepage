@@ -1,0 +1,21 @@
+# jemdoc: menu{MENU}{ac.html}
+= Design and Optimizing Digital Combinational Circuits  
+
+== Download:
+- Project report for Digital Design Course(Persian): [http://web.engr.illinois.edu/~khashab2/files/2010_GeneticCombinationalCircuits/23.pdf \[PDF-Persian\]]  
+- Unfortunately our report is in Persian. But you can definitely get more details from the videos below, or if more interested, from our codes.
+- Codes of implementation: (Matlab v.2009a)
+-- [http://web.engr.illinois.edu/~khashab2/files/2010_GeneticCombinationalCircuits/ga_method1.rar  Method I] 
+-- [http://web.engr.illinois.edu/~khashab2/files/2010_GeneticCombinationalCircuits/design_and_optimizing_digital_combinational_circuits_using%20_genetic_algorithm_code_methodII.rar Method II] 
+- GUI designed by Qt4.6(C++):
+-- [http://web.engr.illinois.edu/~khashab2/files/2010_GeneticCombinationalCircuits/gui_1_7.rar Source]
+-- [http://web.engr.illinois.edu/~khashab2/files/2010_GeneticCombinationalCircuits/gui_1_7_release.rar Binary], tested on 7 and Vista. (Note: The GUI needs some .dll files to run) -- Link corrected on 10.20.2012
+- Demo 
+-- [https://www.youtube.com/watch?v=kt5oGHYTuSM Video 1]
+-- [https://www.youtube.com/watch?v=ilxfsqFCVF0 Video 2]
+
+
+#~~~
+#{Don}
+#Research is what I'm doing when I don't know what I'm doing. 
+#~~~

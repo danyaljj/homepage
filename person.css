@@ -1,0 +1,27 @@
+div#toptitle {
+	padding-top: 0.5em;
+	padding-bottom: 0em;
+	margin-bottom: 1em;
+}
+
+li {
+	margin-bottom: 0.3em;
+}
+
+#layout-content {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+img {
+	border: none;
+}
+
+
+div#layout-content {
+	width: 70%; 
+	margin: auto;
+	border: 3px solid #a9a9a9;
+	border-width: thin;
+	margin-top: 1cm;
+}

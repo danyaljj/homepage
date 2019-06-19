@@ -1,0 +1,38 @@
+= List of online codes and binaries for Constrained Clustering/Semi-Supervised Clustering
+
+Here we have gathered a list of available codes or binaries files. 
+
+. C1-SC: Constrained 1-Spectral Clustering
+.. Paper: S. S. Rangapuram, and M. Hein. "Constrained 1-spectral clustering." AISTATS. 2012.
+.. Code: [http://www.ml.uni-saarland.de/code/cosc/cosc.htm MATLAB] \n 
+. MWK-Means: Minkowski Weighted K-Means
+.. Paper: R. De Amorim, and B. Mirkin. "Minkowski metric, feature weighting and anomalous cluster initializing in K-Means clustering." Pattern Recognition, 2012. 
+.. Code: [http://www.dcs.bbk.ac.uk/~renato/WebFiles/MATLAB/SubWkMeans.m MATLAB] + [http://www.dcs.bbk.ac.uk/~renato/WebFiles/MATLAB/New_cmt.m And needs this].
+.. [http://renatocamorim.com/tag/clustering-algorithms/ More]  \n 
+. DistBoost: 
+.. Paper: T. Hertz, A. Bar-Hillel, and D. Weinshall. "Boosting margin based distance functions for clustering." ICML, 2004. 
+.. Code: [http://www.scharp.org/thertz/code.html MATLAB] \n 
+. CSP: 
+.. Paper: X. Wang, I. Davidson. Flexible constrained spectral clustering. In KDD 2010.
+.. Code: [https://github.com/gnaixgnaw/CSP MATLAB] \n 
+. CCSR: Constrained Clustering via Spectral Regularization
+.. Paper: Zh. Li, , J. Liu, and X. Tang. "Constrained clustering via spectral regularization.", CVPR 2009. 
+.. Code: [http://www.ee.columbia.edu/~zgli/codes/cvpr09_ccsr_v1.0.rar MATLAB] \n 
+. LCVQE: 
+.. Paper: D. Pelleg and D. Baras, "K-means with Large and Noisy Constraint Sets", ECML, 2007. 
+.. Code [https://www.dropbox.com/s/91engwvhkl2h86h/lcvqe.m?dl=0 MATLAB]
+(Thanks to Thiago Covões for sharing the code.) \n 
+. MPCKMeans: 
+.. Paper: M. Bilenko, S. Basu, and R. J. Mooney. "Integrating constraints and metric learning in semi-supervised clustering." ICML, 2004. 
+.. Code: [http://www.cs.utexas.edu/users/ml/risc/code/ Java] 
+.. Also I have written a [files/2015_constrained_clustering/MPCKMeans.rar MATLAB wrapper] to access the Java code.  \n 
+. CECM: 
+.. Paper: V. Antoine, B. Quost, M.-H. Masson, T. Denœux. "CECM: Adding pairwise constraints to evidential clustering." Fuzzy Systems, 2010.
+.. Code: [http://home.isima.fr/~antoine/doku.php?id=fr:code MATLAB] \n 
+. TVClust:
+.. Paper: Y. Liu. "Statistical modeling of heterogeneous data." PhD Dissertation, University of Illinois at Urbana-Champaign, 2013.
+.. Code: [https://www.dropbox.com/s/011i1xxshzoh6qc/tvclust.zip?dl=0 R (with MATLAB wrapper)] \n 
+. RDP-means: 
+.. Paper: D. Khashabi, J. Wieting, F. Liang, J. Y. Liu. "Clustering With Side Information: From a Probabilistic Model to a Deterministic Algorithm". 
+.. Code: [files/2015_constrained_clustering/rdp-means.zip MATLAB]
+.. Code containing some other methods as well: [https://github.com/danyaljj/constrained_clustering MATLAB]

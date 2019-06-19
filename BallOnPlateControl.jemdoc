@@ -1,0 +1,31 @@
+# jemdoc: menu{MENU}{personal.html}
+= Ball on Plate Control  
+
+~~~
+{}{img_left}{files/2011_LinearControl/1.png}{}{}{}{}
+Ball and Plate system(Image from [?]).
+~~~
+
+== Download
+- Report: [files/2011_LinearControl/16.pdf \[PDf\]]
+- Presentation file: [files/2011_LinearControl/16-1.pptx \[PPT-Persian\]]
+- The nonlinear simulation files can be found [files/2011_LinearControl/  here].
+- Here are two demos: 
+-- [https://www.youtube.com/watch?v=ofRRc8yktJ0 Video 1]
+-- [https://www.youtube.com/watch?v=HLUWNSu36ZI Video 2]
+
+== Some sample tracking results:
+~~~
+{}{img_left}{files/2011_LinearControl/trejactory.png}{}{}{}{}
+~~~
+
+~~~
+{}{img_left}{files/2011_LinearControl/trajectory_start2.png}{}{}{}{}
+~~~
+
+#includeraw{controlVideo1.htm}
+
+#~~~
+#{Don}
+#Research is what I'm doing when I don't know what I'm doing. 
+#~~~

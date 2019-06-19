@@ -1,0 +1,32 @@
+# jemdoc: menu{MENU}{acc.html}
+= QSmith  
+
+== Smith Chart Interactive Simulator
+
+This software is designed as a part of final project for the course "Electromagnetic waves and transmission lines" instructed by [http://www.aut.ac.ir/official/main.asp?uid=ghmoradi Dr.Gh.Moradi]. \n
+
+
+~~~
+{}{img_left}{http://web.engr.illinois.edu/~khashab2/files/2011_Qsmith/smith1.png}{}{}{}{}
+QSmith and Symbol.
+~~~
+
+~~~
+{}{img_left}{http://web.engr.illinois.edu/~khashab2/files/2011_Qsmith/smith3.png}{}{}{}{}
+
+~~~
+
+== Download 
+Source tested on Qt4.6.2 [http://web.engr.illinois.edu/~khashab2/files/2011_Qsmith/SmithChart3.rar \[RAR\]] 
+
+== Simple tutorial for using QSmith for problem solving 
+Download: [http://web.engr.illinois.edu/~khashab2/files/2011_Qsmith/18.pdf \[PDF\]]
+
+== References and sources 
+. Qt 2.4.6 C++ library: used for designing the GUI.
+. Some ideas are inspired from [http://www.fourier-series.com/rf-concepts/flash_programs/SmithChart4/ here].
+
+#~~~
+#{Don}
+#Research is what I'm doing when I don't know what I'm doing. 
+#~~~
