@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{ac.html}
+# jemdoc: 
 = Hybrid Fuzzy-A* for mobile robots:
 
 In this project we combine Fuzzy modelling with A* search, for smooth robot planning. Unfortunately our reports are Persian, but the video below is pretty expressive of the output. To get more details, see out MATLAB codes. 

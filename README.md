@@ -1,6 +1,6 @@
 # Homepage 
 
-Built with Jemdoc! 
+Powered by Jemdoc! 
 
 
 To re-generate all the pages: 

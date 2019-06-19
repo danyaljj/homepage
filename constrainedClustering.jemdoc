@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{ac.html}
+# jemdoc: 
 = List of online codes and binaries for Constrained Clustering/Semi-Supervised Clustering
 
 Here I have gathered a list of available codes or binaries files which I hope to be helpful for future works. Some of the algorithms have several implementations; so I am including all of them. If you have new code or I have missed your code please let me know!

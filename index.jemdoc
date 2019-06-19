@@ -1,9 +1,9 @@
-# jemdoc: addcss{person.css}, title{Daniel Khashabi} nofooter
+# jemdoc: menu{MENU}{acc.html}, title{Daniel Khashabi} nofooter
 
 # = Daniel Khashabi
 \n 
 ~~~
-{}{img_left}{profile.png}{alt text}{}{}{}
+{}{img_left}{profile.png}{alt text}{300}{}{}
 Daniel Khashabi ({{<span lang="ko" xml:lang="ko">}}دانیال خشابی{{</span>}}) \n
 Post-doctoral fellow \n
 Computer and Information Science  \n
@@ -11,7 +11,7 @@ University of Pennsylvania \n
 
 \n
 
-- *E-mail:* danielkh  \[AT]\ cis \[DOT\] upenn  \[DOT\]  edu
+- *E-mail:* danielkh  ¯\\_(ツ)_/¯ cis.upenn.edu
 # - {{<a href="https://twitter.com/DanielKhashabi?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>}}
 - [CV_daniel.pdf \[Resume\]] 
 - [https://scholar.google.com/citations?user=pK2kQvgAAAAJ&hl=en \[Google Scholar\]]
@@ -23,7 +23,7 @@ University of Pennsylvania \n
 
 ~~~
 \n 
-{{<font style='font-size: small;' color="gray">About the figure: A poor facial feature tracker on my own face, 2011.</font>}}
+# {{<font style='font-size: small;' color="gray">About the figure: A poor facial feature tracker on my own face, 2011.</font>}}
 
 
 == About
@@ -41,125 +41,143 @@ I do research on theoretical and empirical analysis of information, for learning
 #- Computer Vision
 # \n  
 
-== Publication
+{{<h2 id="publication">Publication</h2>}}
+
 *Disclaimer:* This material is presented to ensure timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ★ shows equal contribution! \n 
 ==== 
-#:{ [files/2019_thesis_defense/danielk_dissertation_2019.pdf  Reasoning-Driven Question-Answering for Natural Language Understanding]} PhD Thesis, University of Pennsylvania, 2019 \n 
-#[files/2019_thesis_defense/danielk_phd_defense_split.pdf Slides] \n 
 
-:{ [files/2019_perspectroscope/2019_perspectroscope_acl_demo.pdf PerspectroScope: A Window to the World of Diverse Perspectives]} Sihao Chen, Daniel Khashabi, Chris Callison-Burch, and Dan Roth \n Annual Meeting of the Association for Computational Linguistics (ACL) - Demos, 2019 \n 
-[https://www.youtube.com/watch?v=MXBTR1Sp3Bs Video], [https://github.com/CogComp/perspectroscope Related Code] \n
+ - *PerspectroScope: A Window to the World of Diverse Perspectives* \n 
+ 	Sihao Chen, Daniel Khashabi, Chris Callison-Burch, and Dan Roth \n 
+ 	ACL - Demos, 2019 \n 
+	[files/2019_perspectroscope/2019_perspectroscope_acl_demo.pdf Paper], [https://www.youtube.com/watch?v=MXBTR1Sp3Bs Video], [https://github.com/CogComp/perspectroscope Code] \n
 
-:{ [files/2019_perspectrum/2019_perspectrum_naacl.pdf 	Seeing Things from a Different Angle: Discovering Diverse Perspectives about Claims]} Sihao Chen, Daniel Khashabi, Wenpeng Yin, Chris Callison-Burch, and Dan Roth \n Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2019 \n 
-[https://cogcomp.org/perspectrum Dataset], [https://github.com/CogComp/perspectrum Related code], [files/2019_perspectrum/perspectrum-poster-naacl-2019.pdf Poster] \n
+ - *Seeing Things from a Different Angle: Discovering Diverse Perspectives about Claims* \n 
+ 	Sihao Chen, Daniel Khashabi, Wenpeng Yin, Chris Callison-Burch, and Dan Roth \n 
+ 	NAACL, 2019 \n 
+	[files/2019_perspectrum/2019_perspectrum_naacl.pdf Paper], [https://cogcomp.org/perspectrum Dataset], [https://github.com/CogComp/perspectrum Code], [files/2019_perspectrum/perspectrum-poster-naacl-2019.pdf Poster] \n
 
-:{ [https://arxiv.org/abs/1901.02522   On the Capabilities and Limitations of Reasoning for Natural Language Understanding]} Daniel Khashabi, Erfan Sadeqi Azer, Tushar Khot, Ashish Sabharwal and Dan Roth \n arXiv preprint, 2019 \n 
+ - *On the Capabilities and Limitations of Reasoning for Natural Language Understanding* \n 
+ 	Daniel Khashabi, Erfan Sadeqi Azer, Tushar Khot, Ashish Sabharwal and Dan Roth \n 
+ 	arXiv preprint, 2019 \n 
+ 	[https://arxiv.org/abs/1901.02522  Paper] 
 
-:{ [files/2018_zoe/2018_zero_zhot_typing.pdf   Zero-Shot Open Entity Typing as Type-Compatible Grounding]} Ben Zhou, Daniel Khashabi, Chen-Tse Tsai and Dan Roth \n Conference on Empirical Methods in Natural Language Processing (EMNLP), 2018 \n 
-[https://github.com/CogComp/zoe  Code], [files/2018_zoe/zoe-poster-vertical.pdf Poster] \n
+ -  *Zero-Shot Open Entity Typing as Type-Compatible Grounding* \n 
+ 	Ben Zhou, Daniel Khashabi, Chen-Tse Tsai and Dan Roth \n 
+ 	EMNLP, 2018 \n 
+	[files/2018_zoe/2018_zero_zhot_typing.pdf Paper], [https://github.com/CogComp/zoe Code], [files/2018_zoe/zoe-poster-vertical.pdf Poster] \n
 
-:{ [files/2018_multirc/2018_multirc_naacl.pdf Looking Beyond the Surface:A Challenge Set for Reading Comprehension over Multiple Sentences]} Daniel Khashabi, Snigdha Chaturvedi, Michael Roth, Shyam Upadhyay and Dan Roth \n Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2018 \n 
-[http://cogcomp.org/multirc/  Dataset], [files/2018_multirc/multirc-poster.pdf Poster] \n
+ - *Looking Beyond the Surface: A Challenge Set for Reading Comprehension over Multiple Sentences* \n
+   Daniel Khashabi, Snigdha Chaturvedi, Michael Roth, Shyam Upadhyay and Dan Roth \n 
+   NAACL, 2018 \n 
+   [files/2018_multirc/2018_multirc_naacl.pdf Paper], [http://cogcomp.org/multirc/  Dataset], [files/2018_multirc/multirc-poster.pdf Poster] \n
 
-:{ [files/2018_cogcompnlp/2018_lrec_cogcompnlp.pdf CogCompNLP: Your Swiss Army Knife for NLP]} Daniel Khashabi, Mark Sammons, Ben Zhou, Tom Redman, Christos Christodoulopoulos, Vivek Srikumar, Nicholas Rizzolo, Lev Ratinov, Guanheng Luo, Quang Do, Chen-Tse Tsai, Subhro Roy, Stephen Mayhew, Zhili Feng, John Wieting, Xiaodong Yu, Yangqiu Song, Shashank Gupta, Shyam Upadhyay, Naveen Arivazhagan, Qiang Ning, Shaoshi Ling, Dan Roth \n International Conference on Language Resources and Evaluation (LREC), 2018 \n
-[https://github.com/CogComp/cogcomp-nlp  Code on github], Poster: [files/2018_cogcompnlp/cogcomp-nlp-poster.pdf PDF] [files/2018_cogcompnlp/cogcomp-nlp-poster.pptx PPTX] \n
+ - *CogCompNLP: Your Swiss Army Knife for NLP* \n 
+ 	Daniel Khashabi, Mark Sammons, Ben Zhou, Tom Redman, Christos Christodoulopoulos, Vivek Srikumar, Nicholas Rizzolo, Lev Ratinov, Guanheng Luo, Quang Do, Chen-Tse Tsai, Subhro Roy, Stephen Mayhew, Zhili Feng, John Wieting, Xiaodong Yu, Yangqiu Song, Shashank Gupta, Shyam Upadhyay, Naveen Arivazhagan, Qiang Ning, Shaoshi Ling, Dan Roth \n 
+ 	LREC, 2018 \n
+ 	[files/2018_cogcompnlp/2018_lrec_cogcompnlp.pdf Paper], [https://github.com/CogComp/cogcomp-nlp  Code], [files/2018_cogcompnlp/cogcomp-nlp-poster.pdf Poster]\n
 
-:{ [files/2018_semanticilp/2018_aaai_semanticilp.pdf Question Answering as Global Reasoning over Semantic Abstractions]} Daniel Khashabi, Tushar Khot, Ashish Sabharwal, and Dan Roth \n The Conference on Artificial Intelligence (AAAI), 2018 \n
-[https://github.com/allenai/semanticilp  Code on github], [files/2018_semanticilp/AAAI-18-public.pdf Slides(AAAI): PDF], [https://docs.google.com/presentation/d/1FGT1sfV3-nVjR-zUf5ujjn4eNA2j1BTcSdQdcvnmkJg/edit?usp=sharing Slides(AAAI): Google Drive] \n
+ - *Question Answering as Global Reasoning over Semantic Abstractions* \n
+   Daniel Khashabi, Tushar Khot, Ashish Sabharwal and Dan Roth \n 
+   AAAI, 2018 \n
+   [files/2018_semanticilp/2018_aaai_semanticilp.pdf Paper], [https://github.com/allenai/semanticilp  Code], [files/2018_semanticilp/AAAI-18-public.pdf Slides-1], [https://docs.google.com/presentation/d/1FGT1sfV3-nVjR-zUf5ujjn4eNA2j1BTcSdQdcvnmkJg/edit?usp=sharing Slides-2] \n
 
-:{ [files/2017_saul_relational/2017_saul_relational_learning_starai.pdf  Relational Learning and Feature Extraction by Querying over Heterogeneous Information Networks ]} Parisa Kordjamshidi, Sameer Singh, Daniel Khashabi, Christos Christodoulopoulos, Mark Summons, Saurabh Sinha, and Dan Roth \n Seventh International Workshop on Statistical Relational AI (StarAI), 2017 \n
-[https://github.com/CogComp/saul  Code on github], [files/2017_saul_relational/StarAI_2017_PosterF.pdf  Poster] \n
+ - *Relational Learning and Feature Extraction by Querying over Heterogeneous Information Networks* \n
+  Parisa Kordjamshidi, Sameer Singh, Daniel Khashabi, Christos Christodoulopoulos, Mark Summons, Saurabh Sinha, and Dan Roth \n 
+  Seventh International Workshop on Statistical Relational AI (StarAI), 2017 \n
+ [files/2017_saul_relational/2017_saul_relational_learning_starai.pdf Paper], [https://github.com/CogComp/saul  Code], [files/2017_saul_relational/StarAI_2017_PosterF.pdf  Poster] \n
 
-:{ [files/2017_essential/2017_conll_essential_terms.pdf  Learning What is Essential in Questions ]} Daniel Khashabi, Tushar Khot, Ashish Sabharwal, and Dan Roth \n The SIGNLL Conference on Computational Natural Language Learning (CoNLL), 2017 \n
-[https://github.com/allenai/essential-terms  Code on github], [files/2017_essential/2017_essential-terms_conll_poster4.pdf Poster], [files/2017_essential/poster-SPOTLIGHT-essential-terms_conll2017.pdf Spotlight]  \n 
+ - *Learning What is Essential in Questions* \n 
+ 	Daniel Khashabi, Tushar Khot, Ashish Sabharwal and Dan Roth \n 
+ 	CoNLL, 2017 \n
+ [files/2017_essential/2017_conll_essential_terms.pdf Paper], [https://github.com/allenai/essential-terms  Code], [files/2017_essential/2017_essential-terms_conll_poster4.pdf Poster], [files/2017_essential/poster-SPOTLIGHT-essential-terms_conll2017.pdf Spotlight]  \n 
 
-:{ [files/2016_saul/2016_saul_coling.pdf  Better call Saul: Flexible Programming for Learning and Inference in NLP ]} Parisa Kordjamshidi, Daniel Khashabi, Christos Christodoulopoulos, Bhargav Mangipudi, Sameer Singh and Dan Roth \n International Conference on Computational Linguistics (COLING), 2016 \n  
-[files/2016_saul/coling16-talk.pdf Slides], [https://github.com/IllinoisCogComp/saul Code on github]
+ - *Better call Saul: Flexible Programming for Learning and Inference in NLP* \n 
+ 	Parisa Kordjamshidi, Daniel Khashabi, Christos Christodoulopoulos, Bhargav Mangipudi, Sameer Singh and Dan Roth \n 
+ 	COLING, 2016 \n  
+ 	[files/2016_saul/2016_saul_coling.pdf Paper], [files/2016_saul/coling16-talk.pdf Slides], [https://github.com/IllinoisCogComp/saul Code]
 
-#:{ [https://arxiv.org/abs/1605.06201  Adversarial Delays in Online Strongly-Convex Optimization  ]} Daniel Khashabi, Kent Quanrud and Amirhossein Taghvaei \n arXiv preprint, 2016 \n  
-
-:{ [files/2016_tableilp/2016_tableilp_ijcai.pdf Question Answering via Integer Programming over Semi-Structured Knowledge  ]} 	Daniel Khashabi, Tushar Khot, Ashish Sabharwal, Peter Clark, Oren Etzioni and Dan Roth  \n International Joint Conference on Artificial Intelligence (IJCAI), 2016 \n 
-[https://github.com/allenai/tableilp  Code for demonstration], [https://www.youtube.com/watch?v=7NS53icQRrs&feature=youtu.be  Demo], [https://www.youtube.com/watch?v=HcPCURc59Vw UW talk], [files/2016_tableilp/2016_ijcai_tableilp.pptx IJCAI talk], [files/2016_tableilp/2016_ijcai_tableilp_poster.pptx  Poster]
+ - *Question Answering via Integer Programming over Semi-Structured Knowledge* \n 
+ 	Daniel Khashabi, Tushar Khot, Ashish Sabharwal, Peter Clark, Oren Etzioni and Dan Roth \n 
+ 	IJCAI, 2016 \n 
+	[files/2016_tableilp/2016_tableilp_ijcai.pdf Paper], [https://github.com/allenai/tableilp Code], [https://www.youtube.com/watch?v=7NS53icQRrs&feature=youtu.be  Demo], [https://www.youtube.com/watch?v=HcPCURc59Vw UW talk], [files/2016_tableilp/2016_ijcai_tableilp.pptx IJCAI talk], [files/2016_tableilp/2016_ijcai_tableilp_poster.pptx  Poster]
  
-:{ [files/2016_edison/2016_edison_lrec.pdf  EDISON: Feature Extraction for NLP, Simplified  ]} Mark Sammons, Christos Christodoulopoulos, Parisa Kordjamshidi, Daniel Khashabi, Vivek Srikumar, Paul Vijayakumar, Mazin Bokhari, Xinbo Wu, Dan Roth  \n 
-International Conference on Language Resources and Evaluation (LREC), 2016 
-\n 
-[files/2016_edison/edison_poster.pdf Poster]
-\n 
+ - *EDISON: Feature Extraction for NLP, Simplified* \n 
+ 	Mark Sammons, Christos Christodoulopoulos, Parisa Kordjamshidi, Daniel Khashabi, Vivek Srikumar, Paul Vijayakumar, Mazin Bokhari, Xinbo Wu, Dan Roth \n 
+	LREC, 2016 \n 
+	[files/2016_edison/2016_edison_lrec.pdf Paper], [files/2016_edison/edison_poster.pdf Poster]\n 
 
-:{ [files/2015_aristo/2015_aristo_aaai-2016.pdf  Combining Retrieval, Statistics, and Inference to Answer Elementary Science Questions]} Peter Clark, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Turney, Daniel Khashabi \n 
-The Conference on Artificial Intelligence (AAAI), 2016 
-\n 
+ - *Combining Retrieval, Statistics, and Inference to Answer Elementary Science Questions* \n 
+ 	Peter Clark, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Turney, Daniel Khashabi \n 
+	AAAI, 2016 \n 
+	[files/2015_aristo/2015_aristo_aaai-2016.pdf Paper]
 
-:{ [files/2015_delayed_online_learning/2015_delayed_learning.pdf  Online Learning with Adversarial Delays] } Kent Quanrud, Daniel Khashabi \n 
-Advances in Neural Information Processing Systems (NourIPS), 2015 \n 
-[files/2015_delayed_online_learning/delayed-learning-poster-2.pdf Poster]
-\n 
+- *Online Learning with Adversarial Delays* \n 
+	Kent Quanrud, Daniel Khashabi \n 
+	NourIPS, 2015 \n 
+	[files/2015_delayed_online_learning/2015_delayed_learning.pdf Paper], [files/2015_delayed_online_learning/delayed-learning-poster-2.pdf Poster]\n 
 
-:{ [http://arxiv.org/abs/1508.06235   Clustering With Side Information: From a Probabilistic Model to a Deterministic Algorithm] } Daniel Khashabi★, John Wieting★, Jeffrey Yufei Liu★, Feng Liang★ \n arXiv preprint   \n 
-Relevant: [files/2015_constrained_clustering/constrainedClustering.html A list of constrained clustering algorithms]
-\n 
+ -  *Clustering With Side Information: From a Probabilistic Model to a Deterministic Algorithm*  \n 
+ 	Daniel Khashabi★, John Wieting★, Jeffrey Yufei Liu★, Feng Liang★ \n 
+ 	arXiv preprint, 2015   \n 
+ [http://arxiv.org/abs/1508.06235 Paper], Relevant: [files/2015_constrained_clustering/constrainedClustering.html A list of constrained clustering algorithms] \n 
 
-:{ [files/2014_2015_profiler/profiler_ijcai.pdf  Illinois-Profiler: Knowledge Schemas at Scale] } Zhiye Fei, Daniel Khashabi, Haoruo Peng, Hao Wu and Dan Roth \n IJCAI 2015 Workshop on Cognitive Knowledge Acquisition and Applications (Cognitum 2015) \n 
-Slides: [files/2014_2015_profiler/2015_ijcai_profiler.pptx PPTX] [files/2014_2015_profiler/2015_ijcai_profiler.pdf PDF], [files/2014_2015_profiler/profiler_poster.pdf Poster]
-\n 
+ - *Illinois-Profiler: Knowledge Schemas at Scale* \n 
+ 	Zhiye Fei, Daniel Khashabi, Haoruo Peng, Hao Wu and Dan Roth \n 
+ 	IJCAI Workshop on Cognitive Knowledge Acquisition and Applications (Cognitum 2015) \n 
+	[files/2014_2015_profiler/profiler_ijcai.pdf  Paper], [files/2014_2015_profiler/2015_ijcai_profiler.pdf Slides], [files/2014_2015_profiler/profiler_poster.pdf Poster] \n 
 
+ -  *Solving Hard Co-reference Problems*  \n
+ 	Haoruo Peng★, Daniel Khashabi★ and Dan Roth \n 
+ 	NAACL 2015 \n 
+	[files/2015_Winograd_naacl/NAACL2015.pdf Paper], [files/2015_Winograd_naacl/DAIS-Seminar-Sildes.pdf Slides], [files/2015_Winograd_naacl/2015_hard_coref_poster_may.pdf Poster] \n 
 
-:{ [files/2015_Winograd_naacl/NAACL2015.pdf  Solving Hard Co-reference Problems] } Haoruo Peng★, Daniel Khashabi★ and Dan Roth \n Conference of the North American Chapter of the Association for Computational Linguistics – Human Language Technologies (NAACL HLT 2015) \n 
-[http://cogcomp.org/page/publication_view/762 Dataset], [http://cogcomp.org/page/software/ Software], [http://cogcomp.org/page/demo_view/Coref Demo], Slides: [files/2015_Winograd_naacl/DAIS-Seminar-Sildes.pdf PDF] [files/2015_Winograd_naacl/DAIS-Seminar-Sildes.pptx PPTX], [files/2015_Winograd_naacl/2015_hard_coref_poster_may.pdf Poster]
-\n 
+ - *Joint Demosaicing and Denoising via Learned Non-parametric Random Fields* \n 
+ 	Daniel Khashabi, Sebastian Nowozin, Jeremy Jancsary, Andrew W. Fitzgibbon \n
+ 	IEEE Transaction on Image Processing (TIP), 2014. \n 
+ 	[files/2013_2014_demosaicing/2014_RTF_demosaicing.pdf Paper], [http://dx.doi.org/10.1109/TIP.2014.2359774 Publisher link], Presentation file: [files/2013_2014_demosaicing/2013_RTF_demosaicing_1.pdf PDF] [files/2013_2014_demosaicing/2013_RTF_demosaicing_1.pptx PPT], Public data release: [http://research.microsoft.com/en-us/um/cambridge/projects/msrdemosaic/ Link], Relevant: [files/2013_2014_demosaicing/demosaicing.html A list of demosaicing code available online] \n 
 
-# :{[files/2014_Semantics_MCTest/2014_mctest_experiments.pdf Flow of Semantics in Narratives] } Daniel Khashabi, Chris J.C. Burges, Erin Renshaw, Andrzej Pastusiak, Tech Report, August 2014. \n 
-# Poster: [files/2014_Semantics_MCTest/2014_poster_1_revised.pdf PDF], [files/2014_Semantics_MCTest/2014_poster_1_revised.pptx PPT]
-#  \n 
+ - *Adaptive Tiled Neural Networks* \n 
+ 	Mohammad Nokhbeh-Zaeem, Daniel Khashabi, Heidar-Ali Talebi, Shiva Navabi and Faramarz Jabbarvaziri \n 
+ 	in IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2011 \n 
+ 	[files/2011_ATNN/06084059.pdf Paper], [files/2011_ATNN/ATNN-demo.zip Code] \n 
 
+ - *Haar wavelet for function approximation and solving ordinary differential equations*  \n 
+ 	Sayed Mohsen Moosavi Dezfooli and Daniel Khashabi \n 
+ 	in 13th Iranian Student Conference on Electrical and Computer Engieering, 2010 (In Persian) \n
+	[files/2010_Wavelet/26.pdf Paper]
 
-:{[files/2013_2014_demosaicing/2014_RTF_demosaicing.pdf Joint Demosaicing and Denoising via Learned Non-parametric Random Fields] } Daniel Khashabi, Sebastian Nowozin, Jeremy Jancsary, Andrew W. Fitzgibbon, IEEE Transaction on Image Processing (TIP), 2014. \n 
-[http://dx.doi.org/10.1109/TIP.2014.2359774 Publisher link], Presentation file: [files/2013_2014_demosaicing/2013_RTF_demosaicing_1.pdf PDF] [files/2013_2014_demosaicing/2013_RTF_demosaicing_1.pptx PPT], Public data release: [http://research.microsoft.com/en-us/um/cambridge/projects/msrdemosaic/ Link], Relevant: [files/2013_2014_demosaicing/demosaicing.html A list of demosaicing code available online] 
- \n 
+ - *Design and Optimizing Digital Combinational Logic Circuits Using Genetic Algorithm* \n 
+ 	Sayed Mohsen Moosavi Dezfooli and Daniel Khashabi \n 
+ 	in 13th Iranian Student Conference on Electrical and Computer Engieering, 2010 (in Persian), Best Paper Award! \n
+	[files/2010_GeneticCombinationalCircuits/23.pdf Paper], [GACombinatorial.html  Source and demo] \n 
 
-# :{[files/2013_RNN.pdf On Recursive Neural Networks for Relation Extraction and Entity Recognition] } Daniel Khashabi \n Computer Science Research and Tech Reports, May 2013.
-# \n 
-
-#:{ Heteroscedastic Relevance Vector Machine } Daniel Khashabi and Feng Liang \n  [http://arxiv.org/abs/1301.2015 Preliminary version on arXiv.org] 
-#\n 
-
-:{[files/2012_BSC_Thesis_main.pdf Analysis and Implementation of Bayesian Methods for Modelling Correlated Multioutput Information (Multitask Learning)]}   Daniel Khashabi, \n BSc Thesis, 2012 (In Persian) 
-\n
-
-# :{[files/2012_net.pdf More on Adaptive Tiled Neural Networks]} Mohammad Nokhbeh-Zaeem, Daniel Khashabi and Heidar-Ali Talebi \n Technical Report, 2012 
-# \n
-
-:{[files/2011_ATNN/06084059.pdf Adaptive Tiled Neural Networks]} M. Nokhbeh-Zaeem, D. Khashabi, H. Talebi, S. Navabi and F. Jabbarvaziri, \n in IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2011 \n [http://mehr.sharif.ir/~nokhbehzaeem_m/atnn/ Code] or [files/2011_ATNN/ATNN-demo.zip Code] 
-\n 
-
-:{[files/2010_Wavelet/26.pdf Haar wavelet for function approximation and solving ordinary differential equations]} Sayed Mohsen Moosavi Dezfooli and Daniel Khashabi \n in 13th Iranian Student Conference on Electrical and Computer Engieering(ISCEE2010), 2010 (In Persian)
-\n
-
-:{[files/2010_GeneticCombinationalCircuits/23.pdf Design and Optimizing Digital Combinational Logic Circuits Using Genetic Algorithm]} Sayed Mohsen Moosavi Dezfooli and Daniel Khashabi \n in 13th Iranian Student Conference on Electrical and Computer Engieering(ISCEE2010), 2010 (In Persian), Best Paper Award!
-\n
-[GACombinatorial.html  Source and demo]
-\n 
-
-:{[http://cpp.aut.ac.ir/ C\+\+ Programming and Numerical Methods]} D. Khashabi, M. Motamedi, S. Navabi and B. Taheri \n 2009 (In Persian)
-\n
-
-# :{[files/Robocup/20.pdf Nemesis Team Description]} M. Norouzitallab, M. Korjani, S. Salehizadeh, A. Pourshoghi, D. Khashabi, A. Razaghpanah, P. Kaviani and M. Vosoughpour \n 2009.
-#  #includeraw{bib.html}
-
+ - *C\+\+ Programming and Numerical Methods* \n 
+   Daniel Khashabi, Mohammad Motamedi, Shiva Navabi and Bahram Taheri \n 
+   2009 (in Persian.) \n
+   [http://cpp.aut.ac.ir/ Website]
 
 == Patents
 
-:{[files/2013_2014_demosaicing/US9344690.pdf Image demosaicing] } Nowozin RS, Khashabi D, Jancsary JM, Lindbloom BJ, Fitzgibbon AW, Microsoft Technology Licensing LLC, United States patent US 9,344,690. 2016 May 17. 
-\n 
+- *Image demosaicing* \n  
+  Sebastian Nowozin, Daniel Khashabi, Jeremy Jancsary, Bruce Lindbloom, Andrew Fitzgibbon, Microsoft Technology Licensing LLC \n 
+  United States patent US 9,344,690. 2016 May 17. \n 
+  [files/2013_2014_demosaicing/US9344690.pdf PDF]
 
+== Theses
+ - *Reasoning-Driven Question-Answering for Natural Language Understanding* \n 
+ PhD Thesis, University of Pennsylvania, 2019 \n 
+[files/2019_thesis_defense/danielk_dissertation_2019.pdf PDF], [files/2019_thesis_defense/danielk_phd_defense_split.pdf Slides] \n 
+
+ -  *Analysis and Implementation of Bayesian Methods to Model Correlated Information (Multitask Learning)* \n 
+  BSc Thesis, Tehran Polytechnic, 2012 (in Persian.) \n 
+  [files/2012_BSC_Thesis_main.pdf PDF] \n
 
 
 #== The reading group   
 #- [reading.html WEBPAGE] 
 
-== Select Talks
+{{<h2 id="talks">Select Talks</h2>}}
 - Carnegie Mellon University, [files/2019_talk_indirect_supervision/danielkh_job_talk_small_supervision_split.pdf Natural Language Understanding with Indirect Supervision], 2019. 
 - New York University, NLP Seminar, [https://docs.google.com/presentation/d/1KZxE0_LANeRYaShGP2cjvbRTaR2V7F8N36xQ8004r2o/edit?usp=sharing  Reasoning-Driven Question Answering], 2018. 
 - Stanford University, NLP Seminar, [https://docs.google.com/presentation/d/11QnDUYXB9q06HIyZxmHcb1BrwcdStjjHPNOC3AnlTsc/edit?usp=sharing Reasoning-Driven Question Answering], 2018. 
@@ -168,8 +186,7 @@ Global Reasoning over Semantic Abstractions], 2018.
 - Microsoft Research, Cambridge (UK), [files/2013_2014_demosaicing/2013_RTF_demosaicing_1.pptx Pattern-independent Demosaicing], 2013.
 - Tarbiat Modares University, [files/2010_Wavelet/26-1.ppt Haar wavelet for function approximation and solving ordinary differential equations], 2010.
 
-
-== Teaching
+{{<h2 id="teaching">Teaching</h2>}}
 - Guest Lecturer: CS446 (Machine Learning) @ UPenn, Spring 2018. 
 - Guest Lecturer: CS446 (Machine Learning) @ UPenn, Fall 2018: [https://www.youtube.com/watch?v=9AbMmCrNeEQ Lecture 1] [https://www.youtube.com/watch?v=cznV5pRsv_A Lecture 2]
 - Guest Lecturer: CS446 (Machine Learning) @ UIUC, Spring 2016: [https://www.youtube.com/watch?v=oNOY2F2qcsk Lecture 1] 

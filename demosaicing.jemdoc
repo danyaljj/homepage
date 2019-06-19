@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{acc.html}
+# jemdoc: 
 = List of online demosaicing codes and binaries 
 
 Here I have gathered a list of available demosaicing codes or binaries files, which might be helpful for future works. Some of the algorithms have several implementations; so I am including all of them. If you have new online code for demosaicing or I have missed your code please let me know!
