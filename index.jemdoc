@@ -5,13 +5,13 @@
 ~~~
 {}{img_left}{profile.png}{alt text}{300}{}{}
 Daniel Khashabi ({{<span lang="ko" xml:lang="ko">}}دانیال خشابی{{</span>}}) \n
-Post-doctoral fellow \n
-Computer and Information Science  \n
-University of Pennsylvania \n
+Young Investigator \n
+Allen Institute for Artificial Intelligence  \n
+2157 N Northlake Way Suite 110, Seattle, WA 98103 \n
 
 \n
 
-- *E-mail:* danielkh  ¯\\_(ツ)_/¯ cis.upenn.edu
+- *E-mail:* danielk  ¯\\_(ツ)_/¯  allenai.org
 # - {{<a href="https://twitter.com/DanielKhashabi?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>}}
 - [CV_daniel.pdf \[Resume\]] 
 - [https://scholar.google.com/citations?user=pK2kQvgAAAAJ&hl=en \[Google Scholar\]]
@@ -27,25 +27,24 @@ University of Pennsylvania \n
 
 
 == About
-I am thrilled to have Prof. Dan Roth as my advisor. I was greatly fortunate to work with Prof. Hamid Sheikhzadeh as my undergraduate advisor.  \n
 
-I do research on theoretical and empirical analysis of information, for learning, inference and decision making. More specifically, I focus on /Artificial Intelligence, in the context of natural languages/. 
+I am thrilled to be working at [https://allenai.org AllenAI]. I do research on theoretical and empirical analysis of information, for learning, inference and decision making. More specifically, I focus on /Artificial Intelligence, in the context of natural languages/.  
 
-#; and 
+I was greatly fortunate to work with Prof. Dan Roth as my PhD advisor, and have Prof. Hamid Sheikhzadeh as my undergraduate advisor.  \n
+
+
 #it is broadly related to the blend of statistics and computation and other related fields. \n 
-#Here are some areas I am interested in: 
-#- Natural Language Processing  
-#- Artificial Intelligence
-#- Machine Learning 
-#- Optimization 
-#- Computer Vision
-# \n  
+
 
 {{<h2 id="publication">Publication</h2>}}
 
 *Disclaimer:* This material is presented to ensure timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ★ shows equal contribution! \n 
 ==== 
+ -  *“Going on a vacation” takes longer than “Going for a walk”: A Study of Temporal Commonsense Understanding* \n 
+  Ben Zhou, Daniel Khashabi, Qiang Ning and Dan Roth \n 
+  EMNLP, 2019 \n 
+  [files/2019_mctaco/2019_mctaco.pdf Paper] \n
 
  - *PerspectroScope: A Window to the World of Diverse Perspectives* \n 
  	Sihao Chen, Daniel Khashabi, Chris Callison-Burch, and Dan Roth \n 
@@ -55,7 +54,7 @@ I do research on theoretical and empirical analysis of information, for learning
  - *Seeing Things from a Different Angle: Discovering Diverse Perspectives about Claims* \n 
  	Sihao Chen, Daniel Khashabi, Wenpeng Yin, Chris Callison-Burch, and Dan Roth \n 
  	NAACL, 2019 \n 
-	[files/2019_perspectrum/2019_perspectrum_naacl.pdf Paper], [https://cogcomp.org/perspectrum Dataset], [https://github.com/CogComp/perspectrum Code], [files/2019_perspectrum/perspectrum-poster-naacl-2019.pdf Poster] \n
+	[files/2019_perspectrum/2019_perspectrum_naacl.pdf Paper], [https://cogcomp.org/perspectrum Dataset], [https://github.com/CogComp/perspectrum Code], [files/2019_perspectrum/perspectrum-poster-naacl-2019.pdf Poster], [https://www.youtube.com/watch?v=rOgdaLHIDgE&feature=youtu.be Video] \n
 
  - *On the Capabilities and Limitations of Reasoning for Natural Language Understanding* \n 
  	Daniel Khashabi, Erfan Sadeqi Azer, Tushar Khot, Ashish Sabharwal and Dan Roth \n 
@@ -171,7 +170,7 @@ I do research on theoretical and empirical analysis of information, for learning
 
  -  *Analysis and Implementation of Bayesian Methods to Model Correlated Information (Multitask Learning)* \n 
   BSc Thesis, Tehran Polytechnic, 2012 (in Persian.) \n 
-  [files/2012_BSC_Thesis_main.pdf PDF] \n
+  [files/2012_BSC_Thesis_main.pdf PDF], [files/2012_BSCdefense.pdf Slides] \n
 
 
 #== The reading group   
@@ -214,28 +213,3 @@ Global Reasoning over Semantic Abstractions], 2018.
 == Notes  
 -  [learn.html "Learning Algorithms--or blend of computation and statistics", a collection of notes] 
 
-
-# - Experiments on Recursive Neural Networks for Textual Entailment, by Tianxiao Zhang, [files/2014_may_tianxiao_poster_final.pdf PDF] (May, 2014). 
-# - Hybrid Fuzzy-A* planning, 2012, [fuzzyAStarMotion.html \[PAGE\]]
-# == Machine Learning (Tom Mitchell), in Persian ({{<span lang="ko" xml:lang="ko">}}یادگیری ماشین-محمد نخبه زعیم {{</span>}})
-
-#- [files/2013_crf.pptx   Introdcution to Conditional Random Fields and beyond], [files/2013_crf.pdf   PDF] (March, 2013). 
-#- [files/2013_IBP_all.pptx  Indian Buffet Process], [files/2013_IBP_all.pdf PDF], CS598 presentation (April, 2013).
-# - Simulation of perpendicular wave incidence at three-layered surface, 2012, ( [waveIncidence.html Project page and source] )
-# - Heuristics 2D Soccer Simulation Team Description Paper", M.Amoozgar, D.Khashabi, H.Moghadam, S.NajdMohtasham, M.Khaliji; Iranian students' soccer simulation competitions, 2007, Tehran, Iran. [files/Robocup/Hadaf06_TDP.pdf \[PDF-Persian\]]
-
-#- Workshop: [http://www.youtube.com/watch?v=lQoo_GJW474 "Apply; the AUT way...!"], [files/2012_ApplyTheAUTWAY/ Slides], Amirkabir University of Technology (May,2012). 
-#- Workshop: "Practical \LaTeXe  ", In collaboration with Dr.B. Samadi, Amirkabir University of Technology.(May, 2011). 
-#- Workshop: [files/2011_Latex_Presentation/30.pptx "Practical \LaTeXe "], Amirkabir University of Technology (Jan, 2011).  
-#- HMMs for speech recognition. [files/2012_HMMSpeechrecognition2.pdf \[pdf-Persian]]
-#- [files/2010_GeneticCombinationalCircuits/23-1.ppt "Design and Optimizing Digital Combinational Logic Circuits Using Genetic Algorithm"], Tarbiat Modares University (Sep-2010). 
-#- [files/Mis/2010_EvolutionaryOptimization_4.pptx "Introduction to Evolutionary Optimization"], Amirkabir University of Technology (Aug, 2010). 
-#- [files/Robocup/20-2.ppt "An introduction to RoboCup and Soccer Simulation 2D"], Amirkabir University of Technology (Dec, 2009).
-#- Workshop: "Introduction to Robotics: Robocup Soccer 2D Simulation",  Shahid Beheshti High School, Maragheh, Iran, Duration: 2 weeks (Nov-2006). 
-# - [files/2010_Wavelet/26-1.ppt "Haar wavelet for function approximation and solving ordinary differential equations"], Tarbiat Modares University (Sep-2010).  
-#- [files/2010_elec2_hspice/2010_elecII_SPICE.pdf Design and Simulation of multi-stage differential amplifiers Electronics II Design Project (HSPICE)] 
-#- [files/2011_elecIII_hspice/2011_electIII_4.pdf Design and simulation of a two stage differential amplifier in HSPICE], final project report for "electronics III" (Best Project)
-# - [files/2011_Qsmith/18.pdf QSmith; A Simple Tool for Designing Matched Transmission Lines] (2011) 
-#- QSmith : Qt-based smith-chart simulator, As a part of final project for "transmission lines" course, 2012, ( [QSmith.html Project page, documentation and sources] )
-# - B.Sc. thesis: [files/2012_BSCdefense.pdf  Analysis and Implementation of Bayesian Methods for Modelling Correlated Multioutput Information (Multitask Learning) ]. (June-2012).  
- 
