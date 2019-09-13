@@ -41,10 +41,15 @@ I was greatly fortunate to work with Prof. Dan Roth as my PhD advisor, and have 
 *Disclaimer:* This material is presented to ensure timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ★ shows equal contribution! \n 
 ==== 
+ -  *From ‘F’ to ‘A’ on the N.Y. Regents Science Exams: An Overview of the Aristo Project* \n 
+  	Peter Clark, Oren Etzioni, Daniel Khashabi, Tushar Khot, Bhavana Dalvi Mishra, Kyle Richardson, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord, Niket Tandon, Sumithra Bhakthavatsalam, Dirk Groeneveld, Michal Guerquin, Michael Schmitz \n 
+  	arXiv preprint, 2019 \n
+	[https://arxiv.org/abs/1909.01958 Paper] 
+
  -  *“Going on a vacation” takes longer than “Going for a walk”: A Study of Temporal Commonsense Understanding* \n 
-  Ben Zhou, Daniel Khashabi, Qiang Ning and Dan Roth \n 
-  EMNLP, 2019 \n 
-  [files/2019_mctaco/2019_mctaco.pdf Paper], [https://github.com/CogComp/MCTACO Dataset], [https://leaderboard.allenai.org/mctaco Leaderboard] \n
+	Ben Zhou, Daniel Khashabi, Qiang Ning and Dan Roth \n 
+  	EMNLP, 2019 \n 
+  	[files/2019_mctaco/2019_mctaco.pdf Paper], [https://github.com/CogComp/MCTACO Dataset], [https://leaderboard.allenai.org/mctaco Leaderboard] \n
 
  - *PerspectroScope: A Window to the World of Diverse Perspectives* \n 
  	Sihao Chen, Daniel Khashabi, Chris Callison-Burch, and Dan Roth \n 
