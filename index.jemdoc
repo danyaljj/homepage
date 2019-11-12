@@ -26,7 +26,7 @@ Allen Institute for Artificial Intelligence  \n
 # {{<font style='font-size: small;' color="gray">About the figure: A poor facial feature tracker on my own face, 2011.</font>}}
 
 
-== About
+{{<h2 id="about">About</h2>}}
 
 My research focuses on the computational foundations of /intelligent behavior/, through the lens of /natural language/. I mostly identify with /natural language processing/ (ACL, NAACL, EMNLP) and /artificial intelligence/ communities (AAAI, IJCAI) and, to some extent, with the /machine learning/ community.
 
@@ -37,7 +37,7 @@ I tend to worry a lot about the unintended consequences of technology in all are
 
 Outside the academic spaces, I am interested in writing for a wider audience, especially on issues at the intersection of policy + AI/tech, and [https://www.thedp.com/article/2019/05/graduation-iranian-immigrant-ban-executive-order-president-trump-daniel-khashabi-philadelphia-ivy-league-upenn beyond]. 
 
-I was a doctoral student at Computer and Information Sciences at the University of Pennsylvania (2017-2019) and at the University of Illinois, Urbana-Champaign (2012-2016), working with [https://www.cis.upenn.edu/~danroth/ Prof. Dan Roth]. I have a bachelor's degree from Amirkabir University of Technology, Tehran Polytechnic (2008-2012). I was greatly fortunate to work with [https://scholar.google.com/citations?user=tLX51p0AAAAJ&hl=en Prof. Hamid Sheikhzadeh] during my undergraduate studies.  
+I was a doctoral student at Computer and Information Sciences at the University of Pennsylvania (2017-2019) and at the University of Illinois, Urbana-Champaign (2012-2016), under [https://www.cis.upenn.edu/~danroth/ Prof. Dan Roth]. I have a bachelor's degree from Amirkabir University of Technology, Tehran Polytechnic (2008-2012). I was greatly fortunate to work with [https://scholar.google.com/citations?user=tLX51p0AAAAJ&hl=en Prof. Hamid Sheikhzadeh] during my undergraduate studies.  
  \n
 
 
@@ -46,10 +46,15 @@ I was a doctoral student at Computer and Information Sciences at the University 
 *Disclaimer:* This material is presented to ensure timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ★ shows equal contribution! \n 
 ==== 
- #-  *???* \n 
- # Erfan Sadeqi Azer, Daniel Khashabi, Ashish Sabharwal and Dan Roth \n 
- # arXiv preprint, 2019 \n 
- # [???  Paper], [https://github.com/allenai/HyBayes/  Software]
+# -  *Dataset Construction via Natural Perturbation Clusters* \n 
+#	Daniel Khashabi, Tushar Khot and Ashish Sabharwal \n 
+#	arXiv preprint, 2019 \n 
+#  	[???  Paper]
+
+ -  *Not All Claims are Created Equal: Choosing the Right Approach to Assess Your Hypotheses* \n 
+	Erfan Sadeqi Azer, Daniel Khashabi, Ashish Sabharwal and Dan Roth \n 
+	arXiv preprint, 2019 \n 
+	[https://arxiv.org/abs/1911.03850  Paper], [https://github.com/allenai/HyBayes/  Software]
 
  -  *From ‘F’ to ‘A’ on the N.Y. Regents Science Exams: An Overview of the Aristo Project* \n 
   	Peter Clark, Oren Etzioni, Daniel Khashabi, Tushar Khot, Bhavana Dalvi Mishra, Kyle Richardson, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord, Niket Tandon, Sumithra Bhakthavatsalam, Dirk Groeneveld, Michal Guerquin, Michael Schmitz \n 
@@ -59,7 +64,7 @@ I was a doctoral student at Computer and Information Sciences at the University 
  -  *“Going on a vacation” takes longer than “Going for a walk”: A Study of Temporal Commonsense Understanding* \n 
 	Ben Zhou, Daniel Khashabi, Qiang Ning and Dan Roth \n 
   	EMNLP, 2019 \n 
-  	[files/2019_mctaco/2019_mctaco.pdf Paper], [https://github.com/CogComp/MCTACO Dataset], [https://leaderboard.allenai.org/mctaco Leaderboard] \n
+  	[files/2019_mctaco/2019_mctaco.pdf Paper], [https://github.com/CogComp/MCTACO Dataset], [https://leaderboard.allenai.org/mctaco Leaderboard], [files/2019_mctaco/mctaco-slides-v3.pdf Slides] \n
 
  - *PerspectroScope: A Window to the World of Diverse Perspectives* \n 
  	Sihao Chen, Daniel Khashabi, Chris Callison-Burch, and Dan Roth \n 
@@ -143,7 +148,7 @@ I was a doctoral student at Computer and Information Sciences at the University 
 
  -  *Solving Hard Co-reference Problems*  \n
  	Haoruo Peng★, Daniel Khashabi★ and Dan Roth \n 
- 	NAACL 2015 \n 
+ 	NAACL, 2015 \n 
 	[files/2015_Winograd_naacl/NAACL2015.pdf Paper], [files/2015_Winograd_naacl/DAIS-Seminar-Sildes.pdf Slides], [files/2015_Winograd_naacl/2015_hard_coref_poster_may.pdf Poster] \n 
 
  - *Joint Demosaicing and Denoising via Learned Non-parametric Random Fields* \n 
@@ -156,20 +161,6 @@ I was a doctoral student at Computer and Information Sciences at the University 
  	in IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2011 \n 
  	[files/2011_ATNN/06084059.pdf Paper], [files/2011_ATNN/ATNN-demo.zip Code] \n 
 
- - *Haar wavelet for function approximation and solving ordinary differential equations*  \n 
- 	Sayed Mohsen Moosavi Dezfooli and Daniel Khashabi \n 
- 	in 13th Iranian Student Conference on Electrical and Computer Engieering, 2010 (In Persian) \n
-	[files/2010_Wavelet/26.pdf Paper]
-
- - *Design and Optimizing Digital Combinational Logic Circuits Using Genetic Algorithm* \n 
- 	Sayed Mohsen Moosavi Dezfooli and Daniel Khashabi \n 
- 	in 13th Iranian Student Conference on Electrical and Computer Engieering, 2010 (in Persian), Best Paper Award! \n
-	[files/2010_GeneticCombinationalCircuits/23.pdf Paper], [GACombinatorial.html  Source and demo] \n 
-
- - *C\+\+ Programming and Numerical Methods* \n 
-   Daniel Khashabi, Mohammad Motamedi, Shiva Navabi and Bahram Taheri \n 
-   2009 (in Persian.) \n
-   [http://cpp.aut.ac.ir/ Website]
 
 == Patents
 
@@ -220,10 +211,16 @@ Global Reasoning over Semantic Abstractions], 2018.
 - [files/2015_knowledge_representation/knowledge_representation_writeup.pdf Knowledge Representation: How far we have come?], [http://www.cis.upenn.edu/~danielkh/files/2015_knowledge_representation/2015_knowledge_representation2.pptx PPTX] [http://www.cis.upenn.edu/~danielkh/files/2015_knowledge_representation/2015_knowledge_representation2.pdf PDF] 2015 
 - Modelling and Control of Ball-on-Plate System, 2011, ( [BallOnPlateControl.html ProjectPage, documentation and sources])
 - [files/2011_RVM_Facial_Feature/2011_internship_report.pdf Facial Feature Tracking, Extraction and Reduction], 2011 
+- [files/2010_Wavelet/26.pdf Haar wavelet for function approximation and solving ordinary differential equations]
+- [files/2010_GeneticCombinationalCircuits/23.pdf Design and Optimizing Digital Combinational Logic Circuits Using Genetic Algorithm], [GACombinatorial.html  Source and demo]
+- [http://cpp.aut.ac.ir/ C\+\+ Programming and Numerical Methods], 2009 (in Persian.) \n
 - "Introduction to computers and programming using C\+\+", 2008. [files/2008_BLIF/bookBLIF.pdf \[English book by Alex Bielajew\]] [files/2008_BLIF/CppTutorialBLIF.pdf \[PDF of Persian translation\]]  
 - Generating Electricity with Speed Bumps, 9th Kharazmi festival, 2007, Tehran, Iran. [files/2006_EPSEF/25.pdf  PDF-PERSIAN]
 - Heuristics 2D Soccer Simulation Team Description Paper; Iranian students' soccer simulation competitions, 2007, Tehran, Iran. [files/Robocup/Hadaf06_TDP.pdf \[PDF-Persian\]]
--  [files/MLbook/ Machine Learning (Tom Mitchell), in Persian, translation by Mohammad Nokhbeh Zaeeem] ({{<span lang="ko" xml:lang="ko">}}یادگیری ماشین-محمد نخبه زعیم{{</span>}}) 
+- [files/MLbook/ Machine Learning (Tom Mitchell), in Persian, translation by Mohammad Nokhbeh Zaeeem] ({{<span lang="ko" xml:lang="ko">}}یادگیری ماشین-محمد نخبه زعیم{{</span>}}) 
+
+
+
 
 
 == Notes  
