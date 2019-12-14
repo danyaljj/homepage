@@ -16,9 +16,9 @@ Allen Institute for Artificial Intelligence  \n
 - [CV_daniel.pdf \[Resume\]] 
 - [https://scholar.google.com/citations?user=pK2kQvgAAAAJ&hl=en \[Google Scholar\]]
 - [https://www.semanticscholar.org/author/Daniel-Khashabi/1783281 \[Semantic Scholar\]]
-#- [files/2018_statements/danielk_research_statement.pdf \[Research Statement\]]
-#- [files/2018_statements/danielk_teaching_statement.pdf \[Teaching Statement\]]
-#- [files/2018_statements/danielk_diversity_statement.pdf \[Diversity Statement\]]
+- [files/2019_statements/danielk_research_statement.pdf \[Research Statement\]]
+- [files/2019_statements/danielk_teaching_statement.pdf \[Teaching Statement\]]
+- [files/2019_statements/danielk_diversity_statement.pdf \[Diversity Statement\]]
 
 
 ~~~
@@ -28,7 +28,7 @@ Allen Institute for Artificial Intelligence  \n
 
 {{<h2 id="about">About</h2>}}
 
-My research focuses on the computational foundations of /intelligent behavior/, through the lens of /natural language/. I mostly identify with /natural language processing/ (ACL, NAACL, EMNLP) and /artificial intelligence/ communities (AAAI, IJCAI) and, to some extent, with the /machine learning/ community.
+My research focuses on the computational foundations of /intelligent behavior/, through the lens of /natural language/. I mostly identify with /natural language processing/ (ACL, NAACL, EMNLP) and /artificial intelligence/ communities (AAAI, IJCAI) and, to some extent, with the /machine learning/ community (NourIPS, ICML).
 
 My goal is to explore the different ways in which we can develop and evaluate systems that understand and reason with (and about) natural language in different contexts.  
 [http://danielkhashabi.com/files/2019_thesis_defense/danielk_dissertation_2019.pdf My thesis] focused on different analyses related to construction of knowledge-aware language comprehension systems that can make effective use of background information from different sources. Parts of my work focused on the Science Exam challenges of the Aristo project ([http://danielkhashabi.com/files/2016_tableilp/2016_tableilp_ijcai.pdf IJCAI 16]). Just earlier this year, [https://arxiv.org/abs/1909.01958 Aristo reached its milestone] by achieving over 90% in Science 8th grade -- a milestone for AI and NLP. 
