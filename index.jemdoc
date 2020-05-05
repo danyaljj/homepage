@@ -49,17 +49,17 @@ I was a doctoral student at Computer and Information Sciences at the University 
  -  *UnifiedQA: Crossing Format Boundaries With a Single QA System* \n 
   with Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Clark, Hannaneh Hajishirzi \n 
     arXiv, 2020 \n 
-    [files/2020_unifiedqa/unifiedqa.pdf Paper], [https://github.com/allenai/unifiedqa Resources], [https://unifiedqa.apps.allenai.org/ Demo]
+    [https://arxiv.org/pdf/2005.00700.pdf Paper], [https://github.com/allenai/unifiedqa Resources], [https://unifiedqa.apps.allenai.org/ Demo]
 
  -  *Commonsense Knowledge Discovery from Linguistic Graphs* \n 
  	with Hongming Zhang, Yangqiu Song and Dan Roth \n 
   	IJCAI, 2020 \n 
-  	[files/2020_transomcs/TransOMCS_ijcai2020.pdf Paper], [https://github.com/HKUST-KnowComp/TransOMCS Data]
+  	[https://arxiv.org/abs/2005.00206 Paper], [https://github.com/HKUST-KnowComp/TransOMCS Data]
 
  -  *Natural Perturbation for Robust Question Answering* \n 
 	with Tushar Khot and Ashish Sabharwal \n 
 	arXiv, 2020 \n 
-  	[https://arxiv.org/abs/2004.04849  Paper], [https://github.com/allenai/natural-perturbations Data]
+  	[https://arxiv.org/abs/2004.04849 Paper], [https://github.com/allenai/natural-perturbations Data]
 
  -  *Evaluating NLP Models via Contrast Sets* \n 
 	with Matt Gardner and others \n 
@@ -96,7 +96,7 @@ I was a doctoral student at Computer and Information Sciences at the University 
  	NAACL, 2019 \n 
 	[files/2019_perspectrum/2019_perspectrum_naacl.pdf Paper], [https://cogcomp.org/perspectrum Dataset], [https://github.com/CogComp/perspectrum Code], [files/2019_perspectrum/perspectrum-poster-naacl-2019.pdf Poster], [https://www.youtube.com/watch?v=rOgdaLHIDgE&feature=youtu.be Video] \n
 
- - *On the Capabilities and Limitations of Reasoning for Natural Language Understanding* \n 
+ - *On the Possibilities and Limitations of Multi-hop Reasoning Under Linguistic Imperfections* \n 
  	with Erfan Sadeqi Azer, Tushar Khot, Ashish Sabharwal and Dan Roth \n 
  	arXiv, 2019 \n 
  	[https://arxiv.org/abs/1901.02522  Paper] 
