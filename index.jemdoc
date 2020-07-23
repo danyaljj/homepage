@@ -16,9 +16,9 @@ Allen Institute for Artificial Intelligence  \n
 - [CV_daniel.pdf \[Resume\]] 
 - [https://scholar.google.com/citations?user=pK2kQvgAAAAJ&hl=en \[Google Scholar\]]
 - [https://www.semanticscholar.org/author/Daniel-Khashabi/1783281 \[Semantic Scholar\]]
-- [files/2019_statements/danielk_research_statement.pdf \[Research Statement\]]
-- [files/2019_statements/danielk_teaching_statement.pdf \[Teaching Statement\]]
-- [files/2019_statements/danielk_diversity_statement.pdf \[Diversity Statement\]]
+#- [files/2019_statements/danielk_research_statement.pdf \[Research Statement\]]
+#- [files/2019_statements/danielk_teaching_statement.pdf \[Teaching Statement\]]
+#- [files/2019_statements/danielk_diversity_statement.pdf \[Diversity Statement\]]
 
 
 ~~~
@@ -51,11 +51,6 @@ I was a doctoral student at Computer and Information Sciences at the University 
     arXiv, 2020 \n 
     [https://arxiv.org/abs/2005.00700 Paper], [https://github.com/allenai/unifiedqa Resources], [https://unifiedqa.apps.allenai.org/ Demo], [files/2020_unifiedqa/unifiedqa_tau_talk_split.pdf Slides]
 
- -  *Commonsense Knowledge Discovery from Linguistic Graphs* \n 
- 	with Hongming Zhang, Yangqiu Song and Dan Roth \n 
-  	IJCAI, 2020 \n 
-  	[https://arxiv.org/abs/2005.00206 Paper], [https://github.com/HKUST-KnowComp/TransOMCS Data]
-
  -  *Natural Perturbation for Robust Question Answering* \n 
 	with Tushar Khot and Ashish Sabharwal \n 
 	arXiv, 2020 \n 
@@ -66,6 +61,16 @@ I was a doctoral student at Computer and Information Sciences at the University 
 	arXiv, 2020 \n 
   	[https://arxiv.org/abs/2004.02709 Paper], [https://allennlp.org/contrast-sets Data]
 
+-  *From ‘F’ to ‘A’ on the N.Y. Regents Science Exams: An Overview of the Aristo Project* \n 
+    with Peter Clark and others \n 
+    arXiv, 2019 \n
+  [https://arxiv.org/abs/1909.01958 Paper], Media coverage: [https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html NYTimes], [https://www.geekwire.com/2019/allen-institutes-aristo-ai-program-finally-passes-8th-grade-science-test/ GeekWire], [https://www.vox.com/future-perfect/2019/9/13/20863269/ai-aristo-science-test-allen-institute Vox], [https://www.forbes.com/sites/petergreene/2019/09/12/ai-pokes-another-hole-in-standardized-testing/\#121449601ac7   Forbes]
+
+ -  *Commonsense Knowledge Discovery from Linguistic Graphs* \n 
+  with Hongming Zhang, Yangqiu Song and Dan Roth \n 
+    IJCAI, 2020 \n 
+    [https://arxiv.org/abs/2005.00206 Paper], [https://github.com/HKUST-KnowComp/TransOMCS Data]
+
  -  *Temporal Common Sense Acquisition with Minimal Supervision* \n 
  	with Ben Zhou, Qiang Ning and Dan Roth \n 
   	ACL, 2020 \n 
@@ -75,11 +80,6 @@ I was a doctoral student at Computer and Information Sciences at the University 
 	with Erfan Sadeqi Azer, Ashish Sabharwal and Dan Roth \n 
 	ACL, 2020 \n 
 	[https://arxiv.org/abs/1911.03850  Paper], [https://github.com/allenai/HyBayes/  Software], [files/2020_hypothesis_assessment/hypothesis-assessment-split.pdf Slides], [files/2020_hypothesis_assessment/hypothesis-assessment-cogcomp-expanded.pdf Slides2], [files/2020_hypothesis_assessment/BayesianACL2020_short_ai2_format_split.pdf ACL slides]
-
- -  *From ‘F’ to ‘A’ on the N.Y. Regents Science Exams: An Overview of the Aristo Project* \n 
-  	with Peter Clark and others \n 
-  	arXiv, 2019 \n
-	[https://arxiv.org/abs/1909.01958 Paper], Media coverage: [https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html NYTimes], [https://www.geekwire.com/2019/allen-institutes-aristo-ai-program-finally-passes-8th-grade-science-test/ GeekWire], [https://www.vox.com/future-perfect/2019/9/13/20863269/ai-aristo-science-test-allen-institute Vox], [https://www.forbes.com/sites/petergreene/2019/09/12/ai-pokes-another-hole-in-standardized-testing/\#121449601ac7   Forbes]
 
  -  *“Going on a vacation” takes longer than “Going for a walk”: A Study of Temporal Commonsense Understanding* \n 
 	with Ben Zhou, Qiang Ning and Dan Roth \n 
