@@ -45,6 +45,11 @@ I was a doctoral student at Computer and Information Sciences at the University 
 
 *Disclaimer:* This material is presented to ensure timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ==== 
+ -  *Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models* \n 
+  with Tushar Khot and others \n 
+    arXiv, 2020 \n 
+    [https://arxiv.org/abs/2009.00751 Paper], [https://github.com/allenai/modularqa Resources], [https://modularqa.apps.allenai.org/ Demo]
+
 
  -  *UnifiedQA: Crossing Format Boundaries With a Single QA System* \n 
   with Sewon Min, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Clark, Hannaneh Hajishirzi \n 
