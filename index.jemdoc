@@ -50,21 +50,25 @@ I was a doctoral student at Computer and Information Sciences at the University 
     arXiv, 2020 \n 
     [https://arxiv.org/abs/2009.00751 Paper], [https://github.com/allenai/modularqa Resources], [https://modularqa-demo.apps.allenai.org/ Demo]
 
+ -  */UNQOVER/ing Stereotypical Biases via Underspecified Questions* \n 
+  with Tao Li and others \n 
+    EMNLP - Findings, 2020 \n 
+    [? Paper]
 
  -  *UnifiedQA: Crossing Format Boundaries With a Single QA System* \n 
   with Sewon Min, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Clark, Hannaneh Hajishirzi \n 
-    arXiv, 2020 \n 
+    EMNLP - Findings, 2020 \n 
     [https://arxiv.org/abs/2005.00700 Paper], [https://github.com/allenai/unifiedqa Resources], [https://unifiedqa.apps.allenai.org/ Demo], [files/2020_unifiedqa/unifiedqa_tau_talk_split.pdf Slides]
+
+ -  *Evaluating NLP Models via Contrast Sets* \n 
+  with Matt Gardner and others \n 
+  EMNLP - Findings, 2020 \n 
+    [https://arxiv.org/abs/2004.02709 Paper], [https://allennlp.org/contrast-sets Data]
 
  -  *Natural Perturbation for Robust Question Answering* \n 
 	with Tushar Khot and Ashish Sabharwal \n 
-	arXiv, 2020 \n 
+	EMNLP, 2020 \n 
   	[https://arxiv.org/abs/2004.04849 Paper], [https://github.com/allenai/natural-perturbations Data]
-
- -  *Evaluating NLP Models via Contrast Sets* \n 
-	with Matt Gardner and others \n 
-	arXiv, 2020 \n 
-  	[https://arxiv.org/abs/2004.02709 Paper], [https://allennlp.org/contrast-sets Data]
 
 -  *From ‘F’ to ‘A’ on the N.Y. Regents Science Exams: An Overview of the Aristo Project* \n 
     with Peter Clark and others \n 
