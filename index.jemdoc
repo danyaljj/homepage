@@ -50,7 +50,7 @@ I was a doctoral student at Computer and Information Sciences at the University 
     arXiv, 2020 \n 
     [https://arxiv.org/abs/2009.00751 Paper], [https://github.com/allenai/modularqa Resources], [https://modularqa-demo.apps.allenai.org/ Demo]
 
- -  */UNQOVER/ing Stereotypical Biases via Underspecified Questions* \n 
+ -  *UNQOVERing Stereotypical Biases via Underspecified Questions* \n 
   with Tao Li and others \n 
     EMNLP - Findings, 2020 \n 
     [? Paper]
@@ -60,12 +60,12 @@ I was a doctoral student at Computer and Information Sciences at the University 
     EMNLP - Findings, 2020 \n 
     [https://arxiv.org/abs/2005.00700 Paper], [https://github.com/allenai/unifiedqa Resources], [https://unifiedqa.apps.allenai.org/ Demo], [files/2020_unifiedqa/unifiedqa_tau_talk_split.pdf Slides]
 
- -  *Evaluating NLP Models via Contrast Sets* \n 
+ -  *Evaluating Models' Local Decision Boundaries via Contrast Sets* \n 
   with Matt Gardner and others \n 
   EMNLP - Findings, 2020 \n 
     [https://arxiv.org/abs/2004.02709 Paper], [https://allennlp.org/contrast-sets Data]
 
- -  *Natural Perturbation for Robust Question Answering* \n 
+ -  *More Bang for Your Buck: Natural Perturbation for Robust Question Answering* \n 
 	with Tushar Khot and Ashish Sabharwal \n 
 	EMNLP, 2020 \n 
   	[https://arxiv.org/abs/2004.04849 Paper], [https://github.com/allenai/natural-perturbations Data]
