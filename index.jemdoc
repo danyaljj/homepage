@@ -45,10 +45,25 @@ I was a doctoral student at Computer and Information Sciences at the University 
 
 *Disclaimer:* This material is presented to ensure timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ==== 
+ - *GENIE: Leaderboard for Human-in-the-Loop Evaluation of Text Generation* \n 
+  with Gabriel Stanovsky, Jonathan Bragg, Nick Lourie, Jungo Kasai and others \n 
+    arXiv, 2021 \n 
+    [? Paper], [https://genie.apps.allenai.org/ Website]
+
+ - *Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies* \n 
+  with Mor Geva and others \n 
+    TACL, 2021 \n 
+    [https://arxiv.org/abs/2101.02235 Paper], [https://allenai.org/data/strategyqa Dataset]
+
 -  *From ‘F’ to ‘A’ on the N.Y. Regents Science Exams: An Overview of the Aristo Project* \n 
     with Peter Clark and others \n 
     AI Magazine, 2021 \n
   [https://arxiv.org/abs/1909.01958 Paper], Media coverage: [https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html NYTimes], [https://www.geekwire.com/2019/allen-institutes-aristo-ai-program-finally-passes-8th-grade-science-test/ GeekWire], [https://www.vox.com/future-perfect/2019/9/13/20863269/ai-aristo-science-test-allen-institute Vox], [https://www.forbes.com/sites/petergreene/2019/09/12/ai-pokes-another-hole-in-standardized-testing/\#121449601ac7   Forbes]
+
+ - *ParsiNLU: A Suite of Language Understanding Challenges for Persian* \n 
+  with Arman Cohan, Siamak Shakeri and others \n 
+    arXiv, 2020 \n 
+    [https://arxiv.org/abs/2012.06154 Paper]
 
  -  *Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models* \n 
   with Tushar Khot and others \n 
