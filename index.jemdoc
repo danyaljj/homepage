@@ -28,14 +28,49 @@ Allen Institute for Artificial Intelligence  \n
 
 {{<h2 id="about">About</h2>}}
 
-My research focuses on the computational foundations of /intelligent behavior/, through the lens of /natural language/. I mostly identify with /natural language processing/ (ACL, NAACL, EMNLP) and /artificial intelligence/ communities (AAAI, IJCAI) and, to some extent, with the /machine learning/ community (NourIPS, ICML).
+My research focuses on the computational foundations of /intelligent behavior/, through the lens of /natural language/. 
+My goal is to explore the different ways in which we can develop and evaluate systems that understand and reason with (and about) natural language in different contexts. 
+I mostly identify with /natural language processing/ (ACL, NAACL, EMNLP) and /artificial intelligence/ communities (AAAI, IJCAI) and, to some extent, with the /machine learning/ community (NourIPS, ICML).
 
-My goal is to explore the different ways in which we can develop and evaluate systems that understand and reason with (and about) natural language in different contexts.  
-[http://danielkhashabi.com/files/2019_thesis_defense/danielk_dissertation_2019.pdf My thesis] focused on different analyses related to construction of knowledge-aware language comprehension systems that can make effective use of background information from different sources. Parts of my work focused on the Science Exam challenges of the Aristo project ([http://danielkhashabi.com/files/2016_tableilp/2016_tableilp_ijcai.pdf IJCAI 16]). Just earlier this year, [https://arxiv.org/abs/1909.01958 Aristo reached its milestone] by achieving over 90% in Science 8th grade -- a milestone for AI and NLP. 
+Here are several general themes I have pursued: 
 
-I tend to worry a lot about the unintended consequences of technology in all areas of our lives. These include, but are not limited to, algorithmic biases, echo chambers in digital spaces, and the contamination of information gateways. More recently, in an effort to mitigate the effect of echo-chambers, we explore ways to organize ideas about controversial issues in ways that allows people to see alternative views and help them have a more open mindset ([http://danielkhashabi.com/files/2019_perspectrum/2019_perspectrum_naacl.pdf NAACL 19]).  
+~~~
+{How can we build better and more useful models?}
+We need models that have better /generalization/ capabilities. AlphaGo may be the world champion at Go, but it doesn't know a damn about any other problem in the world! What can allow us to instill machines with better /generalizability/? 
 
-Outside the academic spaces, I am interested in writing for a wider audience, especially on issues at the intersection of policy + AI/tech, and [https://www.thedp.com/article/2019/05/graduation-iranian-immigrant-ban-executive-order-president-trump-daniel-khashabi-philadelphia-ivy-league-upenn beyond]. 
+AI systems should have the capacity to [http://danielkhashabi.com/files/2019_thesis_defense/danielk_dissertation_2019.pdf /reason/], in ways that are high-level and /not/ attached to individual tasks. During my PhD, I worked towards this vision by creating symbolic systems that effectively utilize the knowledge of their context to solve a given problem ([http://danielkhashabi.com/files/2016_tableilp/2016_tableilp_ijcai.pdf IJCAI 16], [https://arxiv.org/abs/1906.03672 AAAI 18]). More recently, I have pursued the /generalizability/ objective in terms of neural models that can solve a wider range of problems ([https://arxiv.org/abs/2005.00700 EMNLP 20]).
+
+One of the highlights of my research career was the collaboration with a team of brilliant researchers who had [https://www.semanticscholar.org/paper/Combining-Retrieval%2C-Statistics%2C-and-Inference-to-Clark-Etzioni/478b4a5123bd5fda98bb35e6317d7f3555fec97d an ambitious goal of building a machine capable of answering elementary school science questions]. 
+Just a few years ago, the Aristo project [https://arxiv.org/abs/1909.01958 reached its milestone] by achieving over 90% in Science 8th grade – [https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html a milestone for AI and NLP].
+~~~
+
+~~~
+{What are more meaningful and effective ways to evaluate the progress of AI?}
+We must actively rethink the evaluation of AI systems and  move the goalposts according to the latest developments. I persistently pursue this perspective in order to build more comprehensive challenges for our latest technology. 
+Instances of such vision are embodied in the design of our challenge datasets for language understanding ([https://www.aclweb.org/anthology/N18-1023/ NAACL 18], [https://arxiv.org/abs/1909.03065 EMNLP 19], [https://arxiv.org/abs/2101.02235 TACL 21]). 
+Along the same goal, we recently released [? GENIE🧞], a human evaluation platform to fasciliatet comprehensive evaluation of text generation tasks. 
+~~~
+  
+~~~
+{Are system doing what they are supposed to do?}
+The sad reality of our current AI technology is that our models, under the hood, often depend on shortcuts that are far from the human decision-making process. 
+Part of my research is dedicated to the ways in which we can bring out their unreliable correlations that could lead to catastrophic errors ([https://arxiv.org/abs/2004.02709 EMNLP 20]). 
+
+
+The tendency of our models to take advantage of problematic correlations could lead to algorithmic bias. No matter how small the implicit biases are in AI systems (say, a resume filtering system), in the long term they would contribute to inequitable outcomes particularly for the marginalized communities of society. 
+This is an enormous challenge which requires the participation of policy-makers, social scientists, educators, and so on. Likewise, we, AI scientists, should be diligent about addressing problematic aspects of the same technologies we want to sell ([https://arxiv.org/abs/2010.02428 EMNLP 20]).
+~~~
+
+~~~
+{How can AI benefit the common good?}
+Whether we like it or not, technology will play an increasing role in our daily lives. 
+I tend to worry about the unintended consequences of technology in all areas of our lives. 
+These include, but are not limited to, algorithmic biases, misinformation, echo chambers and growing social division. 
+
+As a believer in technology, I like to see applications of AI that address the potential damages of new technologies. An instance of such mindset was embodied in our project that explored ways to organize ideas about controversial issues in ways that allows people to see alternative views and help them see alternative views to a discussion ([http://danielkhashabi.com/files/2019_perspectrum/2019_perspectrum_naacl.pdf NAACL 19]).  
+~~~
+
+# Outside the academic spaces, I am interested in writing for a wider audience, especially on issues at the intersection of policy + AI/tech, and [https://www.thedp.com/article/2019/05/graduation-iranian-immigrant-ban-executive-order-president-trump-daniel-khashabi-philadelphia-ivy-league-upenn beyond]. 
 
 I was a doctoral student at Computer and Information Sciences at the University of Pennsylvania (2017-2019) and at the University of Illinois, Urbana-Champaign (2012-2016), under [https://www.cis.upenn.edu/~danroth/ Prof. Dan Roth]. I have a bachelor's degree from Amirkabir University of Technology, Tehran Polytechnic (2008-2012). I was greatly fortunate to work with [https://scholar.google.com/citations?user=tLX51p0AAAAJ&hl=en Prof. Hamid Sheikhzadeh] during my undergraduate studies.  
  \n
@@ -63,7 +98,7 @@ I was a doctoral student at Computer and Information Sciences at the University 
  - *ParsiNLU: A Suite of Language Understanding Challenges for Persian* \n 
   with Arman Cohan, Siamak Shakeri and others \n 
     arXiv, 2020 \n 
-    [https://arxiv.org/abs/2012.06154 Paper]
+    [https://arxiv.org/abs/2012.06154 Paper], [https://github.com/persiannlp/parsiglue/ Code & Data]
 
  -  *Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models* \n 
   with Tushar Khot and others \n 
