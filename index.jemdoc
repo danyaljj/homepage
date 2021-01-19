@@ -48,7 +48,7 @@ Just a few years ago, the Aristo project [https://arxiv.org/abs/1909.01958 reach
 {What are more meaningful and effective ways to evaluate the progress of AI?}
 We must actively rethink the evaluation of AI systems and  move the goalposts according to the latest developments. I persistently pursue this perspective in order to build more comprehensive challenges for our latest technology. 
 Instances of such vision are embodied in the design of our challenge datasets for language understanding ([https://www.aclweb.org/anthology/N18-1023/ NAACL 18], [https://arxiv.org/abs/1909.03065 EMNLP 19], [https://arxiv.org/abs/2101.02235 TACL 21]). 
-Along the same goal, we recently released [? GENIE🧞], a human evaluation platform to fasciliatet comprehensive evaluation of text generation tasks. 
+Along the same goal, we recently released [https://arxiv.org/abs/2101.06561 GENIE🧞], a human evaluation platform to fasciliatet comprehensive evaluation of text generation tasks. 
 ~~~
   
 ~~~
@@ -83,7 +83,7 @@ I was a doctoral student at Computer and Information Sciences at the University 
  - *GENIE: Leaderboard for Human-in-the-Loop Evaluation of Text Generation* \n 
   with Gabriel Stanovsky, Jonathan Bragg, Nick Lourie, Jungo Kasai and others \n 
     arXiv, 2021 \n 
-    [? Paper], [https://genie.apps.allenai.org/ Website]
+    [https://arxiv.org/abs/2101.06561 Paper], [https://genie.apps.allenai.org/ Website]
 
  - *Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies* \n 
   with Mor Geva and others \n 
