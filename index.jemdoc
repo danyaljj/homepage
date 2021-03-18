@@ -72,6 +72,11 @@ I was a doctoral student at Computer and Information Sciences at the University 
 
 *Disclaimer:* This material is presented to ensure timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ==== 
+ -  *Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models* \n 
+  with Tushar Khot and others \n 
+    NAACL-HLT, 2021 \n 
+    [https://arxiv.org/abs/2009.00751 Paper], [https://github.com/allenai/modularqa Resources], [https://modularqa-demo.apps.allenai.org/ Demo]
+    
  - *Think you have Solved Direct-Answer Question Answering? Try ARC-DA, the Direct-Answer AI2 Reasoning Challenge* \n 
   with Sumithra Bhakthavatsalam, Oyvind Tafjord, Peter Clark and others \n 
     arXiv, 2021 \n 
@@ -85,17 +90,12 @@ I was a doctoral student at Computer and Information Sciences at the University 
  - *Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies* \n 
   with Mor Geva and others \n 
     TACL, 2021 \n 
-    [https://arxiv.org/abs/2101.02235 Paper], [https://allenai.org/data/strategyqa Dataset], [https://leaderboard.allenai.org/strategyqa/submissions/public Leaderboard]
+    [https://arxiv.org/abs/2101.02235 Paper], [https://allenai.org/data/strategyqa Dataset], [https://leaderboard.allenai.org/strategyqa/submissions/public Leaderboard], [https://docs.google.com/presentation/d/1lm4S7YE1RHG4ZtMMXWkPUKVcqKI-z0aDAbAHSh16KNQ/edit?usp=sharing Slides]
 
  - *ParsiNLU: A Suite of Language Understanding Challenges for Persian* \n 
   with Arman Cohan, Siamak Shakeri and others \n 
     arXiv, 2020 \n 
     [https://arxiv.org/abs/2012.06154 Paper], [https://github.com/persiannlp/parsiglue/ Code & Data]
-
- -  *Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models* \n 
-  with Tushar Khot and others \n 
-    arXiv, 2020 \n 
-    [https://arxiv.org/abs/2009.00751 Paper], [https://github.com/allenai/modularqa Resources], [https://modularqa-demo.apps.allenai.org/ Demo]
 
  -  *UnQovering Stereotypical Biases via Underspecified Questions* \n 
   with Tao Li and others \n 
