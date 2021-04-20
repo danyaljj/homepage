@@ -72,6 +72,16 @@ I was a doctoral student at Computer and Information Sciences at the University 
 
 *Disclaimer:* This material is presented to ensure timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ==== 
+ - *Natural Instructions: Benchmarking Generalization to New Tasks from Natural Language Instructions* \n 
+  with Swaroop Mishra and others \n 
+    arXiv, 2021 \n 
+    [https://arxiv.org/abs/2104.08773 Paper], [https://github.com/allenai/natural-instructions Data]
+
+ - *GooAQ: Open Question Answering with Diverse Answer Types* \n 
+  with Amos Ng and others \n 
+    arXiv, 2021 \n 
+    [https://arxiv.org/abs/2104.08727 Paper], [https://github.com/allenai/gooaq Data]
+
  -  *Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models* \n 
   with Tushar Khot and others \n 
     NAACL-HLT, 2021 \n 
