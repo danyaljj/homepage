@@ -73,177 +73,177 @@ I was a doctoral student at Computer and Information Sciences at the University 
 *Disclaimer:* This material is presented to ensure timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ==== 
  - *Natural Instructions: Benchmarking Generalization to New Tasks from Natural Language Instructions* \n 
-  with Swaroop Mishra and others \n 
+  Swaroop Mishra, Daniel Khashabi, Chitta Baral and Hannaneh Hajishirzi \n 
     arXiv, 2021 \n 
-    [https://arxiv.org/abs/2104.08773 Paper], [https://github.com/allenai/natural-instructions Data]
+    [https://arxiv.org/abs/2104.08773 Paper], [https://github.com/allenai/natural-instructions Data], [x Demo]
 
  - *GooAQ: Open Question Answering with Diverse Answer Types* \n 
-  with Amos Ng and others \n 
+  Daniel Khashabi, Amos Ng, Tushar Khot, Ashish Sabharwal and Hannaneh Hajishirzi \n 
     arXiv, 2021 \n 
     [https://arxiv.org/abs/2104.08727 Paper], [https://github.com/allenai/gooaq Data]
 
  -  *Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models* \n 
-  with Tushar Khot and others \n 
+  Tushar Khot, Daniel Khashabi, Kyle Richardson, Ashish Sabharwal and Perer Clark \n 
     NAACL-HLT, 2021 \n 
     [https://arxiv.org/abs/2009.00751 Paper], [https://github.com/allenai/modularqa Resources], [https://modularqa-demo.apps.allenai.org/ Demo]
     
  - *Think you have Solved Direct-Answer Question Answering? Try ARC-DA, the Direct-Answer AI2 Reasoning Challenge* \n 
-  with Sumithra Bhakthavatsalam, Oyvind Tafjord, Peter Clark and others \n 
+  Sumithra Bhakthavatsalam, Daniel Khashabi, Tushar Khot, Bhavana Dalvi Mishra, Kyle Richardson, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord and Peter Clark \n 
     arXiv, 2021 \n 
     [https://arxiv.org/abs/2102.03315 Paper], [https://allenai.org/data/arc-da Data]
 
  - *GENIE: Leaderboard for Human-in-the-Loop Evaluation of Text Generation* \n 
-  with Gabriel Stanovsky, Jonathan Bragg, Nick Lourie, Jungo Kasai and others \n 
+   Daniel Khashabi, Gabriel Stanovsky, Jonathan Bragg, Nicholas Lourie, Jungo Kasai, Yejin Choi, Noah A. Smith and Daniel S. Weld \n 
     arXiv, 2021 \n 
     [https://arxiv.org/abs/2101.06561 Paper], [https://genie.apps.allenai.org/ Website], Media coverage: [https://venturebeat.com/2021/01/20/allen-institute-launches-genie-a-leaderboard-for-human-in-the-loop-language-model-benchmarking/ VentureBeat]
 
  - *Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies* \n 
-  with Mor Geva and others \n 
+   Mor Geva, Daniel Khashabi, Elad Segal, Tushar Khot, Dan Roth and Jonathan Berant \n 
     TACL, 2021 \n 
     [https://arxiv.org/abs/2101.02235 Paper], [https://allenai.org/data/strategyqa Dataset], [https://leaderboard.allenai.org/strategyqa/submissions/public Leaderboard], [https://docs.google.com/presentation/d/1lm4S7YE1RHG4ZtMMXWkPUKVcqKI-z0aDAbAHSh16KNQ/edit?usp=sharing Slides]
 
  - *ParsiNLU: A Suite of Language Understanding Challenges for Persian* \n 
-  with Arman Cohan, Siamak Shakeri and others \n 
+  Daniel Khashabi, Arman Cohan, Siamak Shakeri, et al. \n 
     arXiv, 2020 \n 
     [https://arxiv.org/abs/2012.06154 Paper], [https://github.com/persiannlp/parsiglue/ Code & Data]
 
  -  *UnQovering Stereotypical Biases via Underspecified Questions* \n 
-  with Tao Li and others \n 
+  Tao Li, Tushar Khot, Daniel Khashabi and Ashish Sabharwal \n 
     EMNLP - Findings, 2020 \n 
     [https://arxiv.org/abs/2010.02428 Paper], [https://github.com/allenai/unqover Code], [https://unqover.apps.allenai.org/ Demo]
 
  -  *UnifiedQA: Crossing Format Boundaries With a Single QA System* \n 
-  with Sewon Min, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Clark, Hannaneh Hajishirzi \n 
+  Daniel Khashabi, Sewon Min, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Clark and Hannaneh Hajishirzi \n 
     EMNLP - Findings, 2020 \n 
     [https://arxiv.org/abs/2005.00700 Paper], [https://github.com/allenai/unifiedqa Resources], [https://unifiedqa.apps.allenai.org/ Demo], [files/2020_unifiedqa/unifiedqa_tau_talk_split.pdf Slides]
 
  -  *Evaluating Models' Local Decision Boundaries via Contrast Sets* \n 
-  with Matt Gardner and others \n 
+  Matt Gardner et al. \n 
   EMNLP - Findings, 2020 \n 
     [https://arxiv.org/abs/2004.02709 Paper], [https://allennlp.org/contrast-sets Data]
 
  -  *More Bang for Your Buck: Natural Perturbation for Robust Question Answering* \n 
-	with Tushar Khot and Ashish Sabharwal \n 
+	Daniel Khashabi, Tushar Khot and Ashish Sabharwal \n 
 	EMNLP, 2020 \n 
   	[https://arxiv.org/abs/2004.04849 Paper], [https://github.com/allenai/natural-perturbations Data], [files/2020_natural_peturbations/boolq'_emnlp2020.pdf Slides], [https://www.youtube.com/watch?v=wIU-9Ho8nZo Talk]
 
  -  *Commonsense Knowledge Discovery from Linguistic Graphs* \n 
-  with Hongming Zhang, Yangqiu Song and Dan Roth \n 
+  Hongming Zhang, Daniel Khashabi, Yangqiu Song and Dan Roth \n 
     IJCAI, 2020 \n 
     [https://arxiv.org/abs/2005.00206 Paper], [https://github.com/HKUST-KnowComp/TransOMCS Data]
 
 -  *From ‘F’ to ‘A’ on the N.Y. Regents Science Exams: An Overview of the Aristo Project* \n 
-    with Peter Clark and others \n 
+    Peter Clark et al. \n 
     AI Magazine, 2020 \n
   [https://arxiv.org/abs/1909.01958 Paper], [https://www.youtube.com/watch?v=OcemDXpRymc Talk] Media coverage: [https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html NYTimes], [https://www.geekwire.com/2019/allen-institutes-aristo-ai-program-finally-passes-8th-grade-science-test/ GeekWire], [https://www.vox.com/future-perfect/2019/9/13/20863269/ai-aristo-science-test-allen-institute Vox], [https://www.forbes.com/sites/petergreene/2019/09/12/ai-pokes-another-hole-in-standardized-testing/\#121449601ac7   Forbes]
 
  -  *Temporal Common Sense Acquisition with Minimal Supervision* \n 
- 	with Ben Zhou, Qiang Ning and Dan Roth \n 
+ 	Ben Zhou, Qiang Ning Daniel Khashabi and Dan Roth \n 
   	ACL, 2020 \n 
   	[https://arxiv.org/abs/2005.04304 Paper], [https://github.com/CogComp/TacoLM Code], [files/2020_tacolm/tacllm_acl_slides_split.pdf ACL slides]
 
  -  *Not All Claims are Created Equal: Choosing the Right Approach to Assess Your Hypotheses* \n 
-	with Erfan Sadeqi Azer, Ashish Sabharwal and Dan Roth \n 
+	Erfan Sadeqi Azer, Daniel Khashabi, Ashish Sabharwal and Dan Roth \n 
 	ACL, 2020 \n 
 	[https://arxiv.org/abs/1911.03850  Paper], [https://github.com/allenai/HyBayes/  Software], [files/2020_hypothesis_assessment/hypothesis-assessment-split.pdf Slides], [files/2020_hypothesis_assessment/hypothesis-assessment-cogcomp-expanded.pdf Slides2], [files/2020_hypothesis_assessment/BayesianACL2020_short_ai2_format_split.pdf ACL slides]
 
  -  *“Going on a vacation” takes longer than “Going for a walk”: A Study of Temporal Commonsense Understanding* \n 
-	with Ben Zhou, Qiang Ning and Dan Roth \n 
+	Ben Zhou, Daniel Khashabi, Qiang Ning and Dan Roth \n 
   	EMNLP, 2019 \n 
-  	[files/2019_mctaco/2019_mctaco.pdf Paper], [https://github.com/CogComp/MCTACO Dataset], [https://leaderboard.allenai.org/mctaco Leaderboard], [files/2019_mctaco/mctaco-slides-v3.pdf Slides] \n
+  	[files/2019_mctaco/2019_mctaco.pdf Paper], [https://github.com/CogComp/MCTACO Dataset], [https://leaderboard.allenai.org/mctaco Leaderboard], [files/2019_mctaco/mctaco-slides-v3.pdf Slides], [https://vimeo.com/426360973 Talk] \n
 
  - *PerspectroScope: A Window to the World of Diverse Perspectives* \n 
- 	with Sihao Chen, Chris Callison-Burch, and Dan Roth \n 
+ 	Sihao Chen, Daniel Khashabi, Chris Callison-Burch and Dan Roth \n 
  	ACL - Demos, 2019 \n 
 	[files/2019_perspectroscope/2019_perspectroscope_acl_demo.pdf Paper], [https://www.youtube.com/watch?v=MXBTR1Sp3Bs Video], [https://github.com/CogComp/perspectroscope Code], [files/2019_perspectroscope/perspectroscope_poster_072319.pdf Poster] \n
 
  - *Seeing Things from a Different Angle: Discovering Diverse Perspectives about Claims* \n 
- 	with Sihao Chen, Wenpeng Yin, Chris Callison-Burch, and Dan Roth \n 
+ 	Sihao Chen, Daniel Khashabi, Wenpeng Yin, Chris Callison-Burch and Dan Roth \n 
  	NAACL, 2019 \n 
 	[files/2019_perspectrum/2019_perspectrum_naacl.pdf Paper], [https://cogcomp.org/perspectrum Dataset], [https://github.com/CogComp/perspectrum Code], [files/2019_perspectrum/perspectrum-poster-naacl-2019.pdf Poster], [https://www.youtube.com/watch?v=rOgdaLHIDgE&feature=youtu.be Video] \n
 
  - *On the Possibilities and Limitations of Multi-hop Reasoning Under Linguistic Imperfections* \n 
- 	with Erfan Sadeqi Azer, Tushar Khot, Ashish Sabharwal and Dan Roth \n 
+ 	Daniel Khashabi, Erfan Sadeqi Azer, Tushar Khot, Ashish Sabharwal and Dan Roth \n 
  	arXiv, 2019 \n 
  	[https://arxiv.org/abs/1901.02522  Paper] 
 
  -  *Zero-Shot Open Entity Typing as Type-Compatible Grounding* \n 
- 	with Ben Zhou, Chen-Tse Tsai and Dan Roth \n 
+ 	Ben Zhou, Daniel Khashabi, Chen-Tse Tsai and Dan Roth \n 
  	EMNLP, 2018 \n 
 	[files/2018_zoe/2018_zero_zhot_typing.pdf Paper], [https://github.com/CogComp/zoe Code], [files/2018_zoe/zoe-poster-vertical.pdf Poster] \n
 
  - *Looking Beyond the Surface: A Challenge Set for Reading Comprehension over Multiple Sentences* \n
-   with Snigdha Chaturvedi, Michael Roth, Shyam Upadhyay and Dan Roth \n 
+   Daniel Khashabi, Snigdha Chaturvedi, Michael Roth, Shyam Upadhyay and Dan Roth \n 
    NAACL, 2018 \n 
    [files/2018_multirc/2018_multirc_naacl.pdf Paper], [http://cogcomp.org/multirc/  Dataset], [files/2018_multirc/multirc-poster.pdf Poster] \n
 
  - *CogCompNLP: Your Swiss Army Knife for NLP* \n 
- 	with Mark Sammons and others \n 
+ 	Daniel Khashabi, Mark Sammons, Ben Zhou, Tom Redman, Christos Christodoulopoulos et al. \n 
  	LREC, 2018 \n
  	[files/2018_cogcompnlp/2018_lrec_cogcompnlp.pdf Paper], [https://github.com/CogComp/cogcomp-nlp  Code], [files/2018_cogcompnlp/cogcomp-nlp-poster.pdf Poster]\n
 
  - *Question Answering as Global Reasoning over Semantic Abstractions* \n
-   with Tushar Khot, Ashish Sabharwal and Dan Roth \n 
+   Daniel Khashabi, Tushar Khot, Ashish Sabharwal and Dan Roth \n 
    AAAI, 2018 \n
    [files/2018_semanticilp/2018_aaai_semanticilp.pdf Paper], [https://github.com/allenai/semanticilp  Code], [files/2018_semanticilp/AAAI-18-public.pdf Slides-1], [https://docs.google.com/presentation/d/1FGT1sfV3-nVjR-zUf5ujjn4eNA2j1BTcSdQdcvnmkJg/edit?usp=sharing Slides-2] \n
 
  - *Relational Learning and Feature Extraction by Querying over Heterogeneous Information Networks* \n
-  with Parisa Kordjamshidi, Sameer Singh, Christos Christodoulopoulos, Mark Summons, Saurabh Sinha, and Dan Roth \n 
+  Parisa Kordjamshidi, Sameer Singh, Daniel Khashabi, Christos Christodoulopoulos, Mark Summons, Saurabh Sinha and Dan Roth \n 
   Seventh International Workshop on Statistical Relational AI (StarAI), 2017 \n
  [files/2017_saul_relational/2017_saul_relational_learning_starai.pdf Paper], [https://github.com/CogComp/saul  Code], [files/2017_saul_relational/StarAI_2017_PosterF.pdf  Poster] \n
 
  - *Learning What is Essential in Questions* \n 
- 	with Tushar Khot, Ashish Sabharwal and Dan Roth \n 
+ 	Daniel Khashabi, Tushar Khot, Ashish Sabharwal and Dan Roth \n 
  	CoNLL, 2017 \n
  [files/2017_essential/2017_conll_essential_terms.pdf Paper], [https://github.com/allenai/essential-terms  Code], [files/2017_essential/2017_essential-terms_conll_poster4.pdf Poster], [files/2017_essential/poster-SPOTLIGHT-essential-terms_conll2017.pdf Spotlight]  \n 
 
  - *Better call Saul: Flexible Programming for Learning and Inference in NLP* \n 
- 	with Parisa Kordjamshidi, Christos Christodoulopoulos, Bhargav Mangipudi, Sameer Singh and Dan Roth \n 
+ 	Parisa Kordjamshidi, Daniel Khashabi, Christos Christodoulopoulos, Bhargav Mangipudi, Sameer Singh and Dan Roth \n 
  	COLING, 2016 \n  
  	[files/2016_saul/2016_saul_coling.pdf Paper], [files/2016_saul/coling16-talk.pdf Slides], [https://github.com/IllinoisCogComp/saul Code]
 
  - *Question Answering via Integer Programming over Semi-Structured Knowledge* \n 
- 	with Tushar Khot, Ashish Sabharwal, Peter Clark, Oren Etzioni and Dan Roth \n 
+ 	Daniel Khashabi, Tushar Khot, Ashish Sabharwal, Peter Clark, Oren Etzioni and Dan Roth \n 
  	IJCAI, 2016 \n 
 	[files/2016_tableilp/2016_tableilp_ijcai.pdf Paper], [https://github.com/allenai/tableilp Code], [https://www.youtube.com/watch?v=7NS53icQRrs&feature=youtu.be  Demo], [https://www.youtube.com/watch?v=HcPCURc59Vw UW talk], [files/2016_tableilp/2016_ijcai_tableilp.pptx IJCAI talk], [files/2016_tableilp/2016_ijcai_tableilp_poster.pptx  Poster]
  
  - *EDISON: Feature Extraction for NLP, Simplified* \n 
- 	with Mark Sammons and others \n 
+ 	Mark Sammons, Christos Christodoulopoulos, Parisa Kordjamshidi, Daniel Khashabi, Vivek Srikumar and Dan Roth \n 
 	LREC, 2016 \n 
 	[files/2016_edison/2016_edison_lrec.pdf Paper], [files/2016_edison/edison_poster.pdf Poster]\n 
 
  - *Combining Retrieval, Statistics, and Inference to Answer Elementary Science Questions* \n 
- 	with Peter Clark and others\n 
+ 	Peter Clark et al. \n 
 	AAAI, 2016 \n 
 	[files/2015_aristo/2015_aristo_aaai-2016.pdf Paper]
 
 - *Online Learning with Adversarial Delays* \n 
-	with Kent Quanrud \n 
+	Kent Quanrud and Daniel Khashabi \n 
 	NourIPS, 2015 \n 
 	[files/2015_delayed_online_learning/2015_delayed_learning.pdf Paper], [files/2015_delayed_online_learning/delayed-learning-poster-2.pdf Poster]\n 
 
  -  *Clustering With Side Information: From a Probabilistic Model to a Deterministic Algorithm*  \n 
- 	with John Wieting, Jeffrey Yufei Liu, Feng Liang \n 
+ 	Daniel Khashabi, John Wieting, Jeffrey Yufei Liu and Feng Liang \n 
  	arXiv, 2015   \n 
  [http://arxiv.org/abs/1508.06235 Paper], Relevant: [files/2015_constrained_clustering/constrainedClustering.html A list of constrained clustering algorithms] \n 
 
  - *Illinois-Profiler: Knowledge Schemas at Scale* \n 
- 	with Zhiye Fei, Haoruo Peng, Hao Wu and Dan Roth \n 
+ 	Zhiye Fei, Daniel Khashabi, Haoruo Peng, Hao Wu and Dan Roth \n 
  	IJCAI Workshop on Cognitive Knowledge Acquisition and Applications (Cognitum 2015) \n 
 	[files/2014_2015_profiler/profiler_ijcai.pdf  Paper], [files/2014_2015_profiler/2015_ijcai_profiler.pdf Slides], [files/2014_2015_profiler/profiler_poster.pdf Poster] \n 
 
  -  *Solving Hard Co-reference Problems*  \n
- 	with Haoruo Peng and Dan Roth \n 
+ 	Haoruo Peng, Daniel Khashabi and Dan Roth \n 
  	NAACL, 2015 \n 
 	[files/2015_Winograd_naacl/NAACL2015.pdf Paper], [files/2015_Winograd_naacl/DAIS-Seminar-Sildes.pdf Slides], [files/2015_Winograd_naacl/2015_hard_coref_poster_may.pdf Poster] \n 
 
  - *Joint Demosaicing and Denoising via Learned Non-parametric Random Fields* \n 
- 	with Sebastian Nowozin, Jeremy Jancsary, Andrew W. Fitzgibbon \n
+ 	Daniel Khashabi, Sebastian Nowozin, Jeremy Jancsary and Andrew W. Fitzgibbon \n
  	IEEE Transaction on Image Processing (TIP), 2014. \n 
  	[files/2013_2014_demosaicing/2014_RTF_demosaicing.pdf Paper], [http://dx.doi.org/10.1109/TIP.2014.2359774 Publisher link], Presentation file: [files/2013_2014_demosaicing/2013_RTF_demosaicing_1.pdf PDF] [files/2013_2014_demosaicing/2013_RTF_demosaicing_1.pptx PPT], Public data release: [http://research.microsoft.com/en-us/um/cambridge/projects/msrdemosaic/ Link], Relevant: [files/2013_2014_demosaicing/demosaicing.html A list of demosaicing code available online] \n 
 
  - *Adaptive Tiled Neural Networks* \n 
- 	with Mohammad Nokhbeh-Zaeem and others\n 
+ 	Mohammad Nokhbeh-Zaeem et al. \n 
  	in IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2011 \n 
  	[files/2011_ATNN/06084059.pdf Paper], [files/2011_ATNN/ATNN-demo.zip Code] \n 
 
