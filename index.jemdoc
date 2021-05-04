@@ -272,12 +272,10 @@ I was a doctoral student at Computer and Information Sciences at the University 
 - Google AI, [files/2021_google_talk/google-talk-march-2021.pdf Broadening the Scope of Machine Comprehension], 2021.
 - [https://freuder.wordpress.com/pthg-19-the-third-workshop-on-progress-towards-the-holy-grail/  The Third Workshop on Progress Towards the Holy Grail], [files/2019_talk_holy_grail_workshop/daniel-kh-holy-grail-workshop-2019.pdf In Pursuit of the Holy Grail of Natural Language Understanding: Past, Present, and Future], 2019.
 - Carnegie Mellon University, [files/2019_talk_indirect_supervision/danielkh_job_talk_small_supervision_split.pdf Natural Language Understanding with Indirect Supervision], 2019. 
-- New York University, NLP Seminar, [https://docs.google.com/presentation/d/1KZxE0_LANeRYaShGP2cjvbRTaR2V7F8N36xQ8004r2o/edit?usp=sharing  Reasoning-Driven Question Answering], 2018. 
+# - New York University, NLP Seminar, [https://docs.google.com/presentation/d/1KZxE0_LANeRYaShGP2cjvbRTaR2V7F8N36xQ8004r2o/edit?usp=sharing  Reasoning-Driven Question Answering], 2018. 
 - Stanford University, NLP Seminar, [https://docs.google.com/presentation/d/11QnDUYXB9q06HIyZxmHcb1BrwcdStjjHPNOC3AnlTsc/edit?usp=sharing Reasoning-Driven Question Answering], 2018. 
 - Mid-Atlantic Student Colloquium on Speech, Language and Learning, [https://docs.google.com/presentation/d/1KmGQfbeUitZOum4s6cPTqwuJJfTdxlQMeV_Go2_8Jz0/edit?usp=sharing Abductive Reasoning on Natural Language Questions as
 Global Reasoning over Semantic Abstractions], 2018.
-- Microsoft Research, Cambridge (UK), [files/2013_2014_demosaicing/2013_RTF_demosaicing_1.pptx Pattern-independent Demosaicing], 2013.
-- Tarbiat Modares University, [files/2010_Wavelet/26-1.ppt Haar wavelet for function approximation and solving ordinary differential equations], 2010.
 
 {{<h2 id="teaching">Teaching</h2>}}
 - Guest Lecturer: CS446 (Machine Learning) @ UPenn, Spring 2018. 
@@ -294,17 +292,18 @@ Global Reasoning over Semantic Abstractions], 2018.
 
 
 == Past Projects and Resources 
-- OpenEval, an open-source evaluation framework for AI applications, UIUC (2015-2016), [files/2015_openeval/openeval_poster.pdf Poster]
-- [files/2015_knowledge_representation/knowledge_representation_writeup.pdf Knowledge Representation: How far we have come?], [files/2015_knowledge_representation/2015_knowledge_representation2.pptx PPTX] [files/2015_knowledge_representation/2015_knowledge_representation2.pdf PDF] 2015 
-- Modelling and Control of Ball-on-Plate System, 2011, ( [BallOnPlateControl.html ProjectPage, documentation and sources])
+- OpenEval, an open-source evaluation framework for AI applications, 2015, [files/2015_openeval/openeval_poster.pdf Poster]
+- [files/2015_knowledge_representation/knowledge_representation_writeup.pdf Knowledge Representation: How far we have come?], 2015, [files/2015_knowledge_representation/2015_knowledge_representation2.pdf PDF] 
+- Modelling and Control of Ball-on-Plate System, 2011, ([BallOnPlateControl.html details])
 - [files/2011_RVM_Facial_Feature/2011_internship_report.pdf Facial Feature Tracking, Extraction and Reduction], 2011 
-- [files/2010_Wavelet/26.pdf Haar wavelet for function approximation and solving ordinary differential equations]
-- [files/2010_GeneticCombinationalCircuits/23.pdf Design and Optimizing Digital Combinational Logic Circuits Using Genetic Algorithm], [GACombinatorial.html  Source and demo]
+- [files/2010_Wavelet/26.pdf Haar wavelet for function approximation and solving ordinary differential equations],  [files/2010_Wavelet/26-1.ppt slides]
+- [files/2010_GeneticCombinationalCircuits/23.pdf Design and Optimizing Digital Combinational Logic Circuits Using Genetic Algorithm], [GACombinatorial.html  details]
 - [http://cpp.aut.ac.ir/ C\+\+ Programming and Numerical Methods], 2009 (in Persian.) \n
-- "Introduction to computers and programming using C\+\+", 2008. [files/2008_BLIF/bookBLIF.pdf \[English book by Alex Bielajew\]] [files/2008_BLIF/CppTutorialBLIF.pdf \[PDF of Persian translation\]]  
-- Generating Electricity with Speed Bumps, 9th Kharazmi festival, 2007, Tehran, Iran. [files/2006_EPSEF/25.pdf  PDF-PERSIAN]
-- Heuristics 2D Soccer Simulation Team Description Paper; Iranian students' soccer simulation competitions, 2007, Tehran, Iran. [files/Robocup/Hadaf06_TDP.pdf \[PDF-Persian\]]
-- [files/MLbook/ Machine Learning (Tom Mitchell), in Persian, translation by Mohammad Nokhbeh Zaeeem] ({{<span lang="ko" xml:lang="ko">}}یادگیری ماشین-محمد نخبه زعیم{{</span>}}) 
+- "Introduction to computers and programming using C\+\+", 2008, [files/2008_BLIF/bookBLIF.pdf \[English book by Alex Bielajew\]] [files/2008_BLIF/CppTutorialBLIF.pdf \[PDF of Persian translation\]]  
+- Generating Electricity with Speed Bumps, 2006, [files/2006_EPSEF/25.pdf  PDF-Persian]
+- 2D Soccer Simulation, 2007, [files/Robocup/Hadaf06_TDP.pdf \[PDF-Persian\]]
+- [files/MLbook/ Machine Learning (Tom Mitchell), translation by M. Nokhbeh Zaeeem] ({{<span lang="ko" xml:lang="ko">}}یادگیری ماشین-محمد نخبه زعیم{{</span>}}) 
+
 
 
 
