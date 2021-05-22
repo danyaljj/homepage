@@ -72,10 +72,15 @@ I was a doctoral student at Computer and Information Sciences at the University 
 
 *Disclaimer:* This material is presented to ensure timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ==== 
+ - *Ethical-Advice Taker: Do Language Models Understand Natural Language Interventions?* \n 
+  Jieyu Zhao, Daniel Khashabi, Tushar Khot, Ashish Sabharwal and Kai-Wei Chang \n 
+    ACL-IJCNLP, 2021 \n 
+    [? Paper], [https://github.com/allenai/ethical-interventions Data & Code]
+
  - *Natural Instructions: Benchmarking Generalization to New Tasks from Natural Language Instructions* \n 
   Swaroop Mishra, Daniel Khashabi, Chitta Baral and Hannaneh Hajishirzi \n 
     arXiv, 2021 \n 
-    [https://arxiv.org/abs/2104.08773 Paper], [https://github.com/allenai/natural-instructions Data], [x Demo]
+    [https://arxiv.org/abs/2104.08773 Paper], [http://instructions.apps.allenai.org/ Data]
 
  - *GooAQ: Open Question Answering with Diverse Answer Types* \n 
   Daniel Khashabi, Amos Ng, Tushar Khot, Ashish Sabharwal and Hannaneh Hajishirzi \n 
@@ -97,15 +102,16 @@ I was a doctoral student at Computer and Information Sciences at the University 
     arXiv, 2021 \n 
     [https://arxiv.org/abs/2101.06561 Paper], [https://genie.apps.allenai.org/ Website], Media coverage: [https://venturebeat.com/2021/01/20/allen-institute-launches-genie-a-leaderboard-for-human-in-the-loop-language-model-benchmarking/ VentureBeat]
 
+ - *ParsiNLU: A Suite of Language Understanding Challenges for Persian* \n 
+  Daniel Khashabi, Arman Cohan, Siamak Shakeri, et al. \n 
+    # TACL, 2021 \n 
+    arXiv, 2020 \n 
+    [https://arxiv.org/abs/2012.06154 Paper], [https://github.com/persiannlp/parsiglue/ Code & Data]
+
  - *Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies* \n 
    Mor Geva, Daniel Khashabi, Elad Segal, Tushar Khot, Dan Roth and Jonathan Berant \n 
     TACL, 2021 \n 
     [https://arxiv.org/abs/2101.02235 Paper], [https://allenai.org/data/strategyqa Dataset], [https://leaderboard.allenai.org/strategyqa/submissions/public Leaderboard], [https://docs.google.com/presentation/d/1lm4S7YE1RHG4ZtMMXWkPUKVcqKI-z0aDAbAHSh16KNQ/edit?usp=sharing Slides]
-
- - *ParsiNLU: A Suite of Language Understanding Challenges for Persian* \n 
-  Daniel Khashabi, Arman Cohan, Siamak Shakeri, et al. \n 
-    arXiv, 2020 \n 
-    [https://arxiv.org/abs/2012.06154 Paper], [https://github.com/persiannlp/parsiglue/ Code & Data]
 
  -  *UnQovering Stereotypical Biases via Underspecified Questions* \n 
   Tao Li, Tushar Khot, Daniel Khashabi and Ashish Sabharwal \n 
@@ -294,21 +300,18 @@ Global Reasoning over Semantic Abstractions], 2018.
 == Past Projects and Resources 
 - OpenEval, an open-source evaluation framework for AI applications, 2015, [files/2015_openeval/openeval_poster.pdf Poster]
 - [files/2015_knowledge_representation/knowledge_representation_writeup.pdf Knowledge Representation: How far we have come?], 2015, [files/2015_knowledge_representation/2015_knowledge_representation2.pdf PDF] 
-- Modelling and Control of Ball-on-Plate System, 2011, ([BallOnPlateControl.html details])
-- [files/2011_RVM_Facial_Feature/2011_internship_report.pdf Facial Feature Tracking, Extraction and Reduction], 2011 
-- [files/2010_Wavelet/26.pdf Haar wavelet for function approximation and solving ordinary differential equations],  [files/2010_Wavelet/26-1.ppt slides]
-- [files/2010_GeneticCombinationalCircuits/23.pdf Design and Optimizing Digital Combinational Logic Circuits Using Genetic Algorithm], [GACombinatorial.html  details]
-- [http://cpp.aut.ac.ir/ C\+\+ Programming and Numerical Methods], 2009 (in Persian.) \n
-- "Introduction to computers and programming using C\+\+", 2008, [files/2008_BLIF/bookBLIF.pdf \[English book by Alex Bielajew\]] [files/2008_BLIF/CppTutorialBLIF.pdf \[PDF of Persian translation\]]  
-- Generating Electricity with Speed Bumps, 2006, [files/2006_EPSEF/25.pdf  PDF-Persian]
-- 2D Soccer Simulation, 2007, [files/Robocup/Hadaf06_TDP.pdf \[PDF-Persian\]]
-- [files/MLbook/ Machine Learning (Tom Mitchell), translation by M. Nokhbeh Zaeeem] ({{<span lang="ko" xml:lang="ko">}}یادگیری ماشین-محمد نخبه زعیم{{</span>}}) 
+- Modeling and control of ball-on-plate system, 2011, ([BallOnPlateControl.html details])
+- [files/2011_RVM_Facial_Feature/2011_internship_report.pdf Facial feature extraction and tracking], 2011 
+- [files/2010_Wavelet/26.pdf Wavelet approximation for solving differential equations],  [files/2010_Wavelet/26-1.ppt slides]
+- [files/2010_GeneticCombinationalCircuits/23.pdf Combinational logic circuits using genetic algorithm], [GACombinatorial.html  details]
+- [http://cpp.aut.ac.ir/ C\+\+ programming and numerical methods], 2009 (in Persian) \n
+- Introduction to computers and programming using C\+\+, 2008, [files/2008_BLIF/CppTutorialBLIF.pdf PDF-Persian]  
+- 2D Soccer Simulation, 2007, [files/Robocup/Hadaf06_TDP.pdf PDF-Persian]
+- Generating electricity with speed bumps, 2006, [files/2006_EPSEF/25.pdf  PDF-Persian]
+- Tom Mitchell's [files/MLbook/ "Machine Learning", translated by M. Nokhbeh Zaeeem] ({{<span lang="ko" xml:lang="ko">}}یادگیری ماشین-محمد نخبه زعیم{{</span>}}) 
 
 
 
-
-
-
-== Notes  
--  [learn.html "Learning Algorithms--or blend of computation and statistics", a collection of notes] 
+#== Notes  
+# -  [learn.html "Learning Algorithms--or blend of computation and statistics", an outdated collection of notes] 
 
