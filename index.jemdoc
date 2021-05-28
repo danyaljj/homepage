@@ -80,15 +80,15 @@ I was a doctoral student at Computer and Information Sciences at the University 
  - *Natural Instructions: Benchmarking Generalization to New Tasks from Natural Language Instructions* \n 
   Swaroop Mishra, Daniel Khashabi, Chitta Baral and Hannaneh Hajishirzi \n 
     arXiv, 2021 \n 
-    [https://arxiv.org/abs/2104.08773 Paper], [http://instructions.apps.allenai.org/ Data]
+    [https://arxiv.org/abs/2104.08773 Paper], [http://instructions.apps.allenai.org/ Data], [files/2021_natural_insructions/ai2-talk-may-2021.pdf Slides]
 
  - *GooAQ: Open Question Answering with Diverse Answer Types* \n 
-  Daniel Khashabi, Amos Ng, Tushar Khot, Ashish Sabharwal and Hannaneh Hajishirzi \n 
+  Daniel Khashabi, Amos Ng, Tushar Khot, Ashish Sabharwal, Hannaneh Hajishirzi and Chris Callison-Burch \n 
     arXiv, 2021 \n 
     [https://arxiv.org/abs/2104.08727 Paper], [https://github.com/allenai/gooaq Data]
 
  -  *Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models* \n 
-  Tushar Khot, Daniel Khashabi, Kyle Richardson, Ashish Sabharwal and Perer Clark \n 
+  Tushar Khot, Daniel Khashabi, Kyle Richardson, Ashish Sabharwal and Peter Clark \n 
     NAACL-HLT, 2021 \n 
     [https://arxiv.org/abs/2009.00751 Paper], [https://github.com/allenai/modularqa Resources], [https://modularqa-demo.apps.allenai.org/ Demo]
     
