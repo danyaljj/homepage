@@ -75,7 +75,7 @@ I was a doctoral student at Computer and Information Sciences at the University 
  - *Ethical-Advice Taker: Do Language Models Understand Natural Language Interventions?* \n 
   Jieyu Zhao, Daniel Khashabi, Tushar Khot, Ashish Sabharwal and Kai-Wei Chang \n 
     ACL-IJCNLP, 2021 \n 
-    [? Paper], [https://github.com/allenai/ethical-interventions Data & Code]
+    [files/2021_lei/ethical_interventions_acl_2021.pdf Paper], [https://github.com/allenai/ethical-interventions Data & Code]
 
  - *Natural Instructions: Benchmarking Generalization to New Tasks from Natural Language Instructions* \n 
   Swaroop Mishra, Daniel Khashabi, Chitta Baral and Hannaneh Hajishirzi \n 
@@ -90,7 +90,7 @@ I was a doctoral student at Computer and Information Sciences at the University 
  -  *Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models* \n 
   Tushar Khot, Daniel Khashabi, Kyle Richardson, Ashish Sabharwal and Peter Clark \n 
     NAACL-HLT, 2021 \n 
-    [https://arxiv.org/abs/2009.00751 Paper], [https://github.com/allenai/modularqa Resources], [https://modularqa-demo.apps.allenai.org/ Demo]
+    [https://arxiv.org/abs/2009.00751 Paper], [https://github.com/allenai/modularqa Resources], [https://modularqa-demo.apps.allenai.org/ Demo], [files/2021_modularqa/TMNs_NAACL_final.pptx Slides]
     
  - *Think you have Solved Direct-Answer Question Answering? Try ARC-DA, the Direct-Answer AI2 Reasoning Challenge* \n 
   Sumithra Bhakthavatsalam, Daniel Khashabi, Tushar Khot, Bhavana Dalvi Mishra, Kyle Richardson, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord and Peter Clark \n 
