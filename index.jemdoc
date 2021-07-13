@@ -75,7 +75,7 @@ I was a doctoral student at Computer and Information Sciences at the University 
  - *Ethical-Advice Taker: Do Language Models Understand Natural Language Interventions?* \n 
   Jieyu Zhao, Daniel Khashabi, Tushar Khot, Ashish Sabharwal and Kai-Wei Chang \n 
     ACL-IJCNLP, 2021 \n 
-    [files/2021_lei/ethical_interventions_acl_2021.pdf Paper], [https://github.com/allenai/ethical-interventions Data & Code]
+    [https://arxiv.org/abs/2106.01465 Paper], [https://github.com/allenai/ethical-interventions Data & Code]
 
  - *Natural Instructions: Benchmarking Generalization to New Tasks from Natural Language Instructions* \n 
   Swaroop Mishra, Daniel Khashabi, Chitta Baral and Hannaneh Hajishirzi \n 
@@ -103,9 +103,8 @@ I was a doctoral student at Computer and Information Sciences at the University 
     [https://arxiv.org/abs/2101.06561 Paper], [https://genie.apps.allenai.org/ Website], Media coverage: [https://venturebeat.com/2021/01/20/allen-institute-launches-genie-a-leaderboard-for-human-in-the-loop-language-model-benchmarking/ VentureBeat]
 
  - *ParsiNLU: A Suite of Language Understanding Challenges for Persian* \n 
-  Daniel Khashabi, Arman Cohan, Siamak Shakeri, et al. \n 
-    # TACL, 2021 \n 
-    arXiv, 2020 \n 
+  Daniel Khashabi, Arman Cohan, Siamak Shakeri et al. \n 
+    TACL, 2021 \n 
     [https://arxiv.org/abs/2012.06154 Paper], [https://github.com/persiannlp/parsiglue/ Code & Data]
 
  - *Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies* \n 
@@ -141,7 +140,7 @@ I was a doctoral student at Computer and Information Sciences at the University 
 -  *From ‘F’ to ‘A’ on the N.Y. Regents Science Exams: An Overview of the Aristo Project* \n 
     Peter Clark et al. \n 
     AI Magazine, 2020 \n
-  [https://arxiv.org/abs/1909.01958 Paper], [https://www.youtube.com/watch?v=OcemDXpRymc Talk] Media coverage: [https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html NYTimes], [https://www.geekwire.com/2019/allen-institutes-aristo-ai-program-finally-passes-8th-grade-science-test/ GeekWire], [https://www.vox.com/future-perfect/2019/9/13/20863269/ai-aristo-science-test-allen-institute Vox], [https://www.forbes.com/sites/petergreene/2019/09/12/ai-pokes-another-hole-in-standardized-testing/\#121449601ac7   Forbes]
+  [https://arxiv.org/abs/1909.01958 Paper], [https://www.youtube.com/watch?v=OcemDXpRymc Talk], Media coverage: [https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html NYTimes], [https://www.geekwire.com/2019/allen-institutes-aristo-ai-program-finally-passes-8th-grade-science-test/ GeekWire], [https://www.vox.com/future-perfect/2019/9/13/20863269/ai-aristo-science-test-allen-institute Vox], [https://www.forbes.com/sites/petergreene/2019/09/12/ai-pokes-another-hole-in-standardized-testing/\#121449601ac7   Forbes]
 
  -  *Temporal Common Sense Acquisition with Minimal Supervision* \n 
  	Ben Zhou, Qiang Ning Daniel Khashabi and Dan Roth \n 
