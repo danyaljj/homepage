@@ -72,20 +72,20 @@ I was a doctoral student at Computer and Information Sciences at the University 
 
 *Disclaimer:* This material is presented to ensure timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ==== 
+ - *GooAQ: Open Question Answering with Diverse Answer Types* \n 
+  Daniel Khashabi, Amos Ng, Tushar Khot, Ashish Sabharwal, Hannaneh Hajishirzi and Chris Callison-Burch \n 
+    EMNLP - Findings, 2021 \n 
+    [https://arxiv.org/abs/2104.08727 Paper], [https://github.com/allenai/gooaq Data]
+
  - *Ethical-Advice Taker: Do Language Models Understand Natural Language Interventions?* \n 
   Jieyu Zhao, Daniel Khashabi, Tushar Khot, Ashish Sabharwal and Kai-Wei Chang \n 
-    ACL-IJCNLP, 2021 \n 
+    ACL-IJCNLP - Findings, 2021 \n 
     [https://arxiv.org/abs/2106.01465 Paper], [https://github.com/allenai/ethical-interventions Data & Code]
 
  - *Natural Instructions: Benchmarking Generalization to New Tasks from Natural Language Instructions* \n 
   Swaroop Mishra, Daniel Khashabi, Chitta Baral and Hannaneh Hajishirzi \n 
     arXiv, 2021 \n 
     [https://arxiv.org/abs/2104.08773 Paper], [http://instructions.apps.allenai.org/ Data], [files/2021_natural_insructions/ai2-talk-may-2021.pdf Slides]
-
- - *GooAQ: Open Question Answering with Diverse Answer Types* \n 
-  Daniel Khashabi, Amos Ng, Tushar Khot, Ashish Sabharwal, Hannaneh Hajishirzi and Chris Callison-Burch \n 
-    arXiv, 2021 \n 
-    [https://arxiv.org/abs/2104.08727 Paper], [https://github.com/allenai/gooaq Data]
 
  -  *Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models* \n 
   Tushar Khot, Daniel Khashabi, Kyle Richardson, Ashish Sabharwal and Peter Clark \n 
