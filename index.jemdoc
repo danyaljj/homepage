@@ -72,6 +72,10 @@ I was a doctoral student at Computer and Information Sciences at the University 
 
 *Disclaimer:* This material is presented to ensure timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ==== 
+ - *Learning to Solve Complex Tasks by Talking to Agents* \n 
+  Tushar Khot, Kyle Richardson, Daniel Khashabi and Ashish Sabharwal \n 
+    arXiv \n 
+    [https://arxiv.org/abs/2110.08542 Paper]
 
  - *Reframing Instructional Prompts to GPT/k/'s Language* \n 
   Swaroop Mishra, Daniel Khashabi, Chitta Baral, Yejin Choi and Hannaneh Hajishirzi \n 
@@ -111,7 +115,7 @@ I was a doctoral student at Computer and Information Sciences at the University 
  - *ParsiNLU: A Suite of Language Understanding Challenges for Persian* \n 
   Daniel Khashabi, Arman Cohan, Siamak Shakeri et al. \n 
     TACL, 2021 \n 
-    [https://arxiv.org/abs/2012.06154 Paper], [https://github.com/persiannlp/parsiglue/ Code & Data]
+    [https://arxiv.org/abs/2012.06154 Paper], [https://github.com/persiannlp/parsiglue/ Code & Data], [https://docs.google.com/presentation/d/1D9tO052D86J_OGiFV-VRoeWZ-kaEyT0nwKVVz4z0SLc/edit?usp=sharing Slides]
 
  - *Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies* \n 
    Mor Geva, Daniel Khashabi, Elad Segal, Tushar Khot, Dan Roth and Jonathan Berant \n 
