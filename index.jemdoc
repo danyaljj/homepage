@@ -62,13 +62,13 @@ How can we enable machines to communicate the /reasons/ behind their findings an
 
 
 - *Generality enabled by the representation of task-independent “incidental” signals:* 
-How can we utilize the the cheap signals available in the wild (web data or phyisical environment) to enriching representations that support stronger model generalization. \n
+How can we utilize cheap signals available in the wild (web data or physical environment) to enrich representations that support stronger model generalization. \n
   /Papers:/
     -- [https://arxiv.org/abs/2005.04304 Temporal Common Sense Acquisition with Minimal Supervision] (ACL'20)
     -- [https://arxiv.org/abs/1907.03228 Zero-Shot Open Entity Typing as Type-Compatible Grounding] (EMNLP'18)
 
 - *AI + Society:* 
-What are the algorithmic biases in our models and how can we alleviate them? How do the models contribue to echo chambers (and our growing socio-political divisions) and how can address these issue? \n
+What are the algorithmic biases in our models and how can we alleviate them? How do the models contribute to echo chambers (and our growing socio-political divisions) and how can address these issues? \n
   /Papers:/
     -- [https://arxiv.org/abs/2010.02428 UnQovering Stereotyping Biases via Underspecified Questions] (EMNLP'20)
     -- [https://arxiv.org/abs/1906.03538 Seeing Things from a Different Angle: Discovering Diverse Perspectives about Claims] (NAACL'19)
