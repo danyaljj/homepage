@@ -1,5 +1,9 @@
 /* Default css file for jemdoc. */
 
+html {
+  scroll-behavior: smooth;
+}
+
 table#tlayout {
     border: none;
     border-collapse: separate;
