@@ -12,9 +12,8 @@
 <tr valign="top">
 <td id="layout-menu">
 <div class="menu-category">Daniel Khashabi</div>
-<div class="menu-item"><a href="index.html#about">About</a></div>
 <div class="menu-item"><a href="CV_daniel.pdf">CV</a></div>
-<div class="menu-category">Research</div>
+<div class="menu-item"><a href="index.html#about">Themes</a></div>
 <div class="menu-item"><a href="index.html#publication">Publication</a></div>
 <div class="menu-item"><a href="index.html#talks">Talks/Slides</a></div>
 <div class="menu-item"><a href="index.html#teaching">Teaching</a></div>
@@ -26,8 +25,7 @@
 <td align="left"><p>Daniel Khashabi (<span lang="ko" xml:lang="ko">دانیال خشابی</span>) <br />
 Young Investigator <br />
 Allen Institute for Artificial Intelligence  <br />
-2157 N Northlake Way Suite 110, Seattle, WA 98103 <br /></p>
-<p><br /></p>
+2157 N Northlake Way Suite 110, Seattle, WA 98103 <br /><br /></p>
 <ul>
 <li><p><b>E-mail:</b> danielk  ¯\_(ツ)_/¯  allenai.org
 </p>
@@ -43,50 +41,86 @@ Allen Institute for Artificial Intelligence  <br />
 </li>
 </ul>
 </td></tr></table>
-<p><h2 id="about">About</h2></p>
+<div class="infoblock">
+<div class="blocktitle"></div>
+<div class="blockcontent">
+<p>I am currently on the academic job market. Please get in touch if you are hiring in the intersection of <i>Natural Language Processing</i>, <i>Artificial Intelligence</i> and <i>Machine Learning</i>. 
+
+</p>
+</div></div>
+<p><h2 id="themes">About</h2>
+I am post-doctoral researcher  at Allen Institute for AI, Seattle. I am formally member of the <a href="https://mosaic.allenai.org/">Mosaic</a> team and I frequently collaborate with other teams like <a href="https://allennlp.org/">AllenNLP</a> and <a href="https://allenai.org/aristo">Aristo</a>. 
+Prior to this, I was a doctoral student at Computer and Information Sciences at the University of Pennsylvania (2017-2019) and at the University of Illinois, Urbana-Champaign (2012-2016), under <a href="https://www.cis.upenn.edu/~danroth/">Prof. Dan Roth</a>. 
+I have a bachelor's degree from Amirkabir University of Technology, Tehran Polytechnic (2008-2012). I was greatly fortunate to work with <a href="https://scholar.google.com/citations?user=tLX51p0AAAAJ&amp;hl=en">Prof. Hamid Sheikhzadeh</a> during my undergraduate studies.  </p>
+<p><h2 id="themes">Research Themes</h2></p>
 <p>My research focuses on the computational foundations of <i>intelligent behavior</i>, through the lens of <i>natural language</i>. 
 My goal is to explore the different ways in which we can develop and evaluate systems that understand and reason with (and about) natural language in different contexts. 
 I mostly identify with <i>natural language processing</i> (ACL, NAACL, EMNLP) and <i>artificial intelligence</i> communities (AAAI, IJCAI) and, to some extent, with the <i>machine learning</i> community (NourIPS, ICML).</p>
-<p>Here are several general themes I have pursued: </p>
+<p>Here are several themes I am interested in: </p>
 <ul>
-<li><p>How can we build better and more useful models? 
-We need models that have better <i>generalization</i> capabilities. AlphaGo may be the world champion at Go, but it doesn't know a damn about any other problem in the world! What can allow us to instill machines with better <i>generalizability</i>? 
-<br />
-AI systems should have the capacity to <a href="http://danielkhashabi.com/files/2019_thesis_defense/danielk_dissertation_2019.pdf"><i>reason</i></a>, in ways that are high-level and <i>not</i> attached to individual tasks. During my PhD, I worked towards this vision by creating symbolic systems that effectively utilize the knowledge of their context to solve a given problem (<a href="http://danielkhashabi.com/files/2016_tableilp/2016_tableilp_ijcai.pdf">IJCAI 16</a>, <a href="https://arxiv.org/abs/1906.03672">AAAI 18</a>). More recently, I have pursued the <i>generalizability</i> objective in terms of neural models that can solve a wider range of problems (<a href="https://arxiv.org/abs/2005.00700">EMNLP 20</a>).</p>
+<li><p><b>Formulating and tackling broader problems:</b> 
+AlphaGo may be the world champion at Go, but it can't solve any other problem! 
+How can we instill machines with better <i>generality</i> that can cover a broader scope of tasks and abilities?  <br />
+<i>Papers:</i></p>
+<ul>
+<li><p><a href="https://arxiv.org/abs/2104.08773">Cross-Task Generalization via Natural Language Crowdsourcing Instructions</a> (arXiv preprint&rsquo;21)</p>
+</li>
+<li><p><a href="https://arxiv.org/abs/2005.00700">UnifiedQA: Crossing Format Boundaries With a Single QA System</a> (EMNLP-Findings&rsquo;20)</p>
+</li>
+</ul>
+
 </li>
 </ul>
 <ul>
-<li><p>What are more meaningful and effective ways to evaluate the progress of AI?
-We must actively rethink the evaluation of AI systems and  move the goalposts according to the latest developments. I persistently pursue this perspective in order to build more comprehensive challenges for our latest technology. 
-Instances of such vision are embodied in the design of our challenge datasets for language understanding (<a href="https://www.aclweb.org/anthology/N18-1023/">NAACL 18</a>, <a href="https://arxiv.org/abs/1909.03065">EMNLP 19</a>, <a href="https://arxiv.org/abs/2101.02235">TACL 21</a>). 
-Along the same goal, we recently released <a href="https://arxiv.org/abs/2101.06561">GENIE🧞</a>, a human evaluation platform to fasciliatet comprehensive evaluation of text generation tasks. </p>
+<li><p><b>Arming models with general-purpose reasoning paradigms:</b> 
+Humans resort to &ldquo;reasons&rdquo; to explain themselves and convince others. 
+How can we enable machines to communicate the <i>reasons</i> behind their findings and the gaps in their knowledge, in a broad-ranging spectrum of tasks? <br />
+<i>Papers:</i></p>
+<ul>
+<li><p><a href="https://arxiv.org/abs/2101.02235">Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies</a> (TACL&rsquo;21)</p>
+</li>
+<li><p><a href="https://arxiv.org/abs/2009.00751">Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models</a> (NAACL&rsquo;21)</p>
+</li>
+</ul>
+
 </li>
 </ul>
 <ul>
-<li><p>Are system doing what they are supposed to do?
-The sad reality of our current AI technology is that our models, under the hood, often depend on shortcuts that are far from the human decision-making process. 
-Part of my research is dedicated to the ways in which we can bring out their unreliable correlations that could lead to catastrophic errors (<a href="https://arxiv.org/abs/2004.02709">EMNLP 20</a>). 
-<br />
-The tendency of our models to take advantage of problematic correlations could lead to algorithmic bias. No matter how small the implicit biases are in AI systems (say, a resume filtering system), in the long term they would contribute to inequitable outcomes particularly for the marginalized communities of society. 
-This is an enormous challenge which requires the participation of policy-makers, social scientists, educators, and so on. Likewise, we, AI scientists, should be diligent about addressing problematic aspects of the same technologies we want to sell (<a href="https://arxiv.org/abs/2010.02428">EMNLP 20</a>).</p>
+<li><p><b>Generality enabled by the representation of task-independent “incidental” signals:</b> 
+How can we utilize the the cheap signals available in the wild (web data or phyisical environment) to enriching representations that support stronger model generalization. <br />
+<i>Papers:</i></p>
+<ul>
+<li><p><a href="https://arxiv.org/abs/2005.04304">Temporal Common Sense Acquisition with Minimal Supervision</a> (ACL&rsquo;20)</p>
+</li>
+<li><p><a href="https://arxiv.org/abs/1907.03228">Zero-Shot Open Entity Typing as Type-Compatible Grounding</a> (EMNLP&rsquo;18)</p>
+</li>
+</ul>
+
 </li>
 </ul>
 <ul>
-<li><p>How can AI benefit the common good?
-Whether we like it or not, technology will play an increasing role in our daily lives. 
-I tend to worry about the unintended consequences of technology in all areas of our lives. 
-These include, but are not limited to, algorithmic biases, misinformation, echo chambers and our growing socio-political divisions. 
-<br />
-As a believer in technology, I like to see applications of AI that address the potential damages of new technologies. An instance of such mindset was embodied in our project that explored ways to organize ideas about controversial issues in ways that allows people to see alternative views and help them see alternative views to a discussion (<a href="http://danielkhashabi.com/files/2019_perspectrum/2019_perspectrum_naacl.pdf">NAACL 19</a>).  </p>
+<li><p><b>AI + Society:</b> 
+What are the algorithmic biases in our models and how can we alleviate them? How do the models contribue to echo chambers (and our growing socio-political divisions) and how can address these issue? <br />
+<i>Papers:</i></p>
+<ul>
+<li><p><a href="https://arxiv.org/abs/2010.02428">UnQovering Stereotyping Biases via Underspecified Questions</a> (EMNLP&rsquo;20)</p>
+</li>
+<li><p><a href="https://arxiv.org/abs/1906.03538">Seeing Things from a Different Angle: Discovering Diverse Perspectives about Claims</a> (NAACL&rsquo;19)</p>
 </li>
 </ul>
-<p>One of the highlights of my research career was the collaboration with a team of brilliant researchers who had <a href="https://www.semanticscholar.org/paper/Combining-Retrieval%2C-Statistics%2C-and-Inference-to-Clark-Etzioni/478b4a5123bd5fda98bb35e6317d7f3555fec97d">an ambitious goal of building a machine capable of answering elementary school science questions</a>. 
-Just a few years ago, the Aristo project <a href="https://arxiv.org/abs/1909.01958">reached its milestone</a> by achieving over 90% in 8th grade science — <a href="https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html">a milestone for AI and NLP</a>.</p>
-<p>I was a doctoral student at Computer and Information Sciences at the University of Pennsylvania (2017-2019) and at the University of Illinois, Urbana-Champaign (2012-2016), under <a href="https://www.cis.upenn.edu/~danroth/">Prof. Dan Roth</a>. I have a bachelor's degree from Amirkabir University of Technology, Tehran Polytechnic (2008-2012). I was greatly fortunate to work with <a href="https://scholar.google.com/citations?user=tLX51p0AAAAJ&amp;hl=en">Prof. Hamid Sheikhzadeh</a> during my undergraduate studies.  
-<br /></p>
+
+</li>
+</ul>
 <p><h2 id="publication">Publication</h2></p>
 <p><b>Disclaimer:</b> This material is presented to ensure timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. <br /></p>
 <h4></h4>
+<ul>
+<li><p><b>Time Waits for No One! Analysis and Challenges of Temporal Misalignment</b> <br /> 
+Kelvin Luu, Daniel Khashabi, Suchin Gururangan, Karishma Mandyam and Noah A. Smith <br /> 
+arXiv, 2021 <br /> 
+<a href="?">Paper</a></p>
+</li>
+</ul>
 <ul>
 <li><p><b>Learning to Solve Complex Tasks by Talking to Agents</b> <br /> 
 Tushar Khot, Kyle Richardson, Daniel Khashabi and Ashish Sabharwal <br /> 
@@ -105,7 +139,7 @@ arXiv, 2021 <br />
 <li><p><b>Cross-Task Generalization via Natural Language Crowdsourcing Instructions</b> <br /> 
 Swaroop Mishra, Daniel Khashabi, Chitta Baral and Hannaneh Hajishirzi <br /> 
 arXiv, 2021 <br /> 
-<a href="https://arxiv.org/abs/2104.08773">Paper</a>, <a href="http://instructions.apps.allenai.org/">Data</a>, <a href="https://github.com/allenai/natural-instructions-expansion/">Data2</a>, <a href="files/2021_natural_insructions/ai2-talk-may-2021.pdf">Slides</a></p>
+<a href="https://arxiv.org/abs/2104.08773">Paper</a>, <a href="http://instructions.apps.allenai.org/">Data</a>, <a href="https://github.com/allenai/natural-instructions-expansion/">Data2</a>, <a href="files/2021_natural_insructions/ai2-talk-may-2021.pdf">Slides</a>, <a href="https://medium.com/ai2-blog/call-for-contributions-a-community-driven-repository-of-natural-language-instructions-9d3f24d5a9db">Blog</a></p>
 </li>
 </ul>
 <ul>
@@ -441,7 +475,7 @@ Global Reasoning over Semantic Abstractions</a>, 2018.</p>
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2021-10-18 20:21:56 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2021-11-14 22:08:33 PST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
