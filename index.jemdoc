@@ -58,7 +58,7 @@ How can we enable machines to communicate the /reasons/ behind their findings an
 
 
 - *Generality enabled by the representation of task-independent “incidental” signals:* 
-How can we utilize cheap signals available in the wild (web data or physical environment) to enrich representations that support stronger model generalization. \n
+How can we utilize cheap signals available in the wild (web data or physical environment) to enrich representations that support stronger model generalization? \n
   /Papers:/
     -- [https://arxiv.org/abs/2005.04304 Temporal Common Sense Acquisition with Minimal Supervision] (ACL'20)
     -- [https://arxiv.org/abs/1907.03228 Zero-Shot Open Entity Typing as Type-Compatible Grounding] (EMNLP'18)
@@ -102,6 +102,11 @@ What are the algorithmic biases in our models and how can we alleviate them? How
 
 *Disclaimer:* This material is presented to ensure the timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ==== 
+
+ - *Promp Waywardness: The Curious Case of Discretized Interpretation of Continuous Prompts* \n 
+  Daniel Khashabi, Shane Lyu, Sewon Min, Lianhui Qin, Kyle Richardson, Sameer Singh, Sean Welleck, Hannaneh Hajishirzi, Tushar Khot, Ashish Sabharwal and Yejin Choi  \n 
+    aXiv, 2021 \n 
+    [arxiv.org/abs/2112.08348 Paper]
 
  - *Findings of the 2021 Conference on Machine Translation (WMT21)* \n 
   Farhad Akhbardeh et al.  \n 
