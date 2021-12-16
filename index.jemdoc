@@ -106,7 +106,7 @@ What are the algorithmic biases in our models and how can we alleviate them? How
  - *Promp Waywardness: The Curious Case of Discretized Interpretation of Continuous Prompts* \n 
   Daniel Khashabi, Shane Lyu, Sewon Min, Lianhui Qin, Kyle Richardson, Sameer Singh, Sean Welleck, Hannaneh Hajishirzi, Tushar Khot, Ashish Sabharwal and Yejin Choi  \n 
     aXiv, 2021 \n 
-    [arxiv.org/abs/2112.08348 Paper]
+    [https://arxiv.org/abs/2112.08348 Paper]
 
  - *Findings of the 2021 Conference on Machine Translation (WMT21)* \n 
   Farhad Akhbardeh et al.  \n 
