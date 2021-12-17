@@ -103,7 +103,7 @@ What are the algorithmic biases in our models and how can we alleviate them? How
 *Disclaimer:* This material is presented to ensure the timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ==== 
 
- - *NeuroLogic A*esque Decoding: Constrained Text Generation with Lookahead Heuristics* \n 
+ - *NeuroLogic A\*esque Decoding: Constrained Text Generation with Lookahead Heuristics* \n 
   Ximing Lu, Sean Welleck, Peter West, Liwei Jiang, Jungo Kasai, Daniel Khashabi, Ronan Le Bras, Lianhui Qin, Youngjae Yu, Rowan Zellers, Noah A. Smith and Yejin Choi  \n 
     aXiv, 2021 \n 
     [https://arxiv.org/abs/2112.08726 Paper]
