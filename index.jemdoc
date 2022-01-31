@@ -227,7 +227,7 @@ What are the algorithmic biases in our models and how can we alleviate them? How
  - *Seeing Things from a Different Angle: Discovering Diverse Perspectives about Claims* \n 
  	Sihao Chen, Daniel Khashabi, Wenpeng Yin, Chris Callison-Burch and Dan Roth \n 
  	NAACL, 2019 \n 
-	[files/2019_perspectrum/2019_perspectrum_naacl.pdf Paper], [https://cogcomp.org/perspectrum Dataset], [https://github.com/CogComp/perspectrum Code], [files/2019_perspectrum/perspectrum-poster-naacl-2019.pdf Poster], [https://www.youtube.com/watch?v=rOgdaLHIDgE&feature=youtu.be Video] \n
+	[files/2019_perspectrum/2019_perspectrum_naacl.pdf Paper], [https://cogcomp.org/perspectrum Dataset], [https://github.com/CogComp/perspectrum Code], [files/2019_perspectrum/perspectrum-poster-naacl-2019.pdf Poster], [https://www.youtube.com/watch?v=rOgdaLHIDgE&feature=youtu.be Video], [files/2019_perspectrum/viz.html Example Visualization] \n
 
  - *On the Possibilities and Limitations of Multi-hop Reasoning Under Linguistic Imperfections* \n 
  	Daniel Khashabi, Erfan Sadeqi Azer, Tushar Khot, Ashish Sabharwal and Dan Roth \n 
