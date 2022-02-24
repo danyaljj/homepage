@@ -113,6 +113,16 @@ What are the algorithmic biases in our models and how can we alleviate them? How
     aXiv, 2022 \n 
     [https://arxiv.org/abs/2202.11705 Paper]
 
+ - *Reframing Instructional Prompts to GPT/k/'s Language* \n 
+  Swaroop Mishra, Daniel Khashabi, Chitta Baral, Yejin Choi and Hannaneh Hajishirzi \n 
+    ACL - Findings, 2022 \n 
+    [https://arxiv.org/abs/2109.07830 Paper], [https://github.com/allenai/reframing Code]
+
+ - *Cross-Task Generalization via Natural Language Crowdsourcing Instructions* \n 
+  Swaroop Mishra, Daniel Khashabi, Chitta Baral and Hannaneh Hajishirzi \n 
+    ACL, 2022 \n 
+    [https://arxiv.org/abs/2104.08773 Paper], [http://instructions.apps.allenai.org/ Data], [https://github.com/allenai/natural-instructions-expansion/ Data2], [files/2021_natural_insructions/ai2-talk-may-2021.pdf Slides], [https://medium.com/ai2-blog/call-for-contributions-a-community-driven-repository-of-natural-language-instructions-9d3f24d5a9db Blog]
+
  - *NeuroLogic A\*esque Decoding: Constrained Text Generation with Lookahead Heuristics* \n 
   Ximing Lu, Sean Welleck, Peter West, Liwei Jiang, Jungo Kasai, Daniel Khashabi, Ronan Le Bras, Lianhui Qin, Youngjae Yu, Rowan Zellers, Noah A. Smith and Yejin Choi  \n 
     aXiv, 2021 \n 
@@ -123,11 +133,7 @@ What are the algorithmic biases in our models and how can we alleviate them? How
     aXiv, 2021 \n 
     [https://arxiv.org/abs/2112.08348 Paper]
 
- - *Findings of the 2021 Conference on Machine Translation (WMT21)* \n 
-  Farhad Akhbardeh et al.  \n 
-    WMT, 2021 \n 
-    [https://aclanthology.org/2021.wmt-1.1/ Paper]
-
+ 
  - *Time Waits for No One! Analysis and Challenges of Temporal Misalignment* \n 
   Kelvin Luu, Daniel Khashabi, Suchin Gururangan, Karishma Mandyam and Noah A. Smith \n 
     arXiv, 2021 \n 
@@ -138,16 +144,10 @@ What are the algorithmic biases in our models and how can we alleviate them? How
     arXiv, 2021 \n 
     [https://arxiv.org/abs/2110.08542 Paper]
 
-
- - *Reframing Instructional Prompts to GPT/k/'s Language* \n 
-  Swaroop Mishra, Daniel Khashabi, Chitta Baral, Yejin Choi and Hannaneh Hajishirzi \n 
-    arXiv, 2021 \n 
-    [https://arxiv.org/abs/2109.07830 Paper], [https://github.com/allenai/reframing Code]
-
- - *Cross-Task Generalization via Natural Language Crowdsourcing Instructions* \n 
-  Swaroop Mishra, Daniel Khashabi, Chitta Baral and Hannaneh Hajishirzi \n 
-    arXiv, 2021 \n 
-    [https://arxiv.org/abs/2104.08773 Paper], [http://instructions.apps.allenai.org/ Data], [https://github.com/allenai/natural-instructions-expansion/ Data2], [files/2021_natural_insructions/ai2-talk-may-2021.pdf Slides], [https://medium.com/ai2-blog/call-for-contributions-a-community-driven-repository-of-natural-language-instructions-9d3f24d5a9db Blog]
+- *Findings of the 2021 Conference on Machine Translation (WMT21)* \n 
+  Farhad Akhbardeh et al.  \n 
+    WMT, 2021 \n 
+    [https://aclanthology.org/2021.wmt-1.1/ Paper]
 
  - *GooAQ: Open Question Answering with Diverse Answer Types* \n 
   Daniel Khashabi, Amos Ng, Tushar Khot, Ashish Sabharwal, Hannaneh Hajishirzi and Chris Callison-Burch \n 
