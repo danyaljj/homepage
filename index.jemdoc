@@ -37,7 +37,7 @@ I have a bachelor's degree from Amirkabir University of Technology, Tehran Polyt
 
 My research focuses on the computational foundations of /intelligent behavior/, through the lens of /natural language/. 
 My goal is to explore the different ways in which we can develop and evaluate systems that understand and reason with (and about) natural language in different contexts. 
-I mostly identify with /natural language processing/ (ACL, NAACL, EMNLP) and /artificial intelligence/ communities (AAAI, IJCAI) and, to some extent, with the /machine learning/ community (NourIPS, ICML).
+I mostly identify with /natural language processing/ (ACL, NAACL, EMNLP) and /artificial intelligence/ communities (AAAI, IJCAI) and, to some extent, with the /machine learning/ community (NeurIPS, ICML).
 
 Here are several themes I am interested in: 
 
@@ -103,6 +103,16 @@ What are the algorithmic biases in our models and how can we alleviate them? How
 *Disclaimer:* This material is presented to ensure the timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ==== 
 
+ # - *UnifiedQA-v2* \n 
+ #  Daniel Khashabi, Yeganeh Kordi and Hannaneh Hajishirzi  \n 
+ #   aXiv, 2022 \n 
+ #   [ Paper]
+
+ - *COLD Decoding: Energy-based Constrained Text Generation with Langevin Dynamics* \n 
+  Lianhui Qin, Sean Welleck, Daniel Khashabi and Yejin Choi  \n 
+    aXiv, 2022 \n 
+    [https://arxiv.org/abs/2202.11705 Paper]
+
  - *NeuroLogic A\*esque Decoding: Constrained Text Generation with Lookahead Heuristics* \n 
   Ximing Lu, Sean Welleck, Peter West, Liwei Jiang, Jungo Kasai, Daniel Khashabi, Ronan Le Bras, Lianhui Qin, Youngjae Yu, Rowan Zellers, Noah A. Smith and Yejin Choi  \n 
     aXiv, 2021 \n 
@@ -116,7 +126,7 @@ What are the algorithmic biases in our models and how can we alleviate them? How
  - *Findings of the 2021 Conference on Machine Translation (WMT21)* \n 
   Farhad Akhbardeh et al.  \n 
     WMT, 2021 \n 
-    [http://www.statmt.org/wmt21/pdf/2021.wmt-1.1.pdf Paper]
+    [https://aclanthology.org/2021.wmt-1.1/ Paper]
 
  - *Time Waits for No One! Analysis and Challenges of Temporal Misalignment* \n 
   Kelvin Luu, Daniel Khashabi, Suchin Gururangan, Karishma Mandyam and Noah A. Smith \n 
@@ -286,7 +296,7 @@ What are the algorithmic biases in our models and how can we alleviate them? How
 
 - *Online Learning with Adversarial Delays* \n 
 	Kent Quanrud and Daniel Khashabi \n 
-	NourIPS, 2015 \n 
+	NeurIPS, 2015 \n 
 	[files/2015_delayed_online_learning/2015_delayed_learning.pdf Paper], [files/2015_delayed_online_learning/delayed-learning-poster-2.pdf Poster]\n 
 
  -  *Clustering With Side Information: From a Probabilistic Model to a Deterministic Algorithm*  \n 
