@@ -103,15 +103,15 @@ What are the algorithmic biases in our models and how can we alleviate them? How
 *Disclaimer:* This material is presented to ensure the timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ==== 
 
- # - *UnifiedQA-v2* \n 
- #  Daniel Khashabi, Yeganeh Kordi and Hannaneh Hajishirzi  \n 
- #   aXiv, 2022 \n 
- #   [ Paper]
-
  - *COLD Decoding: Energy-based Constrained Text Generation with Langevin Dynamics* \n 
   Lianhui Qin, Sean Welleck, Daniel Khashabi and Yejin Choi  \n 
     aXiv, 2022 \n 
     [https://arxiv.org/abs/2202.11705 Paper]
+
+  - *UnifiedQA-v2* \n 
+   Daniel Khashabi, Yeganeh Kordi and Hannaneh Hajishirzi  \n 
+    aXiv, 2022 \n 
+    [https://arxiv.org/abs/2202.12359 Paper]
 
  - *Reframing Instructional Prompts to GPT/k/'s Language* \n 
   Swaroop Mishra, Daniel Khashabi, Chitta Baral, Yejin Choi and Hannaneh Hajishirzi \n 
@@ -133,7 +133,6 @@ What are the algorithmic biases in our models and how can we alleviate them? How
     aXiv, 2021 \n 
     [https://arxiv.org/abs/2112.08348 Paper]
 
- 
  - *Time Waits for No One! Analysis and Challenges of Temporal Misalignment* \n 
   Kelvin Luu, Daniel Khashabi, Suchin Gururangan, Karishma Mandyam and Noah A. Smith \n 
     arXiv, 2021 \n 
