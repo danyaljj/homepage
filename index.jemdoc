@@ -118,6 +118,11 @@ What are the algorithmic biases in our models and how can we alleviate them? How
     ACL - Findings, 2022 \n 
     [https://arxiv.org/abs/2109.07830 Paper], [https://github.com/allenai/reframing Code]
 
+- *Learning to Solve Complex Tasks by Talking to Agents* \n 
+  Tushar Khot, Kyle Richardson, Daniel Khashabi and Ashish Sabharwal \n 
+    ACL - Findings, 2022 \n 
+    [https://arxiv.org/abs/2110.08542 Paper]
+
  - *Cross-Task Generalization via Natural Language Crowdsourcing Instructions* \n 
   Swaroop Mishra, Daniel Khashabi, Chitta Baral and Hannaneh Hajishirzi \n 
     ACL, 2022 \n 
@@ -137,11 +142,6 @@ What are the algorithmic biases in our models and how can we alleviate them? How
   Kelvin Luu, Daniel Khashabi, Suchin Gururangan, Karishma Mandyam and Noah A. Smith \n 
     arXiv, 2021 \n 
     [https://arxiv.org/abs/2111.07408 Paper], [https://github.com/Kel-Lu/time-waits-for-no-one Data]
-
-- *Learning to Solve Complex Tasks by Talking to Agents* \n 
-  Tushar Khot, Kyle Richardson, Daniel Khashabi and Ashish Sabharwal \n 
-    arXiv, 2021 \n 
-    [https://arxiv.org/abs/2110.08542 Paper]
 
 - *Findings of the 2021 Conference on Machine Translation (WMT21)* \n 
   Farhad Akhbardeh et al.  \n 
