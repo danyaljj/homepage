@@ -18,11 +18,11 @@ Allen Institute for Artificial Intelligence  \n
 ~~~
 \n 
 
-~~~
-{}
-I am currently on the academic job market. Please get in touch if you are hiring in the intersection of /Natural Language Processing/, /Artificial Intelligence/ and /Machine Learning/. \n 
-Documents: [files/2021_statements/research_statement.pdf research statement] - [files/2021_statements/teaching_statement.pdf teaching statement] - [files/2021_statements/diversity_statement.pdf diversity statement] -  [files/2021_statements/service_statement.pdf service statement]
-~~~
+# ~~~
+# {}
+# I am currently on the academic job market. Please get in touch if you are hiring in the intersection of /Natural Language Processing/, /Artificial Intelligence/ and /Machine Learning/. \n 
+# Documents: [files/2021_statements/research_statement.pdf research statement] - [files/2021_statements/teaching_statement.pdf teaching statement] - [files/2021_statements/diversity_statement.pdf diversity statement] -  [files/2021_statements/service_statement.pdf service statement]
+# ~~~
 
 {{<h2 id="about">About</h2>}}
 I am a post-doctoral researcher  at Allen Institute for AI, Seattle. I am affiliated with the [https://mosaic.allenai.org/ Mosaic] team and I frequently collaborate with other teams like [https://allennlp.org/ AllenNLP] and [https://allenai.org/aristo Aristo]. 
@@ -45,7 +45,7 @@ Here are several themes I am interested in:
 AlphaGo may be the world champion at Go, but it can't solve any other problem! 
 How can we instill machines with better /generality/ that can cover a broader scope of tasks and abilities?  \n
   /Papers:/
-    -- [https://arxiv.org/abs/2104.08773 Cross-Task Generalization via Natural Language Crowdsourcing Instructions] (arXiv preprint'21)
+    -- [https://arxiv.org/abs/2104.08773 Cross-Task Generalization via Natural Language Crowdsourcing Instructions] (ACL'22)
     -- [https://arxiv.org/abs/2005.00700 UnifiedQA: Crossing Format Boundaries With a Single QA System] (EMNLP-Findings'20)
 
 
@@ -106,7 +106,7 @@ What are the algorithmic biases in our models and how can we alleviate them? How
  - *COLD Decoding: Energy-based Constrained Text Generation with Langevin Dynamics* \n 
   Lianhui Qin, Sean Welleck, Daniel Khashabi and Yejin Choi  \n 
     aXiv, 2022 \n 
-    [https://arxiv.org/abs/2202.11705 Paper]
+    [https://arxiv.org/abs/2202.11705 Paper], [https://github.com/qkaren/COLD_decoding Code], [files/2022_decoding/sean_ifds2022_constrained.pdf Slides]
 
   - *UnifiedQA-v2: Stronger Generalization via Broader Cross-Format Training* \n 
    Daniel Khashabi, Yeganeh Kordi and Hannaneh Hajishirzi  \n 
