@@ -102,6 +102,12 @@ What are the algorithmic biases in our models and how can we alleviate them? How
 
 *Disclaimer:* This material is presented to ensure the timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ==== 
+ - *Benchmarking Generalization via In-Context Instructions on 1,600+ Language Tasks* \n 
+  Yizhong Wang et al.  \n 
+     arXiv, 2022 \n 
+    [https://arxiv.org/abs/2204.07705 Paper], [https://instructions.apps.allenai.org/ Website], [https://github.com/allenai/natural-instructions Data]
+
+
  - *NeuroLogic A\*esque Decoding: Constrained Text Generation with Lookahead Heuristics* \n 
   Ximing Lu, Sean Welleck, Peter West, Liwei Jiang, Jungo Kasai, Daniel Khashabi, Ronan Le Bras, Lianhui Qin, Youngjae Yu, Rowan Zellers, Noah A. Smith and Yejin Choi  \n 
      NAACL, 2022 \n 
