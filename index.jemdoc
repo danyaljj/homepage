@@ -116,7 +116,7 @@ What are the algorithmic biases in our models and how can we alleviate them? How
  - *Promp Waywardness: The Curious Case of Discretized Interpretation of Continuous Prompts* \n 
   Daniel Khashabi, Shane Lyu, Sewon Min, Lianhui Qin, Kyle Richardson, Sameer Singh, Sean Welleck, Hannaneh Hajishirzi, Tushar Khot, Ashish Sabharwal and Yejin Choi  \n 
     NAACL, 2022 \n 
-    [https://arxiv.org/abs/2112.08348 Paper]
+    [https://arxiv.org/abs/2112.08348 Paper], [files/2022_waywardness/waywardness-2022-ai2.pptx Slides]
 
  - *Time Waits for No One! Analysis and Challenges of Temporal Misalignment* \n 
     Kelvin Luu, Daniel Khashabi, Suchin Gururangan, Karishma Mandyam and Noah A. Smith \n 
