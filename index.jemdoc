@@ -141,10 +141,10 @@ What are the algorithmic biases in our models and how can we alleviate them? How
     [https://arxiv.org/abs/2202.12359 Paper]
 
 
-- *Learning to Solve Complex Tasks by Talking to Agents* \n 
+- *Hey AI, Can You Solve Complex Tasks by Talking to Agents?* \n 
   Tushar Khot, Kyle Richardson, Daniel Khashabi and Ashish Sabharwal \n 
     ACL - Findings, 2022 \n 
-    [https://arxiv.org/abs/2110.08542 Paper]
+    [https://arxiv.org/abs/2110.08542 Paper], [files/2022_commaqa/CommaQA_ACL_Presentation_v2.pptx Slides], [files/2022_commaqa/CommaQA_ACL_Poster_v2.pdf Poster]
 
 
  - *Reframing Instructional Prompts to GPT/k/'s Language* \n 
