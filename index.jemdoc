@@ -28,7 +28,7 @@ Here are several themes I am interested in:
 
 - *Formulating and tackling broader problems:* 
 AlphaGo may be the world champion at Go, but it can't solve any other problem! 
-How can we instill machines with better /generality/ that can cover a broader scope of tasks and abilities?  \n
+How can we instill machines with better [/generality/](http://jmc.stanford.edu/articles/generality.html) that can cover a broader scope of tasks and abilities?  \n
   # /Papers:/
     -- [https://arxiv.org/abs/2104.08773 Cross-Task Generalization via Natural Language Crowdsourcing Instructions] (ACL'22)
     -- [https://arxiv.org/abs/2005.00700 UnifiedQA: Crossing Format Boundaries With a Single QA System] (EMNLP-Findings'20)
