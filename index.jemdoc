@@ -42,7 +42,7 @@ How can we build task-independent representations that utilize cheap signals ava
   #  -- [https://arxiv.org/abs/1907.03228 Zero-Shot Open Entity Typing as Type-Compatible Grounding] (EMNLP'18)
 
 - *Reasoning:* 
-I view "reasoning" as the process of explaining or justifying decisions via "reasons". 
+I view "reasoning" as the process of using "reasons" for explaining or justifying decisions. 
 How can we enable machines to communicate via /reasons/, for a broad-ranging spectrum of tasks? (papers: [https://arxiv.org/abs/2009.00751  TACL'21], [https://arxiv.org/abs/2101.02235 NAACL'21])
  # \n
   # /Papers:/
