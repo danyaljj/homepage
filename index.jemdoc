@@ -50,8 +50,8 @@ How can we enable machines to communicate via /reasons/, for a broad-ranging spe
   #  -- [https://arxiv.org/abs/2009.00751 Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models] (NAACL'21)
 
 
-- *AI + Society:* 
-What are the algorithmic biases in our models and how can we alleviate them? How do the models contribute to echo chambers (and our growing socio-political divisions) and how can address these issues? (papers:  [https://arxiv.org/abs/2010.02428 EMNLP'20], [https://arxiv.org/abs/1906.03538 NAACL'19])
+- *Human-AI interaction:* The increased deployment of AI in human-facing applications requires addressing many challenges: 
+How can we bake in transparency in models so human operators can contextualize system output? Can we make such transparency into a truly democratic oversight of systems and their algorithmic biases?  Can we build systems that can recourse when there is harm to those that are marginalized? Can we build systems that reduce our socio-political divisions? (papers:  [https://arxiv.org/abs/2010.02428 EMNLP'20], [https://arxiv.org/abs/1906.03538 NAACL'19])
   # \n
   # /Papers:/
   #  -- [https://arxiv.org/abs/2010.02428 UnQovering Stereotyping Biases via Underspecified Questions] (EMNLP'20)
