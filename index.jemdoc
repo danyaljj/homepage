@@ -90,6 +90,12 @@ How can we bake in transparency in models so human operators can contextualize s
 
 *Disclaimer:* This material is presented to ensure the timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ==== 
+ - *Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models* \n 
+     Srivastava et al. \n 
+     arXiv, 2022 \n 
+    [https://arxiv.org/abs/2206.04615 Paper], [https://github.com/google/BIG-bench Data]
+
+
  - *ProsocialDialog: A Prosocial Backbone for Conversational Agents* \n 
   Hyunwoo Kim, Youngjae Yu, Liwei Jiang, Ximing Lu, Daniel Khashabi, Gunhee Kim, Yejin Choi and Maarten Sap  \n 
      arXiv, 2022 \n 
