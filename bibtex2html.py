@@ -83,7 +83,7 @@ for x in bibtex_database.entries:
         colorend = "</font>}}"
         fontsizebegin = "{{<font size=-1>}}"
         fontsizeend = "{{</font>}}"
-        output = f" \n- {title} {authors} {colorbegin}{venue}{colorend}, {x['year']}. {fontsizebegin}{meta_items}{fontsizeend}\n" + output
+        output = f" \n - {title}  \\n    {authors} \\n    {colorbegin}{venue}{colorend}, {x['year']}. {fontsizebegin}{meta_items}{fontsizeend}\n" + output
 
 
 print(output)
