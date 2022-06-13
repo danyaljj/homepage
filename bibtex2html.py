@@ -13,6 +13,9 @@ from urllib.request import urlopen
 def clean_url(url):
     return url.replace('\_', '_')
 
+def clean_title(text):
+    return text.replace('\\textasteriskcentered', '\*')
+
 meta_fields = ['data', 'slides', 'talk', "poster", "code", "leaderboard", "project", "demo", "blog", "coverage", "visualization"]
 output = "\n\n"
 bibtex_file = urlopen('https://raw.githubusercontent.com/danyaljj/bibfile/master/ref.bib')
@@ -30,6 +33,8 @@ for x in bibtex_database.entries:
             title = f"[{clean_url(x['url'])} *{x['title']}*]"
         else:
             title = f"*{x['title']}*"
+        title = clean_title(title)
+
         if "{" in title:
             title = title.replace("{", "").replace("}", "")
 
