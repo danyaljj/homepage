@@ -21,7 +21,7 @@ for x in bibtex_database.entries:
     if 'khashabi' in x['author'].lower():
         print(x)
         x['title'] = x['title'].strip()
-        if '.' != x['title'][-1]:
+        if x['title'][-1] not in ['.', '?']:
             x['title'] += '.'
 
         if 'url' in x:
