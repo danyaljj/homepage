@@ -10,6 +10,8 @@ from urllib.request import urlopen
 # parser.homogenize_fields = False
 # parser.common_strings = False
 
+def clean_url(url):
+    return url.replace('\_', '_')
 
 meta_fields = ['data', 'slides', 'talk', "poster", "code", "leaderboard", "project", "demo", "blog", "coverage", "visualization"]
 output = "\n\n"
@@ -25,7 +27,7 @@ for x in bibtex_database.entries:
             x['title'] += '.'
 
         if 'url' in x:
-            title = f"[{x['url']} *{x['title']}*]"
+            title = f"[{clean_url(x['url'])} *{x['title']}*]"
         else:
             title = f"*{x['title']}*"
         if "{" in title:
@@ -72,14 +74,16 @@ for x in bibtex_database.entries:
         meta_items = []
         for meta_field in meta_fields:
             if meta_field.lower() in x:
-                meta_items.append(f"[{x[meta_field.lower()]} \[{meta_field}\] ]")
+                meta_items.append(f"[{clean_url(x[meta_field.lower()])} \[{meta_field}\] ]")
         if len(meta_items) > 0:
             meta_items = " ".join(meta_items)
         else:
             meta_items = ""
         colorbegin = "{{<font color=\"DarkRed\">"
         colorend = "</font>}}"
-        output = f" \n- {title} {authors} {colorbegin}{venue}{colorend}, {x['year']}. {meta_items}\n" + output
+        fontsizebegin = "{{<font size=-1>}}"
+        fontsizeend = "{{</font>}}"
+        output = f" \n- {title} {authors} {colorbegin}{venue}{colorend}, {x['year']}. {fontsizebegin}{meta_items}{fontsizeend}\n" + output
 
 
 print(output)
