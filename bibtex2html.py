@@ -1,0 +1,87 @@
+import bibtexparser
+
+
+# def customizations(record):
+#     record = bibtexparser.customization.splitname(record)
+#     return record
+# parser = BibTexParser()
+# parser.customization = customizations
+# parser.ignore_nonstandard_types = False
+# parser.homogenize_fields = False
+# parser.common_strings = False
+
+
+meta_fields = ['data', 'slides', 'talk', "poster", "code", "leaderboard", "project", "demo", "blog", "coverage", "visualization"]
+output = "\n\n"
+with open('/Users/danielk/ideaProjects/bibfile/ref.bib') as bibtex_file:
+    bibtex_database = bibtexparser.load(bibtex_file)
+
+    for x in bibtex_database.entries:
+        if 'khashabi' in x['author'].lower():
+            print(x)
+            x['title'] = x['title'].strip()
+            if '.' != x['title'][-1]:
+                x['title'] += '.'
+
+            if 'url' in x:
+                title = f"[{x['url']} *{x['title']}*]"
+            else:
+                title = f"*{x['title']}*"
+            if "{" in title:
+                title = title.replace("{", "").replace("}", "")
+
+            if "," in x['author']:
+                authors = ""
+                all_authors = x['author'].split(" and ")
+                for idx, a in enumerate(all_authors):
+                    if ", " in a:
+                        asplit = a.split(", ")
+                        a = f"{asplit[1]} {asplit[0]}"
+                    if idx == len(all_authors) - 1:
+                        authors += f" and {a}."
+                    elif idx == 40:
+                        authors += f" and others."
+                        break
+                    else:
+                        if idx == 0:
+                            authors += f"{a}"
+                        else:
+                            authors += f", {a}"
+            else:
+                authors = x['author']
+
+
+            venue = ""
+            if "journal" in x:
+                venue = x['journal']
+            elif "booktitle" in x:
+                venue = x['booktitle']
+            elif x["ENTRYTYPE"] == "phdthesis":
+                venue = "PhD thesis at " + x['school']
+            else:
+                venue = x["note"]
+
+            if "publisher" in x:
+                venue += " - " + x["publisher"]
+
+            if "\CNFX{" in venue:
+                venue = venue.replace("\CNFX{", "(")
+                venue = venue.replace("}", ")")
+
+            meta_items = []
+            for meta_field in meta_fields:
+                if meta_field.lower() in x:
+                    meta_items.append(f"[{x[meta_field.lower()]} \[{meta_field}\] ]")
+            if len(meta_items) > 0:
+                meta_items = " ".join(meta_items)
+            else:
+                meta_items = ""
+            colorbegin = "{{<font color=\"DarkRed\">"
+            colorend = "</font>}}"
+            output = f" \n- {title} {authors} {colorbegin}{venue}{colorend}, {x['year']}. {meta_items}\n" + output
+
+
+print(output)
+
+outputfile = open("publication.jemdoc", "w")
+outputfile.write(output)
