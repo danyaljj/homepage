@@ -100,8 +100,9 @@ How can we bake in transparency in models so human operators can contextualize s
 - Mid-Atlantic Student Colloquium on Speech, Language and Learning, [https://docs.google.com/presentation/d/1KmGQfbeUitZOum4s6cPTqwuJJfTdxlQMeV_Go2_8Jz0/edit?usp=sharing Abductive Reasoning on Natural Language Questions as
 Global Reasoning over Semantic Abstractions], 2018.
 
-# {{<h2 id="teaching">Teaching</h2>}}
-# TBD
+{{<h2 id="teaching">Teaching</h2>}}
+ - CSCI 601.771 (Fall 2022): Self-supervised Statistical Models: Opportunities, Challenges and Risks
+
 # - Guest Lecturer: CS446 (Machine Learning) @ UPenn, Spring 2018.
 # - Guest Lecturer: CS446 (Machine Learning) @ UPenn, Fall 2018. # : [https://www.youtube.com/watch?v=9AbMmCrNeEQ Lecture 1] [https://www.youtube.com/watch?v=cznV5pRsv_A Lecture 2]
 # - Guest Lecturer: CS446 (Machine Learning) @ UIUC, Spring 2016. # : [https://www.youtube.com/watch?v=oNOY2F2qcsk Lecture 1]

@@ -67,6 +67,14 @@ for x in bibtex_database.entries:
             venue = venue.replace("\CNFX{", "(")
             venue = venue.replace("}", ")")
 
+        awards = ""
+        if "awards" in x:
+            x['awards'] = x['awards'].strip()
+            if "." != x['awards'][-1]:
+                x['awards'] += "."
+
+            awards = f" *{x['awards']}* "
+
         meta_items = []
         for meta_field in meta_fields:
             if meta_field.lower() in x:
@@ -79,7 +87,8 @@ for x in bibtex_database.entries:
         colorend = "</font>}}"
         fontsizebegin = "{{<font size=-1>}}"
         fontsizeend = "{{</font>}}"
-        output = f" \n - {title}  \\n    {authors} \\n    {colorbegin}{venue}{colorend}, {x['year']}. {fontsizebegin}{meta_items}{fontsizeend}\n" + output
+
+        output = f" \n - {title}  \\n    {authors} \\n    {colorbegin}{venue}{colorend}, {x['year']}.{awards}{fontsizebegin}{meta_items}{fontsizeend}\n" + output
 
 
 print(output)
