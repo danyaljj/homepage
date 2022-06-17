@@ -67,7 +67,7 @@ for x in bibtex_database.entries:
             venue = venue.replace("\CNFX{", "(")
             venue = venue.replace("}", ")")
 
-        awards = ""
+        awards = " "
         if "awards" in x:
             x['awards'] = x['awards'].strip()
             if "." != x['awards'][-1]:
