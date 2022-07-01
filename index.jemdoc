@@ -2,19 +2,17 @@
 
 \n 
 ~~~
-{}{img_left}{profile.png}{alt text}{220}{}{}
+{}{img_left}{profile.png}{alt text}{170}{}{}
 Daniel Khashabi ({{<span lang="ko" xml:lang="ko">}}دانیال خشابی{{</span>}}) \n
-Young Investigator \n
-Allen Institute for Artificial Intelligence  \n
-2157 N Northlake Way Suite 110, Seattle, WA 98103 | Email: +danielk ¯\\_(ツ)_/¯ allenai.org+ \n
+Assistant Professor of [https://www.cs.jhu.edu/ Computer Science] \n
+[https://engineering.jhu.edu/ Whiting School of Engineering] \n
+[https://jhu.edu/ Johns Hopkins University] \n
+# 3400 North Charles Street Baltimore, MD 21218 | Email: +danielk ¯\\_(ツ)_/¯ allenai.org+ \n
+Young Investigator at Allen Institute for AI | Email: +danielk ¯\\_(ツ)_/¯ allenai.org+ \n
+
+# 2157 N Northlake Way Suite 110, Seattle, WA 98103 | Email: +danielk ¯\\_(ツ)_/¯ allenai.org+ \n
  
 
-
-I am a post-doctoral researcher  at Allen Institute for AI, Seattle. I am affiliated with the [https://mosaic.allenai.org/ Mosaic] team and I frequently collaborate with other teams like [https://allennlp.org/ AllenNLP] and [https://allenai.org/aristo Aristo]. 
-Prior to this, I was a doctoral student at Computer and Information Sciences at the University of Pennsylvania (2017-2019) and at the University of Illinois, Urbana-Champaign (2012-2016), under [https://www.cis.upenn.edu/~danroth/ Prof. Dan Roth]. 
-I got my B.Sc. from Tehran Polytechnic (2008-2012) where I was greatly fortunate to work with [https://scholar.google.com/citations?user=tLX51p0AAAAJ&hl=en Prof. Hamid Sheikhzadeh]. \n
-
-# Outside the academic spaces, I am interested in writing for a wider audience, especially on issues at the intersection of policy + AI/tech, and [https://www.thedp.com/article/2019/05/graduation-iranian-immigrant-ban-executive-order-president-trump-daniel-khashabi-philadelphia-ivy-league-upenn beyond]. 
 ~~~
 
 
@@ -91,7 +89,7 @@ How can we bake in transparency in models so human operators can contextualize s
 #- [reading.html WEBPAGE]
 
 {{<h2 id="talks">Select Talks</h2>}}
-- Johns Jopkins University, [files/2022_jhu_talk/jhu_talk-feb-2022-split.pdf The Quest Toward Generality in Natural Language Understanding], 2022.
+- Johns Hopkins University, [files/2022_jhu_talk/jhu_talk-feb-2022-split.pdf The Quest Toward Generality in Natural Language Understanding], 2022.
 - Google AI, [files/2021_google_talk/google-talk-march-2021.pdf Broadening the Scope of Machine Comprehension], 2021.
 # - [https://freuder.wordpress.com/pthg-19-the-third-workshop-on-progress-towards-the-holy-grail/  The Third Workshop on Progress Towards the Holy Grail], [files/2019_talk_holy_grail_workshop/daniel-kh-holy-grail-workshop-2019.pdf In Pursuit of the Holy Grail of Natural Language Understanding: Past, Present, and Future], 2019.
 - Carnegie Mellon University, [files/2019_talk_indirect_supervision/danielkh_job_talk_small_supervision_split.pdf Natural Language Understanding with Indirect Supervision], 2019.
