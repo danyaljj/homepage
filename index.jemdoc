@@ -3,7 +3,7 @@
 \n 
 ~~~
 {}{img_left}{profile.png}{alt text}{170}{}{}
-Daniel Khashabi ({{<span lang="ko" xml:lang="ko">}}دانیال خشابی{{</span>}}) \n
+{{<span style="font-weight: bold; font-size: 125%; line-height: 2.0;">Daniel Khashabi </span>}} \n
 Assistant Professor of [https://www.cs.jhu.edu/ Computer Science] \n
 [https://engineering.jhu.edu/ Whiting School of Engineering] \n
 [https://jhu.edu/ Johns Hopkins University] \n
@@ -21,7 +21,7 @@ Young Investigator at Allen Institute for AI | Email: +danielk ¯\\_(ツ)_/¯ al
 
 My research focuses on the computational foundations of /intelligent behavior/, through the lens of /natural language/. 
 My goal is to explore the different ways in which we can develop and evaluate systems that understand and reason with (and about) natural language in different contexts. 
-I mostly identify with /natural language processing/ (ACL, NAACL, EMNLP) and /artificial intelligence/ communities (AAAI, IJCAI) and, to some extent, with the /machine learning/ community (NeurIPS, ICML).
+I mostly identify with /natural language processing/ (ACL, NAACL, EMNLP) and /artificial intelligence/ communities (AAAI, IJCAI) and, to some extent, with the /machine learning/ community (ICLR, NeurIPS, ICML).
 
 Here are several themes I am interested in: 
 
