@@ -8,11 +8,10 @@ Assistant Professor of [https://www.cs.jhu.edu/ Computer Science] \n
 [https://engineering.jhu.edu/ Whiting School of Engineering] \n
 [https://jhu.edu/ Johns Hopkins University] \n\n
 Office: Hackerman Hall 316B | Email: +danielk ¯\\_(ツ)_/¯ jhu.edu+ \n
-
-# Young Investigator at Allen Institute for AI | Email: +danielk ¯\\_(ツ)_/¯ allenai.org+ \n
-# 2157 N Northlake Way Suite 110, Seattle, WA 98103 | Email: +danielk ¯\\_(ツ)_/¯ allenai.org+ \n
  ~~~
 
+\n
+/If you are an undergraduate or masters student and would like to work on research with my group, please fill out the referenced form in [https://livejohnshopkins-my.sharepoint.com/:w:/g/personal/dkhasha1_jh_edu/EQJq9qWvd9lJm93SVeFN1VoB2Fe9miIC5MIfvUuq7p2biw?e=6InAcZ  this document]./
 
 
 {{<h2 id="themes">Research Themes</h2>}}
@@ -46,7 +45,7 @@ How can we enable machines to communicate via /reasons/, for a broad-ranging spe
   #  -- [https://arxiv.org/abs/2009.00751 Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models] (NAACL'21)
 
 
-- *Human-AI interaction:* The increased deployment of AI in human-facing applications requires addressing many challenges: 
+- *AI + Humans:* With the increased deployment of AI we need to better understand their impacts on humans and foresee the unintended harms that may result:
 How can we bake in transparency in models so human operators can contextualize system output? Can we make such transparency into a truly democratic oversight of systems and their algorithmic biases?  Can we build systems that can recourse when there is harm to those that are marginalized? Can we build systems that reduce our socio-political divisions? (papers:  [https://arxiv.org/abs/2010.02428 EMNLP'20], [https://arxiv.org/abs/1906.03538 NAACL'19])
   # \n
   # /Papers:/
