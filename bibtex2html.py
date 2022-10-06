@@ -8,7 +8,8 @@ def clean_title(text):
     return text.replace('\\textasteriskcentered', '\*')
 
 meta_fields = ['data', 'slides', 'talk', "poster", "code", "leaderboard", "project", "demo", "blog", "coverage", "visualization"]
-output = "\n\n"
+output_list_map = {}
+
 bibtex_file = urlopen('https://raw.githubusercontent.com/danyaljj/bibfile/master/ref.bib')
 bibtex_database = bibtexparser.loads( bibtex_file.read())
 
@@ -88,10 +89,37 @@ for x in bibtex_database.entries:
         fontsizebegin = "{{<font size=-1>}}"
         fontsizeend = "{{</font>}}"
 
-        output = f" \n - {title}  \\n    {authors} \\n    {colorbegin}{venue}{colorend}, {x['year']}.{awards}{fontsizebegin}{meta_items}{fontsizeend}\n" + output
+        if x['year'] not in output_list_map:
+            output_list_map[x['year']] = []
+        output_list_map[x['year']].append(
+            f" \n - {title}  \\n    {authors} \\n    {colorbegin}{venue}{colorend}, {x['year']}.{awards}{fontsizebegin}{meta_items}{fontsizeend}\n"
+        )
+
+def rank_function(entry):
+    entry = entry.lower()
+    if "emnlp" in entry:
+        return 1
+    elif "neurips" in entry:
+        return 2
+    elif "naacl" in entry:
+        return 3
+    elif " acl" in entry:
+        return 4
+    else:
+        return 5
+
+output = "\n\n"
+for year in sorted(output_list_map.keys(), reverse=True):
+    print(" - - - -- - - - -")
+    print(year)
+    # sort them based on ranking function
+    output_list_map[year] = sorted(output_list_map[year], key=rank_function)
+    print(output_list_map[year])
+    output += "".join(output_list_map[year])
+    # print("".join(output_list_map[year]))
 
 
-print(output)
+# print(output)
 
 outputfile = open("publication.jemdoc", "w")
 outputfile.write(output)
