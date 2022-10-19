@@ -97,14 +97,16 @@ for x in bibtex_database.entries:
 
 def rank_function(entry):
     entry = entry.lower()
-    if "emnlp" in entry:
+    if "(emnlp)" in entry:
         return 1
-    elif "neurips" in entry:
+    elif "(neurips)" in entry:
         return 2
-    elif "naacl" in entry:
+    elif "(naacl)" in entry:
         return 3
-    elif " acl" in entry:
+    elif "(acl)" in entry:
         return 4
+    elif "arxiv preprint" in entry:
+        return 0
     else:
         return 5
 
@@ -113,13 +115,10 @@ for year in sorted(output_list_map.keys(), reverse=True):
     print(" - - - -- - - - -")
     print(year)
     # sort them based on ranking function
-    output_list_map[year] = sorted(output_list_map[year], key=rank_function)
+    output_list_map[year] = sorted(reversed(output_list_map[year]), key=rank_function)
     print(output_list_map[year])
     output += "".join(output_list_map[year])
-    # print("".join(output_list_map[year]))
-
-
-# print(output)
+    print("".join(output_list_map[year]))
 
 outputfile = open("publication.jemdoc", "w")
 outputfile.write(output)
