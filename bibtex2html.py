@@ -95,6 +95,7 @@ for x in bibtex_database.entries:
             f" \n - {title}  \\n    {authors} \\n    {colorbegin}{venue}{colorend}, {x['year']}.{awards}{fontsizebegin}{meta_items}{fontsizeend}\n"
         )
 
+
 def rank_function(entry):
     entry = entry.lower()
     if "(emnlp)" in entry:
