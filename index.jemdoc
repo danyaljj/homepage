@@ -17,41 +17,29 @@ Office: Hackerman Hall 316B | Email: +danielk ¯\\_(ツ)_/¯ cs.jhu.edu+ \n
 
 {{<h2 id="themes">Research Themes</h2>}}
 
-My research focuses on the computational foundations of /intelligent behavior/, through the lens of /natural language/. 
-My goal is to explore the different ways in which we can develop and evaluate systems that understand and reason with (and about) natural language in different contexts. 
+The dominant theme of my research is /intelligence-amplification/, or building computer models that could augment human experience in various tasks in life.
+I am excited about a future with [https://groups.csail.mit.edu/medg/people/psz/Licklider.html "People-Computer Symbiosis"] where intelligent machines work in a mutually interdependent fashion with humans and complemented each other's strengths.
 I mostly identify with /natural language processing/ (ACL, NAACL, EMNLP) and /artificial intelligence/ communities (AAAI, IJCAI) and, to some extent, with the /machine learning/ community (ICLR, NeurIPS, ICML).
+
+# My research focuses on the computational foundations of /intelligent behavior/, through the lens of /natural language/.
+# My goal is to explore the different ways in which we can develop and evaluate systems that understand and reason with (and about) natural language in different contexts.
 
 Here are several themes I am interested in: 
 
+# - *Interaction*:
+
 - *Generalism[http://jmc.stanford.edu/articles/generality/generality.pdf \*]:* 
 AlphaGo may be the world champion at Go, although it can't solve any other problem! 
-How can we incentivize building models that can address a broader scope of tasks and abilities?  (papers: [https://arxiv.org/abs/2104.08773 ACL'22], [https://arxiv.org/abs/2005.00700 EMNLP-Findings'20])
-  # /Papers:/
-  #   -- [https://arxiv.org/abs/2104.08773 Cross-Task Generalization via Natural Language Crowdsourcing Instructions] (ACL'22)
-  #   -- [https://arxiv.org/abs/2005.00700 UnifiedQA: Crossing Format Boundaries With a Single QA System] (EMNLP-Findings'20)
+How can we incentivize building models that can address a broader scope of tasks and abilities?  (papers: [https://arxiv.org/abs/2204.07705 EMNLP'22], [https://arxiv.org/abs/2104.08773 ACL'22], [https://arxiv.org/abs/2005.00700 EMNLP-Findings'20])
 
 - *Self-supervised learning:* 
 How can we build task-independent representations that utilize cheap signals available in-the-wild (web data or physical environment) and support better model generalization? (papers: [https://arxiv.org/abs/2005.04304 ACL'20], [https://arxiv.org/abs/1907.03228 EMNLP'18])
-  # \n
-  # /Papers:/
-  #  -- [https://arxiv.org/abs/2005.04304 Temporal Common Sense Acquisition with Minimal Supervision] (ACL'20)
-  #  -- [https://arxiv.org/abs/1907.03228 Zero-Shot Open Entity Typing as Type-Compatible Grounding] (EMNLP'18)
 
-- *Reasoning:* 
-I view "reasoning" as the process of using "reasons" for explaining or justifying decisions. 
-How can we enable machines to communicate via /reasons/, for a broad-ranging spectrum of tasks? (papers: [https://arxiv.org/abs/2009.00751  TACL'21], [https://arxiv.org/abs/2101.02235 NAACL'21])
- # \n
-  # /Papers:/
-  #  -- [https://arxiv.org/abs/2101.02235 Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies] (TACL'21)
-  #  -- [https://arxiv.org/abs/2009.00751 Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models] (NAACL'21)
-
+- *Reasoning:*  I view "reasoning" as the process of using "reasons" for explaining or justifying decisions.
+ How can we enable machines to communicate via /reasons/, for a broad-ranging spectrum of tasks? (papers: [https://arxiv.org/abs/2009.00751  TACL'21], [https://arxiv.org/abs/2101.02235 NAACL'21])
 
 - *AI + Humans:* With the increased deployment of AI we need to better understand their impacts on humans and foresee the unintended harms that may result:
 How can we bake in transparency in models so human operators can contextualize system output? Can we make such transparency into a truly democratic oversight of systems and their algorithmic biases?  Can we build systems that can recourse when there is harm to those that are marginalized? Can we build systems that reduce our socio-political divisions? (papers:  [https://arxiv.org/abs/2010.02428 EMNLP'20], [https://arxiv.org/abs/1906.03538 NAACL'19])
-  # \n
-  # /Papers:/
-  #  -- [https://arxiv.org/abs/2010.02428 UnQovering Stereotyping Biases via Underspecified Questions] (EMNLP'20)
-  #  -- [https://arxiv.org/abs/1906.03538 Seeing Things from a Different Angle: Discovering Diverse Perspectives about Claims] (NAACL'19)
 
 
 #  - Are system doing what they are supposed to do?
