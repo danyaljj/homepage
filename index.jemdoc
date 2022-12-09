@@ -17,11 +17,10 @@ Office: Hackerman Hall 316B | Email: +danielk ¯\\_(ツ)_/¯ jhu.edu+ \n
 
 {{<h2 id="themes">Research Themes</h2>}}
 
-The dominant theme of my research is [https://en.wikipedia.org/wiki/Intelligence_amplification /intelligence amplification/], or building computational models that could augment human experience in various tasks in life.
-I am excited about a future with [https://groups.csail.mit.edu/medg/people/psz/Licklider.html people-computer symbiosis] where intelligent machines work in a mutually interdependent fashion with humans and complement each other's strengths.
+My research is motivated by the computational foundations of /intelligent behavior/, through the lens of /natural language/.
+I am also excited about [https://en.wikipedia.org/wiki/Intelligence_amplification /intelligence amplification/] — building computational models that would augment human experience in a mutually interdependent fashion.
 I mostly identify with /natural language processing/ (ACL, NAACL, EMNLP) and /artificial intelligence/ communities (AAAI, IJCAI) and, to some extent, with the /machine learning/ community (ICLR, NeurIPS, ICML).
 
-# My research focuses on the computational foundations of /intelligent behavior/, through the lens of /natural language/.
 # My goal is to explore the different ways in which we can develop and evaluate systems that understand and reason with (and about) natural language in different contexts.
 
 Here are several themes I am interested in: 
@@ -85,8 +84,7 @@ How can we bake in transparency in models so human operators can contextualize s
 Global Reasoning over Semantic Abstractions], 2018.
 
 {{<h2 id="teaching">Teaching</h2>}}
- - Spring 2023: CSCI 601.471/671, NLP: Self-supervised Models
- # - Spring 2023: [https://self-supervised.cs.jhu.edu/sp2023 CSCI 601.471, NLP: Self-supervised Models]
+ - Spring 2023: [https://self-supervised.cs.jhu.edu/sp2023/ CSCI 601.471/671, NLP: Self-supervised Models]
  - Fall 2022: [https://self-supervised.cs.jhu.edu CSCI 601.771, Advances in Self-supervised Models]
 
 # - Guest Lecturer: CS446 (Machine Learning) @ UPenn, Spring 2018.
