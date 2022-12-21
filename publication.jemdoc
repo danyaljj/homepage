@@ -1,6 +1,12 @@
 
 
  
+ - [https://arxiv.org/abs/2212.10560 *Self-Instruct: Aligning Language Model with Self Generated Instructions.*]  \n    Yizhong Wang and Yeganeh Kordi and Swaroop Mishra and Alisa Liu and Noah A. Smith and Daniel Khashabi and Hannaneh Hajishirzi \n    {{<font color="DarkRed">arXiv preprint arXiv:2212.10560</font>}}, 2022. {{<font size=-1>}}[https://github.com/yizhongw/self-instruct \[code\] ]{{</font>}}
+ 
+ - [https://arxiv.org/abs/2212.10511 *When Not to Trust Language Models: Investigating Effectiveness and Limitations of Parametric and Non-Parametric Memories.*]  \n    Alex Mallen and Akari Asai and Victor Zhong and Rajarshi Das and Hannaneh Hajishirzi and Daniel Khashabi \n    {{<font color="DarkRed">arXiv preprint arXiv:2212.10511</font>}}, 2022. {{<font size=-1>}}[https://github.com/AlexTMallen/adaptive-retrieval \[code\] ]{{</font>}}
+ 
+ - [https://arxiv.org/abs/2211.00053 *Generating Sequences by Learning to Self-Correct.*]  \n    Sean Welleck, Ximing Lu, Peter West, Faeze Brahman, Tianxiao Shen, Daniel Khashabi and Yejin Choi. \n    {{<font color="DarkRed">arXiv preprint arXiv:2211.00053</font>}}, 2022. {{<font size=-1>}}{{</font>}}
+ 
  - [https://arxiv.org/abs/2211.00053 *Generating Sequences by Learning to Self-Correct.*]  \n    Sean Welleck, Ximing Lu, Peter West, Faeze Brahman, Tianxiao Shen, Daniel Khashabi and Yejin Choi. \n    {{<font color="DarkRed">arXiv preprint arXiv:2211.00053</font>}}, 2022. {{<font size=-1>}}{{</font>}}
  
  - [https://arxiv.org/abs/2210.10040 *The Tail Wagging the Dog: Dataset Construction Biases of Social Bias Benchmarks.*]  \n    Nikil Roashan Selvam, Sunipa Dev, Daniel Khashabi, Tushar Khot and Kai-Wei Chang. \n    {{<font color="DarkRed">arXiv preprint arXiv:2210.10040</font>}}, 2022. {{<font size=-1>}}{{</font>}}
@@ -53,7 +59,7 @@
  
  - [https://arxiv.org/abs/2005.04304 *Temporal Common Sense Acquisition with Minimal Supervision.*]  \n    Ben Zhou, Qiang Ning, Daniel Khashabi and Dan Roth. \n    {{<font color="DarkRed">Annual Meeting of the Association for Computational Linguistics (ACL)</font>}}, 2020. {{<font size=-1>}}[http://danielkhashabi.com/files/2020_tacolm/tacllm_acl_slides_split.pdf \[slides\] ] [https://github.com/CogComp/TacoLM \[code\] ]{{</font>}}
  
- - [https://arxiv.org/abs/1911.03850 *Not All Claims are Created Equal: Choosing the Right Approach to Assess Your Hypotheses.*]  \n    Erfan Sadeqi Azer, Daniel Khashabi, Ashish Sabhwawal and Dan Roth. \n    {{<font color="DarkRed">Annual Meeting of the Association for Computational Linguistics (ACL)</font>}}, 2020. {{<font size=-1>}}[http://danielkhashabi.com/files/2020_hypothesis_assessment/BayesianACL2020_short_ai2_format_split.pdf \[slides\] ] [http://danielkhashabi.com/files/2020_hypothesis_assessment/hypothesis-assessment-cogcomp-expanded.pdf \[slides2\] ] [https://www.youtube.com/watch?v=m68uXUC3RmY\&t=2s \[talk\] ] [https://github.com/allenai/HyBayes/ \[code\] ]{{</font>}}
+ - [https://arxiv.org/abs/1911.03850 *Not All Claims are Created Equal: Choosing the Right Approach to Assess Your Hypotheses.*]  \n    Erfan Sadeqi Azer, Daniel Khashabi, Ashish Sabhwawal and Dan Roth. \n    {{<font color="DarkRed">Annual Meeting of the Association for Computational Linguistics (ACL)</font>}}, 2020. {{<font size=-1>}}[http://danielkhashabi.com/files/2020_hypothesis_assessment/BayesianACL2020_short_ai2_format_split.pdf \[slides\] ] [http://danielkhashabi.com/files/2020_hypothesis_assessment/hypothesis-assessment-cogcomp-expanded.pdf \[slides2\] ] [http://danielkhashabi.com/files/2020_hypothesis_assessment/hypothesis-assessment-split.pdf \[slides3\] ] [https://www.youtube.com/watch?v=m68uXUC3RmY\&t=2s \[talk\] ] [https://github.com/allenai/HyBayes/ \[code\] ]{{</font>}}
  
  - [https://arxiv.org/abs/2005.00206 *TransOMCS: From Linguistic Graphs to Commonsense Knowledge.*]  \n    Hongming Zhang, Daniel Khashabi, Yangqiu Song and Dan Roth. \n    {{<font color="DarkRed">International Joint Conferences on Artificial Intelligence (IJCAI)</font>}}, 2020. {{<font size=-1>}}[https://github.com/HKUST-KnowComp/TransOMCS \[code\] ]{{</font>}}
  
