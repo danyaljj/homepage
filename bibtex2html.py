@@ -10,6 +10,7 @@ def clean_title(text):
 meta_fields = ['data', 'slides', 'slides2', 'slides3', 'talk', "poster", "poster2", "code", "leaderboard", "project", "demo", "blog", "coverage", "visualization"]
 output_list_map = {}
 
+
 bibtex_file = urlopen('https://raw.githubusercontent.com/danyaljj/bibfile/master/ref.bib')
 bibtex_database = bibtexparser.loads( bibtex_file.read())
 
