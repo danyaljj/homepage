@@ -35,8 +35,6 @@
  
  - [https://www.cambridge.org/core_title/gb/542719 *Toward Automatic Discovery of Diverse Perspectives.*]  \n    Sihao Chen, Daniel Khashabi and Dan Roth. \n    {{<font color="DarkRed">Creating a More Transparent Internet: The Perspective Web - Cambridge University Press</font>}}, 2022. {{<font size=-1>}}{{</font>}}
  
- - *PROMPT WAYWARDNESS: The Curious Case of Discretized Interpretation of Continuous Prompts.*  \n    Daniel Khashabi, Shane Lyu, Sewon Min, Lianhui Qin, Kyle Richardson, Sameer Singh, Sean Welleck, Hannaneh Hajishirzi, Tushar Khot, Ashish Sabharwal and others. \n    {{<font color="DarkRed">arXiv preprint arXiv:2112.08348</font>}}, 2021. {{<font size=-1>}}{{</font>}}
- 
  - [https://arxiv.org/abs/2102.03315 *Think you have solved direct-answer question answering? Try ARC-DA, the direct-answer AI2 reasoning challenge.*]  \n    Sumithra Bhakthavatsalam, Daniel Khashabi, Tushar Khot, Bhavana Dalvi Mishra, Kyle Richardson, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord and Peter Clark. \n    {{<font color="DarkRed">arXiv preprint arXiv:2102.03315</font>}}, 2021. {{<font size=-1>}}[https://allenai.org/data/arc-da \[data\] ]{{</font>}}
  
  - [https://arxiv.org/abs/2104.08727 *GooAQ: Open Question Answering with Diverse Answer Types.*]  \n    Daniel  Khashabi, Amos  Ng, Tushar  Khot, Ashish  Sabharwal, Hannaneh  Hajishirzi and Chris Callison-Burch. \n    {{<font color="DarkRed">Conference on Empirical Methods in Natural Language Processing (EMNLP) - Findings</font>}}, 2021. {{<font size=-1>}}[http://danielkhashabi.com/files/2021_gooaq/gooaq_talk_emnlp_findings.pdf \[slides\] ] [https://www.youtube.com/watch?v=AUUAmDnbKAo\&t=1s \[talk\] ] [https://github.com/allenai/gooaq \[code\] ]{{</font>}}
