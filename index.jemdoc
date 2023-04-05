@@ -120,11 +120,16 @@ Global Reasoning over Semantic Abstractions], 2018.
 
 
 
-
-
 {{<h2 id="publication">Publication</h2>}}
 
 *Disclaimer:* This material is presented to ensure the timely dissemination of scholarly works. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms invoked by each author's copyright. \n
 ==== 
 
 #include{publication.jemdoc}
+
+ # {{<h2 id="lab">Intelligence Amplification Lab</h2>}}
+ # PhD students:
+ #   - [https://www.linkedin.com/in/adam-byerly-4ba0b0228/ Adam Byerly]
+ #  - [https://ajwang34.github.io/ Andrew Wang] - co-advised with Mark Dredze and Nick Anderews
+ # - [https://www.linkedin.com/in/candice-penelton-485b42102/ Candice Penelton] - co-advised
+
