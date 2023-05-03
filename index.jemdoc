@@ -11,10 +11,6 @@ Assistant Professor of [https://www.cs.jhu.edu/ Computer Science] \n
 Office: Hackerman Hall 316B | Email: +danielk ¯\\_(ツ)_/¯ jhu.edu+ \n
  ~~~
 
-# \n
-# /If you are an undergraduate or masters student and would like to work on research with my group, please fill out [https://forms.gle/6AZg34JVkkZZieySA  this form]./
-
-
 {{<h2 id="themes">Research Themes</h2>}}
 
 My research is motivated by understanding the computational foundations of /intelligent behavior/, often through the lens of /natural language/.
@@ -69,9 +65,10 @@ How can we bake in transparency in models so human operators can contextualize s
 # Just a few years ago, the Aristo project [https://arxiv.org/abs/1909.01958 reached its milestone] by achieving over 90% in 8th grade science — [https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html a milestone for AI and NLP].
 
 
+~~~
+ /If you are an undergraduate or masters student and would like to work on research with my group, please fill out [https://forms.gle/6AZg34JVkkZZieySA  this form]./
+~~~
 
-#== The reading group
-#- [reading.html WEBPAGE]
 
 {{<h2 id="talks">Select Talks</h2>}}
 - University of Maryland, [files/2023_umd_talk/umd-talk-2023-split.pdf Ailments of Alignment: Hurdles in Adapting Large Language Models to Follow Human Demands], 2023.
@@ -83,6 +80,8 @@ How can we bake in transparency in models so human operators can contextualize s
 # - Stanford University, NLP Seminar, [https://docs.google.com/presentation/d/11QnDUYXB9q06HIyZxmHcb1BrwcdStjjHPNOC3AnlTsc/edit?usp=sharing Reasoning-Driven Question Answering], 2018.
 - Mid-Atlantic Student Colloquium on Speech, Language and Learning, [https://docs.google.com/presentation/d/1KmGQfbeUitZOum4s6cPTqwuJJfTdxlQMeV_Go2_8Jz0/edit?usp=sharing Abductive Reasoning on Natural Language Questions as
 Global Reasoning over Semantic Abstractions], 2018.
+
+
 
 {{<h2 id="teaching">Teaching</h2>}}
  - Spring 2023: [https://self-supervised.cs.jhu.edu/sp2023/ CSCI 601.471/671, NLP: Self-supervised Models]
