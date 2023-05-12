@@ -59,7 +59,7 @@ for x in bibtex_database.entries:
             venue = x['booktitle']
         elif x["ENTRYTYPE"] == "phdthesis":
             venue = "PhD thesis at " + x['school']
-        else:
+        elif "note" in x:
             venue = x["note"]
 
         if "publisher" in x:
