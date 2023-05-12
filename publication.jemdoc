@@ -1,6 +1,8 @@
 
 
  
+ - [https://arxiv.org/abs/2205.11603 *Representation Projection Invariance Mitigates Representation Collapse.*]  \n    Anastasia Razdaibiedina and Ashish Khetan and Zohar Karnin and Daniel Khashabi and Vishaal Kapoor and Vivek Madan \n    {{<font color="DarkRed">arXiv preprint arXiv:2205.11603</font>}}, 2023. {{<font size=-1>}}{{</font>}}
+ 
  - [https://arxiv.org/abs/2212.10511 *When Not to Trust Language Models: Investigating Effectiveness and Limitations of Parametric and Non-Parametric Memories.*]  \n    Alex Mallen and Akari Asai and Victor Zhong and Rajarshi Das and Hannaneh Hajishirzi and Daniel Khashabi \n    {{<font color="DarkRed">Annual Meeting of the Association for Computational Linguistics (ACL)</font>}}, 2023. {{<font size=-1>}}[https://github.com/AlexTMallen/adaptive-retrieval \[code\] ]{{</font>}}
  
  - [https://arxiv.org/abs/2210.10040 *The Tail Wagging the Dog: Dataset Construction Biases of Social Bias Benchmarks.*]  \n    Nikil Roashan Selvam, Sunipa Dev, Daniel Khashabi, Tushar Khot and Kai-Wei Chang. \n    {{<font color="DarkRed">Annual Meeting of the Association for Computational Linguistics (ACL)</font>}}, 2023. {{<font size=-1>}}{{</font>}}
