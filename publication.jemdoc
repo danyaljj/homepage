@@ -1,6 +1,8 @@
 
 
  
+ - [https://arxiv.org/abs/2307.08775 *GEAR: Augmenting Language Models with Generalizable and Efficient Tool Resolution.*]  \n    Yining Lu, Haoping Yu and Daniel Khashabi. \n    {{<font color="DarkRed">arXiv preprint arXiv:2307.08775</font>}}, 2023. {{<font size=-1>}}{{</font>}}
+ 
  - [https://arxiv.org/abs/2305.13252 *``According to ...'': Prompting Language Models Improves Quoting from Pre-Training Data.*]  \n    Orion Weller, Marc Marone, Nathaniel Weir, Dawn Lawrie, Daniel Khashabi and Benjamin Van Durme. \n    {{<font color="DarkRed">arXiv preprint arXiv:2305.13252</font>}}, 2023. {{<font size=-1>}}[https://github.com/JHU-CLSP/according-to \[code\] ]{{</font>}}
  
  - [https://arxiv.org/abs/2305.10713 *Flatness-Aware Prompt Selection Improves Accuracy and Sample Efficiency.*]  \n    Lingfeng Shen and Weiting Tan and Boyuan Zheng and Daniel Khashabi \n    {{<font color="DarkRed">arXiv preprint arXiv:2305.10713</font>}}, 2023. {{<font size=-1>}}[https://github.com/shadowkiller33/flatness \[code\] ]{{</font>}}
