@@ -23,18 +23,22 @@ Here are several themes I am interested in:
 
 # - *Interaction*:
 
-- *Generalism:*
+- *General-purpose models:*
 AlphaGo may be the world champion at Go, although it can't solve any other problem! 
-How can we incentivize building models that can address a broader scope of tasks and abilities?  (papers: [https://arxiv.org/abs/2204.07705 EMNLP'22], [https://arxiv.org/abs/2104.08773 ACL'22], [https://arxiv.org/abs/2005.00700 EMNLP-Findings'20])
+How can we incentivize building models that can address a broader scope of tasks and abilities?
 
-- *Self-supervised learning:* 
-How can we build task-independent representations that utilize cheap signals available in-the-wild (web data or physical environment) and support better model generalization? (papers: [https://arxiv.org/abs/2005.04304 ACL'20], [https://arxiv.org/abs/1907.03228 EMNLP'18])
+- *Self-supervised representation learning and knowledge acquisition:*
+How can we build task-independent representations that utilize cheap signals available in-the-wild (web data or physical environment) and support better model generalization?
 
-- *Reasoning:*  I view "reasoning" as the process of using "reasons" for explaining or justifying decisions.
- How can we enable machines to communicate via /reasons/, for a broad-ranging spectrum of tasks? (papers: [https://arxiv.org/abs/2009.00751  TACL'21], [https://arxiv.org/abs/2101.02235 NAACL'21])
+- *Reasoning and problem solving:*  I view "reasoning" as the process of using "reasons" for explaining or justifying decisions.
+ How can we enable machines to communicate via /reasons/, for a broad-ranging spectrum of tasks?
 
-- *AI + Humans:* With the increased deployment of AI we need to better understand their impacts on humans and foresee the unintended harms that may result:
-How can we bake in transparency in models so human operators can contextualize system output? Can we make such transparency into a truly democratic oversight of systems and their algorithmic biases?  Can we build systems that can recourse when there is harm to those that are marginalized? Can we build systems that reduce our socio-political divisions? (papers:  [https://arxiv.org/abs/2010.02428 EMNLP'20], [https://arxiv.org/abs/1906.03538 NAACL'19])
+- *Interaction and communication:* Can we engineer AI systems not only to effectively engage, interact, and communicate with humans but also with other AI systems? This can be, for example, for the purpose of enabling coordination or harmony at the population-level.
+
+- *AI in Society:* With the increased deployment of AI we need to better understand their impacts on humans and foresee the unintended harms that may result:
+How can we bake in transparency in models so human operators can contextualize system output? Can we make such transparency into a truly democratic oversight of systems and their algorithmic biases?  Can we build systems that can recourse when there is harm to those that are marginalized? Can we build systems that reduce our socio-political divisions?
+
+
 
 
 #  - Are system doing what they are supposed to do?
