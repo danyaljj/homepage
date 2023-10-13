@@ -1,17 +1,21 @@
 
 
  
- - [https://arxiv.org/abs/2310.00840 *Error Norm Truncation: Robust Training in the Presence of Data Noise for Text Generation Models.*]  \n    Tianjian Li and Haoran Xu and Philipp Koehn and Daniel Khashabi and Kenton Murray \n    {{<font color="DarkRed">arXiv preprint arXiv:2310.00840</font>}}, 2023. {{<font size=-1>}}{{</font>}}
+ - [https://arxiv.org/abs/2310.08540 *Do Pre-trained Transformers Really Learn In-context by Gradient Descent?*]  \n    Lingfeng Shen, Aayush Mishra and Daniel Khashabi. \n    {{<font color="DarkRed">arXiv preprint arXiv:2310.08540</font>}}, 2023. {{<font size=-1>}}{{</font>}}
  
- - [https://arxiv.org/abs/2309.16155v1 *The Trickle-down Impact of Reward (In-) consistency on RLHF.*]  \n    Lingfeng Shen, Sihao Chen, Linfeng Song, Lifeng Jin, Baolin Peng, Haitao Mi, Daniel Khashabi and Dong Yu. \n    {{<font color="DarkRed">arXiv preprint arXiv:2309.16155</font>}}, 2023. {{<font size=-1>}}{{</font>}}
+ - [https://arxiv.org/abs/2310.03991 *SemStamp: A Semantic Watermark with Paraphrastic Robustness for Text Generation.*]  \n    Abe Bohan Hou and Jingyu Zhang and Tianxing He and Yichen Wang and Yung-Sung Chuang and Hongwei Wang and Lingfeng Shen and Benjamin Van Durme and Daniel Khashabi and Yulia Tsvetkov \n    {{<font color="DarkRed">arXiv preprint arXiv:2310.03991 - arXiv</font>}}, 2023. {{<font size=-1>}}{{</font>}}
+ 
+ - [https://arxiv.org/abs/2310.00840 *Error Norm Truncation: Robust Training in the Presence of Data Noise for Text Generation Models.*]  \n    Tianjian Li and Haoran Xu and Philipp Koehn and Daniel Khashabi and Kenton Murray \n    {{<font color="DarkRed">arXiv preprint arXiv:2310.00840</font>}}, 2023. {{<font size=-1>}}[https://github.com/tianjianl/error_norm_truncation \[code\] ]{{</font>}}
+ 
+ - [https://arxiv.org/abs/2309.16155v1 *The Trickle-down Impact of Reward (In-) consistency on RLHF.*]  \n    Lingfeng Shen, Sihao Chen, Linfeng Song, Lifeng Jin, Baolin Peng, Haitao Mi, Daniel Khashabi and Dong Yu. \n    {{<font color="DarkRed">arXiv preprint arXiv:2309.16155</font>}}, 2023. {{<font size=-1>}}[https://github.com/shadowkiller33/contrast-instruction \[code\] ]{{</font>}}
  
  - [https://arxiv.org/abs/2307.08775 *GEAR: Augmenting Language Models with Generalizable and Efficient Tool Resolution.*]  \n    Yining Lu, Haoping Yu and Daniel Khashabi. \n    {{<font color="DarkRed">arXiv preprint arXiv:2307.08775</font>}}, 2023. {{<font size=-1>}}{{</font>}}
  
  - [https://arxiv.org/abs/2305.13252 *``According to ...'': Prompting Language Models Improves Quoting from Pre-Training Data.*]  \n    Orion Weller, Marc Marone, Nathaniel Weir, Dawn Lawrie, Daniel Khashabi and Benjamin Van Durme. \n    {{<font color="DarkRed">arXiv preprint arXiv:2305.13252</font>}}, 2023. {{<font size=-1>}}[https://github.com/JHU-CLSP/according-to \[code\] ]{{</font>}}
  
- - [https://arxiv.org/abs/2305.10713 *Flatness-Aware Prompt Selection Improves Accuracy and Sample Efficiency.*]  \n    Lingfeng Shen and Weiting Tan and Boyuan Zheng and Daniel Khashabi \n    {{<font color="DarkRed">arXiv preprint arXiv:2305.10713</font>}}, 2023. {{<font size=-1>}}[https://github.com/shadowkiller33/flatness \[code\] ]{{</font>}}
+ - [https://arxiv.org/abs/2205.11603 *Representation Projection Invariance Mitigates Representation Collapse.*]  \n    Anastasia Razdaibiedina and Ashish Khetan and Zohar Karnin and Daniel Khashabi and Vishaal Kapoor and Vivek Madan \n    {{<font color="DarkRed">Conference on Empirical Methods in Natural Language Processing (EMNLP) - Findings</font>}}, 2023. {{<font size=-1>}}{{</font>}}
  
- - [https://arxiv.org/abs/2205.11603 *Representation Projection Invariance Mitigates Representation Collapse.*]  \n    Anastasia Razdaibiedina and Ashish Khetan and Zohar Karnin and Daniel Khashabi and Vishaal Kapoor and Vivek Madan \n    {{<font color="DarkRed">arXiv preprint arXiv:2205.11603</font>}}, 2023. {{<font size=-1>}}{{</font>}}
+ - [https://arxiv.org/abs/2305.10713 *Flatness-Aware Prompt Selection Improves Accuracy and Sample Efficiency.*]  \n    Lingfeng Shen and Weiting Tan and Boyuan Zheng and Daniel Khashabi \n    {{<font color="DarkRed">Conference on Empirical Methods in Natural Language Processing (EMNLP) - Findings</font>}}, 2023. {{<font size=-1>}}[https://github.com/shadowkiller33/flatness \[code\] ]{{</font>}}
  
  - [https://arxiv.org/abs/2212.10511 *When Not to Trust Language Models: Investigating Effectiveness and Limitations of Parametric and Non-Parametric Memories.*]  \n    Alex Mallen and Akari Asai and Victor Zhong and Rajarshi Das and Daniel Khashabi and Hannaneh Hajishirzi \n    {{<font color="DarkRed">Annual Meeting of the Association for Computational Linguistics (ACL)</font>}}, 2023. {{<font size=-1>}}[https://youtu.be/hJbxW0xct2E \[talk\] ] [https://github.com/AlexTMallen/adaptive-retrieval \[code\] ]{{</font>}}
  
