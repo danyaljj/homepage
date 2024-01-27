@@ -1,6 +1,8 @@
 
 
  
+ - [https://arxiv.org/abs/2401.13136 *The Language Barrier: Dissecting Safety Challenges of LLMs in Multilingual Context.*]  \n    Lingfeng Shen and Weiting Tan and Sihao Chen and Yunmo Chen and Jingyu Zhang and Haoran Xu and Boyuan Zheng and Philipp Koehn and Daniel Khashabi \n    {{<font color="DarkRed">arXiv preprint arXiv:2401.13136</font>}}, 2024. {{<font size=-1>}}{{</font>}}
+ 
  - [https://arxiv.org/abs/2309.16155v1 *The Trickle-down Impact of Reward (In-) consistency on RLHF.*]  \n    Lingfeng Shen, Sihao Chen, Linfeng Song, Lifeng Jin, Baolin Peng, Haitao Mi, Daniel Khashabi and Dong Yu. \n    {{<font color="DarkRed">International Conference on Learning Representations (ICLR)</font>}}, 2024. {{<font size=-1>}}[https://github.com/shadowkiller33/contrast-instruction \[code\] ]{{</font>}}
  
  - [https://arxiv.org/abs/2310.00840 *Error Norm Truncation: Robust Training in the Presence of Data Noise for Text Generation Models.*]  \n    Tianjian Li and Haoran Xu and Philipp Koehn and Daniel Khashabi and Kenton Murray \n    {{<font color="DarkRed">International Conference on Learning Representations (ICLR)</font>}}, 2024. *Spotlight presentation.* {{<font size=-1>}}[https://github.com/tianjianl/error_norm_truncation \[code\] ]{{</font>}}
