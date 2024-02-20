@@ -33,7 +33,7 @@ How can we build task-independent representations that utilize cheap signals ava
 - *Reasoning and problem solving:*  I view "reasoning" as the process of using "reasons" for explaining or justifying decisions.
  How can we enable machines to communicate via /reasons/, for a broad-ranging spectrum of tasks?
 
-- *Interaction and communication:*  Can we engineer AI systems not only to effectively engage, interact, and communicate with humans but also with other AI systems? This can be, for example, for the purpose of enabling coordination or harmony at the population-level.
+- *Interaction, communication and coordination:*  Can we engineer AI systems not only to effectively engage, interact, and communicate with humans but also with other AI systems? This can be, for example, for the purpose of enabling coordination or harmony at the population-level.
 
 - *AI in Society:* With the increased deployment of AI we need to better understand their impacts on humans and foresee the unintended harms that may result:
 How can we bake in transparency in models so human operators can contextualize system output? Can we make such transparency into a truly democratic oversight of systems and their algorithmic biases?  Can we build systems that can recourse when there is harm to those that are marginalized? Can we build systems that reduce our socio-political divisions?
