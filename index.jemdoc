@@ -21,23 +21,24 @@ The dominant majority of my research is aligned with /natural language processin
 
 Here are several themes I am interested in: 
 
-# - *Interaction*:
-
 - *General-purpose models:*
-AlphaGo may be the world champion at Go, although it can't solve any other problem! 
-How can we incentivize building models that can address a broader scope of tasks and abilities?
+AlphaGo may be the world champion at Go, although it can't solve any other problem! How can we build models that generalize a broader scope of tasks, abilities, modalities, or environments?
 
-- *Self-supervised representation learning and knowledge acquisition:*
-How can we build task-independent representations that utilize cheap signals available in-the-wild (web data or physical environment) and support better model generalization?
+- *Self-supervised representation learning:*
+The AI literature has found powerful ways to build rich representations of the world by utilizing cheap signals available in the wild (web data, physical environment, etc.).
+How can we make these algorithms more effective and efficient (in terms of data or computation cost)?
+How can we make them robust to distributional drifts in data, e.g., low-data regimes or adversarial settings?
+How can we scale them up to various modalities or forms of communication/interaction?
 
-- *Reasoning and problem solving:*  I view "reasoning" as the process of using "reasons" for explaining or justifying decisions.
+- *Reasoning and problem-solving:*  I view "reasoning" as the process of using "reasons" to explain or justify decisions.
  How can we enable machines to communicate via /reasons/, for a broad-ranging spectrum of tasks?
+ How can we make this process "verifiable" or "explainable" to humans?
+Can we build systems that can recourse upon a mistake?
 
-- *Interaction, communication and coordination:*  Can we engineer AI systems not only to effectively engage, interact, and communicate with humans but also with other AI systems? This can be, for example, for the purpose of enabling coordination or harmony at the population-level.
+- *Interaction, communication, and coordination:*  Can we engineer AI systems to effectively engage, interact, and communicate with humans and other AI systems for the purpose of, for example, coordination?
 
-- *AI in Society:* With the increased deployment of AI we need to better understand their impacts on humans and foresee the unintended harms that may result:
-How can we bake in transparency in models so human operators can contextualize system output? Can we make such transparency into a truly democratic oversight of systems and their algorithmic biases?  Can we build systems that can recourse when there is harm to those that are marginalized? Can we build systems that reduce our socio-political divisions?
-
+- *AI ↔ humans:* /The ultimate goal of our work is to benefit humans!/ How should we engineer the interface between AI and machines?
+What forms of interaction are most effective and meaningful for humans? How can we make AI systems more transparent and accountable to humans? Can we make such transparency into a truly democratic oversight of systems, their algorithmic biases and mistakes? How should we think about personalizing AI systems to their users?
 
 
 
