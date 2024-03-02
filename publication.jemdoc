@@ -1,6 +1,8 @@
 
 
  
+ - [https://arxiv.org/abs/2402.18678 *RORA: Robust Free-Text Rationale Evaluation.*]  \n    Zhengping Jiang and Yining Lu and Hanjie Chen and Daniel Khashabi and Benjamin Van Durme and Anqi Liu \n    {{<font color="DarkRed">arXiv preprint arXiv:2402.18678</font>}}, 2024. {{<font size=-1>}}{{</font>}}
+ 
  - [https://arxiv.org/abs/2402.12370 *AnaloBench: Benchmarking the Identification of Abstract and Long-context Analogies.*]  \n    Xiao Ye and Andrew Wang and Jacob Choi and Yining Lu and Shreya Sharma and Lingfeng Shen and Vijay Tiyyala and Nicholas Andrews and Daniel Khashabi \n    {{<font color="DarkRed">arXiv preprint arXiv:2402.12370</font>}}, 2024. {{<font size=-1>}}[https://github.com/JHU-CLSP/Analogical-Reasoning \[data\] ]{{</font>}}
  
  - [https://arxiv.org/abs/2402.11399 *k-SemStamp: A Clustering-Based Semantic Watermark for Detection of Machine-Generated Text.*]  \n    Abe Bohan Hou and Jingyu Zhang and Yichen Wang and Daniel Khashabi and Tianxing He \n    {{<font color="DarkRed">arXiv preprint arXiv:2402.11399</font>}}, 2024. {{<font size=-1>}}[https://github.com/bohanhou14/SemStamp \[code\] ]{{</font>}}
