@@ -1,6 +1,8 @@
 
 
  
+ - [https://arxiv.org/abs/2403.11905 *TurkingBench: A Challenge Benchmark for Web Agents.*]  \n    Kevin Xu, Yeganeh Kordi, Kate Sanders, Yizhong Wang, Adam Byerly, Jack Zhang, Benjamin Van Durme and Daniel Khashabi. \n    {{<font color="DarkRed">arXiv preprint arXiv:2403.11905</font>}}, 2024. {{<font size=-1>}}[https://github.com/JHU-CLSP/turking-test \[data\] ] [https://github.com/JHU-CLSP/turking-test \[code\] ] [https://turkingtest.github.io/ \[demo\] ]{{</font>}}
+ 
  - [https://arxiv.org/abs/2402.18678 *RORA: Robust Free-Text Rationale Evaluation.*]  \n    Zhengping Jiang and Yining Lu and Hanjie Chen and Daniel Khashabi and Benjamin Van Durme and Anqi Liu \n    {{<font color="DarkRed">arXiv preprint arXiv:2402.18678</font>}}, 2024. {{<font size=-1>}}{{</font>}}
  
  - [https://arxiv.org/abs/2402.12370 *AnaloBench: Benchmarking the Identification of Abstract and Long-context Analogies.*]  \n    Xiao Ye and Andrew Wang and Jacob Choi and Yining Lu and Shreya Sharma and Lingfeng Shen and Vijay Tiyyala and Nicholas Andrews and Daniel Khashabi \n    {{<font color="DarkRed">arXiv preprint arXiv:2402.12370</font>}}, 2024. {{<font size=-1>}}[https://huggingface.co/datasets/jhu-clsp/AnaloBench \[data\] ] [https://github.com/JHU-CLSP/AnaloBench \[code\] ]{{</font>}}
