@@ -1,6 +1,8 @@
 
 
  
+ - [https://arxiv.org/abs/2404.04298 *SELF-[IN]CORRECT: LLMs Struggle with Refining Self-Generated Responses.*]  \n    Dongwei Jiang and Jingyu Zhang and Orion Weller and Nathaniel Weir and Benjamin Van Durme and Daniel Khashabi \n    {{<font color="DarkRed">arXiv preprint arXiv:2404.04298</font>}}, 2024. {{<font size=-1>}}{{</font>}}
+ 
  - [https://arxiv.org/abs/2404.03862 *Verifiable by Design: Aligning Language Models to Quote from Pre-Training Data.*]  \n    Jingyu Zhang and Marc Marone and Tianjian Li and Benjamin Van Durme and Daniel Khashabi \n    {{<font color="DarkRed">arXiv preprint arXiv:2404.03862</font>}}, 2024. {{<font size=-1>}}{{</font>}}
  
  - [https://arxiv.org/abs/2403.12958 *Dated Data: Tracing Knowledge Cutoffs in Large Language Models.*]  \n    Jeffrey Cheng and Marc Marone and Orion Weller and Dawn Lawrie and Daniel Khashabi and Benjamin Van Durme \n    {{<font color="DarkRed">arXiv preprint arXiv:2403.12958</font>}}, 2024. {{<font size=-1>}}{{</font>}}
