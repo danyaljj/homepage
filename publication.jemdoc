@@ -21,7 +21,7 @@
  
  - [https://arxiv.org/abs/2309.16155v1 *The Trickle-down Impact of Reward (In-) consistency on RLHF.*]  \n    Lingfeng Shen, Sihao Chen, Linfeng Song, Lifeng Jin, Baolin Peng, Haitao Mi, Daniel Khashabi and Dong Yu. \n    {{<font color="DarkRed">International Conference on Learning Representations (ICLR)</font>}}, 2024. {{<font size=-1>}}[https://github.com/shadowkiller33/contrast-instruction \[code\] ]{{</font>}}
  
- - [https://arxiv.org/abs/2310.00840 *Error Norm Truncation: Robust Training in the Presence of Data Noise for Text Generation Models.*]  \n    Tianjian Li and Haoran Xu and Philipp Koehn and Daniel Khashabi and Kenton Murray \n    {{<font color="DarkRed">International Conference on Learning Representations (ICLR)</font>}}, 2024. *Spotlight presentation.* {{<font size=-1>}}[https://github.com/tianjianl/error_norm_truncation \[code\] ]{{</font>}}
+ - [https://arxiv.org/abs/2310.00840 *Error Norm Truncation: Robust Training in the Presence of Data Noise for Text Generation Models.*]  \n    Tianjian Li and Haoran Xu and Philipp Koehn and Daniel Khashabi and Kenton Murray \n    {{<font color="DarkRed">International Conference on Learning Representations (ICLR)</font>}}, 2024. *Spotlight presentation.* {{<font size=-1>}}[https://youtu.be/tfSkAL3-sWE \[talk\] ] [https://github.com/tianjianl/error_norm_truncation \[code\] ]{{</font>}}
  
  - [https://arxiv.org/abs/2307.08775 *GEAR: Augmenting Language Models with Generalizable and Efficient Tool Resolution.*]  \n    Yining Lu, Haoping Yu and Daniel Khashabi. \n    {{<font color="DarkRed">Conference of the European Chapter of the Association for Computational Linguistics (EACL)</font>}}, 2024. {{<font size=-1>}}[https://github.com/yining610/GEAR \[code\] ]{{</font>}}
  
