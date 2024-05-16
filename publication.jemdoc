@@ -9,15 +9,15 @@
  
  - [https://arxiv.org/abs/2403.11905 *TurkingBench: A Challenge Benchmark for Web Agents.*]  \n    Kevin Xu, Yeganeh Kordi, Kate Sanders, Yizhong Wang, Adam Byerly, Jack Zhang, Benjamin Van Durme and Daniel Khashabi. \n    {{<font color="DarkRed">arXiv preprint arXiv:2403.11905</font>}}, 2024. {{<font size=-1>}}[https://github.com/JHU-CLSP/turking-bench \[data\] ] [https://turkingbench.github.io/ \[demo\] ]{{</font>}}
  
- - [https://arxiv.org/abs/2402.18678 *RORA: Robust Free-Text Rationale Evaluation.*]  \n    Zhengping Jiang and Yining Lu and Hanjie Chen and Daniel Khashabi and Benjamin Van Durme and Anqi Liu \n    {{<font color="DarkRed">arXiv preprint arXiv:2402.18678</font>}}, 2024. {{<font size=-1>}}{{</font>}}
- 
  - [https://arxiv.org/abs/2402.12370 *AnaloBench: Benchmarking the Identification of Abstract and Long-context Analogies.*]  \n    Xiao Ye and Andrew Wang and Jacob Choi and Yining Lu and Shreya Sharma and Lingfeng Shen and Vijay Tiyyala and Nicholas Andrews and Daniel Khashabi \n    {{<font color="DarkRed">arXiv preprint arXiv:2402.12370</font>}}, 2024. {{<font size=-1>}}[https://huggingface.co/datasets/jhu-clsp/AnaloBench \[data\] ] [https://github.com/JHU-CLSP/AnaloBench \[code\] ]{{</font>}}
  
- - [https://arxiv.org/abs/2402.11399 *k-SemStamp: A Clustering-Based Semantic Watermark for Detection of Machine-Generated Text.*]  \n    Abe Bohan Hou and Jingyu Zhang and Yichen Wang and Daniel Khashabi and Tianxing He \n    {{<font color="DarkRed">arXiv preprint arXiv:2402.11399</font>}}, 2024. {{<font size=-1>}}[https://github.com/bohanhou14/SemStamp \[code\] ]{{</font>}}
- 
- - [https://arxiv.org/abs/2401.13136 *The Language Barrier: Dissecting Safety Challenges of LLMs in Multilingual Context.*]  \n    Lingfeng Shen and Weiting Tan and Sihao Chen and Yunmo Chen and Jingyu Zhang and Haoran Xu and Boyuan Zheng and Philipp Koehn and Daniel Khashabi \n    {{<font color="DarkRed">arXiv preprint arXiv:2401.13136</font>}}, 2024. {{<font size=-1>}}{{</font>}}
- 
  - [https://arxiv.org/abs/2310.03991 *SemStamp: A Semantic Watermark with Paraphrastic Robustness for Text Generation.*]  \n    Abe Bohan Hou and Jingyu Zhang and Tianxing He and Yichen Wang and Yung-Sung Chuang and Hongwei Wang and Lingfeng Shen and Benjamin Van Durme and Daniel Khashabi and Yulia Tsvetkov \n    {{<font color="DarkRed">Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)</font>}}, 2024. {{<font size=-1>}}[https://github.com/bohanhou14/SemStamp \[code\] ]{{</font>}}
+ 
+ - [https://arxiv.org/abs/2401.13136 *The Language Barrier: Dissecting Safety Challenges of LLMs in Multilingual Context.*]  \n    Lingfeng Shen and Weiting Tan and Sihao Chen and Yunmo Chen and Jingyu Zhang and Haoran Xu and Boyuan Zheng and Philipp Koehn and Daniel Khashabi \n    {{<font color="DarkRed">Annual Meeting of the Association for Computational Linguistics (ACL)</font>}}, 2024. {{<font size=-1>}}{{</font>}}
+ 
+ - [https://arxiv.org/abs/2402.11399 *k-SemStamp: A Clustering-Based Semantic Watermark for Detection of Machine-Generated Text.*]  \n    Abe Bohan Hou and Jingyu Zhang and Yichen Wang and Daniel Khashabi and Tianxing He \n    {{<font color="DarkRed">Annual Meeting of the Association for Computational Linguistics (ACL)</font>}}, 2024. {{<font size=-1>}}[https://github.com/bohanhou14/SemStamp \[code\] ]{{</font>}}
+ 
+ - [https://arxiv.org/abs/2402.18678 *RORA: Robust Free-Text Rationale Evaluation.*]  \n    Zhengping Jiang and Yining Lu and Hanjie Chen and Daniel Khashabi and Benjamin Van Durme and Anqi Liu \n    {{<font color="DarkRed">Annual Meeting of the Association for Computational Linguistics (ACL)</font>}}, 2024. {{<font size=-1>}}{{</font>}}
  
  - [https://arxiv.org/abs/2310.08540 *Revisiting the Hypothesis: Do Pretrained Transformers Learn In-Context by Gradient Descent?*]  \n    Lingfeng Shen, Aayush Mishra and Daniel Khashabi. \n    {{<font color="DarkRed">International Conference on Machine Learning (ICML)</font>}}, 2024. {{<font size=-1>}}{{</font>}}
  
