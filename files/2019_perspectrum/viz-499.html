@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://localhost:8080/visualization/list=499 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./viz-499_files/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="./viz-499_files/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="./viz-499_files/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./viz-499_files/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" href="./viz-499_files/flat-ui.min.css" integrity="sha256-7bYJaNviFZlH+bKqZlshmYKeyvkp+fXBQuerWp2AXlA=" crossorigin="anonymous">
+<link rel="stylesheet" href="./viz-499_files/style.css">
+<script type="text/javascript" src="./viz-499_files/vis.js"></script>
+<link href="./viz-499_files/vis-network.min.css" rel="stylesheet" type="text/css">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Perspective Annotation Interface</title>
+<script src="./viz-499_files/persp.js"></script>
+
+<style type="text/css">
+    #mynetwork {
+        width: 100%;
+        height: 100%;
+        border: 1px solid lightgray;
+    }
+
+    code {
+        font-size: 14px;
+        background: #dddddd;
+    }
+
+    .indented {
+        margin-left: 00px;
+    }
+
+    .sep {
+        height: 1px;
+        width: 30%;
+        margin-left: 40px;
+        background-color: #dddddd;
+    }
+</style>
+
+</head>
+<body>
+
+<div id="mynetwork" style="width: 100%; height: 1100px"><div class="vis-network" tabindex="900" style="position: relative; overflow: hidden; touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 100%; height: 100%;"><canvas width="3452" style="position: relative; touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 100%; height: 100%;" height="2196"></canvas></div></div>
+
+
+<script type="text/javascript">
+    Array.prototype.contains = function (v) {
+        for (var i = 0; i < this.length; i++) {
+            if (this[i] === v) return true;
+        }
+        return false;
+    };
+
+    Array.prototype.unique = function () {
+        var arr = [];
+        for (var i = 0; i < this.length; i++) {
+            if (!arr.includes(this[i])) {
+                arr.push(this[i]);
+            }
+        }
+        return arr;
+    };
+
+    var nodes = [];
+    var edges = [];
+    var nodeIds = [];
+    var evidenceIds = [];
+    var offset = 100000;
+
+    
+        var claimID = -1;
+
+        // adding claim
+        var claim_text = "Vaccination must be made compulsory";
+        nodes.push({
+                id: claimID,
+                label: "<b>Claim:</b> \n" + claim_text,
+                widthConstraint: {maximum: 200},
+                group: 0,
+                font: {multi: 'html'}
+            }
+        );
+
+        // perspective nodes: support
+        
+            if (!nodeIds.includes(3695)) {
+                nodes.push({
+                    id: 3695,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 3695: It is the state’s duty to protect its community ",
+                    group: 1,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(3695)
+            }
+        
+            if (!nodeIds.includes(24076)) {
+                nodes.push({
+                    id: 24076,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 24076: The state must keep it&#x27;s community safe.",
+                    group: 1,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(24076)
+            }
+        
+            if (!nodeIds.includes(24077)) {
+                nodes.push({
+                    id: 24077,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 24077: The safety of the community is the state&#x27;s priority.",
+                    group: 1,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(24077)
+            }
+        
+            if (!nodeIds.includes(3697)) {
+                nodes.push({
+                    id: 3697,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 3697: Compulsory vaccines are a financial relief on the health system  ",
+                    group: 3,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(3697)
+            }
+        
+            if (!nodeIds.includes(24080)) {
+                nodes.push({
+                    id: 24080,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 24080: The impacts of unvaccinated populations stain the financial resources of the healthcare system.",
+                    group: 3,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(24080)
+            }
+        
+            if (!nodeIds.includes(24081)) {
+                nodes.push({
+                    id: 24081,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 24081: A fully vaccinated population lesses the financial stress of the health system.",
+                    group: 3,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(24081)
+            }
+        
+            if (!nodeIds.includes(3696)) {
+                nodes.push({
+                    id: 3696,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 3696: Duty to protect the child",
+                    group: 4,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(3696)
+            }
+        
+            if (!nodeIds.includes(24078)) {
+                nodes.push({
+                    id: 24078,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 24078: Children must be protected.",
+                    group: 4,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(24078)
+            }
+        
+            if (!nodeIds.includes(24079)) {
+                nodes.push({
+                    id: 24079,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 24079: It is the duty of the state to protect children.",
+                    group: 4,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(24079)
+            }
+        
+
+        // perspective nodes: undermine
+        
+            if (!nodeIds.includes(3698)) {
+                nodes.push({
+                    id: 3698,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 3698: Compulsory vaccination violates the individuals’ right to bodily integrity",
+                    group: 2,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(3698)
+            }
+        
+            if (!nodeIds.includes(24082)) {
+                nodes.push({
+                    id: 24082,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 24082: Individuals have the right to refuse vaccinations.",
+                    group: 2,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(24082)
+            }
+        
+            if (!nodeIds.includes(24083)) {
+                nodes.push({
+                    id: 24083,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 24083: People&#x27;s bodies are there own, and they have the right to refuse to be vaccinated.",
+                    group: 2,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(24083)
+            }
+        
+            if (!nodeIds.includes(3699)) {
+                nodes.push({
+                    id: 3699,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 3699: It is a parental right to decide about vaccinations for a child",
+                    group: 5,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(3699)
+            }
+        
+            if (!nodeIds.includes(24084)) {
+                nodes.push({
+                    id: 24084,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 24084: Parents have the right to make the decision about vaccinations for their children.",
+                    group: 5,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(24084)
+            }
+        
+            if (!nodeIds.includes(24085)) {
+                nodes.push({
+                    id: 24085,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 24085: By making vaccinations mandatory, it takes away the rights of the parent.",
+                    group: 5,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(24085)
+            }
+        
+            if (!nodeIds.includes(3700)) {
+                nodes.push({
+                    id: 3700,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 3700: Vaccines have severe side effects ",
+                    group: 6,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(3700)
+            }
+        
+
+        // evidence nodes
+        
+            if (!evidenceIds.includes(offset + 6052)) {
+                nodes.push({
+                    id: (offset + 6052),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> The World Health Organisation, a collection of internationally qualified doctors state that breast milk naturally contains all the nutrients that a child could need for the first 6 months of its life . From iron to zinc, calcium to protein; everything that is vital for a healthy young life can be found in these natural given milk ducts. The Government should make it compulsory for mothers to breast feed to ensure that every child is allowed to benefit from this. Not one child should ever be disadvantaged due to their mother’s selfish choice or lack of effort. To make breast feeding compulsory is the only way to ensure this fairness. If we want equality, this is what we must do.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 6052);
+            }
+        
+            if (!evidenceIds.includes(offset + 3692)) {
+                nodes.push({
+                    id: (offset + 3692),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> If an age group is protected, that results in a better health conditions for the whole society. In an industrialized country such as the USA, those choosing exemption from statutorily compulsory vaccination were 35-times more likely to contract measles than vaccinated persons; in developing countries where these viruses are still endemic, the risk would be considerably higher . Those who wish to opt-out of vaccination (often on behalf of their children, who have no say in the matter) are classic free riders, hoping to benefit from the more responsible behavior of the rest of society. As it is assumed that most of society see it as a responsibility and a duty to protect others. After a scare about possible side effects of the MMR jab, in 2008 there was a drop in voluntary vaccinations in a part of London (Lewisham). In that part of London only 64.3 % of children were vaccine and in that year the district accounted one third of all south-east London measles cases. Unless there is a 95 % vaccination, there is a great threat to public health of infection outbreaks. Another example of the need to protect is also given by the example of voluntary vaccination against the flu, because of its impacts on the whole population is given by Pediatric studies: ”In several studies, results indicated that a 100% vaccination rate among health care personnel in acute care settings triggered a 43% decline in risk of influenza among patients. This decrease appeared even higher — 60% — among nursing home patients.”      So by giving up some of the individuals freedoms and the feeling of duty to protection, the community is much more protected and benefits from the vaccination of the community.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 3692);
+            }
+        
+            if (!evidenceIds.includes(offset + 3693)) {
+                nodes.push({
+                    id: (offset + 3693),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> As article 24 of the United Nations Convention on the Rights of the Child states, “State parties shall strive to ensure that no child is deprived of his or her right of access to health services.” Each year millions of children worldwide die of preventable diseases before the age of five. The argument presented here is that the state needs to protect the child and immunize him or her from preventable diseases as obviously the child does not have the capabilities at this stage to make informed decisions of their own. The United Nations Right to Liberty and Security of the Person treaty, article 6.2 supports this view - State Parties shall ensure to the maximum extent possible the survival and development of the child. Whilst a child’s parents have to a certain degree the right to decide what is best for their child’s future, poor decision making in this area could result in serious medical issues for the nation. In this extremely important area, the State must have authority over the rights of the parent.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 3693);
+            }
+        
+            if (!evidenceIds.includes(offset + 2253)) {
+                nodes.push({
+                    id: (offset + 2253),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> We are biologically programmed to want to preserve our species. As such, our offspring will often be more important to ourselves than our own persons. Many doctors hear parents tell them how they wish that they could “take over” their child’s terminal illness rather than have the child suffer. As crass as this might seem, they are statistically more likely to die earlier than their offspring in any event and stand to lose less. They have had the chance to experience more of a life than their child. They are furthermore the cause of the child’s existence, and owe it to the child to protect it at any cost.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 2253);
+            }
+        
+            if (!evidenceIds.includes(offset + 3695)) {
+                nodes.push({
+                    id: (offset + 3695),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> In most countries and declarations, one of the most basic human rights is the one to bodily integrity. It sets down that you have a right not to have your body or person interfered with. This means that the State may not do anything to harm your body without consent. The NHS (National Health Service) explains: “You must give your consent (permission) before you receive any type of medical treatment, from a simple blood test to deciding to donate your organs after your death. If you refuse a treatment, your decision must be respected.” This comes from the principle, that if a person has the capacity to consent to treatment and is making an informed decision (based on pros and cons of the treatment), the decision must be respected. The NHS explains further on: “If you have enough capacity and make a voluntary and informed decision to refuse a treatment, your decision must be respected. This applies even if your decision would result in your death, or the death of your unborn child.” In the case of vaccination this principle should be also applied. Even though we recognize that children are not able to fully comprehend the consequences a refusal would have, the parents should be there to decide on behalf of children over such decisions. The state has no right to stick a needle into a child just because they see fit doing so. It might be contested that in case of life endangering illnesses, the state should override the individuals’ rights. But rejection of vaccinations is not life endangering. So it is the judgment of the individual that is important and should not under any case be violated, just because someone might get an illness that in today’s modern world is easily curable.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 3695);
+            }
+        
+            if (!evidenceIds.includes(offset + 8047)) {
+                nodes.push({
+                    id: (offset + 8047),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> As article 24 of the United Nations Convention on the Rights of the Child states, “State parties shall strive to ensure that no child is deprived of his or her right of access to health services.” Each year millions of children worldwide die of preventable diseases before the age of five. The argument presented here is that the state needs to protect the child and immunize him or her from preventable diseases as obviously the child does not have the capabilities at this stage to make informed decisions of their own. The United Nations Right to Liberty and Security of the Person treaty, article 6.2 supports this view - State Parties shall ensure to the maximum extent possible the survival and development of the child. It is up to the State to decide if a child is to be immunized, as overall it will be the State who would benefit from having the vast majority of its citizens vaccinated, and it will be the State who will have to pay for any treatment needed to treat a preventable disease. Whilst a child’s parents have to a certain degree the right to decide what is best for their child’s future, poor decision making in this area could result in serious medical issues for the nation. In this extremely important area, the State must have authority over the rights of the parent.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 8047);
+            }
+        
+            if (!evidenceIds.includes(offset + 3696)) {
+                nodes.push({
+                    id: (offset + 3696),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Through birth, the child and the parent have a binding agreement that is supported within the society. This agreement involves a set of rights and duties aimed at, and justified by, the welfare of the child. Through that (according to texts from the Stanford Encyclopedia of Philosophy): parents owe their children an “open future,” understood as one where they become adults capable of choosing their own conception of the good. As custodian, the parent is under a limited obligation to work and organize his or her life around the welfare and development of the child, for the child&#x27;s sake. Concomitantly, the parent is endowed with a special kind of authority over the child. If the parent believes the child will be safer and better off in society without being given vaccine it is the parent’s right to decide not to give vaccination to the child. Also the American Academy of Pediatrics reports, that refusing the immunization might not put children at risk, as long as they live in a well immunized community and can benefit from the “herd immunity”. They state: “Even in a community with high immunization rates, the risk assumed by an unimmunized child is likely to be greater than the risks associated with immunization.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 3696);
+            }
+        
+            if (!evidenceIds.includes(offset + 8050)) {
+                nodes.push({
+                    id: (offset + 8050),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Benjamin Franklin has stated that “An ounce prevention is worth a pound of cure.” That is a true statement even now. For example, the recent swine flu break out have cost different government around the world much more than it takes to produce and spread the vaccine. Our country has spent over $114,500 on swine flu, with most of the money going toward personnel costs, according to a report by the country’s health official. It cost way less to just give and enforce a vaccine, because it is the most “cost-effective” way to save lives, said by the World Health Organization. If people were not have immunization, it also puts a burden on the health care system to treat all of those infected which must in some way be paid, most likely through taxes. With compulsory immunizations, all of this can be avoided thus minimizing suffering, because taxpayers will not have to pay extra tax for the treatment from health care system, in turn achieves societal welfare. If people will not choose to make the right, justifiable, and sensible choice to be vaccinated, then the choice will be made for them. Vaccinations have undoubtedly saved millions of lives since their inception, the risks are minimal; the benefits are massive. However, without compulsion, the greatest possible protection of the population would just be a waste of resource. Without compulsion, those benefits will not be seen. As a result, I urge you to affirm the resolution.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 8050);
+            }
+        
+            if (!evidenceIds.includes(offset + 5682)) {
+                nodes.push({
+                    id: (offset + 5682),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> When a person brings children into this world, adopts or assumes care for a child, they should be able to do everything possible to protect them. This cannot be done if there is a dangerous sex offender living next-door, who has slipped past the police and is in a position to abuse your child. Children are the most precious things in the world, the future of tomorrow. It is our duty to take care of them. Donald Findlater, of the child protection charity Lucy Faithfull Foundation, added: “The biggest risk to children is not from the registered sex offender who the police know and are managing; it is from the sex offender who is not registered and who no one knows about.”(1) In light of this, it seems more than reasonable that a parent should be able to ask the police to check records of someone who they think might be potentially dangerous. Surely it cannot be breaching an individual’s human rights for information on any violent or sexual crimes that may have been committed, in contrast with the safety of a child.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 5682);
+            }
+        
+            if (!evidenceIds.includes(offset + 8052)) {
+                nodes.push({
+                    id: (offset + 8052),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Compulsory vaccination is an example of the tyranny of the majority even if it is made by a democratic government. John Stuart Mill “the majority… the people, consequently, may desire to oppress a part of their number; and precautions are as much needed against this, as against any other abuse of power… In the part which merely concerns himself, his independence is, of right, absolute. Over himself, over his own body and mind, the individual is sovereign. John Stuart Mill “the sole end for which mankind are warranted, individually or collectively, in interfering with the liberty of action of any of their number, is self-protection.” Therefore the question is ‘what is the purpose of the vaccination?’ if it is to provide individuals with their own protection then autonomy of decision-making and individual liberty should predominate as guiding principles. Under these circumstances there can be little justification of any coercion on the part of public health officials, in particular the use of mandatory vaccination legislation. If it is more based upon public harm i.e. the more chance of the virus infecting from one human to another then the less this defence can be used.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 8052);
+            }
+        
+            if (!evidenceIds.includes(offset + 3697)) {
+                nodes.push({
+                    id: (offset + 3697),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Some of the used vaccines may have severe side effects, therefore we should let every individual asses the risk and make choices on his/her own. Besides introducing foreign proteins and even live viruses into the bloodstream, each vaccine has its own preservative, neutralizer and carrying agent, none of which are indigenous to the body. For instance, the triple antigen, DPT, which includes Diphtheria, Pertussis, Tetanus vaccine, contains the following poisons: Formaldehyde, Mercury, and aluminum phosphate, and that&#x27;s from the Physician&#x27;s Desk Reference, 1980. The packet insert accompanying the vaccine, lists the following poisons: aluminum potassium sulfate, a mercury derivative called Thimersol and sodium phosphate. The packet insert for the polio vaccine lists monkey kidney cell culture, lactalbumin hydrozylate, antibiotics and calf serum. The packet insert for the MMR vaccine produced by Merck Sharp and Dhome which is for measles, mumps and rubella lists chick embryo and neomycin, which is a mixture of antibiotics. By focusing exclusively on increased antibody production, which is only one aspect of the immune process, immunizations isolate dysfunction and allow it to substitute for the entire immune response, because vaccines trick the body so that it will no longer initiate a generalized response. They accomplished what the entire immune system seems to have been evolved to prevent. That is, they place the virus directly into the blood and give it access to the major immune organs and tissues without any obvious way of getting rid of it. The long-term persistence of viruses and other foreign proteins within the cells of the immune system has been implicated in a number of chronic and degenerative diseases. In 1976 Dr. Robert Simpson of Rutgers university addressed science writers at a seminar of the American Cancer Society, and pointed out the following. &quot;Immunization programs against flu, measles, mumps, polio and so forth may actually be seeding humans with RNA to form latent pro viruses in cells throughout the body. These latent pro viruses could be molecules in search of diseases, including rheumatoid arthritis, multiple sclerosis, lupus, Parkinson&#x27;s disease, and perhaps cancer.&quot; If the trend of increased Thimerosal in vaccinations correlates so well with the trend of increased autistic diagnoses, there is a link. Thimerosal in vaccinations (which means &#x27;contains mercury&#x27;) causes autism. Too many times has a child been completely healthy, and then a vaccine containing Thimerosal is injected into the child. The child becomes ill, stops responding visually and verbally, and is then diagnosed with Autism Spectrum Disorder.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 3697);
+            }
+        
+            if (!evidenceIds.includes(offset + 3469)) {
+                nodes.push({
+                    id: (offset + 3469),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Human bodies are different and react to drugs differently. Especially when there is not just one foreign substance, but let us say 24 of them given to a human body over a period of time, there is increased risk that at least one of the substances may cause damage to the body. The drugs can damage an individual for life. The case of Robert Fletcher can be used as an example (reported by the Telegraph): “The seizure occurred ten days after the vaccination. Robert is severely disabled as a result of vaccination. Mrs Fletcher said: “Robert is nearly 19 but mentally he is like a 14-month-old toddler. He can’t stand unaided and he is doubly incontinent. He can’t speak except to say ‘Hi, Mum’ or ‘Hi, Daddy’.”  Robert Fletcher is not the only one with such severe symptoms and worse is that physicians never can be sure what the outcome will be. So multiple vaccines are dangerous, as they have no predicted outcome (because people’s response to vaccinations are varied) but, in a minority of cases, they present with very severe consequences.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 3469);
+            }
+        
+
+        // adding claim to perspective edges: undermine
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 3698,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 24082,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 24083,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 3699,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 24084,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 24085,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 3700,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+
+        // adding claim to perspective edges: support
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 3695,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 24076,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 24077,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 3697,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 24080,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 24081,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 3696,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 24078,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 24079,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+
+        // adding edges between perspectives
+        
+            
+                
+            
+                
+                    edges.push({from: 3698, to: 24082, label: "", font: {multi: 'html'}});
+                
+            
+                
+                    edges.push({from: 3698, to: 24083, label: "", font: {multi: 'html'}});
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+                    edges.push({from: 24082, to: 24083, label: "", font: {multi: 'html'}});
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    edges.push({from: 3699, to: 24084, label: "", font: {multi: 'html'}});
+                
+            
+                
+                    edges.push({from: 3699, to: 24085, label: "", font: {multi: 'html'}});
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    edges.push({from: 24084, to: 24085, label: "", font: {multi: 'html'}});
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+
+        // adding perspective to evidence edges
+        
+            
+                edges.push({from: 3695, to: (offset + 3692), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 24076, to: (offset + 3692), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 24077, to: (offset + 3692), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 3697, to: (offset + 8050), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 24080, to: (offset + 8050), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 24081, to: (offset + 8050), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 3696, to: (offset + 3693), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 3696, to: (offset + 8047), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 3696, to: (offset + 2253), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 3696, to: (offset + 5682), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 3696, to: (offset + 6052), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 24078, to: (offset + 3693), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 24078, to: (offset + 8047), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 24078, to: (offset + 2253), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 24078, to: (offset + 5682), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 24078, to: (offset + 6052), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 24079, to: (offset + 3693), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 24079, to: (offset + 8047), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 24079, to: (offset + 2253), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 24079, to: (offset + 5682), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 24079, to: (offset + 6052), label: "", font: {multi: 'html'}});
+            
+        
+
+        
+            
+                edges.push({from: 3698, to: (offset + 3695), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 3698, to: (offset + 8052), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 24082, to: (offset + 3695), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 24082, to: (offset + 8052), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 24083, to: (offset + 3695), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 24083, to: (offset + 8052), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 3699, to: (offset + 3696), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 3699, to: (offset + 3695), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 3699, to: (offset + 8047), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 24084, to: (offset + 3696), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 24084, to: (offset + 3695), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 24084, to: (offset + 8047), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 24085, to: (offset + 3696), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 24085, to: (offset + 3695), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 24085, to: (offset + 8047), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 3700, to: (offset + 3697), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 3700, to: (offset + 3469), label: "", font: {multi: 'html'}});
+            
+        
+    
+
+    nodes = nodes.unique();
+
+    var container = document.getElementById('mynetwork');
+    var data = {
+        nodes: nodes,
+        edges: edges
+    };
+    var options = {
+        edges: {
+            font: {
+                size: 12
+            },
+            widthConstraint: {
+                maximum: 90
+            }
+        },
+        nodes: {
+            shape: 'box',
+            margin: 10,
+            widthConstraint: {
+                maximum: 200
+            }
+        },
+        physics: {
+            enabled: true,
+            repulsion: {
+                centralGravity: 0.0000001,
+                //damping: 3
+                //springConstant: 2
+                //springLength: 200000
+                damping: 0.000001
+                //nodeDistance: 200000000
+            },
+            solver: "forceAtlas2Based"
+        }
+    };
+    var network = new vis.Network(container, data, options);
+</script>
+<script type="application/javascript">
+
+    $('#search-claim').click(function () {
+        var claimText = $("#claim-box").val();
+        let url = '/baseline/claim_text=' + claimText + "";
+        console.log(url);
+        window.location.href = url;
+    });
+
+</script>
+
+</body></html>

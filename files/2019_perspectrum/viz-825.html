@@ -1,0 +1,2967 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://localhost:8080/visualization/list=825 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./viz-825_files/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="./viz-825_files/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="./viz-825_files/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./viz-825_files/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" href="./viz-825_files/flat-ui.min.css" integrity="sha256-7bYJaNviFZlH+bKqZlshmYKeyvkp+fXBQuerWp2AXlA=" crossorigin="anonymous">
+<link rel="stylesheet" href="./viz-825_files/style.css">
+<script type="text/javascript" src="./viz-825_files/vis.js"></script>
+<link href="./viz-825_files/vis-network.min.css" rel="stylesheet" type="text/css">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Perspective Annotation Interface</title>
+<script src="./viz-825_files/persp.js"></script>
+
+<style type="text/css">
+    #mynetwork {
+        width: 100%;
+        height: 100%;
+        border: 1px solid lightgray;
+    }
+
+    code {
+        font-size: 14px;
+        background: #dddddd;
+    }
+
+    .indented {
+        margin-left: 00px;
+    }
+
+    .sep {
+        height: 1px;
+        width: 30%;
+        margin-left: 40px;
+        background-color: #dddddd;
+    }
+</style>
+
+</head>
+<body>
+
+<div id="mynetwork" style="width: 100%; height: 1100px"><div class="vis-network" tabindex="900" style="position: relative; overflow: hidden; touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 100%; height: 100%;"><canvas width="3452" style="position: relative; touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 100%; height: 100%;" height="2196"></canvas></div></div>
+
+
+<script type="text/javascript">
+    Array.prototype.contains = function (v) {
+        for (var i = 0; i < this.length; i++) {
+            if (this[i] === v) return true;
+        }
+        return false;
+    };
+
+    Array.prototype.unique = function () {
+        var arr = [];
+        for (var i = 0; i < this.length; i++) {
+            if (!arr.includes(this[i])) {
+                arr.push(this[i]);
+            }
+        }
+        return arr;
+    };
+
+    var nodes = [];
+    var edges = [];
+    var nodeIds = [];
+    var evidenceIds = [];
+    var offset = 100000;
+
+    
+        var claimID = -1;
+
+        // adding claim
+        var claim_text = "All countries should have the right to pursue a nuclear defence";
+        nodes.push({
+                id: claimID,
+                label: "<b>Claim:</b> \n" + claim_text,
+                widthConstraint: {maximum: 200},
+                group: 0,
+                font: {multi: 'html'}
+            }
+        );
+
+        // perspective nodes: support
+        
+            if (!nodeIds.includes(26469)) {
+                nodes.push({
+                    id: 26469,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 26469: Small countries would be able to pursue their independence without having to rely on larger countries.",
+                    group: 1,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(26469)
+            }
+        
+            if (!nodeIds.includes(25670)) {
+                nodes.push({
+                    id: 25670,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 25670: Disarmament would actually cause increased insecurity among nations, it is near impossible to guarantee that a nation has disarmed.",
+                    group: 1,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(25670)
+            }
+        
+            if (!nodeIds.includes(26470)) {
+                nodes.push({
+                    id: 26470,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 26470: Small countries would no longer need the protection of larger ones, so could become more politically independent.",
+                    group: 1,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(26470)
+            }
+        
+            if (!nodeIds.includes(25671)) {
+                nodes.push({
+                    id: 25671,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 25671: Disarmament would actually cause increased insecurity among nations, you can never really know for sure whether they have disarmed.",
+                    group: 1,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(25671)
+            }
+        
+            if (!nodeIds.includes(5262)) {
+                nodes.push({
+                    id: 5262,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 5262: Disarmament would actually cause increased insecurity among nations, as there can never be any guarantee that a nation has disarmed",
+                    group: 1,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(5262)
+            }
+        
+            if (!nodeIds.includes(6621)) {
+                nodes.push({
+                    id: 6621,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 6621: Thus the super power model will be broken and small countries will be finally given the chance to have political independence without the need of protection from a ‘big brother’.",
+                    group: 1,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(6621)
+            }
+        
+            if (!nodeIds.includes(6620)) {
+                nodes.push({
+                    id: 6620,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 6620: All the people worldwide have the same rights and are equal to one another. ",
+                    group: 2,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(6620)
+            }
+        
+            if (!nodeIds.includes(6619)) {
+                nodes.push({
+                    id: 6619,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 6619: The pursuit of nuclear defence (respectively the possession of nuclear weapons) by more countries is a guarantee for peace. ",
+                    group: 3,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(6619)
+            }
+        
+            if (!nodeIds.includes(1570)) {
+                nodes.push({
+                    id: 1570,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 1570: Public acknowledgement of the right to nuclear deterrence will benefit the public regulation of nuclear weapons generally",
+                    group: 6,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(1570)
+            }
+        
+            if (!nodeIds.includes(1568)) {
+                nodes.push({
+                    id: 1568,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 1568: Nuclear weapons give states valuable agenda-setting power on the international stage",
+                    group: 7,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(1568)
+            }
+        
+            if (!nodeIds.includes(22357)) {
+                nodes.push({
+                    id: 22357,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 22357: Countries with nuclear weapons have the ability to set their own agenda.",
+                    group: 7,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(22357)
+            }
+        
+            if (!nodeIds.includes(22359)) {
+                nodes.push({
+                    id: 22359,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 22359: States with nuclear weapons are afforded more authority to set agendas at international levels.",
+                    group: 7,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(22359)
+            }
+        
+            if (!nodeIds.includes(1566)) {
+                nodes.push({
+                    id: 1566,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 1566: All countries have a right to defend themselves with nuclear weapons, even when they lack the capacity in conventional weapons",
+                    group: 8,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(1566)
+            }
+        
+            if (!nodeIds.includes(22353)) {
+                nodes.push({
+                    id: 22353,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 22353: All states have a right to nuclear self-defense.",
+                    group: 8,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(22353)
+            }
+        
+            if (!nodeIds.includes(22354)) {
+                nodes.push({
+                    id: 22354,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 22354: To use  nuclear weapons in defense of the nation is lawful for all countries.",
+                    group: 8,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(22354)
+            }
+        
+            if (!nodeIds.includes(22355)) {
+                nodes.push({
+                    id: 22355,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 22355: countries have to right to self defense with nuclear weapons, even when they lack capacity in conventional weapon",
+                    group: 8,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(22355)
+            }
+        
+            if (!nodeIds.includes(22356)) {
+                nodes.push({
+                    id: 22356,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 22356: all countries are entitled to self defense with nuclear weapons, even when they do not have the capacity to carry conventional weapons",
+                    group: 8,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(22356)
+            }
+        
+            if (!nodeIds.includes(1989)) {
+                nodes.push({
+                    id: 1989,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 1989: No country has an inherent right to invade or use aggression against another.",
+                    group: 12,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(1989)
+            }
+        
+            if (!nodeIds.includes(5264)) {
+                nodes.push({
+                    id: 5264,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 5264: Disarmament is impossible, rendering efforts to disarm pointless and simply wasteful",
+                    group: 16,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(5264)
+            }
+        
+            if (!nodeIds.includes(5263)) {
+                nodes.push({
+                    id: 5263,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 5263: The abolition of nuclear weapons would actually incentivize the development and use of even more dangerous weapons, such as chemical and biological weapons",
+                    group: 17,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(5263)
+            }
+        
+
+        // perspective nodes: undermine
+        
+            if (!nodeIds.includes(1573)) {
+                nodes.push({
+                    id: 1573,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 1573: Humanitarian intervention becomes impossible in states that possess nuclear weapons",
+                    group: 4,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(1573)
+            }
+        
+            if (!nodeIds.includes(22362)) {
+                nodes.push({
+                    id: 22362,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 22362: Humanitarian missions would not be possible in states that have nuclear weapons.",
+                    group: 4,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(22362)
+            }
+        
+            if (!nodeIds.includes(22364)) {
+                nodes.push({
+                    id: 22364,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 22364: It is very difficult to intercede in humanitarian crises in states wherein nuclear weapons are present.",
+                    group: 4,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(22364)
+            }
+        
+            if (!nodeIds.includes(1575)) {
+                nodes.push({
+                    id: 1575,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 1575: The threat of a state developing nuclear weapons could instigate pre-emptive strikes from its neighbours and rivals to prevent the acquisition of such weapons",
+                    group: 5,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(1575)
+            }
+        
+            if (!nodeIds.includes(22369)) {
+                nodes.push({
+                    id: 22369,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 22369: Other countries could strike against those developing nuclear weapons to protect themselves.",
+                    group: 5,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(22369)
+            }
+        
+            if (!nodeIds.includes(22370)) {
+                nodes.push({
+                    id: 22370,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 22370: To keep other countries from obtaining a nuclear arsenal, other nations may pre-emptively strike.",
+                    group: 5,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(22370)
+            }
+        
+            if (!nodeIds.includes(22372)) {
+                nodes.push({
+                    id: 22372,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 22372: The intention of a state to develop nuclear weapons may incite military attacks by enemies and by other supporting countries.",
+                    group: 5,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(22372)
+            }
+        
+            if (!nodeIds.includes(1574)) {
+                nodes.push({
+                    id: 1574,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 1574: Possessing nuclear weapons will be counter to the peaceful interests of states",
+                    group: 9,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(1574)
+            }
+        
+            if (!nodeIds.includes(1984)) {
+                nodes.push({
+                    id: 1984,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 1984: Nuclear weapons can fall into the wrong hands.",
+                    group: 10,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(1984)
+            }
+        
+            if (!nodeIds.includes(22727)) {
+                nodes.push({
+                    id: 22727,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 22727: It&#x27;s conceivable that the wrong people will have the weapons.",
+                    group: 10,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(22727)
+            }
+        
+            if (!nodeIds.includes(22728)) {
+                nodes.push({
+                    id: 22728,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 22728: The nukes can end up being used against us.",
+                    group: 10,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(22728)
+            }
+        
+            if (!nodeIds.includes(5255)) {
+                nodes.push({
+                    id: 5255,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 5255: Terrorists will steal nuclear weapons from poorly guarded arsenals",
+                    group: 10,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(5255)
+            }
+        
+            if (!nodeIds.includes(1986)) {
+                nodes.push({
+                    id: 1986,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 1986: [Iran specific] Iran has threatened to destroy Israel",
+                    group: 11,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(1986)
+            }
+        
+            if (!nodeIds.includes(22729)) {
+                nodes.push({
+                    id: 22729,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 22729: Iran has Israel targeted.",
+                    group: 11,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(22729)
+            }
+        
+            if (!nodeIds.includes(1982)) {
+                nodes.push({
+                    id: 1982,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 1982: The United States has an obligation to protect international stability due to its unique military strength.",
+                    group: 13,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(1982)
+            }
+        
+            if (!nodeIds.includes(22725)) {
+                nodes.push({
+                    id: 22725,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 22725: The US must protect the international community.",
+                    group: 13,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(22725)
+            }
+        
+            if (!nodeIds.includes(22726)) {
+                nodes.push({
+                    id: 22726,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 22726: The US military is needed to ensure peace.",
+                    group: 13,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(22726)
+            }
+        
+            if (!nodeIds.includes(1987)) {
+                nodes.push({
+                    id: 1987,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 1987: [Iran specific] Others, particularly Israel, would act if the United States did not",
+                    group: 14,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(1987)
+            }
+        
+            if (!nodeIds.includes(22731)) {
+                nodes.push({
+                    id: 22731,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 22731: If the US does not act on Iran, Israel will",
+                    group: 14,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(22731)
+            }
+        
+            if (!nodeIds.includes(5265)) {
+                nodes.push({
+                    id: 5265,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 5265: Nuclear waste disposal is rarely safe/efficient; it is too much to expect a sqeaky clean disposal/disarmament of nuclear weapons  ",
+                    group: 15,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(5265)
+            }
+        
+            if (!nodeIds.includes(5257)) {
+                nodes.push({
+                    id: 5257,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 5257: Proliferation of nuclear weapons increases the chances of nuclear accidents",
+                    group: 18,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(5257)
+            }
+        
+            if (!nodeIds.includes(5254)) {
+                nodes.push({
+                    id: 5254,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 5254: States will give terrorists nuclear weapons",
+                    group: 19,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(5254)
+            }
+        
+            if (!nodeIds.includes(5256)) {
+                nodes.push({
+                    id: 5256,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 5256: Irrational leaders make the possession of nuclear weapons dangerous",
+                    group: 20,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(5256)
+            }
+        
+            if (!nodeIds.includes(5258)) {
+                nodes.push({
+                    id: 5258,
+                    widthConstraint: {maximum: 200},
+                    label: "<b>Perspective:</b> \n 5258: It is immoral to use the threat of nuclear annihilation in order to achieve foreign policy aims",
+                    group: 21,
+                    font: {multi: 'html'}
+                });
+                nodeIds.push(5258)
+            }
+        
+
+        // evidence nodes
+        
+            if (!evidenceIds.includes(offset + 5248)) {
+                nodes.push({
+                    id: (offset + 5248),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> People cannot just be used as a means to an end. In order for the theory of nuclear deterrence to work, a nation has to issue a credible threat of retaliation against innocent people in the case of a first strike. However, this blurs the distinction between innocent and guilty people, needlessly punishing members of a nation for the actions of their government. Related authors: Steven Lee, Gerald Dworkin, Peter Beckman, Jeff McMahan, Daniel Farrell`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 5248);
+            }
+        
+            if (!evidenceIds.includes(offset + 5252)) {
+                nodes.push({
+                    id: (offset + 5252),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Potential conflicts would arise from the disarmament process itself, as nations would constantly second-guess each other and doubt the other nation&#x27;s counts of nuclear arsenals. This tension would make relations even worse than they were in a world with nuclear weapons, and thus disarmament actually causes more conflict. Related authors: George Dvorsky, Christopher Ford, Takaya Suto, Hirofumi Tasaki`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 5252);
+            }
+        
+            if (!evidenceIds.includes(offset + 5253)) {
+                nodes.push({
+                    id: (offset + 5253),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Some nations pledged not to use chemical and biological warfare because they had nuclear weapons. In other instances, nuclear weapons have directly deterred the use of chemical and biological weapons - for example, Saddam Hussein confessed that Iraq wanted to use chemical and biological weapons, and that US conventional forces were insufficient to deter them, but the presence of the nuclear threat ultimately swayed him. Chemical and biological weapons are just as harmful as nuclear weapons (if not worse). Related authors: Keith Payne, Anthony Cordesman, John Holdren, Raymond Zilinskas`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 5253);
+            }
+        
+            if (!evidenceIds.includes(offset + 5254)) {
+                nodes.push({
+                    id: (offset + 5254),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Nations will never entirely give up their nuclear weapons, and more countries want to proliferate, not fewer. There is no way to actually enforce a ban on nuclear weapons; attempts to date, including the NPT and the CTBT, cannot actually enforce a ban and have done relatively little to stop determined nations from proliferating. Instead of focusing their attention on abolishing nuclear weapons, nations should focus on alternatives, such as increased weapons safety and decreased arsenals.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 5254);
+            }
+        
+            if (!evidenceIds.includes(offset + 5255)) {
+                nodes.push({
+                    id: (offset + 5255),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> We&#x27;re all well aware of the problems/issues associated with nuclear waste disposal; ranging from radiation/disease to pollution to the construction of dirty bombs with stolen components of used/faulty nuclear material. Now imagine, the horror of attempting to obviate all the workable nuclear weapons in the world. This will be a tardy task that will require considerable effort,time and money. To safely remove nuclear weapons will prove too expensive for nuclear states with third-world economies and it is likely that since most nuclear waste disposal is inefficient and unsafe; nuclear weapon disposal will be much more inefficient/unsafe. Poor Nations will have the incentive to sell weapons to terrorists or whoever during the disposal process to curtail costs. Poor Nations will also not be able to pay for a safe removal of nuclear weapons and during the disposal/disarmament nuclear material will/would be more exposed than ever before. Making the threat of impending nuclear-terrorism very likely as a result.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 5255);
+            }
+        
+            if (!evidenceIds.includes(offset + 2956)) {
+                nodes.push({
+                    id: (offset + 2956),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> The P-5 veto holding members of the UN SC are unique in that they are the only countries that have nuclear arsenals (not simply a small stock of nuclear weapons). They are the only countries with the power to initiate full-scale nuclear war. Therefore, it is important that that they be able to end measures with their veto power to ensure that measures are not realized that could foment serious international tension and possibly nuclear war. In other words, &#x27;you give (veto power) to the nations who- thanks to their nuclear missiles- already have effective veto power anyway&#x27;1. The gift of the veto power encourages such nuclear states to act within the system, ensuring that &#x27;they have a stronger stake in acting within the system than acting outside of it&#x27;2. The Security Council Veto Power, or Got Nuke? Retrieved May 13, 2011, from Incite: 
+2 Fassbender, B. UN Security Council Reform and the Right to Vote: A Constitutional Perspective. Hague: Kluwer Law International.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 2956);
+            }
+        
+            if (!evidenceIds.includes(offset + 1805)) {
+                nodes.push({
+                    id: (offset + 1805),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> The timetable for withdrawal from Afghanistan means withdrawing by the end of 2012, regardless of the security situation, and handing over the conflict against the Taliban and Al Qaida (which will almost certainly still be going on) to a largely Afghan force which is ill-prepared to handle the war on its own. This means that proponents of the timetable withdrawal must support pulling NATO forces out of Afghanistan even if the war is going badly at the end of 2012 and it is clear that the withdrawal will benefit the Taliban and Al Qaeda on the battlefield. &quot;Afghan forces simply do not currently have the capacity to do the protecting themselves at this point and, given the challenges of building up new institutions in Afghanistan after decades of war, will not necessarily have the ability until by the end of 2012.” US and NATO forces are needed to mentor and partner with Afghans as they build up an army and police force largely from scratch. Withdrawing before this task is completed adds up to a prescription for a drying up of intelligence and a Taliban victory. The USA&#x27;s top nemesis would be able to salvage a victory in the very place from which it launched the 9/11 attacks eight years ago. Al-Qaeda would have its favourite bases and sanctuaries back, as well as a major propaganda win. Pakistan, with 170m people and nuclear weapons, is vulnerable to the Taliban’s potent mixture of ethnic-Pushtun nationalism and extremist Islam, as its state power is tenuous. Anarchy in Afghanistan, or a Taliban restoration, would leave it prey to permanent cross-border instability. The US has even more reasons to care about the security of Pakistan when the India-Pakistan conflict is considered, especially as both sides of this have nuclear weapons. India and Pakistan have come within a hair’s breadth from nuclear conflict twice over Kashmir. If Pakistan were to fall apart, it would potentially leave nuclear weapons and a large military in the hands of extremist Muslim groups, which could lead to a regional war with India. It is a compelling and vital American interest to prevent nuclear conflict in South Asia—which makes “fixing” Afghanistan in some way also a vital American interest, even if this means keeping the troops there past the timetabled withdrawal. During the 1990s, when the US tried to go after Osama bin Laden without access to nearby bases by using ships based in the Indian Ocean, the two- to four-hour flight times of drones and cruise missiles operating off such ships made prompt action to real-time intelligence impractical. It has fought this ideology in many ways in many places, and it is uncertain now how this conflict will evolve. However the US should understand that the conflict is unavoidable and that when extremism pushes, it is in the US and NATO&#x27;S long-term interests to push back — and that eventually, if they do so, extremism will wither. Security  comes before other state interests, largely because the rights of all citizens depend on their security first, and so the security dimension here is key. Therefore, in order to protect the security of the US and other NATO countries, the timetable for withdrawal from Afghanistan should be abandoned, and the troops should remain there until the job is done. &quot;Why we can&#x27;t go small in Afghanistan&quot;. &quot;Obama&#x27;s War&quot;. &quot;The Case for Afghanistan: Strategic Considerations&quot;. &quot;Why we can&#x27;t go small in Afghanistan&quot;. &quot;The Afghan Imperative&quot;.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 1805);
+            }
+        
+            if (!evidenceIds.includes(offset + 1563)) {
+                nodes.push({
+                    id: (offset + 1563),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> The nation-state is the fundamental building block of the international system, and is recognized as such in all international treaties and organizations. States are recognized as having the right to defend themselves, and this right must extend to the possession of nuclear deterrence. Often states lack the capacity to defend themselves with conventional weapons. This is particularly true of poor and small states. Even wealthy, small states are susceptible to foreign attack, since their wealth cannot make up for their lack of manpower. With a nuclear deterrent, all states become equal in terms of ability to do harm to one another. Clearly, nuclear weapons serve in many ways to equalize states irrespective of size, allowing them to more effectively defend themselves. Furthermore, countries will only use nuclear weapons in the vent of existential threat. This is why, for example, North Korea has not used nuclear weapons; for it, like all other states, survival is the order of the day, and using nuclear weapons aggressively would spell its certain destruction. Countries will behave rationally with regard to the use of nuclear weapons, as they have done since their invention and initial proliferation. Weapons in the hands of more people will thus not result in the greater risk of their use. Nuclear Strategy in the Post-Cold War Era”.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 1563);
+            }
+        
+            if (!evidenceIds.includes(offset + 2075)) {
+                nodes.push({
+                    id: (offset + 2075),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> States, as the building blocks of international society, have an inviolable right to self-defense, and this right extends to the possession of miniature, tactical nuclear weapons. Often states lack the capacity to defend themselves with conventional weapons. This is particularly true of small and poor states. Even wealthy, small states are susceptible to foreign attack, since their wealth cannot make up for their lack of manpower. When armed with tactical nuclear weapons, all states become equal in terms of capacity to do harm to one another. If a large state attempts to intimidate, or even invade a smaller neighbor, it will be unable to effectively cow it, since the small state will have the power to severely damage, or even destroy, the would-be invader&#x27;s military capacity with a few well-placed miniature nuclear missiles . An example of this is the 2008 invasion of Georgia by Russian troops, which would likely never have occurred had Georgia possessed an arsenal of tactical nuclear weapons, as Russia would have thought twice when considering that its large tank formations could be wiped out by a single well-placed tactical warhead. Clearly, nuclear weapons serve in many ways to equalize states irrespective of size, allowing them to more effectively defend themselves.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 2075);
+            }
+        
+            if (!evidenceIds.includes(offset + 1565)) {
+                nodes.push({
+                    id: (offset + 1565),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> The issues discussed in international forums are largely set by nuclear powers. The permanent membership of the United Nations Security Council, for example, is composed only of nuclear powers, the same states that had nuclear weapons at the end of World War II. If all countries possess nuclear weapons, they redress the imbalance with regard to international clout, at least to the extent to which military capacity shapes states’ interactions with each other. The nuclear powers, wanting to retain their position of dominance in the wake of the post-war chaos, sought to entrench their position, convincing smaller nations to sign up to non-proliferation agreements and trying to keep the nuclear club exclusive. It is only right, in terms of fairness that states not allow themselves the ability to possess certain arms while denying that right to others. Likewise, it is unfair in that it denies states, particularly those incapable of building large conventional militaries, the ability to defend themselves, relegating them to an inferior status on the world stage. Journal of Conflict Resolution 38(2). Nuclear blackmail and nuclear balance. Washington, D.C.: Brookings Institution.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 1565);
+            }
+        
+            if (!evidenceIds.includes(offset + 2080)) {
+                nodes.push({
+                    id: (offset + 2080),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Nuclear weapons are, by their very nature, indiscriminate and disproportional; any weapon which could not possibly be used in a responsible manner should not be permitted. Over the past fifty years, we have seen a general tendency towards limited warfare and precision weapons, allowing military objectives to be achieved with minimal loss of civilian life. The entire point of nuclear weapons, however, is their massive, indiscriminate destructive power. Their use could kill tens of thousands of civilians directly, and their catastrophic environmental after-effects would harm many more all around the world. These effects could never be morally acceptable, particularly as the basis of one’s national security strategy. They place ‘humanity and most forms of life in jeopardy of annihilation’ (Krieger, 2003). No state or leader can be entrusted, morally, with a power and responsibility that could come close to annihilating humanity.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 2080);
+            }
+        
+            if (!evidenceIds.includes(offset + 2081)) {
+                nodes.push({
+                    id: (offset + 2081),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> By claiming the efficacy of nuclear weapons as a strategic deterrent, the current nuclear powers encourage the proliferation of weapons of mass destruction (Krieger, 2003). To be a part of the so-called &#x27;nuclear club&#x27; is seen as a matter of great prestige; when India and Pakistan recently declared their nuclear capability and held mutual tests in the 1990s, it was seen in both countries as increasing their international status. Nevertheless, tensions in the region have only increased since the mutual announcements, not least the Kargil War of 1999 that almost precipitated a nuclear war. Nations opposed to a nuclear power therefore feel that they need to develop their own capability in order to protect themselves. The declared nuclear powers must therefore take the lead in disarmament, as an example for the rest of the world.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 2081);
+            }
+        
+            if (!evidenceIds.includes(offset + 2082)) {
+                nodes.push({
+                    id: (offset + 2082),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> While nuclear weapons exist, they can fall into the wrong hands. This is particularly prevalent in an environment whereby there are extremist groups actively seeking to cause instant, egregious harm to their ideological and political enemies. Such groups do not lack for funding; therefore the fear of weapons falling into the wrong hands has never been higher. This is particularly true in Russia, which now has control of all of the nuclear weapons which were distributed around the former Soviet Union. In particular during the 1990s the military was disastrously underfunded; technicians and officers who were used to a high standard of living found themselves without pay, sometimes for years. At the same time, other states and extremist groups are willing to pay substantial sums for their services, and to gain access to nuclear weapons. This same danger is now as much, if not more, of a problem in Pakistan (Ambinder, 2011). The danger of a weapon being stolen, or a nuclear base being taken over by disgruntled members of the military or other extremists, can only be ended by destroying the weapons (Allison, 1997).`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 2082);
+            }
+        
+            if (!evidenceIds.includes(offset + 1571)) {
+                nodes.push({
+                    id: (offset + 1571),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Most states will not benefit at all from possessing nuclear weapons. Developing a nuclear deterrent is seen in the international community as a sign of belligerence and a warlike character. Such an image does not suit the vast majority of states who would be better suited focusing on diplomacy, trade, and economic interdependence. If the right to nuclear weapons were recognized for all states, only those states that currently want them for strategic reasons will develop them, and they will do so more brazenly and with greater speed. These countries might try to develop them even if proliferation is outlawed, but giving them license increases the likelihood that they will succeed. Furthermore, when countries develop nuclear weapons, their neighbours may feel more vulnerable and thus be compelled by necessity to develop their own weapons. This will lead to arms races in some cases, and generally harm diplomacy. Princeton: Princeton University Press.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 1571);
+            }
+        
+            if (!evidenceIds.includes(offset + 1572)) {
+                nodes.push({
+                    id: (offset + 1572),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> The threat represented by potential nuclear powers will instigate pre-emptive strikes by countries fearing the future behaviour of the budding nuclear powers. Until a state develops a nuclear capacity that its rivals believe they cannot destroy in a first strike, nuclear weapons increase the risk of war. For example, Israel will have a very real incentive to attack Iran before it can complete its development of nuclear weapons, lest it become an existential threat to Israel’s survival. The United States military even considered attempting to destroy the USSR’s capability before they had second strike capability General Orvil Anderson publicly declared: “Give me the order to do it and I can break up Russia’s five A-bomb nests in a week…And when I went up to Christ—I think I could explain to Him that I had saved civilization.”  The development of nuclear weapons can thus destabilize regions before they are ever operational, as it is in no country’s interest that its rivals become capable of using nuclear force against it. Clearly, it is best that such states do not develop nuclear weapons in the first place so as to prevent such instability and conflict. With nuclear weapons a country cannot be pushed around by regional bullies. It seems perfectly fair that Iran would covet the ability to resist Israeli might in the Middle East and defend itself from aggression by it or the United States.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 1572);
+            }
+        
+            if (!evidenceIds.includes(offset + 1569)) {
+                nodes.push({
+                    id: (offset + 1569),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> There are many dangerous dictators and tyrants, many of who covet the possession of nuclear weapons not just for the purpose of defence, but also for that of intimidating their neighbours. For example, Iran has endeavoured for years on a clandestine nuclear weapons program that, were it recognized as a legitimate pursuit, could be increased in scale and completed with greater speed. The result of such an achievement could well destabilize the Middle East and would represent a major threat to the existence of a number of states within the region, particularly Israel. Furthermore, the risk of nuclear weapons, or at least weapons-grade material, falling into the hands of dissidents and terrorists increases substantially when there are more of them and larger numbers of countries possess them. Additionally, many countries in the developing world lack the capacity to safely secure weapons if they owned them, due to lack of technology, national instability, and government corruption. American Political Science Review 99(4). The Limits of Safety: Organizations, Accidents, and Nuclear Weapons. Princeton: Princeton University Press.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 1569);
+            }
+        
+            if (!evidenceIds.includes(offset + 1570)) {
+                nodes.push({
+                    id: (offset + 1570),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> It has often proven to be necessary for the UN, the United States, and various international coalitions to stage humanitarian interventions into states fighting civil wars, committing genocide, or otherwise abusing the human rights of their citizens. Were all countries permitted to possess nuclear weapons, such interventions would become next to impossible. Were, for example, countries to try and contribute to the Libyan rebels, they would find themselves the targets of Libyan nuclear warheads. The cost of intervention thus becomes too high for virtually any country to tolerate, in terms of both human and political costs. The world would be a worse place if tyrants were allowed to perpetrate whatever crimes they saw fit upon their people, while the international community could do nothing for fear of nuclear retaliation. American Political Science Review 99(4).`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 1570);
+            }
+        
+            if (!evidenceIds.includes(offset + 6698)) {
+                nodes.push({
+                    id: (offset + 6698),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Any nuclear weapon anywhere is a potential terrorist bomb. There have been cocnerned for over 15 years about the security fo nuclear weapons in the former Soviet Union. Now, however, those concerns are more wide-spread. Unrest in Pakistan and uncertainties in China have raised the alarm about the security and instability in other countries. The recent news that 6 nuclear weapons took a joy ride on a B-52 without the knowlegde or permission of base commanders or proper authorities reminded people that security in the United States is also far from perfect. We know terrorist groups have stated their desire to acquire nuclear weapons. If security over the weapons we have is imperfect, and we know sub-national groups are trying to acquire them, then to protect ourselves, the best way to proceed is to eliminate all nuclear weapons ro ensure they never fall into the wrong hands. If the nukes have terrorist bomb potentiality, then the bombs in Hiroshima and Nagasaki are the fact that nukes have heavy destruction at high blast overpressure and threanten the health and life of people. People there now are still exposed to the radiation, let alone the people then. The evarge leukemia rates and other radiation-ralated desease rates are much highter then those in other earas. The bombing in Ngasaki is in certan respects the fitter symbol of the nuclear danger that still hangs over us. Once nuke is used, nobody can ganrantee that no way it will be again. So, for the sake of the health and quality life of the people, we should eliminate all nuclear weapons.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 6698);
+            }
+        
+            if (!evidenceIds.includes(offset + 6705)) {
+                nodes.push({
+                    id: (offset + 6705),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> While nuclear weapons exist, they can fall into the wrong hands. This is particularly true in Russia, which now had control of all of the nuclear weapons which were distributed around the former Soviet Union. The military is disastrously underfunded; technicians and officers who were used to a high standard of living are now finding themselves without pay, sometimes for years. At the same time, other states and extremist groups are willing to pay substantial sums for their services, and to gain access to nuclear weapons. The danger of a weapon being stolen, or - in consideration of the current political instability in Russia - a nuclear base being taken over by disgruntled members of the military or other extremists, can only be ended by destroying the weapons (Allison, 1997).`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 6705);
+            }
+        
+            if (!evidenceIds.includes(offset + 6714)) {
+                nodes.push({
+                    id: (offset + 6714),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Nuclear Weapons should not be abolished because not everyone would destroy there&#x27;s and terrorist groups would make their own. This would leave terrorist groups and countries that don&#x27;t destroy there missels at an advantage over the ones that do. As much as everyone hates the devastation and horror that took place in Japan at the end of the second world war, it was nesisary and saved lives in the long run. Japan would not have surrendered and it is estimated that the U.S. would lose 200,000 people that number alone is more then the lives lost in japan from the bombs. If the bombs had not dropped more of there people would have died fighting then thos that did in the blast. Also the threat of nuclear war stops wars from even occuring. Countries that would have gone to war now don&#x27;t becuase they do not want nuclear war to happen.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 6714);
+            }
+        
+            if (!evidenceIds.includes(offset + 1979)) {
+                nodes.push({
+                    id: (offset + 1979),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> The Nuclear Non-Proliferation Treaty is one of the lynchpins on which the current Western-led international political and diplomatic order is dependent.1,2 Just as any normal legal system requires laws that are predictable and enforceable, so too does the international system. The Non-Proliferation Treaty provides this level of consistency and control over states’ nuclear assets. In particular, one of those key principles is the assumption that once a country enters a treaty it will abide by its terms. If a country can leave a treaty at will, it means that no policy can be made with any degree of predictability. States are not able to formulate plans for future policies and development strategies if analysts and politicians are prevented from making reliable predictions about neighbouring state’s behaviour, economic policies and territorial ambitions. This is particularly important with treaties relating to armaments, and of vital importance when it comes to Nuclear Weapons, because other countries choose to participate in military alliances and actions based on such assumptions. Historically, arms build-ups and wars have occurred when the Great Powers fail to uphold the international legal system – fail to regard it as binding and inherently valuable and consequential. For example Germany’s willingness to disregard Czechoslovakian sovereignty prior to World War II. For that reason the United States has a vested interest in upholding the principles of the Nuclear Non-Proliferation Treaty. This is because the US is the major beneficiary of the present international system, both economically and politically. Economically, the major loser in any upheaval around the world is almost guaranteed to be the United States or its corporations. However, the political incentives for the USA to continue upholding the non-proliferation treaty- by force if necessary- are far greater. A failure on its part to act will not just lead to nuclear proliferation, but also undermine other treaties banning chemical weapons and guaranteeing human rights as nations’ realize they are only pieces of paper.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 1979);
+            }
+        
+            if (!evidenceIds.includes(offset + 1980)) {
+                nodes.push({
+                    id: (offset + 1980),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> er, the government possesses nuclear weapons it can threaten to use them, and thereby deter a counter-invasion or prevent the International community from being able to intervene to depose it. This can be seen in the relative coddling Pakistan has received both from its political and territorial opponent India, and from the United States since its development of Nuclear Weapons. Kahn network that supplied Libya, Iran and North Korea,  and meaningless semi-sanctions, India itself is deterred from making any response.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 1980);
+            }
+        
+            if (!evidenceIds.includes(offset + 1981)) {
+                nodes.push({
+                    id: (offset + 1981),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Even if states do not use nuclear weapons themselves, or attempt to threaten their neighbours, they can sell their technology to other, less savoury states and individuals. This was a particular problem with Pakistan. The former head of the Pakistani nuclear program, AQ Khan, sold technology on detonation mechanisms and Uranium enrichment to North Korea and Iran. Iran has close links to Hezbollah and Hamas which it funds substantially, and a strong desire to hurt Israel.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 1981);
+            }
+        
+            if (!evidenceIds.includes(offset + 1983)) {
+                nodes.push({
+                    id: (offset + 1983),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Iran has explicitly threatened to destroy Israel, President Ahmadinejad described Israel as a &quot;disgraceful blot&quot; that should be &quot;wiped off the face of the earth&quot;. Even an unsuccessful attack on Israel would provoke a counter strike. The US would take much of the blame for the casualties of such a strike even if it counselled Israel against it. The United States must prevent Iran from ever being able to put such threats into action which may mean having to engage in military action to prevent Iran gaining the capability.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 1983);
+            }
+        
+            if (!evidenceIds.includes(offset + 1984)) {
+                nodes.push({
+                    id: (offset + 1984),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> A failure of the United States to act would motivate Israel to do so. The result would be catastrophic, as Iran would be able to portray itself as a victim of Israeli aggression, leading to a massive outpouring of pro-Iranian and anti-American sentiment in the middle east and central asia. It could easily spark a regional war across the middle east as Iranian proxies strike back against Israel and U.S. forces around the region.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 1984);
+            }
+        
+            if (!evidenceIds.includes(offset + 5698)) {
+                nodes.push({
+                    id: (offset + 5698),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Unilateral disarmament relies upon other countries then disarming afterwards to make it a viable strategy to follow. We have two problems in deciding whether this would really happen. Obviously it is quite possible for a single state to unilaterally disarm, the decision process behind the disarmament is much easier than in a multilateral attempt at disarmament. However so far no country has voluntarily given up nuclear weapons once it has attained them. It is even very rare for states to give up conventional weapons when they have them let alone something that is so much bigger and more powerful. Most examples of reductions of armament multilateral. For example the various arms deals, START I/II, SALT I/II, SORT, Intermediate-Range Nuclear Forces Treaty, between Russia and the USA. As well as the Hague conferences sought to regulate warfare. None the less this option is not possible to contemplate as the war would create the destruction which it is necessary to avoid. It is very unlikely that even an individual state would unilaterally disarm their nuclear weapons (with the exception of if they became obsolete – but then presumably they would either no longer be a threat themselves due to defences or there would be an even bigger weapon!)`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 5698);
+            }
+        
+            if (!evidenceIds.includes(offset + 1865)) {
+                nodes.push({
+                    id: (offset + 1865),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> It is essential that there is some agent in the international community that is able to step into situations that threaten global security, such as a collapsed government in a state with nuclear capacity. The US is an appropriate agent because its internal checks prevent it from abusing its military capacity. First, the US government contains a system of checks and balances that prevent an individual corrupt leader from going to war. Second, the US is a democracy; few civilians are eager to send their sons off to die in unnecessary wars. Thus political leaders must fear repercussions for engaging in excessive conflict. Third, the US is a relatively open economy; it is not unimpressionable to external influence. The Opposition does not contend that everything the US military does is perfect. However, the myriad of checks listed above ensures that excessive use of US military force will not go unchallenged, either domestically or internationally.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 1865);
+            }
+        
+            if (!evidenceIds.includes(offset + 1866)) {
+                nodes.push({
+                    id: (offset + 1866),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> In a nuclear world, it is impossible to dismiss another nation’s instability as “their problem.” If a government with nuclear weapons collapses, irrational actors (such as ideological terrorist groups) may attain control of such weapons. Nuclear war has the potential to destroy all of humanity- even in the case of a limited conflict. Alexis Madrigal of Wired Science explains, “Imagine that the long-simmering conflict between India and Pakistan broke out into a war in which each side deployed 50 nuclear weapons against the other country’s megacities Beyond the local human tragedy of such a situation, a new study looking at the atmospheric chemistry of regional nuclear war finds that the hot smoke from burning cities would tear holes in the ozone layer of the Earth. The increased UV radiation resulting from the ozone loss could more than double DNA damage, and increase cancer rates across North America and Eurasia.”  Thus it is impossible for the US to turn a blind eye to conflicts and instability in other regions. Furthermore, the stakes of nuclear fallout are so high that very few chances can be taken. Even if the chance of a conflict ending in nuclear war is very small, the damages that would occur are so great that even small chances cannot be taken. Thus the US military is justified in intervening in international conflicts because such intervention can be decisively linked to the welfare of its citizens.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 1866);
+            }
+        
+            if (!evidenceIds.includes(offset + 6606)) {
+                nodes.push({
+                    id: (offset + 6606),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> To prove that claim we will use an example from the recent history. During the Cold War period the keeping of the world peace was very difficult. A few times the world was on the verge of a Third world war. However, the peace was maintained because of the balance of power. The two major world powers(The USA and The USSR) possessed a host of nuclear weapons and knew that if one of them uses a nuclear weapon a mass destruction would have followed all over the world. In fact, that is what prevented the two countries from going into a global war – the fear from each other. The Cuban crisis from 1962 is the best illustration that shows that even when the tensions are very high the presence of nuclear weapons preserves peace. Nevertheless, there were a lot of local conflicts during the Cold War and there are still many conflicts now in the twenty first century. These conflicts, these wars are causing the death of thousands, maybe even millions of people. They are also the cause of ruin, despair, and decline in the attacked countries. And why are such things happening? Because the mightier countries use their power to subject, to humiliate, to spread their influence over the smaller countries. Thus the USA has attacked Vietnam, Iran, Afganistan. Similarly, The USSR(today’s Russia) has attacked Afganistan and Georgia. This happens because there is no balance of power between a nuclear country and a non-nuclear one. If the aggressors in these wars knew that there was a real threat for retaliation from the attacked countries they would have never started these conflicts. Another example that proves our assertion is the relationships between India and Pakistan in the previous century. After World War Two there were several local conflicts between these two countries causing great suffering and destruction. However, since the time when the two states acquired nuclear weapons there has been no serious confrontation in the region. Actually the presence of nuclear weapons preserved the peace. That is why only the spread of nuclear defences(and nuclear weapons) is the only way through which a world peace can be secured.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 6606);
+            }
+        
+            if (!evidenceIds.includes(offset + 6607)) {
+                nodes.push({
+                    id: (offset + 6607),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Every human being has the same cost – it is priceless. Therefore, all the people around the world have the same rights. Why shall the French people be protected from nuclear attacks and the Spanish will not be? That contradicts with the main principles of human equality defended by the United Nations. The first principle of the UN is as follows: All human beings are born with equal and inalienable rights and fundamental freedoms. The third article of the declaration of rights states: Everyone has the right to life, liberty and security of person. In the same train of thought we can easily deduce that it is just not fair to treat some countries differently from others. Thus you treat some people differently from others. It is not fair to sanction countries like North Korea and Iran for developing and possessing nuclear weapons and not to sanction other nuclear powers. This obviously contradicts with the Declaration of Human Rights. Apparently, if we want to defend the rights of human equality we have to allow every country to construct its own nuclear defences.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 6607);
+            }
+        
+            if (!evidenceIds.includes(offset + 6608)) {
+                nodes.push({
+                    id: (offset + 6608),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> It is a common knowledge that in the Cold War period the world was divided into two just because the major arsenal of nuclear weapons was concentrated in two countries – the USA and the USSR. Now more states have nuclear weapons but still countries which do not possess such weapons are obliged to cling to a superpower. Such is the case with Japan and South Korea. Both states are extremely developed economically with very high standarts of living but now when they are threatened by North Korea they are seeking the help and protection of the USA, they have negotiated the extension of the US nuclear umbrella. &quot;Everyone has their own right to protection. You can&#x27;t just feel safe because &quot;big brother&quot; promises that he will take care of you.&quot; And because of this no country is absolutely politically independent until it acquires nuclear defences or nuclear weapons.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 6608);
+            }
+        
+            if (!evidenceIds.includes(offset + 8037)) {
+                nodes.push({
+                    id: (offset + 8037),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> The duty of the state lies foremost in protecting its citizens and its institutions. The citizens have given the state the monopoly of violence, thus becoming innocent lambs who must be guarded and protected. When an external force is threatening the security of the citizens or a crime has been done against them, it is the duty of the state to shield them and to make sure that the perpetrators are brought to justice, because the citizens rely solely on the state for protection. War of course is an immediate threat to the bodily security of state&#x27;s citizens. Traditionally war has been waged between states. States threatened other states by acquiring armies, weapons and military structures. But modern warfare is different. Increasingly, violent non-state actors are gaining enough power to pose a real threat to civilians, without the need for armies in the traditional sense. What do we mean by non-state actors? They certainly have a citizenship of some state, but they act independently from that state and are organized to actively harm another state. They use unconventional methods of warfare that cannot be countered by traditional methods that are used in state to state warfare. They exploit the vulnerabilities of the social order of the state performing surprise attacks on civilian structures and inflicting many casualties among completely innocent and unprepared people. Conflict between states and non-state actors are fundamentally different from conventional warfare where damage to civilians can be limited and the fighting mainly goes on between soldiers abiding by international rules of law [[S. Sheppard. Passion and Nation: War, Crime, and Guilt in the Individual and the Collective. The very strength of these violent non-state actors like terrorist networks lies in the fact that individuals from that network can hide within other states and are very difficult to find, capture and bring to justice. They can spend years plotting an attack against the state while hiding out in a state that either has no interest, no means or is hostile toward the other state. All the while a danger looms over the target state and we on the opposition side believe that it has to be allowed to use the means of extra-territorial rendition to eliminate the threat. Why is using extra-territorial rendition justified? Firstly because it is done in self-defense. When seeking out terrorists from other countries the state is seeking to prevent harm being done to it&#x27;s citizens. We do not doubt the ethics of self-defense. International law recognizes that a state can resort to self-defense when attacked by another state. Why should the right to self-defence disappear if the security threat is a non-state actor? States should be allowed to use extra-territorial rendition as a method of self-defense, because what else can they do to defend themselves if the terrorists are outside their territory. Indeed sometimes the only way that the state can exercise their right to self-defense is through extra-territorial rendition. Of course it is preferrable if the state where the terrorist is hiding will willingly cooperate with the rendition and seek to disarm the terrorist, but this cannot always be the case. For example, US has for many years sought from Lebanon the extradition of Mohammad Ali Hamadi, who participated in the hijacking of TWA Flight 847. Imad Fayez Mugniyah—head of security for the Lebanese group Hizballah, is also wanted by the US for his role in the hijacking of TWA and although there is strong evidence to the contrary Lebanese persistently denies his presence in Lebanon. If the state doesn&#x27;t cooperate then the only way that the other state can achieve the capture of the dangerous terrorist is through the disregard of the sovereignty of the non-cooperating state and use extra-territorial rendition to capture the criminal. This disregard of the right to sovereignty however is not aimed to damage the integrity, sovereignty or institutions of the non-cooperating state, but serve only to capture the dangerous non-state actor. The state who is under the threat of terrorism is thus acting in non-aggressive towards the non-cooperating state, seeking only to eliminate the threat posed to it.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 8037);
+            }
+        
+            if (!evidenceIds.includes(offset + 5244)) {
+                nodes.push({
+                    id: (offset + 5244),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Non-state actors are always looking for new ways to cause mass terror, and nuclear weapons would be useful in terrorists&#x27; pursuit for political leverage. States sympathetic to terrorists&#x27; aims or ideals may develop nuclear weapons and give them away (e.g. In order to prevent states from dangerously empowering non-state actors, we must rid the world of nuclear weapons. Related authors: David Krieger, Valerine Wilson, Sheena Chestnut, Harold Brown, Graham Allison Counter-argument to second: Terrorists do not need to expend time/energy on building nuclear weapons/arsenals; as stated above they have the option of buying weapons from sympathetic states or sympathetic non-state actors(Case in point: A.Q.Khan). Whether the state would be better or worse off; after cooperating with blackmailing terrorists can only be determined if both options(Cooperating&amp;not-Cooperating) could be availed simultaneously. Such is impossible therefore baseless assumptions on this untested hypothesis are best avoided altogether. Counter-argument: to third: Again, this is rather presumptuous; especially in light of the thousands of deaths that occurred on the historic date of 9/11; not discounting the death toll in a host of countries/nations worldwide resulting from bombings,shootings and suicide-bombings conducted by terrorists on a daily basis. On a side note: Terrorists on a suicide mission should not care about self-defeat. While there has been no successful use of dirty bombs or nuclear weapons by terrorists to date. Attempts by terrorists to use these have been reported and preemptively countered. We may not be as lucky the next time around. Ignoring previous attempts and pretending there is no threat, will not make it go away: Terrorism is not the Bogey man.`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 5244);
+            }
+        
+            if (!evidenceIds.includes(offset + 5245)) {
+                nodes.push({
+                    id: (offset + 5245),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> There have been over hundreds of cases of documented thefts of nuclear material, especially from poorly guarded arsenals. After the collapse of the Soviet Union, many nuclear weapons arsenals&#x27; security deteriorated rapidly, and it is becoming increasingly easy for terrorists to steal them. Terrorists can also obtain materials necessary to build nuclear weapons from the black market. The only way to prevent terrorists from obtaining nuclear weapons or the materials necessary to build them is to completely, openly, and safely disarm. Related authors: David Krieger, Abdul Mannan, Micah Zenko, Matthew Bunn, Anthony Weir, Harold Brown, Ira Helfand 250 reported nuclear weapons&#x27; thefts in 2007-`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 5245);
+            }
+        
+            if (!evidenceIds.includes(offset + 5246)) {
+                nodes.push({
+                    id: (offset + 5246),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> Leaders sometimes do not rationally make decisions, nor do they have the best interests of their people at heart. If these leaders were to obtain nuclear weapons, there would be nothing stopping them from using them for the purpose of causing mass destruction. Values including honour and national glory can sometimes be seen to be of higher importance than that of the long-term survival of the state. It could be argued that some leaders like Kim Jong-Il do not care about their people, and have no respect for the sovereignty of other nations. They therefore cannot be trusted to act rationally, and it would be unwise to expect them to conduct a cost-benefit analysis before pursuing any destructive course of action. Some governments might be so blinded by ideological imperatives or incorrect analyses of their own capabilities that they may act ‘irrationally’ by conventional definition. For example, Iran has stated within the last decade that it wishes to see Israel wiped off the face of the Earth. Such an antagonistic statement, based on cultural/historical rather than strategic grounds, suggests that Iran’s anti-Semitic ideology is strong enough to justify the use of weapons of mass destruction. Iran might also falsely believe that Western powers would be unlikely to retaliate, given their previous troubles with interventions in the Middle East. While we may see such reasoning as irrational or deluded, it is reasonable to argue that, given the recent actions and statements of the belligerent Iranian regime, such a course of action might be considered. Related authors: James Stegenga, Scott Sagan, Barry Blechman, Barry Wolf, Martin Hellman`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 5246);
+            }
+        
+            if (!evidenceIds.includes(offset + 5247)) {
+                nodes.push({
+                    id: (offset + 5247),
+                    widthConstraint: {maximum: 300},
+                    label: `<b>Evidence:</b> An accident with nuclear weapons could set off warning systems and a chain reaction that would be disastrous. There are numerous documented cases of safety mechanisms failing on nuclear weapons, very nearly causing nuclear launches. New proliferating states often have crude security measures and are not as advanced as established nuclear powers, increasing the chance of an accident. Moreover, some nuclear programs are also secretive, decreasing the transparency and ability for groups to scrutinize and criticize the process. Instead of risking a potentially catastrophic accident, nuclear weapons should simply be eliminated. Related authors: Scott Sagan, Morton Mintz, John Leslie, Bruce Berkowitz, Robert Art, Tad Daley, Martin Hellman, Nathan Busch, Paul Kerr`,
+                    group: -1,
+                    font: {multi: 'html', size: 7}
+                });
+                evidenceIds.push(offset + 5247);
+            }
+        
+
+        // adding claim to perspective edges: undermine
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 1573,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 22362,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 22364,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 1575,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 22369,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 22370,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 22372,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 1574,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 1984,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 22727,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 22728,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 5255,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 1986,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 22729,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 1982,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 22725,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 22726,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 1987,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 22731,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 5265,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 5257,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 5254,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 5256,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 5258,
+                label: "<b>Stance:</b> Oppose (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+
+        // adding claim to perspective edges: support
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 26469,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 25670,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 26470,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 25671,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 5262,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 6621,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 6620,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 6619,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 1570,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 1568,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 22357,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 22359,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 1566,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 22353,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 22354,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 22355,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 22356,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 1989,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 5264,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+            var pScore = 1.0;
+            pScore = Math.floor(pScore * 10) / 10;
+            edges.push({
+                from: claimID,
+                to: 5263,
+                label: "<b>Stance:</b> Support (" + pScore + ")",
+                font: {multi: 'html'}
+            });
+        
+
+        // adding edges between perspectives
+        
+            
+                
+            
+                
+                    edges.push({from: 1573, to: 22362, label: "", font: {multi: 'html'}});
+                
+            
+                
+                    edges.push({from: 1573, to: 22364, label: "", font: {multi: 'html'}});
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+                    edges.push({from: 22362, to: 22364, label: "", font: {multi: 'html'}});
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    edges.push({from: 1575, to: 22369, label: "", font: {multi: 'html'}});
+                
+            
+                
+                    edges.push({from: 1575, to: 22370, label: "", font: {multi: 'html'}});
+                
+            
+                
+                    edges.push({from: 1575, to: 22372, label: "", font: {multi: 'html'}});
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    edges.push({from: 22369, to: 22370, label: "", font: {multi: 'html'}});
+                
+            
+                
+                    edges.push({from: 22369, to: 22372, label: "", font: {multi: 'html'}});
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    edges.push({from: 22370, to: 22372, label: "", font: {multi: 'html'}});
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    edges.push({from: 1984, to: 22727, label: "", font: {multi: 'html'}});
+                
+            
+                
+                    edges.push({from: 1984, to: 22728, label: "", font: {multi: 'html'}});
+                
+            
+                
+                    edges.push({from: 1984, to: 5255, label: "", font: {multi: 'html'}});
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    edges.push({from: 22727, to: 22728, label: "", font: {multi: 'html'}});
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    edges.push({from: 5255, to: 22727, label: "", font: {multi: 'html'}});
+                
+            
+                
+                    edges.push({from: 5255, to: 22728, label: "", font: {multi: 'html'}});
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    edges.push({from: 1986, to: 22729, label: "", font: {multi: 'html'}});
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    edges.push({from: 1982, to: 22725, label: "", font: {multi: 'html'}});
+                
+            
+                
+                    edges.push({from: 1982, to: 22726, label: "", font: {multi: 'html'}});
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    edges.push({from: 22725, to: 22726, label: "", font: {multi: 'html'}});
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    edges.push({from: 1987, to: 22731, label: "", font: {multi: 'html'}});
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+
+        // adding perspective to evidence edges
+        
+            
+                edges.push({from: 26469, to: (offset + 6608), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 26469, to: (offset + 5252), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 25670, to: (offset + 6608), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 25670, to: (offset + 5252), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 26470, to: (offset + 6608), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 26470, to: (offset + 5252), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 25671, to: (offset + 6608), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 25671, to: (offset + 5252), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 5262, to: (offset + 6608), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 5262, to: (offset + 5252), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 6621, to: (offset + 6608), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 6621, to: (offset + 5252), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 6620, to: (offset + 6607), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 6619, to: (offset + 6606), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 6619, to: (offset + 6714), label: "", font: {multi: 'html'}});
+            
+        
+            
+        
+            
+                edges.push({from: 1568, to: (offset + 1565), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 1568, to: (offset + 2956), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 1568, to: (offset + 2081), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 22357, to: (offset + 1565), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22357, to: (offset + 2956), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22357, to: (offset + 2081), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 22359, to: (offset + 1565), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22359, to: (offset + 2956), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22359, to: (offset + 2081), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 1566, to: (offset + 2075), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 1566, to: (offset + 1563), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 1566, to: (offset + 5698), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 22353, to: (offset + 2075), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22353, to: (offset + 1563), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22353, to: (offset + 5698), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 22354, to: (offset + 2075), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22354, to: (offset + 1563), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22354, to: (offset + 5698), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 22355, to: (offset + 2075), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22355, to: (offset + 1563), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22355, to: (offset + 5698), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 22356, to: (offset + 2075), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22356, to: (offset + 1563), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22356, to: (offset + 5698), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 1989, to: (offset + 8037), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 5264, to: (offset + 5254), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 5263, to: (offset + 5253), label: "", font: {multi: 'html'}});
+            
+        
+
+        
+            
+        
+            
+        
+            
+        
+            
+                edges.push({from: 1575, to: (offset + 1572), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 22369, to: (offset + 1572), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 22370, to: (offset + 1572), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 22372, to: (offset + 1572), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 1574, to: (offset + 1571), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 1574, to: (offset + 1980), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 1984, to: (offset + 2082), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 1984, to: (offset + 1866), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 1984, to: (offset + 1805), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 1984, to: (offset + 1981), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 1984, to: (offset + 6705), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 1984, to: (offset + 1980), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 1984, to: (offset + 5245), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 22727, to: (offset + 2082), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22727, to: (offset + 1866), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22727, to: (offset + 1805), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22727, to: (offset + 1981), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22727, to: (offset + 6705), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22727, to: (offset + 1980), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22727, to: (offset + 5245), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 22728, to: (offset + 2082), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22728, to: (offset + 1866), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22728, to: (offset + 1805), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22728, to: (offset + 1981), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22728, to: (offset + 6705), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22728, to: (offset + 1980), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22728, to: (offset + 5245), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 5255, to: (offset + 2082), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 5255, to: (offset + 1866), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 5255, to: (offset + 1805), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 5255, to: (offset + 1981), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 5255, to: (offset + 6705), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 5255, to: (offset + 1980), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 5255, to: (offset + 5245), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 1986, to: (offset + 1983), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 1986, to: (offset + 5246), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 1986, to: (offset + 1984), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 22729, to: (offset + 1983), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22729, to: (offset + 5246), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22729, to: (offset + 1984), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 1982, to: (offset + 1979), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 1982, to: (offset + 1865), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 22725, to: (offset + 1979), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22725, to: (offset + 1865), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 22726, to: (offset + 1979), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 22726, to: (offset + 1865), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 1987, to: (offset + 1984), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 22731, to: (offset + 1984), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 5265, to: (offset + 5255), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 5257, to: (offset + 5247), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 5257, to: (offset + 1979), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 5257, to: (offset + 6698), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 5254, to: (offset + 5244), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 5254, to: (offset + 1981), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 5256, to: (offset + 5246), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 5256, to: (offset + 1569), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 5256, to: (offset + 1570), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 5256, to: (offset + 1866), label: "", font: {multi: 'html'}});
+            
+        
+            
+                edges.push({from: 5258, to: (offset + 2080), label: "", font: {multi: 'html'}});
+            
+                edges.push({from: 5258, to: (offset + 5248), label: "", font: {multi: 'html'}});
+            
+        
+    
+
+    nodes = nodes.unique();
+
+    var container = document.getElementById('mynetwork');
+    var data = {
+        nodes: nodes,
+        edges: edges
+    };
+    var options = {
+        edges: {
+            font: {
+                size: 12
+            },
+            widthConstraint: {
+                maximum: 90
+            }
+        },
+        nodes: {
+            shape: 'box',
+            margin: 10,
+            widthConstraint: {
+                maximum: 200
+            }
+        },
+        physics: {
+            enabled: true,
+            repulsion: {
+                centralGravity: 0.0000001,
+                //damping: 3
+                //springConstant: 2
+                //springLength: 200000
+                damping: 0.000001
+                //nodeDistance: 200000000
+            },
+            solver: "forceAtlas2Based"
+        }
+    };
+    var network = new vis.Network(container, data, options);
+</script>
+<script type="application/javascript">
+
+    $('#search-claim').click(function () {
+        var claimText = $("#claim-box").val();
+        let url = '/baseline/claim_text=' + claimText + "";
+        console.log(url);
+        window.location.href = url;
+    });
+
+</script>
+
+</body></html>
