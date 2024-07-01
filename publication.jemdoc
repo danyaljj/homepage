@@ -1,9 +1,11 @@
 
 
  
+ - [https://arxiv.org/abs/2406.20092 *LLaVolta: Efficient Multi-modal Models via Stage-wise Visual Context Compression.*]  \n    Jieneng Chen and Luoxin Ye and Ju He and Zhao-Yang Wang and Daniel Khashabi and Alan Yuille \n    {{<font color="DarkRed">arXiv preprint arXiv:2406.20092</font>}}, 2024. {{<font size=-1>}}[https://github.com/Beckschen/LLaVolta \[code\] ] [https://beckschen.github.io/llavolta.html \[project\] ]{{</font>}}
+ 
  - [https://arxiv.org/abs/2406.14673 *Insights into LLM Long-Context Failures: When Transformers Know but Don't Tell.*]  \n    Taiming Lu and Muhan Gao and Kuai Yu and Adam Byerly and Daniel Khashabi \n    {{<font color="DarkRed">arXiv preprint arXiv:2406.14673</font>}}, 2024. {{<font size=-1>}}[https://github.com/TaiMingLu/know-dont-tell \[code\] ]{{</font>}}
  
- - [https://arxiv.org/abs/2405.13274 *DiffNorm: Self-Supervised Normalization for Non-autoregressive Speech-to-speech Translation.*]  \n    Weiting Tan and Jingyu Zhang and Lingfeng Shen and Daniel Khashabi and Philipp Koehn \n    {{<font color="DarkRed">arXiv preprint arXiv:2405.13274</font>}}, 2024. {{<font size=-1>}}{{</font>}}
+ - [https://arxiv.org/abs/2405.13274 *DiffNorm: Self-Supervised Normalization for Non-autoregressive Speech-to-speech Translation.*]  \n    Weiting Tan and Jingyu Zhang and Lingfeng Shen and Daniel Khashabi and Philipp Koehn \n    {{<font color="DarkRed">arXiv preprint arXiv:2405.13274</font>}}, 2024. {{<font size=-1>}}[https://github.com/steventan0110/DiffNorm \[code\] ]{{</font>}}
  
  - [https://arxiv.org/abs/2404.04298 *Self-(In)Correct: LLMs Struggle with Refining Self-Generated Responses.*]  \n    Dongwei Jiang and Jingyu Zhang and Orion Weller and Nathaniel Weir and Benjamin Van Durme and Daniel Khashabi \n    {{<font color="DarkRed">arXiv preprint arXiv:2404.04298</font>}}, 2024. {{<font size=-1>}}{{</font>}}
  
