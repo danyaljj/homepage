@@ -41,6 +41,8 @@ urls = {
     "Noah A. Smith": "https://nasmith.github.io/",
     "Philipp Koehn": "https://www.cs.jhu.edu/~phi/",
     "Dan Roth": "https://www.cis.upenn.edu/~danroth/",
+    "Ashish Sabharwal": "https://allenai.org/team/ashishs",
+    "Tushar Khot": "https://allenai.org/team/tushark",
 }
 
 
