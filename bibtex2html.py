@@ -40,6 +40,7 @@ urls = {
     "Maarten Sap": "https://maartensap.com/",
     "Noah A. Smith": "https://nasmith.github.io/",
     "Philipp Koehn": "https://www.cs.jhu.edu/~phi/",
+    "Dan Roth": "https://www.cis.upenn.edu/~danroth/",
 }
 
 
