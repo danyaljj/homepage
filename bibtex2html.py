@@ -10,6 +10,38 @@ def clean_title(text):
 meta_fields = ['data', 'slides', 'slides2', 'slides3', 'teaser', 'talk', "poster", "poster2", "code", "leaderboard", "project", "demo", "blog", "coverage", "visualization", "tweet"]
 output_list_map = {}
 
+blackcolorbegin = "{{<font color=\"Black\">"
+colorbegin = "{{<font color=\"DarkRed\">"
+colorend = "</font>}}"
+fontsizebegin = "{{<font size=-1>}}"
+fontsizeend = "{{</font>}}"
+
+urls = {
+    "Yining Lu": "https://yining610.github.io/",
+    "Daniel Khashabi": "https://www.cs.jhu.edu/~danielk/",
+    "Zhengping Jiang": "https://zipjiang.github.io/",
+    "Jingyu Zhang": "https://jackz.io/",
+    "Nathaniel Weir": "https://nweir127.github.io/",
+    "Benjamin Van Durme": "https://www.cs.jhu.edu/~vandurme/index.html",
+    "Anqi Liu": "https://anqiliu-ai.github.io/",
+    "Alan Yuille": "https://www.cs.jhu.edu/~ayuille/",
+    "Jieneng Chen": "https://beckschen.github.io/",
+    "Lingfeng Shen": "https://shadowkiller33.github.io/",
+    "Dongwei Jiang": "https://jiangdongwei.com/",
+    # "Andrew Wang": "",
+    "Nicholas Andrews": "https://www.cs.jhu.edu/~noa/",
+    "Abe Bohan Hou": "https://nlp4policy.notion.site/Abe-Hou-21661aa32a7a4d19a45b5bf31c11a99e",
+    "Tianjian Li": "https://tianjianl.github.io/",
+    "Orion Weller": "https://orionweller.github.io/",
+    "Marc Marone": "https://marcmarone.com/",
+    "Hannaneh Hajishirzi": "https://homes.cs.washington.edu/~hannaneh/",
+    "Kai-Wei Chang": "https://web.cs.ucla.edu/~kwchang/",
+    "Yejin Choi": "https://homes.cs.washington.edu/~yejin/",
+    "Maarten Sap": "https://maartensap.com/",
+    "Noah A. Smith": "https://nasmith.github.io/",
+    "Philipp Koehn": "https://www.cs.jhu.edu/~phi/",
+}
+
 
 bibtex_file = urlopen('https://raw.githubusercontent.com/danyaljj/bibfile/master/ref.bib')
 bibtex_database = bibtexparser.loads( bibtex_file.read())
@@ -31,25 +63,31 @@ for x in bibtex_database.entries:
         if "{" in title:
             title = title.replace("{", "").replace("}", "")
 
-        if "," in x['author']:
-            authors = ""
-            all_authors = x['author'].split(" and ")
-            for idx, a in enumerate(all_authors):
-                if ", " in a:
-                    asplit = a.split(", ")
-                    a = f"{asplit[1]} {asplit[0]}"
-                if idx == len(all_authors) - 1:
-                    authors += f" and {a}."
-                elif idx == 40:
-                    authors += f" and others."
-                    break
+        # if "," in x['author']:
+        authors = ""
+        all_authors = x['author'].split(" and ")
+        for idx, a in enumerate(all_authors):
+            if ", " in a:
+                asplit = a.split(", ")
+                a = f"{asplit[1]} {asplit[0]}"
+
+            # look up the author website
+            if a in urls:
+                # a = f"[{urls[a]} {a}]"
+                a = f"[{urls[a]} {blackcolorbegin} {a}{colorend}]"
+
+            if idx == len(all_authors) - 1:
+                authors += f" and {a}."
+            elif idx == 40:
+                authors += f" and others."
+                break
+            else:
+                if idx == 0:
+                    authors += f"{a}"
                 else:
-                    if idx == 0:
-                        authors += f"{a}"
-                    else:
-                        authors += f", {a}"
-        else:
-            authors = x['author']
+                    authors += f", {a}"
+        # else:
+        #     authors = x['author']
 
 
         venue = ""
@@ -85,10 +123,7 @@ for x in bibtex_database.entries:
             meta_items = " ".join(meta_items)
         else:
             meta_items = ""
-        colorbegin = "{{<font color=\"DarkRed\">"
-        colorend = "</font>}}"
-        fontsizebegin = "{{<font size=-1>}}"
-        fontsizeend = "{{</font>}}"
+
 
         if x['year'] not in output_list_map:
             output_list_map[x['year']] = []
