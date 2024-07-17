@@ -49,6 +49,7 @@ urls = {
     "Tushar Khot": "https://allenai.org/team/tushark",
     "Tianxiao Shen": "https://shentianxiao.github.io/",
     "Daniel S Weld": "https://allenai.org/team/danw",
+    "Chris Callison-Burch": "https://www.cis.upenn.edu/~ccb/",
 }
 
 
