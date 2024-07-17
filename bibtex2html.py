@@ -12,6 +12,7 @@ output_list_map = {}
 
 blackcolorbegin = "{{<font color=\"Black\">"
 colorbegin = "{{<font color=\"DarkRed\">"
+graycolorbegin = "{{<font color=\"Gray\">"
 colorend = "</font>}}"
 fontsizebegin = "{{<font size=-1>}}"
 fontsizeend = "{{</font>}}"
@@ -110,6 +111,11 @@ for x in bibtex_database.entries:
             venue = venue.replace("\CNFX{", "(")
             venue = venue.replace("}", ")")
 
+        if "arXiv preprint" in venue:
+            venue = f"{graycolorbegin}{venue}{colorend}"
+        else:
+            venue = f"{colorbegin}{venue}{colorend}"
+
         awards = " "
         if "awards" in x:
             x['awards'] = x['awards'].strip()
@@ -131,7 +137,7 @@ for x in bibtex_database.entries:
         if x['year'] not in output_list_map:
             output_list_map[x['year']] = []
         output_list_map[x['year']].append(
-            f" \n - {title}  \\n    {authors} \\n    {colorbegin}{venue}{colorend}, {x['year']}.{awards}{fontsizebegin}{meta_items}{fontsizeend}\n"
+            f" \n - {title}  \\n    {authors} \\n   {venue}, {x['year']}.{awards}{fontsizebegin}{meta_items}{fontsizeend}\n"
         )
 
 
