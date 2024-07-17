@@ -29,7 +29,7 @@ urls = {
     "Jieneng Chen": "https://beckschen.github.io/",
     "Lingfeng Shen": "https://shadowkiller33.github.io/",
     "Dongwei Jiang": "https://jiangdongwei.com/",
-    # "Andrew Wang": "",
+    "Jiefu Ou": "https://jefferyo.github.io/",
     "Nicholas Andrews": "https://www.cs.jhu.edu/~noa/",
     "Abe Bohan Hou": "https://nlp4policy.notion.site/Abe-Hou-21661aa32a7a4d19a45b5bf31c11a99e",
     "Tianjian Li": "https://tianjianl.github.io/",
