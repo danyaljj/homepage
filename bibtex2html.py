@@ -51,6 +51,7 @@ urls = {
     "Daniel S Weld": "https://allenai.org/team/danw",
     "Chris Callison-Burch": "https://www.cis.upenn.edu/~ccb/",
     "Peter Clark": "https://allenai.org/team/peterc",
+    "Oren Etzioni": "https://allenai.org/team/orene",
 }
 
 
