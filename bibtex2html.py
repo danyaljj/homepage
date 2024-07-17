@@ -31,6 +31,9 @@ urls = {
     "Dongwei Jiang": "https://jiangdongwei.com/",
     "Jiefu Ou": "https://jefferyo.github.io/",
     "Nicholas Andrews": "https://www.cs.jhu.edu/~noa/",
+    "Weiting Tan": "https://steventan0110.github.io/",
+    "Haoran Xu": "https://www.fe1ixxu.com/",
+    "Kenton Murray": "https://kentonmurray.com/index.html",
     "Abe Bohan Hou": "https://nlp4policy.notion.site/Abe-Hou-21661aa32a7a4d19a45b5bf31c11a99e",
     "Tianjian Li": "https://tianjianl.github.io/",
     "Orion Weller": "https://orionweller.github.io/",
@@ -44,6 +47,8 @@ urls = {
     "Dan Roth": "https://www.cis.upenn.edu/~danroth/",
     "Ashish Sabharwal": "https://allenai.org/team/ashishs",
     "Tushar Khot": "https://allenai.org/team/tushark",
+    "Tianxiao Shen": "https://shentianxiao.github.io/",
+    "Daniel S Weld": "https://allenai.org/team/danw",
 }
 
 
