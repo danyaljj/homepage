@@ -52,6 +52,8 @@ urls = {
     "Chris Callison-Burch": "https://www.cis.upenn.edu/~ccb/",
     "Peter Clark": "https://allenai.org/team/peterc",
     "Oren Etzioni": "https://allenai.org/team/orene",
+    "Candice Penelton": "https://scholar.google.com/citations?user=TJELR64AAAAJ&hl=en",
+    "Candice Morgan": "https://scholar.google.com/citations?user=TJELR64AAAAJ&hl=en",
 }
 
 
