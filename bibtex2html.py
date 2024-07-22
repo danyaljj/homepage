@@ -161,6 +161,8 @@ def rank_function(entry):
         return 2
     elif "(neurips)" in entry:
         return 3
+    elif  " acl " in entry and "workshop" in entry:
+        return 3.5
     elif "(acl)" in entry:
         return 4
     elif "(naacl)" in entry:
