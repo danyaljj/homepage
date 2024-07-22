@@ -54,6 +54,8 @@ urls = {
     "Oren Etzioni": "https://allenai.org/team/orene",
     "Candice Penelton": "https://scholar.google.com/citations?user=TJELR64AAAAJ&hl=en",
     "Candice Morgan": "https://scholar.google.com/citations?user=TJELR64AAAAJ&hl=en",
+    "Arda Uzunoğlu": "https://scholar.google.com/citations?user=5fsB_GMAAAAJ",
+    "Arda Uzunoglu": "https://scholar.google.com/citations?user=5fsB_GMAAAAJ",
 }
 
 
