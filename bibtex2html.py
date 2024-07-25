@@ -56,6 +56,7 @@ urls = {
     "Candice Morgan": "https://scholar.google.com/citations?user=TJELR64AAAAJ&hl=en",
     "Arda Uzunoğlu": "https://scholar.google.com/citations?user=5fsB_GMAAAAJ",
     "Arda Uzunoglu": "https://scholar.google.com/citations?user=5fsB_GMAAAAJ",
+    "Aayush Mishra": "https://aamixsh.github.io/",
 }
 
 
@@ -92,7 +93,9 @@ for x in bibtex_database.entries:
                 # a = f"[{urls[a]} {a}]"
                 a = f"[{urls[a]} {blackcolorbegin} {a}{colorend}]"
 
-            if idx == len(all_authors) - 1:
+            if len(all_authors) == 1:
+                authors = f"{a}."
+            elif idx == len(all_authors) - 1:
                 authors += f" and {a}."
             elif idx == 40:
                 authors += f" and others."
