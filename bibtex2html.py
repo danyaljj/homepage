@@ -80,7 +80,6 @@ for x in bibtex_database.entries:
         if "{" in title:
             title = title.replace("{", "").replace("}", "")
 
-        # if "," in x['author']:
         authors = ""
         all_authors = x['author'].split(" and ")
         for idx, a in enumerate(all_authors):
@@ -105,9 +104,6 @@ for x in bibtex_database.entries:
                     authors += f"{a}"
                 else:
                     authors += f", {a}"
-        # else:
-        #     authors = x['author']
-
 
         venue = ""
         if "journal" in x:
@@ -164,7 +160,7 @@ def rank_function(entry):
         return 2
     elif "(neurips)" in entry:
         return 3
-    elif  " acl " in entry and "workshop" in entry:
+    elif  " acl" in entry and "workshop" in entry:
         return 3.5
     elif "(acl)" in entry:
         return 4
