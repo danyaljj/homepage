@@ -52,11 +52,17 @@ urls = {
     "Chris Callison-Burch": "https://www.cis.upenn.edu/~ccb/",
     "Peter Clark": "https://allenai.org/team/peterc",
     "Oren Etzioni": "https://allenai.org/team/orene",
-    "Candice Penelton": "https://scholar.google.com/citations?user=TJELR64AAAAJ&hl=en",
-    "Candice Morgan": "https://scholar.google.com/citations?user=TJELR64AAAAJ&hl=en",
+    "Candice Penelton": "https://candice-morgan.github.io/",
+    "Candice Morgan": "https://candice-morgan.github.io/",
     "Arda Uzunoğlu": "https://scholar.google.com/citations?user=5fsB_GMAAAAJ",
     "Arda Uzunoglu": "https://scholar.google.com/citations?user=5fsB_GMAAAAJ",
     "Aayush Mishra": "https://aamixsh.github.io/",
+    "Adam Byerly": "https://scholar.google.com/citations?user=t3Hhnx8AAAAJ&hl=en",
+    "Sihao Chen": "https://www.seas.upenn.edu/~sihaoc/",
+    "Ben Zhou": "http://xuanyu.me/",
+    "Christos Christodoulopoulos": "https://christos-c.com/",
+    "Kent Quanrud": "https://www.kentquanrud.com/",
+    "Sameer Singh": "https://sameersingh.org/",
 }
 
 
