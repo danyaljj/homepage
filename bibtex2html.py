@@ -7,7 +7,7 @@ def clean_url(url):
 def clean_title(text):
     return text.replace('\\textasteriskcentered', '\*')
 
-meta_fields = ['data', 'slides', 'slides2', 'slides3', 'teaser', 'talk', "poster", "poster2", "code", "leaderboard", "project", "demo", "blog", "coverage", "visualization", "tweet"]
+meta_fields = ['data', 'html', 'slides', 'slides2', 'slides3', 'teaser', 'talk', "poster", "poster2", "code", "leaderboard", "project", "demo", "blog", "coverage", "visualization", "tweet"]
 output_list_map = {}
 
 blackcolorbegin = "{{<font color=\"Black\">"
@@ -70,7 +70,7 @@ bibtex_file = urlopen('https://raw.githubusercontent.com/danyaljj/bibfile/master
 bibtex_database = bibtexparser.loads( bibtex_file.read())
 
 for x in bibtex_database.entries:
-    print(x)
+    # print(x)
     if 'khashabi' in x['author'].lower():
         print(x)
         x['title'] = x['title'].strip()
@@ -142,17 +142,24 @@ for x in bibtex_database.entries:
             awards = f" *{x['awards']}* "
 
         meta_items = []
+        if 'url' in x and "https://arxiv.org/abs/" in x['url']:
+            print(" //////////////// yoooo //////////")
+            ar5iv_url = x['url'].replace("https://arxiv.org/abs/", "https://arxiv.org/html/")
+            meta_items.append(f"[{clean_url(ar5iv_url)} \[html\] ]")
+            print(meta_items)
+
         for meta_field in meta_fields:
             if meta_field.lower() in x:
                 meta_items.append(f"[{clean_url(x[meta_field.lower()])} \[{meta_field}\] ]")
+
         if len(meta_items) > 0:
             meta_items = " ".join(meta_items)
         else:
             meta_items = ""
 
-
         if x['year'] not in output_list_map:
             output_list_map[x['year']] = []
+
         output_list_map[x['year']].append(
             f" \n - {title}  \\n    {authors} \\n   {venue}, {x['year']}.{awards}{fontsizebegin}{meta_items}{fontsizeend}\n"
         )
