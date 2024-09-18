@@ -143,10 +143,8 @@ for x in bibtex_database.entries:
 
         meta_items = []
         if 'url' in x and "https://arxiv.org/abs/" in x['url']:
-            print(" //////////////// yoooo //////////")
             ar5iv_url = x['url'].replace("https://arxiv.org/abs/", "https://arxiv.org/html/")
             meta_items.append(f"[{clean_url(ar5iv_url)} \[html\] ]")
-            print(meta_items)
 
         for meta_field in meta_fields:
             if meta_field.lower() in x:
