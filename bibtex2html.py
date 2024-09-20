@@ -31,6 +31,7 @@ urls = {
     "Dongwei Jiang": "https://jiangdongwei.com/",
     "Jiefu Ou": "https://jefferyo.github.io/",
     "Nicholas Andrews": "https://www.cs.jhu.edu/~noa/",
+    "Andrew Wang": "https://scholar.google.com/citations?user=clTRNPsAAAAJ&hl=en",
     "Weiting Tan": "https://steventan0110.github.io/",
     "Haoran Xu": "https://www.fe1ixxu.com/",
     "Kenton Murray": "https://kentonmurray.com/index.html",
