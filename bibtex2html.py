@@ -169,9 +169,9 @@ def rank_function(entry):
     if "(emnlp)" in entry:
         return 2
     elif "(colm)" in entry:
-        return 2
+        return 2.4
     elif "(neurips)" in entry:
-        return 3
+        return 1
     elif  " acl" in entry and "workshop" in entry:
         return 3.5
     elif "(acl)" in entry:
