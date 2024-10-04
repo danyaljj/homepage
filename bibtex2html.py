@@ -7,7 +7,7 @@ def clean_url(url):
 def clean_title(text):
     return text.replace('\\textasteriskcentered', '\*')
 
-meta_fields = ['data', 'html', 'slides', 'slides2', 'slides3', 'teaser', 'talk', "poster", "poster2", "code", "leaderboard", "project", "demo", "blog", "coverage", "visualization", "tweet"]
+meta_fields = ['data', 'slides', 'slides2', 'slides3', 'teaser', 'talk', "poster", "poster2", "code", "leaderboard", "project", "demo", "blog", "coverage", "visualization"]
 output_list_map = {}
 
 blackcolorbegin = "{{<font color=\"Black\">"
@@ -144,8 +144,8 @@ for x in bibtex_database.entries:
 
         meta_items = []
         if 'url' in x and "https://arxiv.org/abs/" in x['url']:
-            ar5iv_url = x['url'].replace("https://arxiv.org/abs/", "https://ar5iv.labs.arxiv.org/html/")
-            meta_items.append(f"[{clean_url(ar5iv_url)} \[html\] ]")
+            # ar5iv_url = x['url'].replace("https://arxiv.org/abs/", "https://ar5iv.labs.arxiv.org/html/")
+            # meta_items.append(f"[{clean_url(ar5iv_url)} \[html\] ]")
 
         for meta_field in meta_fields:
             if meta_field.lower() in x:
