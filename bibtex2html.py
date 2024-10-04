@@ -143,7 +143,7 @@ for x in bibtex_database.entries:
             awards = f" *{x['awards']}* "
 
         meta_items = []
-        if 'url' in x and "https://arxiv.org/abs/" in x['url']:
+        # if 'url' in x and "https://arxiv.org/abs/" in x['url']:
             # ar5iv_url = x['url'].replace("https://arxiv.org/abs/", "https://ar5iv.labs.arxiv.org/html/")
             # meta_items.append(f"[{clean_url(ar5iv_url)} \[html\] ]")
 
