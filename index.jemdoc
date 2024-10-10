@@ -78,13 +78,13 @@ What forms of interaction are most effective and meaningful for humans? How can 
 
 
 {{<h2 id="talks">Select Talks</h2>}}
-- Oracle Labs ML seminar series, [files/2024_oracle/2024-TAU.pdf The Uphill Battle of Making Language Models Reliable], 2024.
-- New York University, [files/2023_nyu/2023-nyu2-slides.pdf Large Language Models: Revisiting Few Mysteries], 2023.
-- University of Maryland, [files/2023_umd_talk/umd-talk-2023-split.pdf Ailments of Alignment: Hurdles in Adapting Large Language Models to Follow Human Demands], 2023.
-- Johns Hopkins University CLSP, [files/2022_jhu_talk/jhu_talk-feb-2022-split.pdf The Quest Toward Generality in Natural Language Understanding], 2022.
-- Google AI, [files/2021_google_talk/google-talk-march-2021.pdf Broadening the Scope of Machine Comprehension], 2021.
-# - [https://freuder.wordpress.com/pthg-19-the-third-workshop-on-progress-towards-the-holy-grail/  The Third Workshop on Progress Towards the Holy Grail], [files/2019_talk_holy_grail_workshop/daniel-kh-holy-grail-workshop-2019.pdf In Pursuit of the Holy Grail of Natural Language Understanding: Past, Present, and Future], 2019.
-- Carnegie Mellon University, [files/2019_talk_indirect_supervision/danielkh_job_talk_small_supervision_split.pdf Natural Language Understanding with Indirect Supervision], 2019.
+- Oracle Labs ML seminar series, [http://danielkhashabi.com/files/2024_oracle/2024-TAU.pdf The Uphill Battle of Making Language Models Reliable], 2024.
+- New York University, [http://danielkhashabi.com/files/2023_nyu/2023-nyu2-slides.pdf Large Language Models: Revisiting Few Mysteries], 2023.
+- University of Maryland, [http://danielkhashabi.com/files/2023_umd_talk/umd-talk-2023-split.pdf Ailments of Alignment: Hurdles in Adapting Large Language Models to Follow Human Demands], 2023.
+- Johns Hopkins University CLSP, [http://danielkhashabi.com/files/2022_jhu_talk/jhu_talk-feb-2022-split.pdf The Quest Toward Generality in Natural Language Understanding], 2022.
+- Google AI, [http://danielkhashabi.com/files/2021_google_talk/google-talk-march-2021.pdf Broadening the Scope of Machine Comprehension], 2021.
+# - [https://freuder.wordpress.com/pthg-19-the-third-workshop-on-progress-towards-the-holy-grail/  The Third Workshop on Progress Towards the Holy Grail], [http://danielkhashabi.com/files/2019_talk_holy_grail_workshop/daniel-kh-holy-grail-workshop-2019.pdf In Pursuit of the Holy Grail of Natural Language Understanding: Past, Present, and Future], 2019.
+- Carnegie Mellon University, [http://danielkhashabi.com/files/2019_talk_indirect_supervision/danielkh_job_talk_small_supervision_split.pdf Natural Language Understanding with Indirect Supervision], 2019.
 # - New York University, NLP Seminar, [https://docs.google.com/presentation/d/1KZxE0_LANeRYaShGP2cjvbRTaR2V7F8N36xQ8004r2o/edit?usp=sharing  Reasoning-Driven Question Answering], 2018.
 # - Stanford University, NLP Seminar, [https://docs.google.com/presentation/d/11QnDUYXB9q06HIyZxmHcb1BrwcdStjjHPNOC3AnlTsc/edit?usp=sharing Reasoning-Driven Question Answering], 2018.
 - Mid-Atlantic Student Colloquium on Speech, Language and Learning, [https://docs.google.com/presentation/d/1KmGQfbeUitZOum4s6cPTqwuJJfTdxlQMeV_Go2_8Jz0/edit?usp=sharing Abductive Reasoning on Natural Language Questions as
@@ -100,7 +100,7 @@ Global Reasoning over Semantic Abstractions], 2018.
 # - Guest Lecturer: CS446 (Machine Learning) @ UPenn, Spring 2018.
 # - Guest Lecturer: CS446 (Machine Learning) @ UPenn, Fall 2018. # : [https://www.youtube.com/watch?v=9AbMmCrNeEQ Lecture 1] [https://www.youtube.com/watch?v=cznV5pRsv_A Lecture 2]
 # - Guest Lecturer: CS446 (Machine Learning) @ UIUC, Spring 2016. # : [https://www.youtube.com/watch?v=oNOY2F2qcsk Lecture 1]
-# - Guest Lecturer: CS446 (Machine Learning) @ UIUC, Fall 2015. # : [files/2015_cs446_machine_learning/ files] [https://www.youtube.com/watch?v=hYwGsu50Ee4&t=4s Lecture 1] [https://www.youtube.com/watch?v=Apxp1UfsTLk Lecture 2]
+# - Guest Lecturer: CS446 (Machine Learning) @ UIUC, Fall 2015. # : [http://danielkhashabi.com/files/2015_cs446_machine_learning/ files] [https://www.youtube.com/watch?v=hYwGsu50Ee4&t=4s Lecture 1] [https://www.youtube.com/watch?v=Apxp1UfsTLk Lecture 2]
 # - Teaching Assistant: [http://l2r.cs.uiuc.edu/~danr/Teaching/CS446-15/ CS446: Machine Learning],  Dan Roth, UIUC (Fall, 2015).
 # - Teaching Assistant: [http://courses.engr.illinois.edu/cs473/fa2013/ CS473: Fundamental Algorithms], Jeff Erikson, UIUC (Fall, 2013).
 # - Teaching Assistant: [http://courses.engr.illinois.edu/cs473/sp2013/ CS473: Fundamental Algorithms],  Sariel Har-Peled and Alexandra Kolla, UIUC (Spring, 2013).
@@ -111,17 +111,17 @@ Global Reasoning over Semantic Abstractions], 2018.
 
 
 # == Past Projects and Resources
-# - OpenEval, an open-source evaluation framework for AI applications, 2015, [files/2015_openeval/openeval_poster.pdf Poster]
-# - [files/2015_knowledge_representation/knowledge_representation_writeup.pdf Knowledge Representation: How far we have come?], 2015, [files/2015_knowledge_representation/2015_knowledge_representation2.pdf PDF]
+# - OpenEval, an open-source evaluation framework for AI applications, 2015, [http://danielkhashabi.com/files/2015_openeval/openeval_poster.pdf Poster]
+# - [http://danielkhashabi.com/files/2015_knowledge_representation/knowledge_representation_writeup.pdf Knowledge Representation: How far we have come?], 2015, [http://danielkhashabi.com/files/2015_knowledge_representation/2015_knowledge_representation2.pdf PDF]
 # - Modeling and control of ball-on-plate system, 2011, ([BallOnPlateControl.html details])
-#- [files/2011_RVM_Facial_Feature/2011_internship_report.pdf Facial feature extraction and tracking], 2011
-# - [files/2010_Wavelet/26.pdf Wavelet approximation for solving differential equations],  [files/2010_Wavelet/26-1.ppt slides]
-# - [files/2010_GeneticCombinationalCircuits/23.pdf Combinational logic circuits using genetic algorithm], [GACombinatorial.html  details]
+#- [http://danielkhashabi.com/files/2011_RVM_Facial_Feature/2011_internship_report.pdf Facial feature extraction and tracking], 2011
+# - [http://danielkhashabi.com/files/2010_Wavelet/26.pdf Wavelet approximation for solving differential equations],  [http://danielkhashabi.com/files/2010_Wavelet/26-1.ppt slides]
+# - [http://danielkhashabi.com/files/2010_GeneticCombinationalCircuits/23.pdf Combinational logic circuits using genetic algorithm], [GACombinatorial.html  details]
 # - [http://cpp.aut.ac.ir/ C\+\+ programming and numerical methods], 2009 (in Persian) \n
-# - Introduction to computers and programming using C\+\+, 2008, [files/2008_BLIF/CppTutorialBLIF.pdf PDF-Persian]
-# - 2D Soccer Simulation, 2007, [files/Robocup/Hadaf06_TDP.pdf PDF-Persian]
-#- Generating electricity with speed bumps, 2006, [files/2006_EPSEF/25.pdf  PDF-Persian]
-#- Tom Mitchell's [files/MLbook/ "Machine Learning", translated by M. Nokhbeh Zaeeem] ({{<span lang="ko" xml:lang="ko">}}یادگیری ماشین-محمد نخبه زعیم{{</span>}})
+# - Introduction to computers and programming using C\+\+, 2008, [http://danielkhashabi.com/files/2008_BLIF/CppTutorialBLIF.pdf PDF-Persian]
+# - 2D Soccer Simulation, 2007, [http://danielkhashabi.com/files/Robocup/Hadaf06_TDP.pdf PDF-Persian]
+#- Generating electricity with speed bumps, 2006, [http://danielkhashabi.com/files/2006_EPSEF/25.pdf  PDF-Persian]
+#- Tom Mitchell's [http://danielkhashabi.com/files/MLbook/ "Machine Learning", translated by M. Nokhbeh Zaeeem] ({{<span lang="ko" xml:lang="ko">}}یادگیری ماشین-محمد نخبه زعیم{{</span>}})
 
 
 
