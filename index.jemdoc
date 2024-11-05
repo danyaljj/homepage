@@ -79,19 +79,32 @@ What forms of interaction are most effective and meaningful for humans? How can 
 
 
 
-{{<h2 id="talks">Select Talks</h2>}}
-- Oracle Labs ML seminar series, [http://danielkhashabi.com/files/2024_oracle/2024-TAU.pdf The Uphill Battle of Making Language Models Reliable], 2024.
-- New York University, [http://danielkhashabi.com/files/2023_nyu/2023-nyu2-slides.pdf Large Language Models: Revisiting Few Mysteries], 2023.
-- University of Maryland, [http://danielkhashabi.com/files/2023_umd_talk/umd-talk-2023-split.pdf Ailments of Alignment: Hurdles in Adapting Large Language Models to Follow Human Demands], 2023.
-- Johns Hopkins University CLSP, [http://danielkhashabi.com/files/2022_jhu_talk/jhu_talk-feb-2022-split.pdf The Quest Toward Generality in Natural Language Understanding], 2022.
-- Google AI, [http://danielkhashabi.com/files/2021_google_talk/google-talk-march-2021.pdf Broadening the Scope of Machine Comprehension], 2021.
-# - [https://freuder.wordpress.com/pthg-19-the-third-workshop-on-progress-towards-the-holy-grail/  The Third Workshop on Progress Towards the Holy Grail], [http://danielkhashabi.com/files/2019_talk_holy_grail_workshop/daniel-kh-holy-grail-workshop-2019.pdf In Pursuit of the Holy Grail of Natural Language Understanding: Past, Present, and Future], 2019.
-- Carnegie Mellon University, [http://danielkhashabi.com/files/2019_talk_indirect_supervision/danielkh_job_talk_small_supervision_split.pdf Natural Language Understanding with Indirect Supervision], 2019.
-# - New York University, NLP Seminar, [https://docs.google.com/presentation/d/1KZxE0_LANeRYaShGP2cjvbRTaR2V7F8N36xQ8004r2o/edit?usp=sharing  Reasoning-Driven Question Answering], 2018.
-# - Stanford University, NLP Seminar, [https://docs.google.com/presentation/d/11QnDUYXB9q06HIyZxmHcb1BrwcdStjjHPNOC3AnlTsc/edit?usp=sharing Reasoning-Driven Question Answering], 2018.
-- Mid-Atlantic Student Colloquium on Speech, Language and Learning, [https://docs.google.com/presentation/d/1KmGQfbeUitZOum4s6cPTqwuJJfTdxlQMeV_Go2_8Jz0/edit?usp=sharing Abductive Reasoning on Natural Language Questions as
-Global Reasoning over Semantic Abstractions], 2018.
+{{<h2 id="talks">Recent Talks</h2>}}
 
+- 2024, Oracle Labs ML seminar series ([http://danielkhashabi.com/files/2024_oracle/2024-oracle.pdf slides])
+- 2024, Tel Aviv NLP seminar series ([http://danielkhashabi.com/files/2024_oracle/2024-TAU.pdf slides])
+- 2024, Forum on Engineered AI Systems ([http://danielkhashabi.com/files/2024_NAE/2024-Khashabi_NAE.pdf slides])
+- 2024, Keynote at Engineering for Professionals Quarterly Meeting ([http://danielkhashabi.com/files/2024_ep_conference/2024-EP-self-improve.pdf slides])
+- 2024, Workshop on LLMs for Healthy Aging ([http://danielkhashabi.com/files/2023_aitc/2023-jhu-aitc.pdf slides])
+- 2023, NYU Text-as-Data talk series ([http://danielkhashabi.com/files/2023_nyu/2023-nyu2-slides.pdf slides])
+- 2023, JHU Seminars for Center for Language and Speech Technologies
+- 2023, JHU Electrical Engineering seminars ([http://danielkhashabi.com/files/2023_ece_talk/2023-ece-jhu.pdf slides])
+- 2023, Amazon, ``Human in the Loop'' summer seminar
+- 2023, Johns Hopkins Center for Health Security ([http://danielkhashabi.com/files/2023_public_health/2023-jhu-public-health-split.pdf slides])
+- 2023, UMD Computational Linguistics seminar ([http://danielkhashabi.com/files/2023_umd_talk/umd-talk-2023-split.pdf slides])
+- 2023, Applied Physics Lab, Intelligent Systems Center seminars
+- 2022, University of Tehran, NLP seminar
+- 2021, University of Glasgow, IR seminar, ([http://danielkhashabi.com/files/2021_glasgow/glasgow-talk-appril-2021.pptx slides])
+- 2021, Johns Hopkins University ([http://danielkhashabi.com/files/2022_jhu_talk/jhu_talk-feb-2022-split.pdf slides])
+- 2021, Google AI ([http://danielkhashabi.com/files/2021_google_talk/google-talk-march-2021.pdf slides])
+- 2021, UCLA, Big Data and ML seminar ([http://danielkhashabi.com/files/2021_ucla_talk/ucla-talk-march-2021.pptx slides])
+- 2021, USC, NLP seminar ([http://danielkhashabi.com/files/2021_usc/usc:isi-talk-march-2021.pptx slides])
+- 2020, Tel Aviv University NLP seminar ([http://danielkhashabi.com/files/2020_unifiedqa/unifiedqa_tau_talk_split.pdf slides])
+- 2019, [https://freuder.wordpress.com/pthg-19-the-third-workshop-on-progress-towards-the-holy-grail/The Workshop on Progress Towards the Holy Grail], Conference on Constraint Programming (CP), 2019. ([http://danielkhashabi.com/files/2019_talk_holy_grail_workshop/daniel-kh-holy-grail-workshop-2019.pdf slides])
+- 2019, CMU LTI seminar ([http://danielkhashabi.com/files/2019_talk_indirect_supervision/danielkh_job_talk_small_supervision_split.pdf slides])
+- 2018, NYU NLP seminar [https://docs.google.com/presentation/d/1KZxE0_LANeRYaShGP2cjvbRTaR2V7F8N36xQ8004r2o/edit?usp=sharing  Reasoning-Driven Question Answering].
+- 2018, Stanford NLP seminar  ([https://docs.google.com/presentation/d/11QnDUYXB9q06HIyZxmHcb1BrwcdStjjHPNOC3AnlTsc/edit?usp=sharing slides])
+- 2018, Mid-Atlantic Student Colloquium on Speech, Language and Learning ([https://docs.google.com/presentation/d/1KmGQfbeUitZOum4s6cPTqwuJJfTdxlQMeV_Go2_8Jz0/edit?usp=sharing slides])
 
 
 {{<h2 id="teaching">Teaching</h2>}}
