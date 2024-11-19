@@ -64,6 +64,7 @@ urls = {
     "Christos Christodoulopoulos": "https://christos-c.com/",
     "Kent Quanrud": "https://www.kentquanrud.com/",
     "Sameer Singh": "https://sameersingh.org/",
+    "Tianmin Shu": "https://www.tshu.io/",
 }
 
 
