@@ -44,6 +44,7 @@ urls = {
     "Yejin Choi": "https://homes.cs.washington.edu/~yejin/",
     "Maarten Sap": "https://maartensap.com/",
     "Noah A. Smith": "https://nasmith.github.io/",
+    "Noah A Smith": "https://nasmith.github.io/",
     "Philipp Koehn": "https://www.cs.jhu.edu/~phi/",
     "Dan Roth": "https://www.cis.upenn.edu/~danroth/",
     "Ashish Sabharwal": "https://allenai.org/team/ashishs",
@@ -65,6 +66,12 @@ urls = {
     "Kent Quanrud": "https://www.kentquanrud.com/",
     "Sameer Singh": "https://sameersingh.org/",
     "Tianmin Shu": "https://www.tshu.io/",
+    "Yizhong Wang": "https://homes.cs.washington.edu/~yizhongw/",
+    "Yeganeh Kordi": "https://yeganehkordi.github.io/",
+    "Swaroop Mishra": "https://swarooprm.github.io/",
+    "Sean Welleck": "https://wellecks.com/",
+    "Lianhui Qin": "https://lianhui.ucsd.edu/",
+    "Sewon Min": "https://www.sewonmin.com/",
 }
 
 
