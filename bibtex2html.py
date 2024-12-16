@@ -72,6 +72,7 @@ urls = {
     "Sean Welleck": "https://wellecks.com/",
     "Lianhui Qin": "https://lianhui.ucsd.edu/",
     "Sewon Min": "https://www.sewonmin.com/",
+    "Rama Chellappa": "https://engineering.jhu.edu/faculty/rama-chellappa/",
 }
 
 
