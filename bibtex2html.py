@@ -73,7 +73,7 @@ urls = {
     "Lianhui Qin": "https://lianhui.ucsd.edu/",
     "Sewon Min": "https://www.sewonmin.com/",
     "Rama Chellappa": "https://engineering.jhu.edu/faculty/rama-chellappa/",
-    "TaiMing Lu": "https://taiminglu.com/",
+    "Taiming Lu": "https://taiminglu.com/",
 }
 
 
@@ -108,9 +108,9 @@ for x in bibtex_database.entries:
             if a in urls:
                 # a = f"[{urls[a]} {a}]"
                 a = f"[{urls[a]} {blackcolorbegin} {a}{colorend}]"
-            elif a.lower() in urls:
-                # a = f"[{urls[a]} {a}]"
-                a = f"[{urls[a.lower()]} {blackcolorbegin} {a}{colorend}]"
+            # elif a.lower() in urls:
+            #     # a = f"[{urls[a]} {a}]"
+            #     a = f"[{urls[a.lower()]} {blackcolorbegin} {a}{colorend}]"
 
 
             if len(all_authors) == 1:
