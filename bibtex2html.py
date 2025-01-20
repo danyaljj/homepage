@@ -143,7 +143,7 @@ for x in bibtex_database.entries:
             venue = venue.replace("\CNFX{", "(")
             venue = venue.replace("}", ")")
 
-        if "arXiv preprint" in venue:
+        if "arXiv preprint" in venue or "biorxiv preprint" in venue.lower():
             venue = f"{graycolorbegin}{venue}{colorend}"
         else:
             venue = f"{colorbegin}{venue}{colorend}"
@@ -192,7 +192,7 @@ def rank_function(entry):
         return 4
     elif "(naacl)" in entry:
         return 5
-    elif "arxiv preprint" in entry:
+    elif "arxiv preprint" in entry or "biorxiv preprint" in entry.lower():
         # appears on top
         return 0
     else:
