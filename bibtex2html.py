@@ -74,6 +74,12 @@ urls = {
     "Sewon Min": "https://www.sewonmin.com/",
     "Rama Chellappa": "https://engineering.jhu.edu/faculty/rama-chellappa/",
     "Taiming Lu": "https://taiminglu.com/",
+    "Faraz Faghri": "https://scholar.google.com/citations?user=Rr643xYAAAAJ&hl=en",
+    "Mike A. Nalls": "https://scholar.google.com/citations?user=ZjfgPLMAAAAJ&hl=en",
+    "Tianxing He": "https://cloudygoose.github.io/",
+    "Hanjie Chen": "https://hanjiechen.github.io/",
+    "Yulia Tsvetkov": "https://homes.cs.washington.edu/~yuliats/",
+    "Peter West": "https://peterwestai.notion.site/",
 }
 
 
