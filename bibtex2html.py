@@ -160,7 +160,7 @@ for x in bibtex_database.entries:
             if "." != x['awards'][-1]:
                 x['awards'] += "."
 
-            awards = f" *{x['awards']}* "
+            awards = f" *{x['awards']}🏆* "
 
         meta_items = []
         # if 'url' in x and "https://arxiv.org/abs/" in x['url']:
