@@ -29,7 +29,7 @@ In pursuit of these objectives, my team and I have made various endeavors toward
  - /Interpretability/: Analyzing model operations to help humans understand behaviors, e.g., how does in-context learning emerge or operate? How do LMs balance between `remembering' and `learning'?
  - /Safety/: Making AI more transparent to allow democratic oversight and governance of systems (their algorithmic biases and mistakes) by a population of users.
  - /Interaction/: Effectively engaging with humans and other AI systems for, for example, coordination.
- - /Applications of AI/: We are excited about the increased adoption of AI! We have ongoing work on AI for {science, education, and clinical applications}.
+ - /Applications of AI/: We are excited about the increased adoption of AI! We have ongoing work on AI for science and clinical applications.
 
 The dominant majority of my research is aligned with the following research communities: /natural language processing/ (ACL, NAACL, EMNLP), /machine learning/  (ICLR, NeurIPS, ICML), and /artificial intelligence/ (AAAI, IJCAI).
 
