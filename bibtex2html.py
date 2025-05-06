@@ -198,6 +198,8 @@ def rank_function(entry):
         return 4
     elif "(naacl)" in entry:
         return 5
+    elif "(icml)" in entry:
+        return 3.6
     elif "arxiv preprint" in entry or "biorxiv preprint" in entry.lower():
         # appears on top
         return 0
