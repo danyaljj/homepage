@@ -81,6 +81,19 @@ The majority of my research is aligned with the following research communities: 
 # -  [learn.html "Learning Algorithms--or blend of computation and statistics", an outdated collection of notes]
 
 
+#  {{<h2 id="lab">Intelligence Amplification Lab (IALab)</h2>}}
+#  PhD students:
+#   - [https://scholar.google.com/citations?user=t3Hhnx8AAAAJ&hl=en/ Adam Byerly]
+#   - [https://jackz.io/ Jack Jingyu Zhang] - co-advised w/ Benjamin Van Durme
+#   - [https://ajwang34.github.io/ Andrew Wang] - co-advised w/ Nick Andrews
+#   - [https://jefferyo.github.io/ Jiefu Ou] - co-advised w/ Benjamin Van Durme
+#   - [https://tianjianl.github.io/ Tianjian Li]
+#   - [https://isgla.github.io/ Hannah Gonzalez] - co-advised w/ Benjamin Van Durme
+#   - [https://cozheyuanzhangde.github.io/ Zheyuan "Brian" Zhang] - co-advised w/ Tianmin Shu
+
+# We’re also grateful to collaborate with a number of exceptional MS and undergraduate students who are not listed here.
+
+
 
 {{<h2 id="publication">Publication</h2>}}
 
@@ -88,14 +101,4 @@ The majority of my research is aligned with the following research communities: 
 ==== 
 
 #include{publication.jemdoc}
-
- # {{<h2 id="lab">Intelligence Amplification Lab (IALab)</h2>}}
- # PhD students:
- #  - [https://scholar.google.com/citations?user=t3Hhnx8AAAAJ&hl=en/ Adam Byerly]
- #  - [https://jackz.io/ Jack Jingyu Zhang] - w/ Benjamin Van Durme
- #  - [https://ajwang34.github.io/ Andrew Wang] - w/ Nick Andrews
- #  - [https://jefferyo.github.io/ Jiefu Ou] - w/ Benjamin Van Durme
- #  - [https://isgla.github.io/ Hannah Gonzalez] - w/ Benjamin Van Durme
- #  - [https://cozheyuanzhangde.github.io/ Zheyuan "Brian" Zhang] - w/ Tianmin Shu
-
 
