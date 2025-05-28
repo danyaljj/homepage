@@ -200,7 +200,7 @@ def rank_function(entry):
         return 5
     elif "(icml)" in entry:
         return 4.1
-    elif "arxiv preprint" in entry or "biorxiv preprint" in entry.lower():
+    elif "arxiv preprint" in entry or "biorxiv" in entry.lower():
         # appears on top
         return 0
     else:
