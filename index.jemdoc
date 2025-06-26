@@ -21,17 +21,15 @@ Broadly, my research is anchored around the use of *natural language as a key me
 
 
 In pursuit of these objectives, my team and I have made various endeavors toward the following more specific themes:
- - /Augmentation/: Developing computational models that synergistically augment human experience. The ultimate goal of our work is to benefit humans!
- - /Generality/: Developing models that generalize a broader scope of tasks, abilities, modalities, or environments. Often, the challenge here is the long tail of problems.
- - /Specificity/: Developing models tailored to specific user needs or application domains to offer both utility and efficiency.
- - /Self-supervised learning/ of representations of the world using cheap signals in the wild (web data, physical environment, etc.) in an algorithmically efficient (data and compute) manner.
- - /Reasoning/: Improving models' ability to communicate via /reasons/, for creative problem-solving (recovering from earlier mistakes) and also explainability (using “reasons” to explain or justify decisions).
- - /Interpretability/: Analyzing model operations to help humans understand behaviors, e.g., how does in-context learning emerge or operate? How do LMs balance between `remembering' and `learning'?
- - /Safety/: Making AI more transparent to allow democratic oversight and governance of systems (their algorithmic biases and mistakes) by a population of users.
- - /Interaction/: Effectively engaging with humans and other AI systems for, for example, coordination.
- - /Applications of AI/: We are excited about the increased adoption of AI! We have ongoing work on AI for science and clinical applications.
+ - /Augmentation/: Designing models that enhance human experience—our aim is to build AI that genuinely benefits people.
+ - /Generality/: Building models that generalize across tasks, modalities, and environments, with attention to the long tail of edge cases.
+ - /Specificity/: Tailoring models to specific users or domains to improve efficiency and real-world utility.
+ - /Reasoning/: Strengthening models' ability to communicate via /reasons/, both for creative problem-solving and for communicating decisions through clear explanations.
+ - /Interpretability/: Understanding and monitoring how models behave; e.g., how in-context learning emerges, when it works, and when it fails.
+ - /Safety & Transparency/: Advancing reliability and transparency in AI—essential for responsible deployment in high-stakes settings.
+ - /Applications/:  Exploring high-impact uses of AI, especially in advancing *scientific discovery.*
 
-The majority of my research is aligned with the following research communities: /natural language processing/ (ACL, NAACL, EMNLP), /machine learning/  (ICLR, NeurIPS, ICML), and /artificial intelligence/ (AAAI, IJCAI).
+Most of my research is aligned with the following research communities: /natural language processing/ (ACL, NAACL, EMNLP), /machine learning/  (ICLR, NeurIPS, ICML), and /artificial intelligence/ (AAAI, IJCAI).
 
 ~~~
 
