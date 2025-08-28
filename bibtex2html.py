@@ -80,6 +80,14 @@ urls = {
     "Hanjie Chen": "https://hanjiechen.github.io/",
     "Yulia Tsvetkov": "https://homes.cs.washington.edu/~yuliats/",
     "Peter West": "https://peterwestai.notion.site/",
+    "William Gantt Walden": "https://wgantt.github.io/personal-website/",
+    "Niyati Bafna": "https://niyatibafna.github.io/",
+    "David Yarowsky": "https://www.cs.jhu.edu/~yarowsky/",
+    "Weiqi Wang": "https://mighty-weaver.github.io/",
+    "Sungwon Kim": "https://sungwon-kim.com/",
+    "Isabel Cachola": "https://isabelcachola.com/",
+    "Zhouxiang Fang": "https://zhouxiangfang.github.io/",
+    "Kate Sanders": "https://katesanders9.github.io/",
 }
 
 
