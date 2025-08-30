@@ -88,6 +88,8 @@ urls = {
     "Isabel Cachola": "https://isabelcachola.com/",
     "Zhouxiang Fang": "https://zhouxiangfang.github.io/",
     "Kate Sanders": "https://katesanders9.github.io/",
+    "Alvin Zhang": "https://scholar.google.com/citations?user=BLkk5kYAAAAJ",
+    "William Jurayj": "https://williamjurayj.com/",
 }
 
 
