@@ -90,6 +90,7 @@ urls = {
     "Kate Sanders": "https://katesanders9.github.io/",
     "Alvin Zhang": "https://scholar.google.com/citations?user=BLkk5kYAAAAJ",
     "William Jurayj": "https://williamjurayj.com/",
+    "Eric Nalisnick": "https://enalisnick.github.io/",
 }
 
 
