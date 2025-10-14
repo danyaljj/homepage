@@ -91,6 +91,7 @@ urls = {
     "Alvin Zhang": "https://scholar.google.com/citations?user=BLkk5kYAAAAJ",
     "William Jurayj": "https://williamjurayj.com/",
     "Eric Nalisnick": "https://enalisnick.github.io/",
+    "Jason Weston": "https://ai.meta.com/people/1163645124801199/jason-weston/",
 }
 
 
