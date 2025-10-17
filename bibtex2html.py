@@ -91,7 +91,10 @@ urls = {
     "Alvin Zhang": "https://scholar.google.com/citations?user=BLkk5kYAAAAJ",
     "William Jurayj": "https://williamjurayj.com/",
     "Eric Nalisnick": "https://enalisnick.github.io/",
-    "Jason Weston": "https://ai.meta.com/people/1163645124801199/jason-weston/",
+    "Jason Weston": "https://scholar.google.com/citations?hl=en&user=lMkTx0EAAAAJ",
+    "Dawn Lawrie ": "https://scholar.google.com/citations?user=Ij9zwyoAAAAJ&hl=en",
+    "Kevin Duh": "https://scholar.google.com/citations?user=M3BSiiQAAAAJ&hl=en",
+    "Eugene Yang": "https://scholar.google.com/citations?user=JVqgs4gAAAAJ&hl=en&oi=ao",
 }
 
 
