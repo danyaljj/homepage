@@ -41,7 +41,7 @@ urls = {
     "Marc Marone": "https://marcmarone.com/",
     "Hannaneh Hajishirzi": "https://homes.cs.washington.edu/~hannaneh/",
     "Kai-Wei Chang": "https://web.cs.ucla.edu/~kwchang/",
-    "Yejin Choi": "https://homes.cs.washington.edu/~yejin/",
+    "Yejin Choi": "https://yejinc.github.io/",
     "Maarten Sap": "https://maartensap.com/",
     "Noah A. Smith": "https://nasmith.github.io/",
     "Noah A Smith": "https://nasmith.github.io/",
