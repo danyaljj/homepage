@@ -197,13 +197,15 @@ for x in bibtex_database.entries:
             f" \n - {title}  \\n    {authors} \\n   {venue}, {x['year']}.{awards}{fontsizebegin}{meta_items}{fontsizeend}\n"
         )
 
-
+# Lower number means it has a higher priority
 def rank_function(entry):
     entry = entry.lower()
     if "(emnlp)" in entry:
         return 2
     elif "(colm)" in entry:
         return 2.4
+    elif "(aacl)" in entry:
+        return 0.9
     elif "(neurips)" in entry:
         return 1
     elif  " acl" in entry and "workshop" in entry:
