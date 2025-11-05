@@ -94,6 +94,11 @@ urls = {
     "Dawn Lawrie ": "https://scholar.google.com/citations?user=Ij9zwyoAAAAJ&hl=en",
     "Kevin Duh": "https://scholar.google.com/citations?user=M3BSiiQAAAAJ&hl=en",
     "Eugene Yang": "https://scholar.google.com/citations?user=JVqgs4gAAAAJ&hl=en&oi=ao",
+    "Faeze Brahman": "https://fabrahman.github.io/",
+    "Jeffrey Cheng": "https://nexync.github.io/",
+    "Xiang Lorraine Li": "https://lorraine333.github.io/",
+    "Ximing Lu": "https://gloriaximinglu.github.io/",
+    "Yilun Du": "https://yilundu.github.io/",
 }
 
 
