@@ -17,19 +17,31 @@ Other affiliations:
 
 {{<h2 id="themes">Research Themes</h2>}}
 
-Broadly, my research is anchored around the use of *natural language as a key medium for communication* between humans and AI systems and is driven by the goal of making these systems *more helpful*, *reliable*, and *efficient*.
+I am broadly interested in making language-driven AI systems more *helpful*, *reliable*, and *efficient*.
+As these systems increasingly engage in reasoning and creative discovery, their impact hinges on balancing open-ended exploration with grounded trustworthiness.
+At the core of this agenda lies a tension: creative reasoning thrives on revealing novel connections and deep structural parallels across distant domains, yet it is inherently prone to false associations that can
+undermine, rather than enhance, human productivity.
+My work draws on algorithmic and statistical tools to develop computational frameworks to harness the benefits of creative reasoning while remaining transparent, verifiable, and
+aligned with human values—enabling trustworthy, AI-driven discovery.
+
+I have pursued this vision along three complementary axes:
+
+ - *Understanding the foundations:* What fundamental principles govern the intelligent behavior that emerges from large-scale training? And can we use these insights as guiding principles of scaling?
+ - *Reasoning, communication and interaction:* How can we amplify AI’s capacity for reasoning across tasks, contexts, and interactions with the world? How can we characterize the trade-off between generality vs. specialization (doing what user needs) in adaptive systems?
+ - *Safety, oversight and evaluation:* How can oversight mechanisms (e.g., debate, red teaming, verification) be formalized and automated at scale? How can AI systems balance autonomy with auditing and safety mechanisms to ensure human trust?
+
+#  - /Augmentation/: Designing models that enhance human experience—our aim is to build AI that genuinely benefits people.
+# - /Generality/: Building models that generalize across tasks, modalities, and environments, with attention to the long tail of edge cases.
+# - /Specificity/: Tailoring models to specific users or domains to improve efficiency and real-world utility.
+# - /Reasoning/: Strengthening models' ability to communicate via /reasons/, both for creative problem-solving and for communicating decisions through clear explanations.
+# - /Interpretability/: Understanding and monitoring how models behave; e.g., how in-context learning emerges, when it works, and when it fails.
+# - /Safety & Transparency/: Advancing reliability and transparency in AI—essential for responsible deployment in high-stakes settings.
+# - /Applications/:  Exploring high-impact uses of AI, especially in advancing *scientific discovery.*
 
 
-In pursuit of these objectives, my team and I have made various endeavors toward the following more specific themes:
- - /Augmentation/: Designing models that enhance human experience—our aim is to build AI that genuinely benefits people.
- - /Generality/: Building models that generalize across tasks, modalities, and environments, with attention to the long tail of edge cases.
- - /Specificity/: Tailoring models to specific users or domains to improve efficiency and real-world utility.
- - /Reasoning/: Strengthening models' ability to communicate via /reasons/, both for creative problem-solving and for communicating decisions through clear explanations.
- - /Interpretability/: Understanding and monitoring how models behave; e.g., how in-context learning emerges, when it works, and when it fails.
- - /Safety & Transparency/: Advancing reliability and transparency in AI—essential for responsible deployment in high-stakes settings.
- - /Applications/:  Exploring high-impact uses of AI, especially in advancing *scientific discovery.*
+Our research is driven by a key real application: accelerating *scientific discovery* in an era where knowledge grows faster than any individual can absorb.
 
-Most of my research is aligned with the following research communities: /natural language processing/ (ACL, NAACL, EMNLP), /machine learning/  (ICLR, NeurIPS, ICML), and /artificial intelligence/ (AAAI, IJCAI).
+Most of my research is aligned with the following research communities: /natural language processing/ (ACL, NAACL, EMNLP), /machine learning/ and /AI/  (COLM, ICLR, NeurIPS, ICML, AAAI, IJCAI).
 
 ~~~
 
