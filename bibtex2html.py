@@ -99,6 +99,7 @@ urls = {
     "Xiang Lorraine Li": "https://lorraine333.github.io/",
     "Ximing Lu": "https://gloriaximinglu.github.io/",
     "Yilun Du": "https://yilundu.github.io/",
+    "Yangqiu Song": "https://www.cse.ust.hk/~yqsong/",
 }
 
 
