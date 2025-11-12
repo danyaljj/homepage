@@ -100,6 +100,9 @@ urls = {
     "Ximing Lu": "https://gloriaximinglu.github.io/",
     "Yilun Du": "https://yilundu.github.io/",
     "Yangqiu Song": "https://www.cse.ust.hk/~yqsong/",
+    "Andrea Wynn": "https://andreawynn.github.io/",
+    "Meng Jiang": "http://www.meng-jiang.com/",
+    "Lauren Gardner": "https://engineering.jhu.edu/case/faculty/lauren-gardner/",
 }
 
 
