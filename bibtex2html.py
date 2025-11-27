@@ -104,6 +104,7 @@ urls = {
     "Meng Jiang": "http://www.meng-jiang.com/",
     "Lauren Gardner": "https://engineering.jhu.edu/case/faculty/lauren-gardner/",
     "Michael C. Schatz": "https://schatz-lab.org/",
+    "Nathan Breslow": "https://n8programs.com/",
 }
 
 
