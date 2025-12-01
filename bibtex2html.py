@@ -106,6 +106,8 @@ urls = {
     "Michael C. Schatz": "https://schatz-lab.org/",
     "Nathan Breslow": "https://n8programs.com/",
     "Dawn Lawrie": "https://hltcoe.jhu.edu/researcher/dawn-lawrie/",
+    "Victor Zhong": "https://www.victorzhong.com/",
+    "Akari Asai": "https://akariasai.github.io/",
 }
 
 
