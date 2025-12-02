@@ -108,6 +108,7 @@ urls = {
     "Dawn Lawrie": "https://hltcoe.jhu.edu/researcher/dawn-lawrie/",
     "Victor Zhong": "https://www.victorzhong.com/",
     "Akari Asai": "https://akariasai.github.io/",
+    "Muhan Gao": "https://muhan-gao.com/",
 }
 
 
