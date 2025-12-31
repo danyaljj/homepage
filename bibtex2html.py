@@ -109,6 +109,7 @@ urls = {
     "Victor Zhong": "https://www.victorzhong.com/",
     "Akari Asai": "https://akariasai.github.io/",
     "Muhan Gao": "https://muhan-gao.com/",
+    "Mark Dredze": "https://www.cs.jhu.edu/~mdredze/",
 }
 
 
