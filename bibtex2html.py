@@ -218,6 +218,8 @@ def rank_function(entry):
     entry = entry.lower()
     if "(emnlp)" in entry:
         return 2
+    elif "(eacl)" in entry:
+        return 0.9
     elif "(colm)" in entry:
         return 2.4
     elif "(aacl)" in entry:
