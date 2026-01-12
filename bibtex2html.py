@@ -104,7 +104,7 @@ urls = {
     "Meng Jiang": "http://www.meng-jiang.com/",
     "Lauren Gardner": "https://engineering.jhu.edu/case/faculty/lauren-gardner/",
     "Michael C. Schatz": "https://schatz-lab.org/",
-    "Nathan Breslow": "https://n8programs.com/",
+    "Nathan Breslow": "https://github.com/N8python",
     "Dawn Lawrie": "https://hltcoe.jhu.edu/researcher/dawn-lawrie/",
     "Victor Zhong": "https://www.victorzhong.com/",
     "Akari Asai": "https://akariasai.github.io/",
