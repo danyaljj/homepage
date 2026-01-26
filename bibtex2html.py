@@ -110,6 +110,7 @@ urls = {
     "Akari Asai": "https://akariasai.github.io/",
     "Muhan Gao": "https://muhan-gao.com/",
     "Mark Dredze": "https://www.cs.jhu.edu/~mdredze/",
+    "Chunsheng Zuo": "https://scholar.google.com/citations?user=Uy79AH0AAAAJ&hl=en",
 }
 
 
