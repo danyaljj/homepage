@@ -220,6 +220,8 @@ def rank_function(entry):
         return 2
     elif "(eacl)" in entry:
         return 0.9
+    elif "(iclr)" in entry:
+        return 0.8
     elif "(colm)" in entry:
         return 2.4
     elif "(aacl)" in entry:
