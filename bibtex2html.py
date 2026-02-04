@@ -111,6 +111,8 @@ urls = {
     "Muhan Gao": "https://muhan-gao.com/",
     "Mark Dredze": "https://www.cs.jhu.edu/~mdredze/",
     "Chunsheng Zuo": "https://scholar.google.com/citations?user=Uy79AH0AAAAJ&hl=en",
+    "Mehrdad Farajtabar": "https://sites.google.com/view/mehrdad",
+    "Xi Wang": "https://scholar.google.com/citations?user=giztudUAAAAJ&hl=en",
 }
 
 
