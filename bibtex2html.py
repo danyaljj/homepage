@@ -224,6 +224,8 @@ def rank_function(entry):
     entry = entry.lower()
     if "(emnlp)" in entry:
         return 2
+    elif "(tmlr)" in entry:
+        return 0.7
     elif "(eacl)" in entry:
         return 0.9
     elif "(iclr)" in entry:
