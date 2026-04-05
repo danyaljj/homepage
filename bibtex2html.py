@@ -114,6 +114,7 @@ urls = {
     "Mehrdad Farajtabar": "https://sites.google.com/view/mehrdad",
     "Xi Wang": "https://scholar.google.com/citations?user=giztudUAAAAJ&hl=en",
     "Chien-Ming Huang": "https://www.cs.jhu.edu/~cmhuang/",
+    "Hannah Collison": "https://isgla.github.io/",
 }
 
 
