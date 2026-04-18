@@ -263,13 +263,15 @@
     const parts = [];
     if (tab !== 'selected') parts.push('tab=' + tab);
     if (activeTopics.size > 0) parts.push('topics=' + [...activeTopics].join(','));
-    history.replaceState(null, '', parts.length ? '#' + parts.join('&') : location.pathname + location.search);
+    history.replaceState(null, '', parts.length ? '#publication&' + parts.join('&') : location.pathname + location.search);
   }
 
   function loadFromHash() {
     const hash = location.hash.slice(1);
     if (!hash) return;
-    const params = Object.fromEntries(hash.split('&').map(p => p.split('=')));
+    const filtered = hash.split('&').filter(p => p !== 'publication').join('&');
+    if (!filtered) return;
+    const params = Object.fromEntries(filtered.split('&').map(p => p.split('=')));
     if (params.tab) {
       document.querySelectorAll('.pub-tab').forEach(t => {
         t.classList.toggle('active', t.dataset.tab === params.tab);
@@ -282,6 +284,7 @@
         if (chip) chip.classList.add('active');
       });
     }
+    document.getElementById('publication').scrollIntoView();
   }
 
   document.querySelectorAll('.topic-chip').forEach(chip => {

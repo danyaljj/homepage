@@ -268,7 +268,8 @@ for x in bibtex_database.entries:
         if award_text[-1] != '.':
             award_text += '.'
         award_escaped = html_module.escape(award_text)
-        awards_html = f' <span class="pub-award">&#x1F3C6; {award_escaped}</span>'
+        emoji = '&#x1F3C6; ' if 'award' in award_text.lower() else ''
+        awards_html = f' <span class="pub-award">{emoji}{award_escaped}</span>'
 
     # Meta links
     link_items = []
