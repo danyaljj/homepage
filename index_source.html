@@ -25,7 +25,7 @@
   <div class="profile">
     <img src="profile11.png" alt="Daniel Khashabi">
     <div class="profile-info">
-      <h2>Daniel Khashabi</h2>
+      <h3>Daniel Khashabi</h3>
       <p class="position">
         Assistant Professor,
         <a href="https://www.cs.jhu.edu/">Department of Computer Science</a>,
@@ -213,33 +213,101 @@
       <button class="pub-tab active" data-tab="selected">Selected &amp; Recent</button>
       <button class="pub-tab" data-tab="all">All Publications</button>
     </div>
+    <div class="topic-chip-row" id="topic-chip-row">
+      <span class="topic-chip-label">Filter by topic:</span>
+      <span class="topic-chip topic-reasoning" data-slug="reasoning">Reasoning</span>
+      <span class="topic-chip topic-evaluation" data-slug="evaluation">Evaluation</span>
+      <span class="topic-chip topic-training" data-slug="training">Model Training</span>
+      <span class="topic-chip topic-safety" data-slug="safety">Safety</span>
+      <span class="topic-chip topic-retrieval" data-slug="retrieval">Retrieval</span>
+      <span class="topic-chip topic-social-impact" data-slug="social-impact">AI + Humans</span>
+      <span class="topic-chip topic-ai-for-science" data-slug="ai-for-science">AI for Science</span>
+      <span class="topic-chip topic-agents" data-slug="agents">Agents</span>
+      <span class="topic-chip topic-interpretability" data-slug="interpretability">Interpretability</span>
+      <span class="topic-chip topic-grounding" data-slug="grounding">Grounding</span>
+      <span class="topic-chip topic-multimodal" data-slug="multimodal">Multimodal</span>
+      <span class="topic-chip topic-multilinguality" data-slug="multilinguality">Multilingual</span>
+      <span class="topic-chip topic-long-context" data-slug="long-context">Long-context</span>
+      <span class="topic-chip topic-embodied" data-slug="embodied">Embodied</span>
+    </div>
     <!-- PUBLICATIONS_PLACEHOLDER -->
   </section>
 
 </main>
 
 <script>
-  function applyTab(tab) {
-    document.querySelectorAll('.pub-tab').forEach(t => t.classList.remove('active'));
-    tab.classList.add('active');
-    const showAll = tab.dataset.tab === 'all';
+  let activeTopics = new Set();
+
+  function applyFilters() {
+    const showAll = document.querySelector('.pub-tab.active').dataset.tab === 'all';
     document.querySelectorAll('.pub-entry').forEach(entry => {
-      entry.style.display = showAll || entry.dataset.selected === 'true' ? '' : 'none';
+      const passesTab = showAll || entry.dataset.selected === 'true';
+      const entryTopics = entry.dataset.topics ? entry.dataset.topics.split(' ') : [];
+      const passesTopic = activeTopics.size === 0 || entryTopics.some(t => activeTopics.has(t));
+      entry.style.display = passesTab && passesTopic ? '' : 'none';
     });
     document.querySelectorAll('.pub-year-group').forEach(group => {
-      const hasVisible = [...group.querySelectorAll('.pub-entry')]
-        .some(e => e.style.display !== 'none');
+      const hasVisible = [...group.querySelectorAll('.pub-entry')].some(e => e.style.display !== 'none');
       group.style.display = hasVisible ? '' : 'none';
       group.querySelector('.pub-year').style.display = showAll ? '' : 'none';
     });
+    document.querySelectorAll('.pub-title-tags').forEach(el => {
+      el.style.display = showAll ? '' : 'none';
+    });
+    document.getElementById('topic-chip-row').style.display = showAll ? '' : 'none';
+    updateHash();
   }
 
-  document.querySelectorAll('.pub-tab').forEach(tab => {
-    tab.addEventListener('click', () => applyTab(tab));
+  function updateHash() {
+    const tab = document.querySelector('.pub-tab.active').dataset.tab;
+    const parts = [];
+    if (tab !== 'selected') parts.push('tab=' + tab);
+    if (activeTopics.size > 0) parts.push('topics=' + [...activeTopics].join(','));
+    history.replaceState(null, '', parts.length ? '#' + parts.join('&') : location.pathname + location.search);
+  }
+
+  function loadFromHash() {
+    const hash = location.hash.slice(1);
+    if (!hash) return;
+    const params = Object.fromEntries(hash.split('&').map(p => p.split('=')));
+    if (params.tab) {
+      document.querySelectorAll('.pub-tab').forEach(t => {
+        t.classList.toggle('active', t.dataset.tab === params.tab);
+      });
+    }
+    if (params.topics) {
+      params.topics.split(',').forEach(slug => {
+        activeTopics.add(slug);
+        const chip = document.querySelector(`.topic-chip[data-slug="${slug}"]`);
+        if (chip) chip.classList.add('active');
+      });
+    }
+  }
+
+  document.querySelectorAll('.topic-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const slug = chip.dataset.slug;
+      if (activeTopics.has(slug)) {
+        activeTopics.delete(slug);
+        chip.classList.remove('active');
+      } else {
+        activeTopics.add(slug);
+        chip.classList.add('active');
+      }
+      applyFilters();
+    });
   });
 
-  // Apply default tab on load
-  applyTab(document.querySelector('.pub-tab.active'));
+  document.querySelectorAll('.pub-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.pub-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      applyFilters();
+    });
+  });
+
+  loadFromHash();
+  applyFilters();
 </script>
 
 <script>

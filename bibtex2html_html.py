@@ -121,31 +121,45 @@ def is_selected(entry):
 
 # Canonical topic labels and their CSS slugs
 TOPIC_LABELS = [
-    'Alignment & Safety',
+    'Safety',
     'Interpretability',
     'Reasoning',
     'Agents',
     'Retrieval',
     'Evaluation',
     'AI for Science',
-    'Multilinguality',
-    'Social Impact',
+    'Multilingual',
+    'AI + Humans',
     'Embodied',
     'Multimodal',
+    'Long-context',
+    'Grounding',
+    'Model Training',
 ]
 
 TOPIC_SLUG = {
-    'Alignment & Safety': 'alignment-safety',
+    'Safety':             'safety',
     'Interpretability':   'interpretability',
     'Reasoning':          'reasoning',
     'Agents':             'agents',
     'Retrieval':          'retrieval',
     'Evaluation':         'evaluation',
     'AI for Science':     'ai-for-science',
-    'Multilinguality':    'multilinguality',
-    'Social Impact':      'social-impact',
+    'Multilingual':       'multilinguality',
+    'AI + Humans':        'social-impact',
     'Embodied':           'embodied',
     'Multimodal':         'multimodal',
+    'Long-context':       'long-context',
+    'Grounding':          'grounding',
+    'Model Training':     'training',
+}
+
+# Maps old/alternative bib tag values to canonical labels
+TOPIC_ALIASES = {
+    'training':          'Model Training',
+    'multilinguality':   'Multilingual',
+    'social impact':     'AI + Humans',
+    'alignment & safety': 'Safety',
 }
 
 def parse_topics(entry):
@@ -154,10 +168,15 @@ def parse_topics(entry):
     raw_tags = [t.strip() for t in tags_str.split(',')]
     topics = []
     for raw in raw_tags:
+        raw_lower = raw.lower()
+        matched = False
         for label in TOPIC_LABELS:
-            if raw.lower() == label.lower():
+            if raw_lower == label.lower():
                 topics.append(label)
+                matched = True
                 break
+        if not matched and raw_lower in TOPIC_ALIASES:
+            topics.append(TOPIC_ALIASES[raw_lower])
     return topics
 
 bibtex_file = urlopen('https://raw.githubusercontent.com/danyaljj/bibfile/master/ref.bib')
@@ -249,10 +268,7 @@ for x in bibtex_database.entries:
         if award_text[-1] != '.':
             award_text += '.'
         award_escaped = html_module.escape(award_text)
-        if 'awards' in award_text.lower():
-            awards_html = f' <span class="pub-award">{award_escaped} &#x1F3C6;</span>'
-        else:
-            awards_html = f' <span class="pub-award">{award_escaped}</span>'
+        awards_html = f' <span class="pub-award">&#x1F3C6; {award_escaped}</span>'
 
     # Meta links
     link_items = []
@@ -271,10 +287,11 @@ for x in bibtex_database.entries:
         f'<span class="topic-badge topic-{TOPIC_SLUG[t]}">{t}</span>' for t in topics
     )
 
-    title_with_topics = title_html + (' ' + topic_badges_html if topic_badges_html else '')
+    tags_span = f'<span class="pub-title-tags">{topic_badges_html}</span>' if topic_badges_html else ''
+    topics_attr = ' '.join(TOPIC_SLUG[t] for t in topics)
     entry_html = (
-        f'    <li class="pub-entry" data-year="{x["year"]}" data-selected="{str(selected).lower()}">\n'
-        f'      <div class="pub-title">{title_with_topics}</div>\n'
+        f'    <li class="pub-entry" data-year="{x["year"]}" data-selected="{str(selected).lower()}" data-topics="{topics_attr}">\n'
+        f'      <div class="pub-title"><span class="pub-title-text">{title_html}</span>{tags_span}</div>\n'
         f'      <div class="pub-authors">{authors_html}</div>\n'
         f'      <div class="pub-meta">{venue_html}, {x["year"]}.{awards_html}{links_html}</div>\n'
         f'    </li>'
