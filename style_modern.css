@@ -262,6 +262,31 @@ a:hover { text-decoration: underline; }
 
 .pub-links { display: inline-flex; gap: 0.35rem; flex-wrap: wrap; vertical-align: middle; }
 
+/* ── Topic badges ── */
+.topic-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 500;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  vertical-align: middle;
+  margin-left: 0.3rem;
+  border: 1px solid;
+}
+
+.topic-alignment-safety { background: #fffbeb; color: #d97706; border-color: #fde68a; }
+.topic-interpretability { background: #f5f3ff; color: #7c3aed; border-color: #ddd6fe; }
+.topic-reasoning        { background: #eff6ff; color: #2563eb; border-color: #bfdbfe; }
+.topic-agents           { background: #eef2ff; color: #4f46e5; border-color: #c7d2fe; }
+.topic-retrieval        { background: #ecfeff; color: #0891b2; border-color: #a5f3fc; }
+.topic-evaluation       { background: #f0fdf4; color: #16a34a; border-color: #bbf7d0; }
+.topic-ai-for-science   { background: #f0fdfa; color: #0d9488; border-color: #99f6e4; }
+.topic-multilinguality  { background: #fdf2f8; color: #db2777; border-color: #fbcfe8; }
+.topic-social-impact    { background: #fff1f2; color: #e11d48; border-color: #fecdd3; }
+.topic-embodied         { background: #fff7ed; color: #ea580c; border-color: #fed7aa; }
+.topic-multimodal       { background: #f0f9ff; color: #0284c7; border-color: #bae6fd; }
+
+
 .pub-link {
   font-size: 0.72rem;
   padding: 0.1rem 0.45rem;

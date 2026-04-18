@@ -113,18 +113,52 @@ urls = {
 
 SELF_AUTHOR = "Daniel Khashabi"
 
-def is_selected(year, has_award, is_preprint):
-    """A paper is 'selected' if it has an award, or is in a main venue from 2022+."""
-    try:
-        recent = int(year) >= 2022
-    except ValueError:
-        recent = False
-    if has_award:
-        return True
-    if recent and not is_preprint:
-        return True
-    return False
+def is_selected(entry):
+    """A paper is 'selected' if its 'tags' field contains 'selected'."""
+    tags = entry.get('tags', '')
+    return 'selected' in tags.lower()
 
+
+# Canonical topic labels and their CSS slugs
+TOPIC_LABELS = [
+    'Alignment & Safety',
+    'Interpretability',
+    'Reasoning',
+    'Agents',
+    'Retrieval',
+    'Evaluation',
+    'AI for Science',
+    'Multilinguality',
+    'Social Impact',
+    'Embodied',
+    'Multimodal',
+]
+
+TOPIC_SLUG = {
+    'Alignment & Safety': 'alignment-safety',
+    'Interpretability':   'interpretability',
+    'Reasoning':          'reasoning',
+    'Agents':             'agents',
+    'Retrieval':          'retrieval',
+    'Evaluation':         'evaluation',
+    'AI for Science':     'ai-for-science',
+    'Multilinguality':    'multilinguality',
+    'Social Impact':      'social-impact',
+    'Embodied':           'embodied',
+    'Multimodal':         'multimodal',
+}
+
+def parse_topics(entry):
+    """Extract canonical topic labels from the 'tags' bib field."""
+    tags_str = entry.get('tags', '')
+    raw_tags = [t.strip() for t in tags_str.split(',')]
+    topics = []
+    for raw in raw_tags:
+        for label in TOPIC_LABELS:
+            if raw.lower() == label.lower():
+                topics.append(label)
+                break
+    return topics
 
 bibtex_file = urlopen('https://raw.githubusercontent.com/danyaljj/bibfile/master/ref.bib')
 bibtex_database = bibtexparser.loads(bibtex_file.read())
@@ -142,6 +176,7 @@ for x in bibtex_database.entries:
         x['title'] += '.'
 
     title = clean_title(x['title'])
+    title = title.replace('``', '\u201c').replace("''", '\u201d')
     title = title.replace('{', '').replace('}', '')
     title_escaped = html_module.escape(title)
 
@@ -230,10 +265,16 @@ for x in bibtex_database.entries:
     if link_items:
         links_html = ' <span class="pub-links">' + ''.join(link_items) + '</span>'
 
-    selected = is_selected(x['year'], bool(awards_html), is_preprint)
+    selected = is_selected(x)
+    topics = parse_topics(x)
+    topic_badges_html = ''.join(
+        f'<span class="topic-badge topic-{TOPIC_SLUG[t]}">{t}</span>' for t in topics
+    )
+
+    title_with_topics = title_html + (' ' + topic_badges_html if topic_badges_html else '')
     entry_html = (
         f'    <li class="pub-entry" data-year="{x["year"]}" data-selected="{str(selected).lower()}">\n'
-        f'      <div class="pub-title">{title_html}</div>\n'
+        f'      <div class="pub-title">{title_with_topics}</div>\n'
         f'      <div class="pub-authors">{authors_html}</div>\n'
         f'      <div class="pub-meta">{venue_html}, {x["year"]}.{awards_html}{links_html}</div>\n'
         f'    </li>'

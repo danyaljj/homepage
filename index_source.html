@@ -230,6 +230,7 @@
       const hasVisible = [...group.querySelectorAll('.pub-entry')]
         .some(e => e.style.display !== 'none');
       group.style.display = hasVisible ? '' : 'none';
+      group.querySelector('.pub-year').style.display = showAll ? '' : 'none';
     });
   }
 
