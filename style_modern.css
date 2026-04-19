@@ -4,7 +4,7 @@
   --color-light: #555;
   --color-link: #1a56a0;
   --color-accent: #b91c2c;
-  --color-muted: #6b7280;
+  --color-muted: #37393c;
   --color-border: #e5e7eb;
   --color-bg: #ffffff;
   --color-bg-alt: #f9fafb;
@@ -199,7 +199,7 @@ a:hover { text-decoration: underline; }
 }
 
 .topic-chip-label {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--color-muted);
   margin-right: 0.15rem;
   white-space: nowrap;
@@ -207,20 +207,35 @@ a:hover { text-decoration: underline; }
 
 .topic-chip {
   display: inline-block;
-  padding: 0.1rem 0.4rem;
+  padding: 0.05rem 0.25rem;
   border-radius: 3px;
-  font-size: 0.68rem;
+  font-size: 0.88rem;
   font-weight: 600;
-  color: #fff;
+  color: #111;
   cursor: pointer;
   user-select: none;
-  opacity: 0.45;
+  opacity: 0.7;
   transition: opacity 0.15s;
 }
 
 .topic-chip:hover { opacity: 0.75; }
 
-.topic-chip.active { opacity: 1; }
+.topic-chip.active {
+  opacity: 1;
+  outline: 2px solid #111;
+  outline-offset: 1px;
+}
+
+.chip-count {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  font-size: 0.75em;
+  font-weight: 700;
+  padding: 0 0.35em;
+  margin-left: 0.35em;
+  line-height: 1.5;
+}
 
 /* ── Publications ── */
 .pub-disclaimer {
@@ -315,26 +330,26 @@ a:hover { text-decoration: underline; }
   border-radius: 3px;
   font-size: 0.62rem;
   font-weight: 600;
-  color: #fff;
+  color: #111;
   vertical-align: middle;
   cursor: default;
   white-space: nowrap;
 }
 
-.topic-safety           { background: #d97706; }  /* amber        */
-.topic-interpretability { background: #7c3aed; }  /* violet       */
-.topic-reasoning        { background: #2563eb; }  /* blue         */
-.topic-agents           { background: #0f766e; }  /* teal         */
-.topic-retrieval        { background: #0891b2; }  /* cyan         */
-.topic-evaluation       { background: #16a34a; }  /* green        */
-.topic-ai-for-science   { background: #65a30d; }  /* lime         */
-.topic-multilinguality  { background: #c026d3; }  /* fuchsia      */
-.topic-social-impact    { background: #dc2626; }  /* red          */
-.topic-embodied         { background: #ea580c; }  /* orange       */
-.topic-multimodal       { background: #4338ca; }  /* indigo       */
-.topic-long-context     { background: #0369a1; }  /* navy         */
-.topic-grounding        { background: #ca8a04; }  /* golden       */
-.topic-training         { background: #be185d; }  /* rose         */
+.topic-safety           { background: #fde8c4; }  /* amber pastel  */
+.topic-interpretability { background: #ede9fb; }  /* violet pastel */
+.topic-reasoning        { background: #dbeafe; }  /* blue pastel   */
+.topic-agents           { background: #ccfbf1; }  /* teal pastel   */
+.topic-retrieval        { background: #cffafe; }  /* cyan pastel   */
+.topic-evaluation       { background: #dcfce7; }  /* green pastel  */
+.topic-ai-for-science   { background: #ecfccb; }  /* lime pastel   */
+.topic-multilinguality  { background: #fae8ff; }  /* fuchsia pastel*/
+.topic-social-impact    { background: #fee2e2; }  /* red pastel    */
+.topic-embodied         { background: #ffedd5; }  /* orange pastel */
+.topic-multimodal       { background: #e0e7ff; }  /* indigo pastel */
+.topic-long-context     { background: #e0f2fe; }  /* navy pastel   */
+.topic-grounding        { background: #fef9c3; }  /* golden pastel */
+.topic-training         { background: #fce7f3; }  /* rose pastel   */
 
 
 .pub-link {

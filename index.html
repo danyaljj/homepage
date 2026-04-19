@@ -221,8 +221,8 @@
       <span class="topic-chip topic-safety" data-slug="safety">Safety</span>
       <span class="topic-chip topic-retrieval" data-slug="retrieval">Retrieval</span>
       <span class="topic-chip topic-social-impact" data-slug="social-impact">AI + Humans</span>
-      <span class="topic-chip topic-ai-for-science" data-slug="ai-for-science">AI for Science</span>
       <span class="topic-chip topic-agents" data-slug="agents">Agents</span>
+      <span class="topic-chip topic-ai-for-science" data-slug="ai-for-science">AI for Science</span>
       <span class="topic-chip topic-interpretability" data-slug="interpretability">Interpretability</span>
       <span class="topic-chip topic-grounding" data-slug="grounding">Grounding</span>
       <span class="topic-chip topic-multimodal" data-slug="multimodal">Multimodal</span>
@@ -947,6 +947,22 @@
     }
     document.getElementById('publication').scrollIntoView();
   }
+
+  // Inject topic counts into chips
+  const topicCounts = {};
+  document.querySelectorAll('.pub-entry').forEach(entry => {
+    if (entry.dataset.topics) {
+      entry.dataset.topics.split(' ').forEach(t => {
+        topicCounts[t] = (topicCounts[t] || 0) + 1;
+      });
+    }
+  });
+  document.querySelectorAll('.topic-chip').forEach(chip => {
+    const count = topicCounts[chip.dataset.slug] || 0;
+    if (count > 0) {
+      chip.insertAdjacentHTML('beforeend', `<span class="chip-count">${count}</span>`);
+    }
+  });
 
   document.querySelectorAll('.topic-chip').forEach(chip => {
     chip.addEventListener('click', () => {
