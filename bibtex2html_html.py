@@ -110,6 +110,7 @@ urls = {
     "Chien-Ming Huang": "https://www.cs.jhu.edu/~cmhuang/",
     "Hannah Collison": "https://isgla.github.io/",
     "Zheyuan Zhang": "https://zheyuanzhang.me/",
+    "Tianlu Wang": "https://tianlu-wang.github.io/",
 }
 
 SELF_AUTHOR = "Daniel Khashabi"
