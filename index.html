@@ -221,8 +221,8 @@
       <span class="topic-chip topic-safety" data-slug="safety">Safety</span>
       <span class="topic-chip topic-retrieval" data-slug="retrieval">Retrieval</span>
       <span class="topic-chip topic-social-impact" data-slug="social-impact">AI + Humans</span>
-      <span class="topic-chip topic-agents" data-slug="agents">Agents</span>
       <span class="topic-chip topic-ai-for-science" data-slug="ai-for-science">AI for Science</span>
+      <span class="topic-chip topic-agents" data-slug="agents">Agents</span>
       <span class="topic-chip topic-interpretability" data-slug="interpretability">Interpretability</span>
       <span class="topic-chip topic-grounding" data-slug="grounding">Grounding</span>
       <span class="topic-chip topic-multimodal" data-slug="multimodal">Multimodal</span>
@@ -267,6 +267,11 @@
       <div class="pub-title"><span class="pub-title-text"><a href="https://arxiv.org/abs/2602.03814">Conformal Thinking: Risk Control for Reasoning on a Compute Budget.</a></span><span class="pub-title-tags"><span class="topic-badge topic-reasoning">Reasoning</span></span></div>
       <div class="pub-authors"><a href="https://scholar.google.com/citations?user=giztudUAAAAJ&hl=en">Xi Wang</a>, Anushri Suresh, <a href="https://scholar.google.com/citations?user=BLkk5kYAAAAJ">Alvin Zhang</a>, Rishi More, <a href="https://williamjurayj.com/">William Jurayj</a>, <a href="https://www.cs.jhu.edu/~vandurme/index.html">Benjamin Van Durme</a>, <a href="https://sites.google.com/view/mehrdad">Mehrdad Farajtabar</a>, <a href="https://www.cs.jhu.edu/~danielk/" class="pub-self">Daniel Khashabi</a>, and <a href="https://enalisnick.github.io/">Eric Nalisnick</a></div>
       <div class="pub-meta"><span class="venue-preprint">arXiv preprint arXiv:2602.03814</span>, 2026.</div>
+    </li>
+    <li class="pub-entry" data-year="2026" data-selected="true" data-topics="agents evaluation reasoning">
+      <div class="pub-title"><span class="pub-title-text"><a href="https://agentodyssey.github.io/paper.pdf">Open-Ended Long-Horizon Text Game Generation for Test-Time Continual Learning Agents.</a></span><span class="pub-title-tags"><span class="topic-badge topic-agents">Agents</span><span class="topic-badge topic-evaluation">Evaluation</span><span class="topic-badge topic-reasoning">Reasoning</span></span></div>
+      <div class="pub-authors">Zheyuan Zhang, Zehao Wen, <a href="https://scholar.google.com/citations?user=BLkk5kYAAAAJ">Alvin Zhang</a>, <a href="https://scholar.google.com/citations?user=clTRNPsAAAAJ&hl=en">Andrew Wang</a>, Jianwen Xie, <a href="https://www.cs.jhu.edu/~danielk/" class="pub-self">Daniel Khashabi</a>, and <a href="https://www.tshu.io/">Tianmin Shu</a></div>
+      <div class="pub-meta"><span class="venue-preprint">arXiv preprint arXiv:?</span>, 2026. <span class="pub-links"><a href="https://github.com/agentodyssey/agentodyssey" class="pub-link">[code]</a><a href="https://agentodyssey.github.io/" class="pub-link">[project]</a></span></div>
     </li>
     <li class="pub-entry" data-year="2026" data-selected="true" data-topics="interpretability">
       <div class="pub-title"><span class="pub-title-text"><a href="https://arxiv.org/abs/2511.12797">Genomic Next-Token Predictors are In-Context Learners.</a></span><span class="pub-title-tags"><span class="topic-badge topic-interpretability">Interpretability</span></span></div>
@@ -948,22 +953,6 @@
     document.getElementById('publication').scrollIntoView();
   }
 
-  // Inject topic counts into chips
-  const topicCounts = {};
-  document.querySelectorAll('.pub-entry').forEach(entry => {
-    if (entry.dataset.topics) {
-      entry.dataset.topics.split(' ').forEach(t => {
-        topicCounts[t] = (topicCounts[t] || 0) + 1;
-      });
-    }
-  });
-  document.querySelectorAll('.topic-chip').forEach(chip => {
-    const count = topicCounts[chip.dataset.slug] || 0;
-    if (count > 0) {
-      chip.insertAdjacentHTML('beforeend', `<span class="chip-count">${count}</span>`);
-    }
-  });
-
   document.querySelectorAll('.topic-chip').forEach(chip => {
     chip.addEventListener('click', () => {
       const slug = chip.dataset.slug;
@@ -984,6 +973,22 @@
       tab.classList.add('active');
       applyFilters();
     });
+  });
+
+  // Inject topic counts into chips
+  const topicCounts = {};
+  document.querySelectorAll('.pub-entry').forEach(entry => {
+    const topics = entry.dataset.topics ? entry.dataset.topics.split(' ') : [];
+    topics.forEach(t => { topicCounts[t] = (topicCounts[t] || 0) + 1; });
+  });
+  document.querySelectorAll('.topic-chip[data-slug]').forEach(chip => {
+    const count = topicCounts[chip.dataset.slug] || 0;
+    if (count > 0) {
+      const badge = document.createElement('span');
+      badge.className = 'chip-count';
+      badge.textContent = count;
+      chip.appendChild(badge);
+    }
   });
 
   loadFromHash();

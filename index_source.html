@@ -309,6 +309,22 @@
     });
   });
 
+  // Inject topic counts into chips
+  const topicCounts = {};
+  document.querySelectorAll('.pub-entry').forEach(entry => {
+    const topics = entry.dataset.topics ? entry.dataset.topics.split(' ') : [];
+    topics.forEach(t => { topicCounts[t] = (topicCounts[t] || 0) + 1; });
+  });
+  document.querySelectorAll('.topic-chip[data-slug]').forEach(chip => {
+    const count = topicCounts[chip.dataset.slug] || 0;
+    if (count > 0) {
+      const badge = document.createElement('span');
+      badge.className = 'chip-count';
+      badge.textContent = count;
+      chip.appendChild(badge);
+    }
+  });
+
   loadFromHash();
   applyFilters();
 </script>
