@@ -80,6 +80,7 @@ urls = {
     "Yulia Tsvetkov": "https://homes.cs.washington.edu/~yuliats/",
     "Peter West": "https://peterwestai.notion.site/",
     "William Gantt Walden": "https://wgantt.github.io/personal-website/",
+    "William Walden": "https://wgantt.github.io/personal-website/",
     "Niyati Bafna": "https://niyatibafna.github.io/",
     "David Yarowsky": "https://www.cs.jhu.edu/~yarowsky/",
     "Weiqi Wang": "https://mighty-weaver.github.io/",
@@ -147,12 +148,8 @@ for x in bibtex_database.entries:
 
             # look up the author website
             if a in urls:
-                # a = f"[{urls[a]} {a}]"
                 a = f"[{urls[a]} {blackcolorbegin} {a}{colorend}]"
-            # elif a.lower() in urls:
-            #     # a = f"[{urls[a]} {a}]"
-            #     a = f"[{urls[a.lower()]} {blackcolorbegin} {a}{colorend}]"
-
+            
 
             if len(all_authors) == 1:
                 authors = f"{a}."
@@ -230,6 +227,12 @@ def rank_function(entry):
         return 0.7
     elif "(eacl)" in entry:
         return 0.9
+    elif "(icml)" in entry:
+        return 0.7
+    elif  " acl" in entry and "workshop" in entry:
+        return 0.8
+    elif "(acl)" in entry:
+        return 0.7
     elif "(iclr)" in entry:
         return 0.8
     elif "(colm)" in entry:
@@ -238,14 +241,8 @@ def rank_function(entry):
         return 0.9
     elif "(neurips)" in entry:
         return 1
-    elif  " acl" in entry and "workshop" in entry:
-        return 3.5
-    elif "(acl)" in entry:
-        return 4
     elif "(naacl)" in entry:
         return 5
-    elif "(icml)" in entry:
-        return 4.1
     elif "arxiv preprint" in entry or "biorxiv" in entry.lower():
         # appears on top
         return 0
