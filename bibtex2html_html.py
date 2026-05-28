@@ -181,16 +181,29 @@ def parse_topics(entry):
             topics.append(TOPIC_ALIASES[raw_lower])
     return topics
 
+from bibtexparser.bparser import BibTexParser
+parser = BibTexParser(common_strings=True)
+parser.ignore_nonstandard_types = False  # <-- this is the key line
+
+
 bibtex_file = urlopen('https://raw.githubusercontent.com/danyaljj/bibfile/master/ref.bib')
-bibtex_database = bibtexparser.loads(bibtex_file.read())
+bibtex_database = bibtexparser.loads(bibtex_file.read(), parser)
 
 output_list_map = {}
 
-for x in bibtex_database.entries:
+for x in bibtex_database.entries: 
+    if int(x['year']) > 2025:
+        print(x['title'])
+
+
+for x in bibtex_database.entries: 
+    # if int(x['year']) > 2025:
+    #     print(x['title'])
+    
     if 'khashabi' not in x['author'].lower():
         continue
 
-    print(x)
+    # print(x)
 
     x['title'] = x['title'].strip()
     if x['title'][-1] not in ['.', '?']:
