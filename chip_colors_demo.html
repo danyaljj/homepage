@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chip Color Scheme Demo</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f5f5f5;
+      padding: 2rem;
+      color: #222;
+    }
+    h2 {
+      margin-top: 2.5rem;
+      font-size: 0.85rem;
+      color: #555;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      margin-top: 0.5rem;
+    }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.15rem 0.5rem;
+      border-radius: 3px;
+      font-size: 0.76rem;
+      font-weight: 600;
+      cursor: default;
+      user-select: none;
+    }
+    .count {
+      display: inline-block;
+      background: rgba(255,255,255,0.25);
+      border-radius: 8px;
+      font-size: 0.75em;
+      font-weight: 700;
+      padding: 0 0.35em;
+      margin-left: 0.35em;
+      line-height: 1.5;
+    }
+
+    /* ── Scheme 1: Current (Tailwind saturated) ── */
+    .s1 .safety          { background: #d97706; color:#fff; }
+    .s1 .interpretability{ background: #7c3aed; color:#fff; }
+    .s1 .reasoning       { background: #2563eb; color:#fff; }
+    .s1 .agents          { background: #0f766e; color:#fff; }
+    .s1 .retrieval       { background: #0891b2; color:#fff; }
+    .s1 .evaluation      { background: #16a34a; color:#fff; }
+    .s1 .ai-for-science  { background: #65a30d; color:#fff; }
+    .s1 .multilinguality { background: #c026d3; color:#fff; }
+    .s1 .social-impact   { background: #dc2626; color:#fff; }
+    .s1 .embodied        { background: #ea580c; color:#fff; }
+    .s1 .multimodal      { background: #4338ca; color:#fff; }
+    .s1 .long-context    { background: #0369a1; color:#fff; }
+    .s1 .grounding       { background: #ca8a04; color:#fff; }
+    .s1 .training        { background: #be185d; color:#fff; }
+
+    /* ── Scheme 2: Muted/desaturated earth tones ── */
+    .s2 .safety          { background: #9c6e3a; color:#fff; }
+    .s2 .interpretability{ background: #6b5b8a; color:#fff; }
+    .s2 .reasoning       { background: #4a6fa5; color:#fff; }
+    .s2 .agents          { background: #3d7a6e; color:#fff; }
+    .s2 .retrieval       { background: #3a7fa0; color:#fff; }
+    .s2 .evaluation      { background: #4a8a5a; color:#fff; }
+    .s2 .ai-for-science  { background: #6a8a2a; color:#fff; }
+    .s2 .multilinguality { background: #8a4a90; color:#fff; }
+    .s2 .social-impact   { background: #8a3a3a; color:#fff; }
+    .s2 .embodied        { background: #9a5a30; color:#fff; }
+    .s2 .multimodal      { background: #5050a0; color:#fff; }
+    .s2 .long-context    { background: #2a5a80; color:#fff; }
+    .s2 .grounding       { background: #9a7a20; color:#fff; }
+    .s2 .training        { background: #8a3a60; color:#fff; }
+
+    /* ── Scheme 3: Pastel soft tint (dark text) ── */
+    .s3 .chip { color: #333; }
+    .s3 .count { background: rgba(0,0,0,0.1); color: #333; }
+    .s3 .safety          { background: #fde8c4; }
+    .s3 .interpretability{ background: #ede9fb; }
+    .s3 .reasoning       { background: #dbeafe; }
+    .s3 .agents          { background: #ccfbf1; }
+    .s3 .retrieval       { background: #cffafe; }
+    .s3 .evaluation      { background: #dcfce7; }
+    .s3 .ai-for-science  { background: #ecfccb; }
+    .s3 .multilinguality { background: #fae8ff; }
+    .s3 .social-impact   { background: #fee2e2; }
+    .s3 .embodied        { background: #ffedd5; }
+    .s3 .multimodal      { background: #e0e7ff; }
+    .s3 .long-context    { background: #e0f2fe; }
+    .s3 .grounding       { background: #fef9c3; }
+    .s3 .training        { background: #fce7f3; }
+
+    /* ── Scheme 4: Dark / deep ── */
+    .s4 .safety          { background: #78350f; color:#fde8c4; }
+    .s4 .interpretability{ background: #3b0764; color:#ede9fb; }
+    .s4 .reasoning       { background: #1e3a8a; color:#dbeafe; }
+    .s4 .agents          { background: #134e4a; color:#ccfbf1; }
+    .s4 .retrieval       { background: #164e63; color:#cffafe; }
+    .s4 .evaluation      { background: #14532d; color:#dcfce7; }
+    .s4 .ai-for-science  { background: #365314; color:#ecfccb; }
+    .s4 .multilinguality { background: #581c87; color:#fae8ff; }
+    .s4 .social-impact   { background: #7f1d1d; color:#fee2e2; }
+    .s4 .embodied        { background: #7c2d12; color:#ffedd5; }
+    .s4 .multimodal      { background: #1e1b4b; color:#e0e7ff; }
+    .s4 .long-context    { background: #0c4a6e; color:#e0f2fe; }
+    .s4 .grounding       { background: #713f12; color:#fef9c3; }
+    .s4 .training        { background: #831843; color:#fce7f3; }
+
+    /* ── Scheme 5: Monochrome blue-gray ── */
+    .s5 .safety          { background: #64748b; color:#fff; }
+    .s5 .interpretability{ background: #475569; color:#fff; }
+    .s5 .reasoning       { background: #334155; color:#fff; }
+    .s5 .agents          { background: #1e293b; color:#fff; }
+    .s5 .retrieval       { background: #0f172a; color:#fff; }
+    .s5 .evaluation      { background: #374151; color:#fff; }
+    .s5 .ai-for-science  { background: #4b5563; color:#fff; }
+    .s5 .multilinguality { background: #6b7280; color:#fff; }
+    .s5 .social-impact   { background: #1f2937; color:#fff; }
+    .s5 .embodied        { background: #111827; color:#fff; }
+    .s5 .multimodal      { background: #3b4252; color:#fff; }
+    .s5 .long-context    { background: #2d3748; color:#fff; }
+    .s5 .grounding       { background: #52525b; color:#fff; }
+    .s5 .training        { background: #27272a; color:#fff; }
+  </style>
+</head>
+<body>
+
+<h1 style="font-size:1.2rem; margin-bottom:0">Topic chip — color scheme options</h1>
+<p style="color:#777; font-size:0.85rem; margin-top:0.3rem">Same 14 topics, 5 different palettes.</p>
+
+<h2>1 · Current — Tailwind saturated</h2>
+<div class="row s1">
+  <span class="chip reasoning">Reasoning <span class="count">42</span></span>
+  <span class="chip evaluation">Evaluation <span class="count">28</span></span>
+  <span class="chip training">Model Training <span class="count">19</span></span>
+  <span class="chip safety">Safety <span class="count">31</span></span>
+  <span class="chip retrieval">Retrieval <span class="count">17</span></span>
+  <span class="chip social-impact">AI + Humans <span class="count">8</span></span>
+  <span class="chip ai-for-science">AI for Science <span class="count">14</span></span>
+  <span class="chip agents">Agents <span class="count">9</span></span>
+  <span class="chip interpretability">Interpretability <span class="count">11</span></span>
+  <span class="chip grounding">Grounding <span class="count">7</span></span>
+  <span class="chip multimodal">Multimodal <span class="count">13</span></span>
+  <span class="chip multilinguality">Multilingual <span class="count">6</span></span>
+  <span class="chip long-context">Long-context <span class="count">8</span></span>
+  <span class="chip embodied">Embodied <span class="count">5</span></span>
+</div>
+
+<h2>2 · Muted — desaturated, earthy</h2>
+<div class="row s2">
+  <span class="chip reasoning">Reasoning <span class="count">42</span></span>
+  <span class="chip evaluation">Evaluation <span class="count">28</span></span>
+  <span class="chip training">Model Training <span class="count">19</span></span>
+  <span class="chip safety">Safety <span class="count">31</span></span>
+  <span class="chip retrieval">Retrieval <span class="count">17</span></span>
+  <span class="chip social-impact">AI + Humans <span class="count">8</span></span>
+  <span class="chip ai-for-science">AI for Science <span class="count">14</span></span>
+  <span class="chip agents">Agents <span class="count">9</span></span>
+  <span class="chip interpretability">Interpretability <span class="count">11</span></span>
+  <span class="chip grounding">Grounding <span class="count">7</span></span>
+  <span class="chip multimodal">Multimodal <span class="count">13</span></span>
+  <span class="chip multilinguality">Multilingual <span class="count">6</span></span>
+  <span class="chip long-context">Long-context <span class="count">8</span></span>
+  <span class="chip embodied">Embodied <span class="count">5</span></span>
+</div>
+
+<h2>3 · Pastel — light tint, dark text</h2>
+<div class="row s3">
+  <span class="chip reasoning">Reasoning <span class="count">42</span></span>
+  <span class="chip evaluation">Evaluation <span class="count">28</span></span>
+  <span class="chip training">Model Training <span class="count">19</span></span>
+  <span class="chip safety">Safety <span class="count">31</span></span>
+  <span class="chip retrieval">Retrieval <span class="count">17</span></span>
+  <span class="chip social-impact">AI + Humans <span class="count">8</span></span>
+  <span class="chip ai-for-science">AI for Science <span class="count">14</span></span>
+  <span class="chip agents">Agents <span class="count">9</span></span>
+  <span class="chip interpretability">Interpretability <span class="count">11</span></span>
+  <span class="chip grounding">Grounding <span class="count">7</span></span>
+  <span class="chip multimodal">Multimodal <span class="count">13</span></span>
+  <span class="chip multilinguality">Multilingual <span class="count">6</span></span>
+  <span class="chip long-context">Long-context <span class="count">8</span></span>
+  <span class="chip embodied">Embodied <span class="count">5</span></span>
+</div>
+
+<h2>4 · Dark — deep background, tinted text</h2>
+<div class="row s4">
+  <span class="chip reasoning">Reasoning <span class="count">42</span></span>
+  <span class="chip evaluation">Evaluation <span class="count">28</span></span>
+  <span class="chip training">Model Training <span class="count">19</span></span>
+  <span class="chip safety">Safety <span class="count">31</span></span>
+  <span class="chip retrieval">Retrieval <span class="count">17</span></span>
+  <span class="chip social-impact">AI + Humans <span class="count">8</span></span>
+  <span class="chip ai-for-science">AI for Science <span class="count">14</span></span>
+  <span class="chip agents">Agents <span class="count">9</span></span>
+  <span class="chip interpretability">Interpretability <span class="count">11</span></span>
+  <span class="chip grounding">Grounding <span class="count">7</span></span>
+  <span class="chip multimodal">Multimodal <span class="count">13</span></span>
+  <span class="chip multilinguality">Multilingual <span class="count">6</span></span>
+  <span class="chip long-context">Long-context <span class="count">8</span></span>
+  <span class="chip embodied">Embodied <span class="count">5</span></span>
+</div>
+
+<h2>5 · Monochrome — blue-gray scale</h2>
+<div class="row s5">
+  <span class="chip reasoning">Reasoning <span class="count">42</span></span>
+  <span class="chip evaluation">Evaluation <span class="count">28</span></span>
+  <span class="chip training">Model Training <span class="count">19</span></span>
+  <span class="chip safety">Safety <span class="count">31</span></span>
+  <span class="chip retrieval">Retrieval <span class="count">17</span></span>
+  <span class="chip social-impact">AI + Humans <span class="count">8</span></span>
+  <span class="chip ai-for-science">AI for Science <span class="count">14</span></span>
+  <span class="chip agents">Agents <span class="count">9</span></span>
+  <span class="chip interpretability">Interpretability <span class="count">11</span></span>
+  <span class="chip grounding">Grounding <span class="count">7</span></span>
+  <span class="chip multimodal">Multimodal <span class="count">13</span></span>
+  <span class="chip multilinguality">Multilingual <span class="count">6</span></span>
+  <span class="chip long-context">Long-context <span class="count">8</span></span>
+  <span class="chip embodied">Embodied <span class="count">5</span></span>
+</div>
+
+</body>
+</html>

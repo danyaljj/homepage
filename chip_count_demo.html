@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chip Style Demo</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f5f5f5;
+      padding: 2rem;
+      color: #222;
+    }
+    h2 { margin-top: 2rem; font-size: 0.9rem; color: #555; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.5rem;
+    }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      font-size: 0.72rem;
+      font-weight: 600;
+      cursor: default;
+      user-select: none;
+    }
+    .count {
+      display: inline-block;
+      background: rgba(255,255,255,0.25);
+      border-radius: 8px;
+      font-size: 0.75em;
+      font-weight: 700;
+      padding: 0 0.35em;
+      margin-left: 0.35em;
+      line-height: 1.5;
+    }
+
+    /* 1. Current: solid fill, square-ish corners */
+    .style1 .chip {
+      padding: 0.15rem 0.45rem;
+      border-radius: 3px;
+      color: #fff;
+      opacity: 0.5;
+    }
+    .style1 .chip:hover { opacity: 0.85; }
+
+    /* 2. Pill: solid fill, fully rounded */
+    .style2 .chip {
+      padding: 0.15rem 0.55rem;
+      border-radius: 999px;
+      color: #fff;
+      opacity: 0.5;
+    }
+    .style2 .chip:hover { opacity: 0.85; }
+
+    /* 3. Outlined: transparent bg, colored border & text */
+    .style3 .chip {
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      background: transparent;
+      border: 1.5px solid;
+      opacity: 0.55;
+    }
+    .style3 .chip:hover { opacity: 0.9; }
+
+    /* 4. Outlined pill */
+    .style4 .chip {
+      padding: 0.1rem 0.5rem;
+      border-radius: 999px;
+      background: transparent;
+      border: 1.5px solid;
+      opacity: 0.55;
+    }
+    .style4 .chip:hover { opacity: 0.9; }
+
+    /* 5. Soft tint: light bg, dark-ish colored text, no border */
+    .style5 .chip {
+      padding: 0.15rem 0.45rem;
+      border-radius: 3px;
+      opacity: 0.75;
+    }
+    .style5 .chip:hover { opacity: 1; }
+
+    /* 6. Soft tint pill */
+    .style6 .chip {
+      padding: 0.15rem 0.55rem;
+      border-radius: 999px;
+      opacity: 0.75;
+    }
+    .style6 .chip:hover { opacity: 1; }
+
+    /* Colors per topic */
+    .t-reasoning  { --hue: #5b7faa; --soft-bg: #dce8f5; --soft-fg: #2a4f7a; }
+    .t-safety     { --hue: #a0545a; --soft-bg: #f5dde0; --soft-fg: #7a2a30; }
+    .t-evaluation { --hue: #5a9e7a; --soft-bg: #daf0e7; --soft-fg: #2a6e4e; }
+    .t-retrieval  { --hue: #b07040; --soft-bg: #f5e8d8; --soft-fg: #7a4a1a; }
+    .t-agents     { --hue: #7a6bab; --soft-bg: #ebe8f5; --soft-fg: #4a3a80; }
+
+    .style1 .chip, .style2 .chip { background: var(--hue); color: #fff; }
+    .style3 .chip, .style4 .chip { border-color: var(--hue); color: var(--hue); }
+    .style5 .chip, .style6 .chip { background: var(--soft-bg); color: var(--soft-fg); }
+  </style>
+</head>
+<body>
+
+<h1 style="font-size:1.2rem; margin-bottom:0">Topic chip — background / border / shape options</h1>
+<p style="color:#777; font-size:0.85rem; margin-top:0.3rem">Hover over chips to see active state.</p>
+
+<h2>1 · Solid fill · square corners (current)</h2>
+<div class="row style1">
+  <span class="chip t-reasoning">Reasoning <span class="count">42</span></span>
+  <span class="chip t-safety">Safety <span class="count">31</span></span>
+  <span class="chip t-evaluation">Evaluation <span class="count">28</span></span>
+  <span class="chip t-retrieval">Retrieval <span class="count">17</span></span>
+  <span class="chip t-agents">Agents <span class="count">9</span></span>
+</div>
+
+<h2>2 · Solid fill · pill shape</h2>
+<div class="row style2">
+  <span class="chip t-reasoning">Reasoning <span class="count">42</span></span>
+  <span class="chip t-safety">Safety <span class="count">31</span></span>
+  <span class="chip t-evaluation">Evaluation <span class="count">28</span></span>
+  <span class="chip t-retrieval">Retrieval <span class="count">17</span></span>
+  <span class="chip t-agents">Agents <span class="count">9</span></span>
+</div>
+
+<h2>3 · Outlined · square corners</h2>
+<div class="row style3">
+  <span class="chip t-reasoning">Reasoning <span class="count">42</span></span>
+  <span class="chip t-safety">Safety <span class="count">31</span></span>
+  <span class="chip t-evaluation">Evaluation <span class="count">28</span></span>
+  <span class="chip t-retrieval">Retrieval <span class="count">17</span></span>
+  <span class="chip t-agents">Agents <span class="count">9</span></span>
+</div>
+
+<h2>4 · Outlined · pill shape</h2>
+<div class="row style4">
+  <span class="chip t-reasoning">Reasoning <span class="count">42</span></span>
+  <span class="chip t-safety">Safety <span class="count">31</span></span>
+  <span class="chip t-evaluation">Evaluation <span class="count">28</span></span>
+  <span class="chip t-retrieval">Retrieval <span class="count">17</span></span>
+  <span class="chip t-agents">Agents <span class="count">9</span></span>
+</div>
+
+<h2>5 · Soft tint · square corners</h2>
+<div class="row style5">
+  <span class="chip t-reasoning">Reasoning <span class="count">42</span></span>
+  <span class="chip t-safety">Safety <span class="count">31</span></span>
+  <span class="chip t-evaluation">Evaluation <span class="count">28</span></span>
+  <span class="chip t-retrieval">Retrieval <span class="count">17</span></span>
+  <span class="chip t-agents">Agents <span class="count">9</span></span>
+</div>
+
+<h2>6 · Soft tint · pill shape</h2>
+<div class="row style6">
+  <span class="chip t-reasoning">Reasoning <span class="count">42</span></span>
+  <span class="chip t-safety">Safety <span class="count">31</span></span>
+  <span class="chip t-evaluation">Evaluation <span class="count">28</span></span>
+  <span class="chip t-retrieval">Retrieval <span class="count">17</span></span>
+  <span class="chip t-agents">Agents <span class="count">9</span></span>
+</div>
+
+</body>
+</html>
