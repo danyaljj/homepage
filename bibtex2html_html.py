@@ -111,6 +111,10 @@ urls = {
     "Hannah Collison": "https://isgla.github.io/",
     "Zheyuan Zhang": "https://zheyuanzhang.me/",
     "Tianlu Wang": "https://tianlu-wang.github.io/",
+    "Jie Gao": "https://gaojie058.github.io/",
+    "Ziang Xiao": "https://www.ziangxiao.com/",
+    "Kaiser Sun": "https://kaiserwholearns.github.io/",
+    "Ziyang Huang": "https://about.sheepy.me/",
 }
 
 SELF_AUTHOR = "Daniel Khashabi"
