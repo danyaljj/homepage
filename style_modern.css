@@ -219,7 +219,12 @@ a:hover { text-decoration: underline; }
   flex-wrap: wrap;
   gap: 0.3rem;
   align-items: center;
-  margin-bottom: 1.25rem;
+  width: 80%;
+  margin: 0 auto 1.25rem;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: var(--color-bg-alt);
 }
 
 .topic-chip-label {
@@ -374,6 +379,7 @@ a:hover { text-decoration: underline; }
 .topic-long-context     { background: #e0f2fe; }  /* navy pastel   */
 .topic-grounding        { background: #fef9c3; }  /* golden pastel */
 .topic-training         { background: #fce7f3; }  /* rose pastel   */
+.topic-continual-learning { background: #d1fae5; }  /* mint pastel   */
 
 
 .pub-link {

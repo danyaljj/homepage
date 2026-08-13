@@ -141,6 +141,7 @@ TOPIC_LABELS = [
     'Long-context',
     'Grounding',
     'Model Training',
+    'Continual Learning',
 ]
 
 TOPIC_SLUG = {
@@ -158,6 +159,7 @@ TOPIC_SLUG = {
     'Long-context':       'long-context',
     'Grounding':          'grounding',
     'Model Training':     'training',
+    'Continual Learning':  'continual-learning',
 }
 
 # Maps old/alternative bib tag values to canonical labels
