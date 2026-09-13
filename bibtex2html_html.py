@@ -116,6 +116,12 @@ urls = {
     "Ziang Xiao": "https://www.ziangxiao.com/",
     "Kaiser Sun": "https://kaiserwholearns.github.io/",
     "Ziyang Huang": "https://about.sheepy.me/",
+    "Bernal Jiménez Gutiérrez": "https://bernaljg.github.io/",
+}
+
+NORMALIZED_AUTHOS = {
+    "Bernal Jim\'{e}nez Guti\'{e}rrez": "Bernal Jiménez Gutiérrez",
+    "Benjamin van Durme": "Benjamin Van Durme",
 }
 
 SELF_AUTHOR = "Daniel Khashabi"
@@ -188,25 +194,38 @@ def parse_topics(entry):
             topics.append(TOPIC_ALIASES[raw_lower])
     return topics
 
-from bibtexparser.bparser import BibTexParser
-parser = BibTexParser(common_strings=True)
-parser.ignore_nonstandard_types = False  # <-- this is the key line
+def parse_bibtex(text):
+    """Parse a .bib string into a list of plain dicts (bibtexparser 1.x or 2.x)."""
+    try:
+        from bibtexparser.bparser import BibTexParser  # bibtexparser 1.x
+    except ImportError:
+        library = bibtexparser.parse_string(text)  # bibtexparser 2.x
+        entries = []
+        for entry in library.entries:
+            d = {f.key: f.value for f in entry.fields}
+            d['ENTRYTYPE'] = entry.entry_type
+            d['ID'] = entry.key
+            entries.append(d)
+        return entries
+    parser = BibTexParser(common_strings=True)
+    parser.ignore_nonstandard_types = False  # <-- this is the key line
+    return bibtexparser.loads(text, parser).entries
 
 
 bibtex_file = urlopen('https://raw.githubusercontent.com/danyaljj/bibfile/master/ref.bib')
-bibtex_database = bibtexparser.loads(bibtex_file.read(), parser)
+bibtex_entries = parse_bibtex(bibtex_file.read().decode('utf-8'))
 
 output_list_map = {}
 
-for x in bibtex_database.entries: 
+for x in bibtex_entries: 
     if int(x['year']) > 2025:
         print(x['title'])
 
 
-for x in bibtex_database.entries: 
+for x in bibtex_entries: 
     # if int(x['year']) > 2025:
     #     print(x['title'])
-    
+
     if 'khashabi' not in x['author'].lower():
         continue
 
@@ -238,15 +257,19 @@ for x in bibtex_database.entries:
         a_stripped = a.strip()
         a_escaped = html_module.escape(a_stripped)
 
-        if a_stripped == SELF_AUTHOR:
-            if a_stripped in urls:
+        if a_escaped in NORMALIZED_AUTHOS:
+            print(f"NORMALIZE: {a_escaped}")
+            a_escaped = NORMALIZED_AUTHOS[a_escaped]
+
+        if a_escaped == SELF_AUTHOR:
+            if a_escaped in urls:
                 author_parts.append(
-                    f'<a href="{urls[a_stripped]}" class="pub-self">{a_escaped}</a>'
+                    f'<a href="{urls[a_escaped]}" class="pub-self">{a_escaped}</a>'
                 )
             else:
                 author_parts.append(f'<span class="pub-self">{a_escaped}</span>')
-        elif a_stripped in urls:
-            author_parts.append(f'<a href="{urls[a_stripped]}">{a_escaped}</a>')
+        elif a_escaped in urls:
+            author_parts.append(f'<a href="{urls[a_escaped]}">{a_escaped}</a>')
         else:
             author_parts.append(a_escaped)
 
