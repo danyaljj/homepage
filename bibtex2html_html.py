@@ -117,6 +117,8 @@ urls = {
     "Kaiser Sun": "https://kaiserwholearns.github.io/",
     "Ziyang Huang": "https://about.sheepy.me/",
     "Bernal Jiménez Gutiérrez": "https://bernaljg.github.io/",
+    "Seungwook Han": "https://hanseungwook.github.io/",
+    "Daniel Hyunsoo Lee": "https://danihyunlee.github.io/",
 }
 
 NORMALIZED_AUTHOS = {
