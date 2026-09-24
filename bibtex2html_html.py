@@ -119,6 +119,7 @@ urls = {
     "Bernal Jiménez Gutiérrez": "https://bernaljg.github.io/",
     "Seungwook Han": "https://hanseungwook.github.io/",
     "Daniel Hyunsoo Lee": "https://danihyunlee.github.io/",
+    "Mahyar Fazlyab": "https://www.ece.jhu.edu/mahyarfazlyab/",
 }
 
 NORMALIZED_AUTHOS = {
@@ -366,7 +367,7 @@ def rank_function(entry):
     elif '(aacl)' in e:
         return 0.9
     elif '(neurips)' in e:
-        return 1
+        return 0.75
     elif ' acl' in e and 'workshop' in e:
         return 3.5
     elif '(acl)' in e:
