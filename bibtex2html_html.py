@@ -120,6 +120,8 @@ urls = {
     "Seungwook Han": "https://hanseungwook.github.io/",
     "Daniel Hyunsoo Lee": "https://danihyunlee.github.io/",
     "Mahyar Fazlyab": "https://www.ece.jhu.edu/mahyarfazlyab/",
+    "Yuda Song": "https://yudasong.github.io/",
+    "Andrea Zanette": "https://azanette.com/",
 }
 
 NORMALIZED_AUTHOS = {

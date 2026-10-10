@@ -326,7 +326,12 @@
     const topics = entry.dataset.topics ? entry.dataset.topics.split(' ') : [];
     topics.forEach(t => { topicCounts[t] = (topicCounts[t] || 0) + 1; });
   });
-  document.querySelectorAll('.topic-chip[data-slug]').forEach(chip => {
+  const chipRow = document.getElementById('topic-chip-row');
+  const sortedChips = [...document.querySelectorAll('.topic-chip[data-slug]')].sort((a, b) => {
+    const diff = (topicCounts[b.dataset.slug] || 0) - (topicCounts[a.dataset.slug] || 0);
+    return diff !== 0 ? diff : a.textContent.localeCompare(b.textContent);
+  });
+  sortedChips.forEach(chip => {
     const count = topicCounts[chip.dataset.slug] || 0;
     if (count > 0) {
       const badge = document.createElement('span');
@@ -334,6 +339,7 @@
       badge.textContent = count;
       chip.appendChild(badge);
     }
+    chipRow.appendChild(chip);
   });
 
   loadFromHash();
